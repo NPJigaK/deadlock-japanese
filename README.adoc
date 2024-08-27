@@ -1,3 +1,7 @@
 # deadlock-japanese
 
 Localizing Valve's game 'Deadlock' into Japanese
+
+build version 5.093 2024/08/25 08:03:36
+
+キャラクター名は英語のままにしています。
