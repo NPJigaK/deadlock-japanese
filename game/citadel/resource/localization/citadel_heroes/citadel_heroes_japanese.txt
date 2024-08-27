@@ -37,7 +37,7 @@
 		"citadel_ability_bull_leap_quip"		"空中から敵に激突し、スタンさせる"
 		"citadel_ability_bull_leap_desc"		"<span class=\"highlight\">高く跳躍</span>し、地上の任意の位置に突撃する。着地すると、<span class=\"highlight\">範囲内のすべての敵にダメージを与え、スタンさせる</span>。<br> [{s:iv_attack}]を押すと早めに着地する。"
 		"modifier_citadel_bull_leap"			"強化中"
-		"citadel_ability_bull_leap_t2_desc"		"ヒットしたヒーローごとに{BonusMaxHealthPerHero}の最大HPと{BonusFireRatePerHero}%の攻撃速度を獲得。効果は{s:LandingBonusesDuration}秒間持続。"
+		"citadel_ability_bull_leap_t2_desc"		"ヒットしたヒーローごとに{s:BonusMaxHealthPerHero}の最大HPと{s:BonusFireRatePerHero}%の攻撃速度を獲得。効果は{s:LandingBonusesDuration}秒間持続。"
 		"citadel_ability_bull_leap_t3_desc"		"キャスト時に、<span class=\"highlight\">スタン、サイレンス、スリープ、ルート、武装解除</span>に<span class=\"highlight\">免疫</span>を得る。着地後{s:ImmunityDuration}秒で効果が切れる。"
 		"AbilityButtonHint_BullLeapCrash"			"早めに着地"
 		"modifier_abrams_immunity"				"免疫"
@@ -67,7 +67,7 @@
 		"ability_power_surge"					"パワーサージ"
 		"ability_power_surge_quip"			"ショットで電撃を発生させる"
 		"ability_power_surge_desc"			"武器にショック効果を付与し、<span class=\"highlight\">ターゲットにショックダメージを与える弾丸を発生させます</span>。このショックダメージは<span class=\"highlight\">ターゲットの近くの敵に跳ね返ります</span>。バーストショットごとに一度発生します。"
-		"ability_power_surge_t1_desc"			"ショックダメージが{DebuffDuration}秒間、{s:TechResistDebuff}%のスピリット耐性を減少させます"
+		"ability_power_surge_t1_desc"			"ショックダメージが{s:DebuffDuration}秒間、{s:TechResistDebuff}%のスピリット耐性を減少させます"
 		"ability_power_surge_t3_desc"			"+{s:DamagePerChain} ショックダメージ、強化されたスピリットスケーリング、および+{s:ChainCount} 最大ジャンプ数"
 		"modifier_power_surge"				"チェーンライトニング"
 		"modifier_power_surge_debuff"			"スピリット耐性低下"
@@ -383,7 +383,7 @@
 
 		"citadel_ability_chrono_pulse_grenade"			"パルスグレネード"
 		"citadel_ability_chrono_pulse_grenade_quip"		"グレネードを投げ、ダメージとスロー効果を与えます"
-		"citadel_ability_chrono_pulse_grenade_desc"		"着地後にパルスを放つグレネードを投げます。各パルスは<span class=\"highlight\">ダメージ、移動速度低下、および{t:hero_name}に対するスタックダメージ増幅</span>を適用します。
+		"citadel_ability_chrono_pulse_grenade_desc"		"着地後にパルスを放つグレネードを投げます。各パルスは<span class=\"highlight\">ダメージ、移動速度低下、および{s:hero_name}に対するスタックダメージ増幅</span>を適用します。"
 		
 		"Pulses_label"                           			 "パルス"
 		"InitialDamage_label"									"初期ダメージ"
@@ -735,7 +735,7 @@
 		"ability_stacking_damage_desc" "ターゲットを撃つことで、そのターゲットに対する<span class=\"highlight\">弾薬ダメージが増加</span>します。ヒットごとに1<span class=\"highlight\">スタック</span>を獲得し、ヘッドショットの場合は2スタック獲得します。"
 		"ability_stacking_damage/modifier_passive_haze_stacking_damage" "固定中"
 
-		"ability_stacking_damage_t1_desc" "<span class=\"highlight\">{s:ProcDamage}</span> スピリットダメージと<span class=\"highlight\">{s:SlowPercent}%のスロー</span>を{Every <span class=\"highlight\">{s:ProcDamageStackCount}</span> スタックごとにターゲットに適用"
+		"ability_stacking_damage_t1_desc" "<span class=\"highlight\">{s:ProcDamage}</span> スピリットダメージと<span class=\"highlight\">{s:SlowPercent}%のスロー</span>を<span class=\"highlight\">{s:ProcDamageStackCount}</span> スタックごとにターゲットに適用"
 		"ability_stacking_damage_t2_desc" "<span class=\"highlight\">+{s:MaxStacks}</span> 最大スタックと<span class=\"highlight\">+{s:AbilityDuration}秒</span>持続時間"
 
 		"DamageBonusFixedPerStack_label" "武器ダメージ"
@@ -1273,7 +1273,7 @@
 		"ability_target_practice"			"ターゲット練習"
 		"ability_target_practice_quip"		"ターゲットに焦点を合わせて優位性を得る"
 		"ability_target_practice_desc"		"発動すると、次の銃撃で敵ヒーローをターゲットとして選択します。彼らを<span class=\"highlight\">{s:ShotsToProc}回</span>撃つことでスピリットダメージのバーストを与えます。ヘッドショットごとにバーストが増加します。"
-		"ability_target_practice_t3_desc"		"あなたの弾丸はターゲットの<span class=\"highlight\">弾丸抵抗を{シs:BulletArmorReduction}%減少させます</span>、持続時間は{シs:DebuffDuration}秒です。"
+		"ability_target_practice_t3_desc"		"あなたの弾丸はターゲットの<span class=\"highlight\">弾丸抵抗を{s:BulletArmorReduction}%減少させます</span>、持続時間は{s:DebuffDuration}秒です。"
 		"BonusPerHeadshot_label"				"ヘッドショットごとのボーナス"
 		"BonusPerHeadshot_prefix"				"+"
 		"BonusPerHeadshot_postfix"			"%"
@@ -1302,7 +1302,7 @@
 
 		"ability_gravity_lasso"				"スピリットラッソ"
 		"ability_gravity_lasso_quip"		"敵を掴んで引きずり回す"
-		"ability_gravity_lasso_desc"		"<span class=\"highlight\">敵を掴みます</span>。ラッソを使って敵を引きずります。<span class=\"highlight\">敵はスタン状態</span>になり、Astroはラッソの間わずかにスローされます。<br><br>最初のバウンスパッドを使用中はラッソの持続時間が{シs:BouncePadExtendDuration}秒間一時停止します。"
+		"ability_gravity_lasso_desc"		"<span class=\"highlight\">敵を掴みます</span>。ラッソを使って敵を引きずります。<span class=\"highlight\">敵はスタン状態</span>になり、Astroはラッソの間わずかにスローされます。<br><br>最初のバウンスパッドを使用中はラッソの持続時間が{s:BouncePadExtendDuration}秒間一時停止します。"
 		"modifier_astro_lasso_tether"		"ラッソチェーン"
 		"ability_gravity_lasso_t3_desc"		"ターゲットエリア内の別の敵をラッソで掴むことができます。"
 		"ability_gravity_lasso/modifier_citadel_gravity_lasso_enemy"	"スピリットラッソ"
@@ -1589,7 +1589,7 @@
 
 		"citadel_ability_hornet_snipe"			"アサシネイト"
 		"citadel_ability_hornet_snipe_quip"		"負傷したターゲットを狙撃して大ダメージを与える"
-		"citadel_ability_hornet_snipe_desc"		"スコープ付きライフルを使用して、長距離から強力な一撃を放ちます。スコープをかけた状態で1秒後に完全に充電されるまで部分的なダメージしか与えません。<span class=\"highlight\">残り健康が{シ:LowHealthEnemyThresholdPct}%未満の敵にボーナスダメージ</span>を与えます。アサシネイトでプレイヤーを倒すと、<span class=\"highlight\">ボーナスソウル</span>を得ます。"
+		"citadel_ability_hornet_snipe_desc"		"スコープ付きライフルを使用して、長距離から強力な一撃を放ちます。スコープをかけた状態で1秒後に完全に充電されるまで部分的なダメージしか与えません。<span class=\"highlight\">残り健康が{s:LowHealthEnemyThresholdPct}%未満の敵にボーナスダメージ</span>を与えます。アサシネイトでプレイヤーを倒すと、<span class=\"highlight\">ボーナスソウル</span>を得ます。"
 		//"citadel_ability_hornet_snipe_t3_desc"	"アサシネイトのキルで+{s:BonusGoldOnKill}ソウルを獲得"
 		"LowHealthEnemyDamageBonus_label"		"ボーナスダメージ"
 		"LowHealthEnemyThresholdPct_label"		"低健康閾値"
@@ -1718,7 +1718,7 @@
 
 		"citadel_ability_shiv_killing_blow"		"キリングブロー"
 		"citadel_ability_shiv_killing_blow_quip"	"低健康のヒーローに移動し、一撃で倒す"
-		"citadel_ability_shiv_killing_blow_active_desc"	"敵ヒーローに飛び込んで、彼らの健康が<span class=\"highlight\">キル閾値未満</span>の場合、<span class=\"highlight\">一撃で倒します</span>。そうでない場合は{S:Damage}ダメージを与えます。"
+		"citadel_ability_shiv_killing_blow_active_desc"	"敵ヒーローに飛び込んで、彼らの健康が<span class=\"highlight\">キル閾値未満</span>の場合、<span class=\"highlight\">一撃で倒します</span>。そうでない場合は{s:Damage}ダメージを与えます。"
 		"citadel_ability_shiv_killing_blow_passive_desc" "パッシブ: 敵をダメージを与えると怒りがたまります。満タンの時、シブはダメージが増加し、<span class=\"highlight\">他の能力に特別な効果</span>を得ます。"
 		"citadel_ability_shiv_killing_blow/active_buff"		"激昂"
 		"citadel_ability_shiv_killing_blow_while_full_rage" "怒りが満タンの時"
@@ -1784,7 +1784,7 @@
 		"synth_grasp"					"つかむ"
 		"synth_grasp_quip"			"近くの敵ヒーローをあなたの位置に繋げる"
 		"synth_grasp_desc"			"<span class=\"highlight\">近くの敵ヒーローを繋ぎ</span>、繋いだ敵ヒーローの数に応じて<span class=\"highlight\">弾薬シールド</span>を得ます。持続時間中は<span class=\"highlight\">動けなくなります</span>。"
-		"synth_grasp_t3_desc"			"対象の最大健康の{S:LifestealPerSecond}%を毎秒ダメージを与え、ライフスティールします。"
+		"synth_grasp_t3_desc"			"対象の最大健康の{s:LifestealPerSecond}%を毎秒ダメージを与え、ライフスティールします。"
 		"TetherLength_label"			"繋ぎの長さ"
 		"TetherLength_postfix"		"m"
 		"modifier_synth_grasp_caster"	"つかむ"
@@ -1901,7 +1901,7 @@
 		"mirage_sunfire_cataclysm"		"サンファイアカタクリズム"
 		"mirage_sunfire_cataclysm_quip"	"周囲の敵を引き寄せてダメージを与える"
 		"mirage_sunfire_cataclysm_desc"	"遅延の後、<span class=\"highlight\">指定したエリア内のすべての敵にダメージを与え</span>、<span class=\"highlight\">中心に引き寄せる</span>。"
-		"mirage_sunfire_cataclysm_t3_desc"	"ターゲットに<span class=\"highlight\">EMP</span>を{ｓ:EMPDurationOnTarget}s適用します。"
+		"mirage_sunfire_cataclysm_t3_desc"	"ターゲットに<span class=\"highlight\">EMP</span>を{s:EMPDurationOnTarget}s適用します。"
 		"modifier_mirage_sunfire_cataclysm_emp"	"サイレンス (サンファイアカタクリズム)"
 		"modifier_mirage_sunfire_cataclysm"	"サンファイアカタクリズム"
 		"PostCastDelay_label"				"キャスト後の遅延"
