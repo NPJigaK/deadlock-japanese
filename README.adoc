@@ -1,7 +1,68 @@
 # deadlock-japanese
-
 Localizing Valve's game 'Deadlock' into Japanese
 
-build version 5.093 2024/08/25 08:03:36
+Valve社からパブリッシュされているゲーム `Deadlock` を日本語化する設定ファイルです。 +
+この設定ファイルは有志のユーザーによって作られています。 +
+全ての権利は `Valve Corporation©` に帰属します。
+
+翻訳の修正・改善提案は随時受け付けています。ご協力お願い致します。 + 
+`ここの翻訳が足りていない`, `ここの日本語訳をこうしてほしい`, `新しいbuildバージョンに対応して欲しい`, etc...
+
+- https://forms.gle/AYovpxB2JmRsaGsGA[Google formで提案する^]
+- https://github.com/NPJigaK/deadlock-japanese[PullRequestで直接修正を提案する（Githubアカウントを持っている方）]
+
+## 対応バージョン
+----
+Build 5.093 2024/08/25 - 08:03:36
+----
+※基本的にbuildバージョンが違くても翻訳可能ですが、新しいbuildバージョンで設定値が増えていた場合、そこだけ英語のままになります。
 
 キャラクター名は英語のままにしています。
+
+## 設定方法
+
+. https://github.com/NPJigaK/deadlock-japanese/archive/refs/heads/main.zip[こちら]から最新版の日本語化設定ファイルをダウンロードしてください
+.. zipファイルでダウンロードされます。解凍後、 `game` フォルダが入っていることを確認してください。
+. ゲームがインストールされているフォルダ（例: `C:\Program Files (x86)\Steam\steamapps\common\Deadlock`）を開く
+.. インストールされているフォルダが分からない場合は、steamを開いて、ライブラリからdeadlockを右クリックしてプロパティを開き、インストール済みファイルタブにある参照ボタンを押すと直接開けます。
+. `game` フォルダを、先ほどダウンロードしたフォルダの中にある `game` フォルダで上書きします
+.. 上書き後に以下のような構成になっていれば大丈夫です。
++
+[source, 例: C:\Program Files (x86)\Steam\steamapps\common\Deadlock\]
+----
+game\
+├── citadel\
+│   ├── resource\
+│   │   ├── localization\
+│   │   │   ├── citadel_attributes\
+│   │   │   │   ├── citadel_attributes_english.txt など...
+│   │   │   │   └── citadel_attributes_japanese.txt <- 今回追加したファイル
+│   │   │   ├── citadel_gc\
+│   │   │   │   ├── citadel_gc_english.txt など...
+│   │   │   │   └── citadel_gc_japanese.txt <- 今回追加したファイル
+│   │   │   ├── citadel_heroes\
+│   │   │   │   ├── citadel_heroes_english.txt など...
+│   │   │   │   └── citadel_heroes_japanese.txt <- 今回追加したファイル
+│   │   │   ├── citadel_main\
+│   │   │   │   ├── citadel_main_english.txt など...
+│   │   │   │   └── citadel_main_japanese.txt <- 今回追加したファイル
+│   │   │   ├── citadel_mods\
+│   │   │   │   ├── citadel_mods_english.txt など...
+│   │   │   │   └── citadel_mods_japanese.txt <- 今回追加したファイル
+├── core\
+│   ├── resource\
+│   │   ├── countries_english.txt など...
+│   │   ├── countries_japanese.txt <- 今回追加したファイル
+│   │   ├── valve_english.txt など...
+│   │   ├── valve_japanese.txt <- 今回追加したファイル
+│   │   ├── vgui_english.txt など...
+│   │   └── vgui_japanese.txt <- 今回追加したファイル
+----
+. Steamを開いて、ライブラリからdeadlockを右クリックしてプロパティを開き、起動オプションに以下を入力してください。
++
+[source, 起動オプション]
+----
+–language japanese
+----
+. Deadlockを起動して、日本語化されていればOKです
+
