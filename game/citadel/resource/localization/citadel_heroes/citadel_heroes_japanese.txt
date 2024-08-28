@@ -1,0 +1,2935 @@
+﻿"lang"		
+{		
+	"Language"		"japanese"
+	"Tokens"
+	{
+		//-----------------------------------------------------------------------------
+		// Hero Bull // Abrams
+		//-----------------------------------------------------------------------------
+		"citadel_ability_bull_charge"			"ショルダーチャージ"
+		"citadel_ability_bull_charge_quip"		"突撃して敵を引きずり込む"
+		"citadel_ability_bull_charge_desc"		"<span class=\"highlight\">前方に突撃</span>し、敵に衝突して引きずり込む。<span class=\"highlight\">壁</span>にぶつかると、{s:hero_name}が捕まえた敵を<span class=\"highlight\">スタン</span>させる。敵ヒーローに衝突した後、スピードが上昇。"
+		"modifier_citadel_bull_charging"		"チャージ中"
+		"citadel_ability_bull_charge_t3_desc"		"<span class=\"highlight\">+{s:WeaponDamageBonus}</span>の武器ダメージを、敵に衝突した後<span class=\"highlight\">{s:WeaponPowerIncreaseDuration}秒間</span>得る"
+		"modifier_shoulder_charge_buff"			"ボーナスダメージ"
+		"modifier_charge_drag_enemy"			"ショルダーチャージ"
+
+		"citadel_ability_bull_heal"				"ライフサイフォン"
+		"citadel_ability_bull_heal_quip"		"前方の敵から体力を吸収する"
+		"citadel_ability_bull_heal_desc"		"前方の敵から体力を吸収し、範囲内にいる間回復する。"
+
+		"HealingFactor_label"					"ヒーローに対する回復"
+		"HealingFactor_postfix"					"%"
+		"NonHeroHealingFactor_label"			"非ヒーローに対する回復"
+		"NonHeroHealingFactor_postfix"			"%"
+
+		"citadel_ability_bull_heal/modifier_bull_heal_aura"				"ライフサイフォン"
+
+		"citadel_ability_passive_beefy"			"地獄の耐久力"
+		"citadel_ability_passive_beefy_quip"	"受けたダメージの一部を再生する"
+		"citadel_ability_passive_beefy_desc"	"<span class=\"highlight\">再生</span>を行い、受けたダメージの一部を時間をかけて回復する。"
+		"RegenIncomingDamagePercent_label"		"回復されたダメージ"
+		"RegenIncomingDamagePercent_postfix"		"%"
+		"RegenIncomingDamageDuration_label"		"再生時間"
+		"RegenIncomingDamageDuration_postfix"		"秒"
+
+		"citadel_ability_bull_leap"				"地震衝撃"
+		"citadel_ability_bull_leap_quip"		"空中から敵に激突し、スタンさせる"
+		"citadel_ability_bull_leap_desc"		"<span class=\"highlight\">高く跳躍</span>し、地上の任意の位置に突撃する。着地すると、<span class=\"highlight\">範囲内のすべての敵にダメージを与え、スタンさせる</span>。<br> [{s:iv_attack}]を押すと早めに着地する。"
+		"modifier_citadel_bull_leap"			"強化中"
+		"citadel_ability_bull_leap_t2_desc"		"ヒットしたヒーローごとに{s:BonusMaxHealthPerHero}の最大HPと{s:BonusFireRatePerHero}%の攻撃速度を獲得。効果は{s:LandingBonusesDuration}秒間持続。"
+		"citadel_ability_bull_leap_t3_desc"		"キャスト時に、<span class=\"highlight\">スタン、サイレンス、スリープ、ルート、武装解除</span>に<span class=\"highlight\">免疫</span>を得る。着地後{s:ImmunityDuration}秒で効果が切れる。"
+		"AbilityButtonHint_BullLeapCrash"			"早めに着地"
+		"modifier_abrams_immunity"				"免疫"
+
+		//-----------------------------------------------------------------------------	
+		// Hero Seven	
+		//-----------------------------------------------------------------------------	
+		"citadel_ability_static_charge_desc"		"対象の敵ヒーローにチャージを適用します。短時間後に、静電チャージが<span class=\"highlight\">範囲内の敵をスタンさせ、ダメージを与えます</span>。"
+
+
+		"citadel_ability_chain_lightning"		"チェーンライトニング"
+		"citadel_ability_chain_lightning_t1"	"チェーン範囲"
+		"citadel_ability_chain_lightning_t2"	"チェーンダメージ"
+		"citadel_ability_chain_lightning_t3"	"360度範囲"
+		"citadel_ability_chain_lightning_t3_desc"	"チェーンライトニングは、対象の周囲のすべての敵にヒットします。"
+
+		"citadel_ability_static_charge"			"静電チャージ"
+		"citadel_ability_static_charge_quip"	"敵ヒーローに遅延型の範囲スタンを適用"
+		"citadel_ability_static_charge/modifier_citadel_staticcharge"	"静電チャージ"
+
+		"citadel_ability_lightning_ball"		"ライトニングボール"
+		"citadel_ability_lightning_ball_quip"	"ダメージを与える雷球を発射"
+		"citadel_ability_lightning_ball_desc"	"直線的に移動する雷球を発射します。<span class=\"highlight\">範囲内のすべてのターゲットにダメージを与えます</span>。敵にダメージを与えると速度が低下し、地形に当たると停止します。"
+		"citadel_ability_lightning_ball_t3_desc" "+{s:DPS} DPS"
+		"citadel_ability_lightning_ball/modifier_citadel_lightningball"	"ライトニングボールスロー"
+
+		"ability_power_surge"					"パワーサージ"
+		"ability_power_surge_quip"			"ショットで電撃を発生させる"
+		"ability_power_surge_desc"			"武器にショック効果を付与し、<span class=\"highlight\">ターゲットにショックダメージを与える弾丸を発生させます</span>。このショックダメージは<span class=\"highlight\">ターゲットの近くの敵に跳ね返ります</span>。バーストショットごとに一度発生します。"
+		"ability_power_surge_t1_desc"			"ショックダメージが{s:DebuffDuration}秒間、{s:TechResistDebuff}%のスピリット耐性を減少させます"
+		"ability_power_surge_t3_desc"			"+{s:DamagePerChain} ショックダメージ、強化されたスピリットスケーリング、および+{s:ChainCount} 最大ジャンプ数"
+		"modifier_power_surge"				"チェーンライトニング"
+		"modifier_power_surge_debuff"			"スピリット耐性低下"
+
+		"ChainLightningRadius_label"			"チェーンライトニング範囲"
+		"ChainLightningRadius_postfix"		"m"
+		"WeaponDamageDebuff_label"			"武器ダメージデバフ"
+		"WeaponDamageDebuff_postfix"			"%"
+
+		"VoltageDrainDuration_label"			"ドレイン時間"
+		"VoltageDrainDuration_postfix"		"秒"
+		"DrainTimeNeeded_label"				"プロックに必要なドレイン時間"
+		"DrainTimeNeeded_postfix"				"秒"
+
+		"citadel_ability_storm_cloud"			"ストームクラウド"
+		"citadel_ability_storm_cloud_quip"		"広範囲の敵を焼き尽くす"
+		"citadel_ability_storm_cloud_desc"		"周囲に広がるストームクラウドをチャネリングし、<span class=\"highlight\">範囲内のすべての敵にダメージを与えます</span>。視線が通らない場合、敵はダメージを受けません。"
+		"citadel_ability_storm_cloud_t1_desc"		"ストームクラウドのチャネリング中、<span class=\"highlight\">+{s:BulletResistOnActive}%の弾丸耐性</span>を獲得"
+		"citadel_ability_storm_cloud_t2_desc"		"<span class=\"highlight\">+{s:AbilityChannelTime}秒</span>のチャネリング時間と<span class=\"highlight\">+{s:Radius}m</span>の範囲"
+		"citadel_ability_storm_cloud_t3_desc"		"+{s:DPS} DPS"
+
+		"ExpandTime_label"					"拡大時間"
+		"ExpandTime_postfix"					"秒"
+
+		//-----------------------------------------------------------------------------	
+		// Hero Cadence	
+		//-----------------------------------------------------------------------------	
+		"citadel_weapon_hero_cadence_set"		"アリオーソアナイアレイター"
+		"citadel_weapon_hero_cadence_set_desc"	"4発の弾丸を連続で発射し、ターゲットにクリスタルの欠片を埋め込みます。1秒後、欠片が砕け、再度弾丸のダメージを与えます。5個以上の欠片が埋め込まれている場合、砕けるダメージは2倍になります。"
+
+		"cadence_ability_anthem"						"アンセム"
+		"cadence_ability_anthem_quip"					"戦場を先導し、耳に届く味方を鼓舞して武器のバフを与えます"
+		"cadence_ability_anthem_desc"				"鼓舞する歌を響かせます！ 範囲内に入ったあなたと味方は即座にリロードされ、特大のマガジンが装填されます。また、歌が終わるまで発射速度ボーナスが徐々に増加します。"
+
+		"modifier_cadence_anthem_buff"				"カデンスアンセム"
+		"modifier_cadence_anthem_aoe"					"アンセムを歌唱中"
+		"ExtraLargeClip_label"						"マガジンボーナス"
+		"ExtraLargeClip_postfix"						"%"
+		"PeakFireRateBonus_label"						"最大発射速度ボーナス"
+		"PeakFireRateBonus_postfix"					"%"
+
+
+		"cadence_ability_lullaby"					"ララバイ"
+		"cadence_ability_lullaby_quip"			"耳に届く敵を眠らせます。"
+		"cadence_ability_lullaby_desc"			"敵を眠りに誘います！ カデンスの範囲内に入った敵は、ダメージを受けるか、カデンスが範囲外に出るか、歌が終わるまで眠り続けます。カデンスは歌唱中にボーナスリジェネを得ます。"
+		"modifier_cadence_sleeping"				"睡眠中"
+		"modifier_cadence_sleep_aoe"				"ララバイを歌唱中"
+		"LingerDuration_label"					"残留時間"
+		"LingerDuration_postfix"					"秒"
+		"DashDistance_label"						"ダッシュ距離"
+		"DashDistance_postfix"					"m"
+
+		"cadence_ability_silencecontraptions"			"サイレンスコントラプションズ"
+		"cadence_ability_silencecontraptions_quip"	"近接戦闘を開始します。銃は禁止。"
+		"cadence_ability_silencecontraptions_desc"	"自分を武装解除して、長距離ダッシュ近接攻撃を行います。歌の持続中、あなたは武装解除され続け、近接攻撃が敵にデバフを適用し、武装解除とEMP効果を与えます。"
+
+		"citadel_ability_silencecontraptions_t3_desc"		"近接攻撃で敵にEMP効果を与える"
+		"BonusStamina_label"							"ボーナススタミナ"
+		"MeleeEMP_label"							"敵をサイレンス"
+		"modifier_cadence_silence_contraptions_debuff"	"サイレンスコントラプションズ"
+		"modifier_cadence_silence_contraptions"			"サイレンスコントラプションズ"
+
+
+		"cadence_ability_grandfinale"				"グランドフィナーレ"
+		"cadence_ability_grandfinale_quip"		"ステージを作り、そこから武器のバフを得て戦います。"
+		"cadence_ability_grandfinale_desc"		"カデンスの下に高地を作ります。高地から戦う味方は発射速度ボーナスと爆発弾を得ます。"
+		"ExplodeRadius_label"						"爆発半径"
+		"ExplodeRadius_postfix"					"m"
+		"StageDuration_label"						"持続時間"
+		"StageDuration_postfix"					"秒"
+		"modifier_cadence_grandfinale_buff"		"グランドフィナーレ"
+
+		"cadence_ability_crescendo"				"クレッシェンド"
+		"cadence_ability_crescendo_quip"			"敵をガラスで包み込み、それを粉砕する"
+		"cadence_ability_crescendo_desc"			"近くの敵を短時間で徐々に広がる範囲でガラスで包み込みます。その後、カデンスの強力な声でガラスを粉砕し、敵のシールドを破壊し、大きな弾丸脆弱性を与えます。"
+
+		"modifier_cadence_crescendo_in_aoe"		"ガラスに包まれている"
+		"modifier_cadence_crescendo_post_aoe"		"粉砕された"
+
+		//-----------------------------------------------------------------------------	
+		// Hero McGinnis (previous names: // Engineer // Forge )	
+		//-----------------------------------------------------------------------------	
+
+		"citadel_ability_fissure_wall"			"スペクトラルウォール"
+		"citadel_ability_fissure_wall_quip"		"敵を阻む壁を召喚する"
+		"citadel_ability_fissure_wall_desc"		"地形を半分に分ける壁を作成します。作成時に壁は周囲の敵に<span class=\"highlight\">ダメージを与え</span>、<span class=\"highlight\">スロー効果</span>を適用します。<br>キャスト後、[{s:iv_attack}] または [{s:in_ability3}] を押すと壁を早期に爆発させることができます。"
+		"citadel_ability_fissure_wall_t1_desc"	"<span class=\"highlight\">{s:StaminaReduction} スタミナを削減</span>し、{s:hero_name}のダメージを<span class=\"highlight\">{s:BonusDamagePercent}%</span>増加させます。効果は敵に命中してから {s:DebuffDuration}秒間持続します。"
+		"citadel_ability_fissure_wall_t3_desc"	"スペクトラルウォールが命中した敵に <span class=\"highlight\">{s:WallStunDuration}秒のスタン</span>を追加します。"
+		"citadel_ability_fissure_wall_trigger"	"フィッシャーウォール発動"
+		"citadel_ability_fissure_wall_cancel"		"フィッシャーウォールキャンセル"
+		"WallStunDuration_label"				"スタン持続時間"
+		"WallStunDuration_postfix"				"秒"
+		"WallImpactRange_label"					"衝撃範囲"
+		"WallImpactRange_postfix"				"m"
+
+		"citadel_ability_mobile_resupply"		"メディシナルスペクター"
+		"citadel_ability_mobile_resupply_quip"	"癒しの精霊を配置する"
+		"citadel_ability_mobile_resupply_desc"	"周囲のユニットを<span class=\"highlight\">回復する精霊</span>を配置します。"
+		"MaxHealthRegenPct_label"				"最大ヘルスリジェネ"
+		"MaxHealthRegenPct_postfix"				"%"
+		"modifier_mobile_resupply"				"メディシナルスペクター"
+		"citadel_ability_mobile_resupply/modifier_mobile_resupply_aura/modifier_mobile_resupply"	"回復中"
+
+		"FireRateBonus_label"				"発射速度ボーナス"
+		"FireRateBonus_postfix"			"%"
+		//TurretHealMult_label					"Turret Heal Mult"
+		//TurretHealMult_postfix				"x"
+
+		"citadel_ability_mobile_resupply_t1_desc" "<span class=\"highlight\">+{s:AuraFireRateBonus}% 発射速度</span>がメディシナルスペクターによって回復されるユニットに適用されます。"
+		"citadel_ability_mobile_resupply_t3_desc"	"+{s:MaxHealthRegenPct}% 最大ヘルスリジェネ/秒"
+
+		"citadel_ability_shieldedsentry"		"ミニタレット"
+		"citadel_ability_shieldedsentry_quip"	"自動タレットを配置する"
+		"citadel_ability_shieldedsentry_desc"	"ミニタレットを配置し、<span class=\"highlight\">自動で敵を射撃</span>します。タレットは一定時間後に消滅します。<br>タレットは{s:hero_name}の最大ヘルスの{s:TurretHealthScaling}%を得て、{s:TechResist}%のスピリット耐性を持ちます。彼らはトルーパーやオブジェクティブに対して与えるダメージが減少します。"
+		"citadel_ability_shieldedsentry_t1_desc"	"<span class=\"highlight\">+{s:AbilityCharges}</span> アビリティチャージと、タレットが<span class=\"highlight\">+{s:MoveSlowPercent}%</span>の移動速度低下を適用します。"
+		"citadel_ability_shieldedsentry_t2_desc"	"<span class=\"highlight\">+{s:TurretAttackRange}m</span> の攻撃範囲と<span class=\"highlight\">+{s:AttackSpeedMult}%</span>のタレット発射速度"
+
+		"citadel_ability_shieldedsentry/modifier_bullet_resist_reduction_stack"		"タレットの弾丸耐性デバフ"
+		"modifier_forge_mini_turret_debuff"		"ミニタレット - スロー"
+		"TurretMoveSlowPercent_label"				"タレット移動速度低下"
+		"TurretMoveSlowPercent_postfix"			"%"
+		"modifier_sentry_deploy"				"初期化中..."
+		"TurretDeployTime_label"				"配置時間"
+		"TurretDeployTime_postfix"				"秒"
+		"BulletArmorReductionPerStack_label"	"弾丸ダメージ"
+		"BulletArmorReductionPerStack_postfix"	"%/スタック"
+		"BulletArmorReductionPerStack_prefix"	"+"
+		"ShieldedSentry_EffectsPerStack"		"スタックごとの効果:"
+		"TurretHealthScaling_label"					"タレットヘルス"
+		"TurretHealthScaling_postfix"					"%"
+
+
+		"TurretAttackRange_label"					"攻撃範囲"
+		"TurretAttackRange_postfix"				"m"
+
+		"ability_shielded_sentry_rocket"			"タレットロケット"
+
+		"citadel_ability_fissure_wall/modifier_fissure_wall/modifier_bonus_damage_percent"			"ウォールダメージデバフ"
+
+		"citadel_ability_rocket_barrage"		"ヘビーバラージ"
+		"citadel_ability_rocket_barrage_quip"	"ロケットでエリアを爆撃する"
+		"citadel_ability_rocket_barrage_desc"	"ターゲットした位置に誘導するロケットの弾幕を発射します。"
+		"citadel_ability_rocket_barrage_t1_desc"	"移動速度を<span class=\"highlight\">{s:MoveSlowPercent}%低下</span>させます。"
+		"citadel_ability_rocket_barrage_t3_desc"	"<span class=\"highlight\">+{s:DamagePerRocket} ロケットごとのダメージ </span>"
+		"DamagePerRocket_label"					"ロケットごとのダメージ"
+		"GrenadesPerSecond_label"				"秒ごとのロケット"
+		"MaxDistance_label"						"最大射程"
+		"MaxDistance_postfix"					"m"
+		"MinDistance_label"						"最小射程"
+		"MinDistance_postfix"					"m"
+		"citadel_ability_rocket_barrage/modifier_forge_heavy_barrage_stacking_slow" "ヘビーバラージスロー"
+
+		//-----------------------------------------------------------------------------	
+		// Wraith	
+		//-----------------------------------------------------------------------------	
+
+		"citadel_ability_psychic_lift"			"テレキネシス"
+		"citadel_ability_psychic_lift_quip"		"敵を浮かせ、妨害と沈黙を与える"
+		"citadel_ability_psychic_lift_desc"		"敵ヒーローを空中に浮かせ、短時間<span class=\"highlight\">スタン</span>を与えます。浮遊が終了すると、対象にテレキネシスダメージが加わります。"
+		"citadel_ability_psychic_lift/lift"		"テレキネシス"
+		"citadel_ability_psychic_lift_t3_desc"	"テレキネシスは、{s:hero_name}の周囲にいる敵を対象とします。"
+		"modifier_citadel_psychiclift"			"浮かされている - なんてこった！"
+		"modifier_citadel_psychiclift_self"		"浮かせる - 沈黙＋武装解除"
+
+		"citadel_ability_psychic_daggers_desc"		"テレキネシスでカードを投げ、周囲のランダムなターゲットに<span class=\"highlight\">命中</span>させます。"
+
+		"citadel_ability_projectmind"			"プロジェクトマインド"
+		"citadel_ability_projectmind_quip"		"指定した場所にテレポートする"
+		"citadel_ability_projectmind_desc"			"指定した場所に<span class=\"highlight\">テレポート</span>します。"
+		"BulletShieldOnLand_label"				"テレポート時のバレットシールド"
+		"citadel_ability_projectmind_t2_desc"	"テレポート時に<span class=\"highlight\">{s:BulletShieldOnLand} バレットシールド</span>を提供します。シールドは{s:BulletShieldDuration}秒間持続し、スピリットパワーに応じて増加します。"
+		"modifier_wraith_project_mind_shield"				"バレットシールド"
+		"citadel_ability_projectmind/modifier_citadel_projectmind/modifier_wraith_project_mind_shield"	"バレットシールド"
+		"wraith_project_mind_t2_title"			"バレットシールド："
+
+		"citadel_ability_psychic_daggers"		"ロイヤルフラッシュ"
+		"citadel_ability_psychic_daggers_quip"	"周囲のランダムなターゲットにダメージを与える"
+		"ShootInterval_label"						"カード間隔"
+		"ShootInterval_postfix"					"秒"
+		"MaxDaggers_label"						"カード枚数"
+		"citadel_ability_psychic_daggers_t3_desc"	"各カードは<span class=\"highlight\">一度バウンス</span>し、範囲内の他の敵に命中します。"
+		"DamagePerDagger_label"					"カードごとのダメージ"
+
+		"citadel_ability_wraith_rapidfire"		"フルオート"
+		"citadel_ability_wraith_rapidfire_quip"	"発射速度を強化する"
+		"citadel_ability_wraith_rapidfire_desc"	"一時的に<span class=\"highlight\">発射速度</span>を強化します。近くの味方も発射速度ボーナスの半分を受け取ります。"
+		"citadel_ability_wraith_rapidfire/modifier_rapidfire" "ラピッドファイア"
+
+
+		"citadel_ability_card_toss"	"カードトリック"
+		"citadel_ability_card_toss_quip" "追尾カードを投げる"
+		"citadel_ability_card_toss_desc" "武器ダメージを与えてカードを召喚します。アクティブにして、敵や照準の下のポイントに向かって飛ぶカードを投げます。"
+		"CardResourceGenPctScale_label"				"カード召喚率"
+		"CardResourceGenPctScale_postfix"			"%"
+
+		"citadel_ability_psychic_pulse" "サイキックパルス"
+		"citadel_ability_psychic_pulse_quip" "壁越しに敵を見破る"
+		"citadel_ability_psychic_pulse_desc" "正面の敵を感知し、壁越しに彼らの位置をチームに知らせます。カードトリックは、壁越しに見える敵をターゲットにできます。"
+		"SenseRange_label"	"感知範囲"
+
+		//-----------------------------------------------------------------------------	
+		// Hero Heavy	
+		//-----------------------------------------------------------------------------	
+		"ability_heal_drone"		"メディックドローン"
+		"ability_heal_drone_desc"		"メディックドローンを展開し、自分と近くの味方をゆっくりと回復します。\n他のドローンを置き換えます。"
+		"ability_speed_drone"		"スピードドローン"
+		"ability_speed_drone_desc"		"エネルギードローンを展開し、走行速度を上げ、準備時間とリロード時間を短縮します。\n他のドローンを置き換えます。"
+		"ability_heavy_drone"		"ユーティリティドローン"
+		"ability_heavy_drone_desc"		"治癒、速度、またはロケットの提供を切り替えられるヘルパードローンを生成します。ドローンは切り替え後、短時間で起動します。"
+
+		"ability_rocket_drone"	"ヘビードローン"
+		"ability_rocket_drone_desc"		"敵に<span class=\"highlight\">ホーミングロケット</span>を近距離で発射し、<span class=\"highlight\">敵をスロー</span>にするドローンを展開します。"
+
+		//"ability_rocket_drone_t1_desc" "The Drone adds <span class=\"highlight\">{s:ClipReloadPercentagePerSecond}% of max clip per second</span> to Heavy's gun"
+		"ability_rocket_drone_t2_desc" "ドローンがヘビーと近くのターゲットにヘルス再生を適用し、<span class=\"highlight\">{s:DroneHealthRegen} ヘルス/秒</span>回復します。"
+		"ability_rocket_drone_t3_desc" "毎秒の最大ロケット数<span class=\"highlight\">+{s:RocketsPerSecond}</span>"
+
+		"RocketsPerSecond_label"	"毎秒のロケット数"
+
+		"ability_uber_drone"		"ウーバーチャージ"
+		"ability_uber_drone_desc"		"チャージ完了後、ヘビーは<span class=\"highlight\">無敵</span>になります。"
+		"ability_uber_drone_t1_desc"		"ウーバー状態中、<span class=\"highlight\">無限弾倉</span>と<span class=\"highlight\">準備時間なし</span>"
+		"ability_uber_drone_t2_desc"		"ウーバー持続時間<span class=\"highlight\">+{s:UberDuration}秒</span>"
+		"ability_uber_drone_t3_desc"		"<span class=\"highlight\">{s:RageOnUber}</span>スタックのヘビーレイジを獲得します"
+
+		"ability_propulsion_gel"			"推進ゲル"
+		"ability_propulsion_gel_desc"		"味方の<span class=\"highlight\">移動速度を増加</span>させる推進ゲルの波を放ちます。ゲル波に当たったユニットはゲルを被り、後ろに軌跡を残します。"
+
+		"ability_propulsion_gel_t1_desc"	"ゲルは味方ユニットのズーム中および射撃中の移動速度ペナルティを<span class=\"highlight\">{s:ShootingSpeedPenaltyReduction}%</span>軽減します"
+		"ability_propulsion_gel_t2_desc"	"ゲルの移動距離<span class=\"highlight\">+{s:AbilityCastRange}m</span>"
+		"ability_propulsion_gel_t3_desc"	"移動速度ボーナス<span class=\"highlight\">+{s:MoveSpeedFriendlyBuff}</span>"
+
+		"ability_self_purge"				"轟音"
+		"ability_self_purge_desc"			"<span class=\"highlight\">敵を引き寄せ</span>、爆発を引き起こします。"
+
+		"ability_heavy_rage"				"ヘビーレイジ"
+		"ability_heavy_rage_desc"			"パッシブ - 敵に命中するたびに、ヘビーの銃ダメージが<span class=\"highlight\">{s:DamageMultiplierPercent}%</span>増加し、敵ヒーローやNPCごとに最大<span class=\"highlight\">{s:StacksPerEntity}</span>スタックまで蓄積します。"
+		"ability_heavy_rage_t1_desc" "敵ヒーローまたはNPCごとの最大スタック数<span class=\"highlight\">+{s:StacksPerEntity}</span>"
+		"ability_heavy_rage_t3_desc" "敵がヘビーにダメージを与えると、<span class=\"highlight\">{s:StacksOnTakeDamage}</span>スタックを獲得します"
+		"modifier_passive_heavy_rage_stacks"		"レイジスタック"
+
+		"ability_self_purge_t1_desc"	"爆発でヒットした敵ヒーローごとに永久弾薬<span class=\"highlight\">+{s:ClipBonusOnHit}</span>を獲得します。"
+
+		"DamagePerBullet_label"					"弾丸ごとのダメージ"
+
+		"modifier_drone_heal"					"メディックドローン"
+		"modifier_drone_heal_watcher"			"メディックドローン"
+		"modifier_drone_speed"					"スピードドローン"
+		"modifier_drone_rockets"				"ロケットドローン"
+		"modifier_drone_activation_medic"			"メディックドローン - 配備中"
+		"modifier_drone_activation_speed"			"スピードドローン - 配備中"
+		"modifier_drone_activation_rockets"		"ロケットドローン - 配備中"
+		"modifier_drone_uber"					"ウーバー無敵"
+		"modifier_drone_uber_charging"			"ウーバーチャージ中"
+		"ability_overcharge"					"エネルギーサージ"
+		"ability_overcharge_desc"				"一時的にヘビーの現在のドローンの効果を強化し、発射速度を上げます。"
+		"modifier_overcharge_rapidfire"			"エネルギーサージ"
+		"DronePowerMultiplier_label"				"ドローンのパワー倍率"
+		"ability_ammo_pouch"						"バンドリア"
+		"ability_ammo_pouch_desc"					"ヘビーの弾薬が大幅に増加します"
+		"ability_smelt"							"溶解"
+		"ability_smelt_desc"						"ヘビーが銃弾からダメージを受けるたびに、それが武器の弾倉に入り、アビリティのクールダウンが短縮されます。"
+
+		"DroneHealthRegen_label"					"ヘルス再生"
+		"DroneHealthRegen_postfix"				"/秒"
+		"DroneBonusMoveSpeed_prefix"			"{s:sign}"
+		"DroneBonusMoveSpeed_label"			"移動速度"
+		"DroneBonusMoveSpeed_postfix"			""
+		"DroneBonusReloadTime_label"			"リロード時間"
+		"DroneBonusReloadTime_postfix"		"%"
+		"DroneBonusWindupTime_prefix"			"{s:sign}"
+		"DroneBonusWindupTime_label"			"準備時間"
+		"DroneBonusWindupTime_postfix"		"%"
+
+		"RocketDamage_label"						"ロケットダメージ"
+		"TimeBetweenRockets_label"				"ロケット間の時間"
+		"TimeBetweenRockets_postfix"				"秒"
+		"UberChargeTime_label"					"ウーバーチャージ時間"
+		"UberChargeTime_postfix"					"秒"
+		"UberDuration_label"						"ウーバー持続時間"
+		"UberDuration_postfix"					"秒"
+
+		//-----------------------------------------------------------------------------	
+		// Paradox (previous name: Chrono)	
+		//-----------------------------------------------------------------------------	
+		"citadel_ability_chrono_time_wall"		"タイムウォール"
+		"citadel_ability_chrono_time_wall_quip"	"飛び道具を大幅に遅らせる壁を作り出します"
+		"citadel_ability_chrono_time_wall_desc"	"タイムワープの壁を作り出し、<span class=\"highlight\">時間を停止させ</span>、それに触れたすべての<span class=\"highlight\">敵の飛び道具や弾丸</span>を停止させます。壁に触れた敵は<span class=\"highlight\">最大体力の割合に応じたダメージ</span>を受け、一時的に動きが遅くなります。"
+		"TargetGameplayTimeScale_label"			"タイムスケール"
+		"TargetGameplayTimeScale_postfix"			"%"
+		"TimeWallWidth_label"						"壁の幅"
+		"TimeWallWidth_postfix"					"m"
+		"TimeWallHeight_label"					"壁の高さ"
+		"TimeWallHeight_postfix"					"m"
+		"MovementSlowPct_label"					"移動速度低下"
+		"MovementSlowPct_postfix"					"%"
+		"DamagePctPerWallHit_label"					"最大体力ダメージ"
+		"DamagePctPerWallHit_postfix"				"%"
+		"TimeScaleDuration_label"					"時間停止の持続時間"
+		"TimeScaleDuration_postfix"				"秒"
+		"modifier_citadel_chrono_time_wall_effect"  "タイムウォール"
+		//"citadel_ability_chrono_time_wall_t1_desc"		"The wall speeds up <span class=\"highlight\">Paradox's movement.</span>"
+		"citadel_ability_chrono_time_wall_t1_desc"		"<span class=\"highlight\">幅+{s:TimeWallWidth}m、高さ+{s:TimeWallHeight}m</span>"
+		"citadel_ability_chrono_time_wall_t3_desc"		"タイムウォールに触れた敵は<span class=\"highlight\">{s:DebuffDuration}秒間サイレンス状態</span>になります"
+		"modifier_timewall_damageamp"				"ダメージ脆弱性"
+
+		"citadel_ability_time_bomb"				"タイムボム"
+		"citadel_ability_time_bomb_quip"			"接近で爆発"
+		"citadel_ability_time_bomb_desc"			"{s:hero_name}がボムを投げ、敵がその範囲内に入るとアームタイム後に爆発します。爆発は短い<span class=\"highlight\">時間停止</span>を引き起こし、単一のターゲットにのみ当たった場合、<span class=\"highlight\">{s:SingleTargetMult}倍のダメージ</span>を与えます。"
+		"citadel_ability_time_bomb_t2_desc"		"タイムボムに当たった敵は<span class=\"highlight\">弾丸耐性が{t:BulletArmorReduction}低下</span>し、<span class=\"highlight\">{s:BulletArmorReductionDuration}秒間</span>持続します"
+		"citadel_ability_time_bomb_t3_desc"		"<span class=\"highlight\">+{s:Damage}ダメージ</span>、タイムボムはスピリットパワーから<span class=\"highlight\">+50%の追加ダメージ</span>を得ます"
+		"chrono_time_trap_debuff"					"タイムボム"
+
+		"citadel_ability_chrono_pulse_grenade"			"パルスグレネード"
+		"citadel_ability_chrono_pulse_grenade_quip"		"グレネードを投げ、ダメージとスロー効果を与えます"
+		"citadel_ability_chrono_pulse_grenade_desc"		"着地後にパルスを放つグレネードを投げます。各パルスは<span class=\"highlight\">ダメージ、移動速度低下、および{s:hero_name}に対するスタックダメージ増幅</span>を適用します。"
+		
+		"Pulses_label"                           			 "パルス"
+		"InitialDamage_label"									"初期ダメージ"
+		"PulseDamage_label"									"パルスダメージ"
+		"MovementSpeedSlow_label"							"移動速度低下"
+		"MovementSpeedSlow_postfix"							"%"
+		"MovementSlowDuration_label"							"速度低下持続時間"
+		"MovementSlowDuration_postfix"						"秒"
+		"PulseGrenadeDamageAmplificationPerStack_label"		"スタックごとのダメージ増加"
+		"PulseGrenadeDamageAmplificationPerStack_postfix"	"%"
+		"PulseGrenadeDebuffDuration_label"					"増幅持続時間"
+		"PulseGrenadeDebuffDuration_postfix"				"秒"
+		"modifier_pulsegrenade_magic_resist_debuff"		"パルスグレネード"
+
+		"modifier_citadel_chrono_pulse_grenade_debuff"		"パルスグレネード"
+		"modifier_chrono_pulse_grenade_tech_resist_debuff"	"パルスグレネード - スピリット耐性低下"
+
+
+		"TriggerDelay_label"								"爆発遅延"
+		"TriggerDelay_postfix"								"秒"
+		"TotalDamage_label"								"総ダメージ"
+		"TimeFreeze_label"								"時間停止"
+		"TimeFreeze_postfix"								"秒"
+		"modifier_citadel_time_bomb_fuse"					"タイムボム起爆"
+
+		"citadel_ability_time_bank"						"タイムバンク"
+		"citadel_ability_time_bank_quip"					"自分を加速させ、短時間遅くなる"
+		"citadel_ability_time_bank_trigger"				"時間加速"
+		"citadel_ability_time_bank_desc"					"{s:hero_name}は<span class=\"highlight\">時間を加速</span>し、<span class=\"highlight\">移動、射撃、リロード</span>を速めます。バースト終了後、{s:hero_name}は時間を蓄積し、短時間遅くなります。"
+		"modifier_time_bank_save_time"					"時間を遅くする"
+		"modifier_time_bank_speed_time"					"時間を加速中"
+		"TimeBankSpeedBonus_label"						"時間加速"
+		"TimeBankSpeedBonus_postfix"						"%"
+		"TimeBankSpeedDurationMax_label"				"加速持続時間"
+		"TimeBankSpeedDurationMax_postfix"				"秒"
+		"TimeSaveDuration_label"							"最大チャージ時間"
+		"TimeSaveDuration_postfix"						"秒"
+		"TimeSaveSpeedPenalty_label"					"時間ペナルティ"
+		"TimeSaveSpeedPenalty_postfix"					"%"
+		"TimeSaveSpeedPenaltyDuration_label"				"時間ペナルティ持続時間"
+		"TimeSaveSpeedPenaltyDuration_postfix"			"秒"
+
+		"citadel_ability_chrono_swap"						"パラドックススワップ"
+		"citadel_ability_chrono_swap_quip"				"敵ヒーローと位置を入れ替える"
+		"modifier_chrono_swap_bubble_move"				"パラドックススワップ"
+		"citadel_ability_chrono_swap_desc"				"投射物を発射し、<span class=\"highlight\">敵ヒーローと位置を入れ替えます。</span> 効果中、スピリットライフスティールを得て、敵は<span class=\"highlight\">継続的なダメージ</span>を受けます。"
+		"modifier_citadel_chrono_swap_debuff"			"遅くなった"
+		"modifier_citadel_chrono_swap_buff"				"スピリット耐性"
+		"CooldownOnMiss_Label"							"ミス時のクールダウン"
+		"CooldownOnMiss_postfix"							"秒"
+		"AllyCooldownReduction_label"					"味方のクールダウン短縮"
+		"AllyCooldownReduction_postfix"					"秒"
+		"SwapTotalDamage_label"							"スワップダメージ"
+		"SwapTotalHeal_label"							"スワップ中の回復"
+		"SpellLifesteal_label"							"スペルライフスティール"
+		"SpellLifesteal_postfix"							"%"
+		"SpellLifestealNonHero_label"					"スペルライフスティール (非ヒーロー)"
+		"SpellLifestealNonHero_postfix"					"%"
+
+		"citadel_ability_chrono_sphere"					"クロノスフィア"
+		"citadel_ability_chrono_sphere_quip"				"時間を遅くする渦を作り出す"
+		"citadel_ability_chrono_sphere_desc"				"{s:hero_name}は、敵に対して<span class=\"highlight\">時間の流れを遅くする</span>時間渦を作り出します。渦の中では敵は<span class=\"highlight\">サイレンス</span>されます。"
+		"citadel_ability_chrono_sphere_t3_desc"			"作成時に時間渦はすべての敵を中央に<span class=\"highlight\">引き寄せます。</span>"
+		"modifier_chrono_sphere_friendly"					"時間加速"
+		"SphereRadius_label"								"渦半径"
+		"FriendlyTimeBoost_label"							"時間加速"
+		"SphereRadius_postfix"								"m"
+		"ChargeUpTime_label"								"チャージ時間"
+		"ChargeUpTime_postfix"								"秒"
+		"ChronoTimeScale_label"							"パラドックスタイム加速"
+		"ChronoTimeScale_postfix"							"%"
+		"modifier_citadel_chrono_sphere"					"時間停止"
+		"MinDuration_label"								"最短持続時間"
+		"MinDuration_postfix"								"秒"
+
+		"citadel_ability_chrono_kinetic_carbine"			"キネティックカービン"
+		"citadel_ability_chrono_kinetic_carbine_quip"		"武器をチャージして高ダメージと時間停止を与える"
+		"citadel_ability_chrono_kinetic_carbine_desc"		"武器のチャージを開始し、フルチャージ時に<span class=\"highlight\">移動速度が上昇</span>します。次のショットでエネルギーを解放し、<span class=\"highlight\">スピリットダメージ</span>を与え、敵に<span class=\"highlight\">時間停止</span>を適用します。与えるダメージは現在の武器ダメージの増幅です。<br><br>エンパワードショットが利用可能な時に[{s:iv_attack2}]を押すと、自分自身の時間を遅くできます。"
+		"citadel_ability_chrono_kinetic_carbine_t2_desc"	"クールダウン{s:AbilityCooldown}秒、速度ブースト持続時間+{s:SpeedBoostDuration}秒"
+		
+		//"citadel_ability_chrono_kinetic_carbine_t1_desc"  "+<span class=\"highlight\">{s:MinSlowDuration}s/{s:MaxSlowDuration}s</span> Min/Max Stop Duration"
+		//"citadel_ability_chrono_kinetic_carbine_t2_desc"	"<span class=\"highlight\">+{s:SpeedBoostDuration}s</span> Speed Duration, <span class=\"highlight\">{s:MaxChargeDuration}s</span> Charge Time"
+		"citadel_ability_chrono_kinetic_carbine_t3_desc"	"最大ダメージ増幅<span class=\"highlight\">+{s:MaxBonusBulletDamage}%</span>"
+		"SpeedChange_label"								"速度ボーナス"
+		"SpeedChange_postfix"								"%"
+		"SpeedBoostDuration_label"						"速度持続時間"
+		"SpeedBoostDuration_postfix"						"秒"
+		"MaxChargeDuration_label"							"フルチャージ時間"
+		"MaxChargeDuration_postfix"						"秒"
+		"BaseBulletDamage_label"							"弾丸ダメージ"
+		"MaxBonusBulletDamage_prefix"						"+"
+		"MaxBonusBulletDamage_label"						"最大ダメージ増幅"
+		"MaxBonusBulletDamage_postfix"						"%"
+		"MinBonusBulletDamage_prefix"						"+"
+		"MinBonusBulletDamage_label"						"最小ダメージ増幅"
+		"MinBonusBulletDamage_postfix"						"%"
+		"MaxSlowDuration_label"							"最大停止持続時間"
+		"MaxSlowDuration_postfix"							"秒"
+		"MinSlowDuration_label"							"最小停止持続時間"
+		"MinSlowDuration_postfix"							"秒"
+		"citadel_ability_chrono_kinetic_carbine/modifier_chrono_kinetic_carbine"	"キネティックカービン"
+		
+
+		//-----------------------------------------------------------------------------	
+		// Revenant	
+		//-----------------------------------------------------------------------------	
+		"citadel_ability_revenant_siphon_energy"		"エネルギー吸収"
+		"citadel_ability_revenant_siphon_energy_desc"	"ターゲットにショックを与え、銃で攻撃するたびにエネルギーを奪います。"
+		"citadel_ability_revenant_blast"				"衝撃波"
+		"citadel_ability_revenant_blast_desc"			"ターゲットにエネルギーの爆発を放つ"
+		"citadel_ability_revenant_infuse_weapon"			"武器強化"
+		"citadel_ability_revenant_infuse_weapon_desc"		"特別な弾丸を発射し、ターゲットをエネルギー系の能力に対して脆弱にします。発動中はエネルギーを消費します。"
+		"citadel_ability_revenant_infuse_weapon_trigger"	"無効化"
+		"modifier_infuse_weapon_active"						"武器強化中"
+		"modifier_infuse_weapon_proc_buildup"				"弱体化"
+		"citadel_ability_revenant_energy_strike"		"エネルギーストライク"
+		"citadel_ability_revenant_energy_strike_desc"	"ターゲットエリアに強力なエネルギーを放つ。"
+
+		//-----------------------------------------------------------------------------	
+		// Slingshot	
+		//-----------------------------------------------------------------------------	
+		"ability_slingshot_bruising_shot"		"打撃ショット"
+		"ability_slingshot_bruising_shot_desc"	"ターゲットにダメージを与え、スリングショットの武器や能力によるすべての後続ダメージを増加させる打撃を蓄積します。"
+		"ability_slingshot_bruising_shot_t1_desc"		"<span class=\"highlight\">+{s:BruiseFireRate}%の射撃速度</span>を打撃を受けた敵を攻撃するときにスタックごとに獲得します。"
+		"BruiseDuration_label"					"打撃持続時間"
+		"BruiseDamageVulnerability_label"		"ダメージ増加"
+		"BruiseDamageVulnerability_postfix"		"スタックごとに%"
+		"BonusPelletsPerShot_label"				"ショットごとのペレット数"
+		"ability_slingshot_catapult"			"カタパルト"
+		"ability_slingshot_catapult_desc"		"スリングショットは力を蓄え、自身を大きな回転するボールとして前方に発射し、敵にダメージを与えながら転がります。終了時に爆発します。"
+		"ExplodeDamage_label"					"爆発ダメージ"
+		"ability_slingshot_open_wounds"			"開いた傷"
+		"ability_slingshot_open_wounds_desc"	"パッシブ。スリングショットの弾丸は敵に傷を与え、一定回数命中すると大きなダメージバーストを引き起こします。"
+		"ability_slingshot_open_wounds_t3_desc"	"ダメージバーストは毒の血を周囲に噴出させ、そのエリア内にいる敵にダメージを与えます。"
+		"BurstDamage_label"					"バーストダメージ"
+
+		"ability_slingshot_ultimate"			"地震"
+		"ability_slingshot_ultimate_desc"		"スリングショットが放たれる間、すべての近くの敵を空中に打ち上げ、スタンさせます。"
+		
+		//-----------------------------------------------------------------------------
+		// Infernus
+		//-----------------------------------------------------------------------------
+		"ability_incendiary_projectile"			"触媒"
+		"ability_incendiary_projectile_quip"	"ナパームを吐き出して、ダメージを増幅させる"
+		"ability_incendiary_projectile_desc"	"ナパームを吐き出し、<span class=\"highlight\">敵の移動を遅らせ</span>、{s:hero_name}が与える<span class=\"highlight\">ダメージを増幅</span>させます。"
+		"ability_incendiary_projectile_t2_desc"	"{s:hero_name}が対象に対して<span class=\"highlight\">{s:LifestealPercentHero}%のライフスティール</span>を獲得します。"
+		"ability_incendiary_projectile_t3_desc"	"<span class=\"highlight\">+{s:DamageAmplification}%</span> ダメージ増幅と<span class=\"highlight\">{s:HealAmpReceivePenaltyPercent}%</span> 回復/再生のペナルティ"
+		"DamageAmplification_label"				"ダメージ増幅"
+		"DamageAmplification_postfix"			"%"
+		"modifier_citadel_incendiaryprojectile_burn" "焼夷弾による炎上"
+
+		"ability_flame_dash"			"フレームダッシュ"
+		"ability_flame_dash_quip"		"前方へ突進し、炎の軌跡を残す"
+		"ability_flame_dash_desc"		"<span class=\"highlight\">高速で</span>前方へ移動し、敵を<span class=\"highlight\">燃やす炎の軌跡</span>を残します。 <br>[{s:iv_attack}] を長押しでさらに速くダッシュします。"
+		"ability_flame_dash_t1_desc"	"<span class=\"highlight\">+{s:FireRateSlow}% 攻撃速度低下</span> {s:FlameDashDebuffDuration}秒間"
+		"modifier_flamedash"			"フレームダッシュ中"
+		"ability_flame_dash_cancel_trigger"	"フレームダッシュをキャンセル"
+
+		"DashSpeed_label"				"ダッシュ速度"
+		"DashSpeed_postfix"				"m/s"
+		"SpeedBurstSpeed_label"			"最大ダッシュ速度"
+		"SpeedBurstSpeed_postfix"		"m/s"
+
+		"FlameAuraRadius_label"			"軌跡の幅"
+		"FlameAuraRadius_postfix"		"m"
+		"FlameDashDebuff_label"			"追加のスピリットダメージ"
+		"FlameDashDebuff_postfix"		"%"
+		"GroundFlameDuration_label"		"軌跡の持続時間"
+		"GroundFlameDuration_postfix"	"s"
+		"FlameDashDebuffDuration_label"	"デバフの持続時間"
+		"FlameDashDebuffDuration_postfix" "秒"
+
+		"DashTime_label"				"ダッシュ時間"
+		"DashTime_postfix"				"秒"
+
+		"FlameAuraDPS_label"			"DPS"
+		"FlameAuraMovementSlow_label"	"敵の移動速度低下"
+		"FlameAuraMovementSlow_postfix"	"%"
+		"FlameAuraSlowFireRate_label"	"敵の攻撃速度"
+		"FlameAuraSlowFireRate_postfix"	"%"
+		"FlameAuraDuration_label"		"デバフの持続時間"
+		"FlameAuraDuration_postfix"		"秒"
+		"modifier_flamedash_debuff"		"フレームダッシュ"
+
+		"ability_afterburn"			"アフターバーン"
+		"ability_afterburn_quip"		"敵を燃やす弾を発射する"
+		"ability_afterburn_desc"		"あなたの弾丸は敵に<span class=\"highlight\">燃焼効果</span>を付与します。{s:hero_name}の弾丸と能力は持続時間を<span class=\"highlight\">リフレッシュ</span>します。"
+		"ability_afterburn_t1_desc"	"対象は<span class=\"highlight\">{s:AfterburnSpiritDamageReduction}%</span>スピリットダメージを減少させます。"
+
+		"modifier_citadel_afterburn_buildup"	"発火中"
+		"BuildUpBulletPercentPerHit_label"	"弾丸ごとの蓄積量"
+		"BuildUpBulletPercentPerHit_postfix"		"%"
+		"CritBuildup_label"				"ヘッドショットの蓄積"
+		"CritBuildup_postfix"				"%"
+		"AfterburnExplodeRadius_label"		"拡散半径"
+		"AfterburnExplodeRadius_postfix"		"m"
+		"AfterburnExplodeDamage_label"		"爆発ダメージ"
+		"afterburn_spirit_stolen_debuff"		"スピリット奪取"
+		"afterburn_spirit_stolen_buff"		"スピリット獲得"
+
+
+		"ability_afterburn/modifier_afterburn_watcher/modifier_afterburn_dot"	"アフターバーンによる燃焼"
+		"modifier_afterburn_dot"		"アフターバーンによる燃焼"
+
+
+		"ability_fire_bomb"			"コンカッシブコンバッション"
+		"ability_fire_bomb_quip"		"短時間後に周囲の敵をスタンさせる"
+		"ability_fire_bomb_desc"		"あなた自身を生きた爆弾に変え、短時間後に爆発し、半径内の<span class=\"highlight\">全ての敵をスタンさせます</span>。"
+		"ability_fire_bomb_t2_desc"	"<span class=\"highlight\">+{s:StunDuration}秒</span>スタン持続時間と<span class=\"highlight\">+{s:Radius}m</span>半径"
+		"ability_fire_bomb_t3_desc"	"<span class=\"highlight\">+{s:Damage} ダメージ</span>と<span class=\"highlight\">敵ヒーローからの{LifeStealPercentOnHit}%ライフスティール</span>"
+
+		"ability_fire_bomb/modifier_progressbar"	"パワーをためています"
+
+		"BurnDPS_label"				"燃焼DPS"
+	
+		//-----------------------------------------------------------------------------
+		// Tempest
+		//-----------------------------------------------------------------------------
+		"ability_tempest_ion_dagger"		"イオンダガー"
+		"ability_tempest_ion_dagger_desc"	"テンペストがダガーを投げ、対象にダメージを与え、一定時間イオン充電を付与します。対象に与えるテクノロジーによるダメージが増加し、そのダメージの一部が近くの敵にクリーブします。対象に対して複数回イオン化することで、持続時間が延びます。"
+
+		"ChargedDuration_label"				"充電持続時間"
+		"ChargedDuration_postfix"				"秒"
+		"ReloadBullet_label"					"イオン充電を適用すると自動的に1発の弾がリロードされます"
+		"modifier_tempest_ionized_bullets_charged"	"充電完了！"
+		"modifier_tempest_ionized_bullets_buildup"	"イオン化中"
+		"ability_tempest_tesla_coil/modifier_tesla_coil_aura_alert/modifier_tesla_coil_alert"	"近くにテスラコイル"
+		"ability_tempest_tesla_coil/modifier_tesla_coil_aura_damage_amp/modifier_tesla_coil_damage_amp"	"近くにテスラコイル"
+
+		"ability_tempest_faraday_cage"		"ファラデーケージ"
+		"ability_tempest_faraday_cage_desc"	"敵ヒーローをターゲットにして、彼らをファラデーケージに閉じ込め、移動と弾丸をブロックします。"
+		"SpawnTroopers_label" "ケージに閉じ込められた敵ヒーローごとに近接トルーパーを召喚"
+		"FaradayCageHealth_label" "ケージの耐久力"
+		"FaradayCageDuration_label" "ケージの持続時間"
+
+		"ability_tempest_tesla_coil"		"テスラコイル"
+		"ability_tempest_tesla_coil_desc"	"テスラコイルを構築し、自身に充電をためてから、射程内の最も近い敵に放電します。敵が射程内にいない場合、充電を保持しオーバーチャージを構築します。テンペストがコイルの範囲内で戦うと、銃が強化され、弾丸が追加のスピリットダメージを与えます。"
+		"TeslaCoilHealth_label"			"テスラコイルの耐久力"
+		"TeslaCoilLifetime_label"			"テスラコイルの寿命"
+		"DischargeRadius_label"			"放電半径"
+		"DischargeRadius_postfix"			"m"
+		"OverchargePct_label"			"オーバーチャージ"
+		"OverchargePct_postfix"		"%"
+		"BonusTechDamage_label"		"ボーナススピリットダメージ"
+
+		"ability_tempest_weathermaker"		"ウェザーメイカー"
+		"ability_tempest_weathermaker_desc"	"マップ上の任意の敵ヒーローに向かって太陽の光を照射します。しばらくすると、隠れなかった敵が強力な雷撃を受け、ダメージを与えられ、一定時間壁越しに視認されます。ファラデーケージを通過できます。"
+		"VisionDuration_label"			"視認時間"
+		"VisionDuration_postfix"	 		"秒"
+
+		"ability_tempest_weathermaker/modifier_citadel_tempest_weathermaker_lightning_incoming/modifier_reveal_enemy" "視認された"
+		"ability_tempest_weathermaker/modifier_citadel_tempest_weathermaker_lightning_incoming" "100%の雷撃のチャンス"
+		"modifier_citadel_tempest_weathermaker_lightning_incoming_remain_covered" "隠れたまま"
+		"modifier_citadel_tempest_weathermaker_lightning_incoming_seek_shelter" "避難を求める"
+
+		//-----------------------------------------------------------------------------
+		// Apocalypse
+		//-----------------------------------------------------------------------------
+		"apocalypse_discharge_soul/modifier_tombstone_nearby_aura/modifier_tombstone_nearby" "近くに墓石"
+
+		"apocalypse_gigantic_sword" "巨大な剣"
+		"modifier_gigantic_sword" "巨大な剣を持っています"
+		"apocalypse_gigantic_sword_desc" "{s:hero_name}の杖が巨大な剣に変わります。発動中、アポカリプスの近接攻撃は追加ダメージを与え、攻撃範囲が拡大します。"
+		"SwordSlow_label" "移動ペナルティ"
+		"SwordSlow_suffix" "%"
+
+		"MeleeDamageBonusPct_label" "ボーナスダメージ"
+		"MeleeDamageBonusPct_suffix" "%"
+
+		"MeleeDistanceBonusPct_label" "ボーナス距離"
+		"MeleeDistanceBonusPct_suffix" "%"
+
+		"apocalypse_four_horsemen" "四騎士"
+		"apocalypse_four_horsemen_desc" "4体のホログラムの騎士を召喚し、一直線に突進して通り過ぎた敵にダメージを与え、敵を遅らせる軌跡を残します。"
+
+		"apocalypse_discharge_soul" "ソウル放電"
+		"apocalypse_discharge_soul_desc" "プロジェクタイルを発射してダメージ、EMP、そしてスローを付与します。チャージは時間経過でリフレッシュされません。倒れた味方のトルーパーの近くに現れる墓石のそばで跪くことでチャージを収集します。"
+		"SlowSilenceDuration_label" "スロー / EMP持続時間"
+		"SoulProjectileRadius_label" "プロジェクタイル半径"
+
+		"apocalypse_armageddon" "アルマゲドン"
+		"apocalypse_armageddon_desc" "{s:hero_name}を囲む安全ゾーンに光のプールがマークされ、その周囲に広い半径で隕石が降り注ぎます。隕石は味方にも敵にもダメージを与えますが、味方へのダメージは軽減され、致命傷にはなりません。"
+
+		"MeteorDamage_label" "隕石ダメージ"
+		"MeteorDamageRadius_label" "隕石ダメージ半径"
+	
+		//-----------------------------------------------------------------------------
+		// Cold Metal
+		//-----------------------------------------------------------------------------
+		"coldmetal_contract_to_kill" "暗殺契約"
+		"coldmetal_contract_to_kill_desc" "ターゲットヒーローに対して一定時間契約を取り付けます。契約中の対象は追加の弾薬ダメージとCold Metalのミサイルによる追加ダメージを受けます。契約対象を攻撃中は移動速度ペナルティがなく、移動中でも契約対象へのエイム速度ペナルティがありません。"
+		"coldmetal_contract_to_kill/modifier_coldmetal_contract_to_kill" "契約"
+
+		"coldmetal_charged_rocket" "チャージロケット"
+		"coldmetal_charged_rocket_desc" "ホールドしてチャージし、長くチャージするほど速く飛ぶロケットを発射します。衝突時に戦術的なヒートシーカーのミサイルのバーストに爆発します。"
+
+		"coldmetal_cold_metal_killer" "コールドメタルキラー"
+		"coldmetal_cold_metal_killer_desc" "Cold Metalの前方にナイフの扇を発射し、敵に衝撃を与えてスローさせます。"
+
+		"coldmetal_impenetrable_cube" "貫通不可能なキューブ"
+		"coldmetal_impenetrable_cube_desc" "一定時間、貫通不可能なキューブに折りたたまれ、攻撃やダメージを受けず、その後、戦術的なヒートシーカーのミサイルの嵐に爆発します。"
+
+		//-----------------------------------------------------------------------------
+		// Clawdril
+		//-----------------------------------------------------------------------------
+		"clawdril_plasma_laser" "プラズマレーザー"
+		"clawdril_plasma_laser_desc" "短距離のプラズマレーザーを発射し、通過するユニットに大ダメージを与えます。"
+
+		"clawdril_drill_and_pin" "ドリル＆ピン"
+		"clawdril_drill_and_pin_desc" "Clawdrilのドリルを直線的に発射し、当たった敵ヒーローをクリスタルの檻に閉じ込めます。"
+
+		"clawdril_mining_expedition" "鉱山探検"
+		"clawdril_mining_expedition_desc" "地面を叩いて近くのクリスタルを明らかにし、あなたや仲間が一時的なバフを得ることができます。"
+
+		"clawdril_cyclone" "サイクロン"
+		"clawdril_cyclone_desc" "Clawdrilがドリルを地面に突き刺し、身体を水平に持ち上げて回転します。近くの敵にキックを加えつつ、敵を内側に吸い込む渦を作り、弾丸を反射します。"
+
+		//-----------------------------------------------------------------------------
+		// Haze
+		//-----------------------------------------------------------------------------
+		"citadel_ability_poison_bullets" "麻酔弾"
+		"citadel_ability_poison_bullets_desc" "対象に麻酔を適用し、眠らせます。眠っている対象は行動できず、目覚めるとダメージを受けます。"
+		"modifier_citadel_posion_bullets_shot_watcher" "麻酔弾"
+		"modifier_citadel_posion_bullets_poisoned" "眠っている"
+		"modifier_citadel_posion_bullets_poison_buildup" "眠そう"
+
+		"ability_sleep_dagger" "スリープダガー"
+		"ability_sleep_dagger_quip" "敵を眠らせる"
+		"ability_sleep_dagger_desc" "対象に<span class=\"highlight\">ダメージ</span>を与え、<span class=\"highlight\">眠らせる</span>ダガーを投げます。眠っている対象はダメージを受けるとすぐに目覚めます。ダガーを投げても透明性は解除されません。スリープダガーは敵のチャンネル能力を中断させません。"
+		"ability_sleep_dagger/modifier_citadel_sleep_bomb/modifier_citadel_sleep_dagger_asleep" "眠っている"
+		"ability_sleep_dagger_t1_desc" "<span class=\"highlight\">{s:StaminaReduction}スタミナを削減</span>"
+		"ability_sleep_dagger_t3_desc" "目覚めたときに<span class=\"highlight\">{s:BulletResistReduction}%の弾丸耐性減少</span>を適用します。"
+
+		"modifier_citadel_sleep_dagger_asleep" "眠っている"
+		//"HazeDaggerRadius_label"			"Hit Radius"
+		//"HazeDaggerRadius_postfix"		"m"
+		"SleepWakeUpDelay_label" "目覚めるまでの時間"
+		"SleepWakeUpDelay_postfix" "秒"
+		"MinimumSleepTime_label" "最小睡眠時間"
+		"MinimumSleepTime_postfix" "秒"
+		"AoESleep_label" "爆発半径"
+		"AoESleep_postfix" "m"
+		"SleepDuration_label" "睡眠持続時間"
+		"SleepDuration_postfix" "秒"
+		"modifier_citadel_sleep_dagger_postsleep" "ダメージ軽減"
+
+		"ability_stacking_damage" "固定"
+		"ability_stacking_damage_quip" "ターゲットに増加する弾薬ダメージを与える"
+		"ability_stacking_damage_desc" "ターゲットを撃つことで、そのターゲットに対する<span class=\"highlight\">弾薬ダメージが増加</span>します。ヒットごとに1<span class=\"highlight\">スタック</span>を獲得し、ヘッドショットの場合は2スタック獲得します。"
+		"ability_stacking_damage/modifier_passive_haze_stacking_damage" "固定中"
+
+		"ability_stacking_damage_t1_desc" "<span class=\"highlight\">{s:ProcDamage}</span> スピリットダメージと<span class=\"highlight\">{s:SlowPercent}%のスロー</span>を<span class=\"highlight\">{s:ProcDamageStackCount}</span> スタックごとにターゲットに適用"
+		"ability_stacking_damage_t2_desc" "<span class=\"highlight\">+{s:MaxStacks}</span> 最大スタックと<span class=\"highlight\">+{s:AbilityDuration}秒</span>持続時間"
+
+		"DamageBonusFixedPerStack_label" "武器ダメージ"
+		"DamageBonusFixedPerStack_prefix" "+"
+		"DamageBonusFixedPerStack_postfix" " スタックごとに"
+		"ability_stacking_damage/modifier_passive_haze_stacking_damage/slow" "スロー中"
+
+		"ability_smoke_bomb" "スモークボム"
+		"ability_smoke_bomb_quip" "視界から消える"
+		"ability_smoke_bomb_desc" "視界から消え、<span class=\"highlight\">透明</span>になり、<span class=\"highlight\">スプリント速度</span>を得ます。攻撃すると透明性が解除されます。近くの敵はあなたの透明性を透視できます。"
+		//"ability_smoke_bomb_t1_desc"	"<span class=\"highlight\">{s:AbilityCooldown}s</span> Ability Cooldown"
+		"ability_smoke_bomb_t2_desc" "<span class=\"highlight\">+{s:InvisMoveSpeedMod}m/s</span> 透明スプリント速度"
+		"ability_smoke_bomb_t3_desc" "透明後に<span class=\"highlight\">+{s:BulletLifesteal}%の弾丸ライフスティール</span>を{秒}sの間獲得します"
+		"modifier_citadel_smoke_bomb_in_smoke" "煙の中"
+		"modifier_citadel_smoke_bomb_invis" "透明"
+		"ability_smoke_bomb/modifier_buff" "スタビライザー"
+
+		"ability_bullet_flurry" "弾丸ダンス"
+		"ability_bullet_flurry_quip" "周囲に弾丸の嵐を解き放つ"
+		"ability_bullet_flurry_desc" "弾丸の嵐に入り、<span class=\"highlight\">武器を発射</span>して近くの敵に<span class=\"highlight\">完璧な精度</span>で攻撃します。嵐の間、{s:hero_name}は発射速度ボーナスを得て、彼女に向けられた弾丸の一部を回避します。"
+		"ability_bullet_flurry/modifier_citadel_bullet_flurry" "弾丸の嵐"
+		"BonusWeaponDamage_label" "弾丸ダメージ"
+
+		//-----------------------------------------------------------------------------
+		// Sumo
+		//-----------------------------------------------------------------------------
+		"citadel_ability_stomp"					"キネティックパルス"
+		"citadel_ability_stomp_quip"				"地面のパルスを放ち、敵を空中に打ち上げる"
+		"citadel_ability_stomp_desc"				"敵を空中に打ち上げるエネルギーパルスを放ちます。"
+		"citadel_ability_stomp_t1_desc"			"ヒットした敵は<span class=\"highlight\">攻撃速度と移動速度が</span><span class=\"highlight\">{s:SlowPercent}%</span>低下し、<span class=\"highlight\">{s:SlowDuration}秒</span>持続します。"
+		"citadel_ability_stomp_t2_desc"			"{s:hero_name}はヒットした敵に対して<span class=\"highlight\">{s:BulletArmorReduction}%増加した武器ダメージ</span>を与え、<span class=\"highlight\">{s:BulletArmorReductionDuration}秒</span>持続します。"
+		"StompRange_label"						"スタンプ範囲"
+		"StompRange_postfix"						"m"
+		"stomp_buff_modifier"						"+攻撃速度"
+		"BulletArmorReductionDuration_label"		"持続時間"
+		"BulletArmorReductionDuration_postfix"		"秒"
+		"StompWidth_label"						"能力幅"
+		"StompWidth_postfix"						"m"
+		"modifier_stomp_debuff"					"スタンプデバフ"
+
+		"citadel_ability_void_sphere"				"量子もつれ"
+		"citadel_ability_void_sphere_quip"		"存在から消えて再出現する"
+		"citadel_ability_void_sphere_desc"		"{s:hero_name}が一瞬<span class=\"highlight\">虚無に消え</span>、短距離の位置に再出現します。再出現時に武器が<span class=\"highlight\">リロードされ</span>、次のクリップに対して<span class=\"highlight\">攻撃速度ボーナス</span>が付与されます。[{s:key_alt_cast}]で発動すると、近くの味方も連れて行き、半分の攻撃速度ボーナスを与えます。"
+		"citadel_ability_void_sphere_t3_desc"		"再出現時に<span class=\"highlight\">+{s:BonusClipSizePercent}%</span>の基本弾薬を獲得"
+		"modifier_void_sphere"					"量子もつれ"
+		"modifier_voidsphere_buff"				"虚無球 +攻撃速度"
+		"AllyDistance_label"						"味方距離"
+		"AllyDistance_postfix"					"m"
+		"VoidTime_label"							"虚無時間"
+		"VoidTime_postfix"						"秒"
+
+		"citadel_ability_charged_tackle"			"チャージタックル"
+		"citadel_ability_charged_tackle_quip"	"戦闘に突入する"
+		"citadel_ability_charged_tackle_desc"	"力を蓄えた後、突進し、<span class=\"highlight\">敵を引きずり、ダメージを与えます</span>。早期にキャンセル可能です。"
+		"citadel_ability_charged_tackle_t1_desc"	"<span class=\"highlight\">+{s:Damage}</span> ダメージと<span class=\"highlight\">+{s:ChargeDistance}m</span> チャージ距離。"
+		"citadel_ability_charged_tackle_t2_desc"	"チャージタックルが終了すると、<span class=\"highlight\">{s:TechShield}HPのスピリットシールド</span>を得ます。<span class=\"highlight\">{s:TechShieldDuration}秒間</span>持続します。"
+		"citadel_ability_charged_tackle_t3_desc"	"<span class=\"highlight\">準備時間を解除</span>し、<span class=\"highlight\">{s:AbilityCooldown}秒</span>の能力クールダウンを与えます。"
+		"citadel_ability_charged_tackle/modifier_charge_pull_enemy"	"チャージタックル"
+		"citadel_ability_charged_tackle_cancel_channel"	"チャージを停止"
+
+		"modifier_charged_tackle_prepare"		"力を蓄えている"
+		"modifier_charged_tackle_active"		"タックル中"
+
+		"ChargeDistance_label"					"チャージ距離"
+		"ChargeDistance_postfix"				"m"
+		"TechShieldDuration_label"				"シールド持続時間"
+		"TechShieldDuration_postfix"			"秒"
+
+		"citadel_ability_self_vacuum"			"特異点"
+		"citadel_ability_self_vacuum_quip"		"敵チームを引き寄せてスタンさせる"
+		"citadel_ability_self_vacuum_desc"		"手の中に特異点を作り、<span class=\"highlight\">近くの敵を引き寄せてダメージを与えます</span>。終了すると、敵は空中に打ち上げられます。"
+		"citadel_ability_self_vacuum_t3_desc"	"特異点は毎秒敵の最大HPの<span class=\"highlight\">{s:DamagePercentHealth}%</span>を奪います。"
+		"VacuumRadius_label"						"特異点半径"
+		"VacuumRadius_postfix"					"m"
+		"DamagePercentHealth_label"				"ダメージ健康割合"
+		"DamagePercentHealth_postfix"				"%"
+
+		"citadel_ability_nikuman"				"再生のオーロラ"
+		"citadel_ability_nikuman_quip"			"自分と周囲の仲間を癒す"
+		"citadel_ability_nikuman_desc"			"チャネリング中に、<span class=\"highlight\">時間をかけて健康を回復</span>します。"
+		"citadel_ability_nikuman/modifier_nikuman"	"再生のオーロラ"
+		"TechShieldPerSecond_label"				"追加スピリットシールド"
+		"TechShieldPerSecond_postfix"			"/s"
+		"citadel_ability_nikuman_t1_desc"			"オーロラが完全にチャネリングされると、<span class=\"highlight\">+{s:MovementSpeedBonus}m/sの移動速度ボーナス</span>を得ます。5APアップグレードで瞬時に得られます。"
+		"citadel_ability_nikuman_t3_desc"			"<span class=\"highlight\">移動と能力使用が可能</span>で、毎秒<span class=\"highlight\">+{s:HealMaxHealthPercent}%の最大HPを回復</span>します。"
+		"HealMaxHealthPercent_label"				"回復される最大HP"
+		"HealMaxHealthPercent_postfix"			"%/s"
+		"HealingPerSecond_label"					"回復HP"
+		"HealingPerSecond_postfix"				"/s"
+		"ShareWithFriendsRadius_label"			"味方回復半径"
+		"ShareWithFriendsRadius_postfix"			"m"
+		"modifier_nikuman_techshield"				"スピリットシールド"
+		"modifier_nikuman_buff"					"+攻撃速度"
+		"modifier_nikuman_self_buff"				"+移動速度"
+		"FireRatePerSecondDuration_label"			"攻撃速度持続時間"
+		"FireRatePerSecondDuration_postfix"		"秒"
+
+		//-----------------------------------------------------------------------------
+		// Zealot
+		//-----------------------------------------------------------------------------
+		"citadel_ability_zealot_summon_spirits"		"エネルギーの精霊"
+		"citadel_ability_zealot_summon_spirits_desc" "Zealotの周囲を回転するエネルギーオーブを生成し、通過するものにダメージを与えます。オーブは前方に発射でき、敵にダメージを与えます。オーブのダメージはアクティブな間に最大で2倍に増加します。"
+		"modifier_summon_spirits"						"エネルギーの精霊"
+		"SpiritCount_label"						"エネルギーの精霊数"
+		"citadel_ability_zealot_summon_spirits_t1_desc"		"<span class=\"highlight\">+{s:SpiritBulletArmor}弾丸耐性</span> 精霊がアクティブな間。"
+		"citadel_ability_zealot_summon_spirits_t3_desc"		"<span class=\"highlight\">+{s:SpiritLifeSteal}%ライフスティール</span> エネルギーの精霊によるダメージに適用。"
+		"SpiritSpinDamage_label"						"回転時のダメージ"
+		"SpiritShotDamage_label"						"発射時のダメージ"
+
+		"citadel_ability_zealot_tether"			"テザー"
+		"citadel_ability_zealot_tether_desc"	"友達にエネルギーのビームを作成し、各ヒーローが<span class=\"highlight\">{s:TetheredShareStatsPct}%</span>の<span class=\"highlight\">HP再生</span>、<span class=\"highlight\">攻撃速度</span>、および<span class=\"highlight\">スピリット</span>ボーナスを共有します。{s:TetherDisconnectTime}秒以上範囲外になると解除されます。アップグレードボーナスは、Zealotとテザーされたターゲットの両方に適用されます。"
+		"modifier_zealot_tether"					"テザー"
+		"modifier_zealot_tether_self"				"テザー"
+		"TetherRange_label"						"テザー最大範囲"
+		"TetherRange_postfix"						"m"
+		"TetheredBonusHealthRegen_label"			"ボーナスHP再生"
+		"TetheredBonusFireRate_label"				"ボーナス攻撃速度"
+		"TetheredBonusMoveSpeedPct_label"			"ボーナス移動速度"
+		"TetheredBonusMoveSpeedPct_prefix"		"+"
+		"TetheredBonusMoveSpeedPct_postfix"		"%"
+
+		"citadel_ability_zealot_spirit_echo"		"スピリットエコー"
+		"citadel_ability_zealot_spirit_echo_desc"		"ターゲットとなる敵にエコースピリットを発射し、スロー効果とダメージを与えます。近くの敵ユニットにバウンドし、各ユニットに一度ずつヒットします。"
+		"SpiritShotSlowPct_label"						"スロー割合"
+		"SpiritShotSlowDuration_label"				"スロー持続時間"
+		"citadel_ability_zealot_spirit_echo_t1_desc" "<span class=\"highlight\">+{s:SpiritShotSlowDuration}</span>秒のスロー持続時間"
+		"citadel_ability_zealot_spirit_echo_t2_desc" "<span class=\"highlight\">+{s:MaxBounces}</span> 最大バウンド数"
+		"citadel_ability_zealot_spirit_echo_t3_desc" "エコースローが攻撃速度を<span class=\"highlight\">{s:FireRateReduction}</span>減少させるようになりました。"
+
+		"modifier_zealot_spirit_echo_debuff"		"スピリットエコー"
+
+		"citadel_ability_zealot_energy_warp"		"エネルギー変形"
+		"citadel_ability_zealot_energy_warp_desc"	"Zealotを遠くのターゲットにテレポートさせます。テレポートが完了すると、大きなエネルギーのバーストが放出され、敵にダメージを与え、沈黙させます。テザーされた友達もZealotと共にテレポートされます。"
+		"citadel_ability_zealot_energy_warp_t2_desc"	"<span class=\"highlight\">+{s:SilenceDuration}</span> EMP持続時間"
+		"citadel_ability_zealot_energy_warp_t3_desc"	"<span class=\"highlight\">エネルギー変形の</span>クールダウンを、エネルギー変形によってEMPされた敵を倒すことでリフレッシュします。"
+		"modifier_zealot_energy_warp"				"エネルギー変形"
+
+		"citadel_ability_zealot_inner_fire"		"内なる火"
+		"citadel_ability_zealot_inner_fire_desc"	"パッシブ。ZealotはHPを獲得し、他の能力を使用することで物理的な力を増大させます。"
+
+		"citadel_ability_zealot_inner_fire_t1_desc"	"テザー中の移動速度 <span class=\"highlight\">+{s:BonusMoveSpeedWhileTethered}</span>"
+		"citadel_ability_zealot_inner_fire_t2_desc"	"ダメージ耐性 <span class=\"highlight\">+{s:DamageReductionWhileSpirits}%</span> 精霊召喚中"
+		"citadel_ability_zealot_inner_fire_t3_desc"	"HP再生 <span class=\"highlight\">+{s:BonusHealthRegenWhileEnergyWarp}</span> エネルギー変形中"
+
+		"citadel_ability_zealot_weapon_drain_pulse"	"武器ドレインパルス"
+		"citadel_ability_zealot_weapon_drain_pulse_desc" "近くの敵ヒーローやNPCから勇気を吸い取り、彼らの銃ダメージを減少させます。盗んだダメージの一部はZealotの銃に転送されます。"
+		"DrainPulseRadius_label"					"ドレインパルス半径"
+		"DrainPulseRadius_postfix"				"m"
+		"modifier_weapon_drain_pulse"				"武器ドレインパルス"
+		"modifier_weapon_drain_pulse_debuff"		"Zealotの勇気ドレイン"
+		"WeaponPowerDrained_label"				"ドレインされた勇気"
+		"WeaponPowerGainPercent_label"			"転送された勇気"
+		"WeaponPowerGainPercent_postfix"			"%"
+
+		//-----------------------------------------------------------------------------
+		// Hero Warden
+		//-----------------------------------------------------------------------------
+		"ability_warden_lock_down"				"バインディングワード"
+		"ability_warden_lock_down_quip"			"ターゲットを呪い、逃げられなければ根付かせる"
+		"ability_warden_lock_down_desc"			"敵ヒーローに呪いをかけます。指定した<span class=\"highlight\">逃走時間</span>内に元の位置から移動しないと、ダメージを受けて<span class=\"highlight\"> immobilized</span>します。"
+		"ability_warden_lock_down_t3_desc"		"{s:hero_name}は捕らえたヒーローに対して<span class=\"highlight\">+{s:BulletArmorReduction}%増加した弾丸ダメージ</span>を与え、<span class=\"highlight\">{s:BulletArmorReductionDuration}秒</span>持続します。"
+		"StaminaReduction_label"					"スタミナ減少"
+
+		"EscapeRange_label"						"逃走範囲"
+		"EscapeRange_postfix"						"m"
+		"EscapeTime_label"						"逃走時間"
+		"EscapeTime_postfix"						"秒"
+		"modifier_warden_lockdown_debuff"			"バインディングワード"
+		"modifier_warden_lockdown_debuff_hint"	"バインディングから逃げるにはエリアを離れてください"
+		"modifier_warden_lockdown_root"			"バインディングワード"
+		
+		"ability_warden_high_alert"				"意志力"
+		"ability_warden_high_alert_quip"			"スピリットシールドと移動速度を得る"
+		"ability_warden_high_alert_desc"			"<span class=\"highlight\">スピリットシールド</span>と<span class=\"highlight\">ボーナス移動速度</span>を得ます。"
+		"ability_warden_high_alert_t3_desc"		"<span class=\"highlight\">+{s:TechShieldPoints}</span> スピリットシールドの耐久力が増加し、スピリットパワーに応じてスケールします。"
+		"MoveSpeedBonusPct_label"					"移動速度ボーナス"
+		"MoveSpeedBonusPct_postfix"				"%"
+		"TechShieldPoints_label"					"スピリットシールドの耐久力"
+
+		"modifier_warden_high_alert"				"意志力"
+		"modifier_warden_high_alert_hint"			""
+
+		"ability_warden_crowd_control"			"アルケミカルフラスコ"
+		"ability_warden_crowd_control_quip"		"近くの敵にダメージとデバフを与える"
+		"ability_warden_crowd_control_desc"		"フラスコを投げて、<span class=\"highlight\">ダメージ、スロー、</span>および敵の<span class=\"highlight\">武器ダメージ</span>と<span class=\"highlight\">スタミナ</span>を減少させます。"
+		"ability_warden_crowd_control_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown}s</span> のクールダウンを持ち、<span class=\"highlight\">{s:FireRateSlow}%</span> の攻撃速度低下を適用します。"
+		"MoveSpeedSlowPct_label"					"移動速度低下"
+		"MoveSpeedSlowPct_postfix"				"%"
+		"WeaponPowerDebuff_label"					"武器ダメージ"
+		"WeaponPowerDebuff_postfix"				"%"
+		"modifier_warden_crowd_control_debuff"	"アルケミカルフラスコ"
+
+		"ability_warden_riot_protocol"			"最後の抵抗"
+		"ability_warden_riot_protocol_quip"		"敵からHPを奪うパルスを放出する"
+		"ability_warden_riot_protocol_desc"		"{s:AbilityCastDelay}秒チャージした後、<span class=\"highlight\">敵にダメージを与え、あなたを回復させるパルスを放出します</span>。"
+		"modifier_warden_riot_protocol"			"最後の抵抗"
+		"modifier_warden_riot_protocol_enemy_debuff"	"スロー"
+		"HealthStealPctHero_label"				"ヒーローライフスティール"
+		"HealthStealPctHero_postfix"				"%"
+
+		"HealthStealPct_label"					"非ヒーローライフスティール"
+		"HealthStealPct_postfix"					"%"
+
+		"PulseInterval_label"						"パルス間隔"
+		"PulseInterval_postfix"					"s"
+		"PulseDPS_label"							"DPS"
+		"DebuffMoveSlowPct_label"					"敵のスロー"
+		"DebuffMoveSlowPct_postfix"				"%"
+		"PulseDebuffDuration_label"				"敵のスロー持続時間"
+		"PulseDebuffDuration_postfix"				"s"
+		"PulseRadius_label"						"パルス半径"
+		"PulseRadius_postfix"						"m"
+
+
+		//-----------------------------------------------------------------------------
+		// Wrecker
+		//-----------------------------------------------------------------------------
+		"ability_wrecking_ball"				"レッキングボール"
+		"ability_wrecking_ball_quip"			"敵をスタンさせるスクラップの玉を投げる"
+		"ability_wrecking_ball_desc"			"大きなスクラップの玉を作成し、投げることで、<span class=\"highlight\">ダメージを与え、スタンさせます</span>。玉を作るのに時間がかかり、持っている間は移動速度が遅くなります。"
+		"WreckingBallDamage_label"			"ダメージ"
+		"WreckingBallPickupTime_label"		"作成時間"
+		"WreckingBallPickupTime_postfix"		"秒"
+		"MoveSpeedLimit_label"				"移動速度"
+		"MoveSpeedLimit_postfix"				"m/s"
+		"modifier_wrecking_ball_auto_throw"	"レッキングボール"
+		"hint_throw_wrecking_ball"			"ボールを投げる"
+
+		"ability_wrecker_salvage"				"消費"
+		"ability_wrecker_salvage_desc"		"<span class=\"highlight\">敵のトルーパーやNPCをスタンさせ、</span>保持している間に<span class=\"highlight\">ダメージを与えます</span>。成功したキルで<span class=\"highlight\">攻撃速度</span>ボーナスを得て、<span class=\"highlight\">バイオブラスト</span>のチャージを回復します。このボーナスは独立してスタックします。"
+		"ability_wrecker_salvage_quip"		"敵のトルーパーやニュートラルを消費する"
+		"FireRateBuffDuration_label"			"ボーナス持続時間"
+		"FireRateBuffDuration_postfix"		"秒"
+		"SalvageBonus_FireRate_label"			"ボーナスごとの攻撃速度"
+		"SalvageBonus_Health_label"			"回復量"
+		"ability_wrecker_salvage_t1_desc"		"<span class=\"highlight\">{s:SalvageBonus_Health} HP</span> 回復します。"
+		"SalvageDuration_label"				"最大持続時間"
+		"SalvageDuration_postfix"				"秒"
+
+		"modifier_wrecker_salvage_buff"		"攻撃速度増加"
+
+		"ability_scrap_blast"					"バイオブラスト"
+		"ability_scrap_blast_desc"			"消費した残骸の爆発を放ち、<span class=\"highlight\">ダメージを与え、</span><span class=\"highlight\">敵をスローさせます</span>。複数ヒットするとスローが増加します。"
+		"ability_scrap_blast_quip"			"バイオマスの爆発を放つ"
+		"EnemyMoveSlow_label"					"ヒットごとの敵スロー"
+		"EnemyMoveSlow_postfix"				"%"
+		"EnemyMoveSlowDuration_label"			"敵スロー持続時間"
+		"EnemyMoveSlowDuration_postfix"		"秒"
+		"ScrapDamage_label"					"ダメージ"
+		"ability_scrap_blast/modifier_scrap_blast_debuff"		"スロー"
+
+		"ability_wrecker_ultimate"			"マグネティックフラックス"
+		"ability_wrecker_ultimate_desc"		"<span class=\"highlight\">敵を掴み、</span>スタシス状態にし、頭上に保持します。<span class=\"highlight\">スタンさせ、</span><span class=\"highlight\">ダメージを与えます</span>。捕らえた敵は全てダメージを受けます。掴んだNPCは<span class=\"highlight\">回収されます</span>。"
+		"ThrowDamage_label"					"投げダメージ"
+		"GrabRange_label"						"掴む範囲"
+		"GrabRange_postfix"					"m"
+		"ability_wrecker_ultimate_t3_desc"	"Wreckerは使用中<span class=\"highlight\">無敵</span>です。"
+
+		"wrecker_ultimate_grab_debuff"		"スタシス"
+
+		"ability_wrecker_teleport"			"アストラルウォーク"
+		"ability_wrecker_teleport_desc"		"自分の飛ぶ影のコピーを発射し、<span class=\"highlight\">テレポート</span>します。飛んでいる間にテレポート爆発が敵を<span class=\"highlight\">スローさせ、ダメージを与えます</span>。"
+		"ability_wrecker_teleport_quip"		"自分の飛ぶ幻影を発射し、現実の体を幻影の着地地点にテレポートする"
+		"DamagePerSecondFlown_label"			"飛行中のダメージ"
+
+		//-----------------------------------------------------------------------------
+		// Lash
+		//-----------------------------------------------------------------------------
+		"citadel_ability_lash"					"グラップル"
+		"citadel_ability_lash_quip"				"敵に引き寄せるために鞭を使う"
+		"citadel_ability_lash_desc"				"<span class=\"highlight\">空中に引き寄せる</span>ことでターゲットに向かいます。グラップルを使用すると、<span class=\"highlight\">1つのスタミナチャージ</span>と全ての<span class=\"highlight\">空中ジャンプとダッシュ</span>が回復します。"
+
+		"citadel_ability_lash_t2_desc"			"<span class=\"highlight\">+{s:AbilityCastRange}m</span> キャスト範囲を得て、<span class=\"highlight\">+{s:WeaponDamageBonus}</span> 武器ダメージを{シs:WeaponDamageBonusDuration}秒間得ます。"
+		"citadel_ability_lash_t3_desc"			"<span class=\"highlight\">+{s:WeaponFireRateBonus}%</span> 武器ボーナスバフへの攻撃速度"
+		"LashDamage_label"						"グラップルダメージ"
+		"WeaponFireRateBonus_label"				"攻撃速度"
+		"WeaponFireRateBonus_prefix"				"+"
+		"WeaponFireRateBonus_postfix"				"%"
+		"JumpVelocity_label"					"ジャンプ速度"
+		"JumpVelocity_postfix"					"m/s"
+		"lash_grapple_buff"						"武器ダメージ"
+		"WeaponDamageBonusDuration_label"			"ボーナス持続時間"
+		"WeaponDamageBonusDuration_postfix"		"s"
+
+		"citadel_ability_lash_down_strike"			"グラウンドストライク"
+		"citadel_ability_lash_down_strike_quip"		"地面に叩きつけて敵にダメージを与える"
+		"citadel_ability_lash_down_strike_desc"		"足元を踏み鳴らして、<span class=\"highlight\">敵にダメージを与えます</span>。空中でグラウンドストライクを行うと、急速に地面にダイブします。ダメージは25m以降はゆっくり増加します。"
+		"StompDamagePerMeterPrimary_label"					"メートルあたりのダメージ"
+		"citadel_ability_lash_down_strike_t2_desc"	"攻撃を受けた敵は<span class=\"highlight\">空中に弾き飛ばされ</span>、<span class=\"highlight\">{s:EnemySlowPct}%</span>のスロー効果が<span class=\"highlight\">{s:SlowDuration}秒</span>持続します。"
+		"citadel_ability_lash_down_strike_t3_desc"	"<span class=\"highlight\">メートルあたりのダメージ</span> +110% およびスケーリングが向上します。"
+		
+		
+		// Custom Tool Tip +(8.75/7)% damage
+
+
+		"lash_down_strike_slow_modifier"			"スロー"
+
+		"citadel_ability_shoryuken"				"昇竜拳"
+		"citadel_ability_shoryuken_desc"			"Lashが上昇するアッパーカットを行い、前方の敵を空中に打ち上げます。空中でも使用できます。"
+		"modifier_lash_shoryuken"					"昇竜拳"
+		"citadel_ability_shoryuken_t3_desc"		"周囲の<span class=\"highlight\">複数のターゲットにヒットします</span>。"
+
+		"EnemyLaunchHeight_label"					"敵の打ち上げ高さ"
+		"EnemyLaunchHeight_postfix"				"m"
+		"LashLaunchHeight_label"					"Lashの打ち上げ高さ"
+		"LashLaunchHeight_postfix"				"m"
+
+		"ability_lash_flog"						"フログ"
+		"ability_lash_flog_quip"				"前方のターゲットからライフスティールを得る"
+		"ability_lash_flog_desc"				"敵を鞭で打ち、<span class=\"highlight\">ライフを吸収します</span>。"
+		"ability_lash_flog_t1_desc"				"<span class=\"highlight\">{s:EnemySlowPct}%</span> の移動スローを<span class=\"highlight\">{s:EnemySlowDuration}秒</span>適用します。"
+		"ability_lash_flog_t3_desc"				"+{s:Damage} ダメージを与え、{s:FireRateSlow}%の攻撃速度低下を適用します。"
+		"HealPctVsHeroes_label"					"ヒーローに対する回復"
+		"HealPctVsHeroes_postfix"				"%"
+		"HealPctVsNonHeroes_label"				"非ヒーローに対する回復"
+		"HealPctVsNonHeroes_postfix"			"%"
+		"EnemySlowDuration_label"					"敵スロー持続時間"
+		"EnemySlowDuration_postfix"				"秒"
+		"WeaponPowerScalingTooltip_label"			"勇気ボーナスダメージ"
+		"WeaponPowerScalingTooltip_postfix"		"%"
+		"TargetingConeAngle_label"				"攻撃角度"
+		"TargetingConeAngle_postfix"				"º"
+		"ability_lash_flog/modifier_lash_flog_debuff"	"フログ"
+
+		"citadel_ability_lash_high_explosive"	"高爆発"
+		"citadel_ability_lash_high_explosive_desc"	"Lashが手榴弾を充填し始めます。手榴弾を投げる前に保持する時間が長いほど、ダメージが増加します。ボタンを再度押すと、Lashの前方に短距離投げて衝突時に爆発します。"
+		"citadel_ability_lash_throw_grenade"	"爆発物を投げる"
+		"modifier_lash_charge_grenade"			"高爆発"
+		"GrenadeExplosionRadius_label"			"爆発半径"
+		"GrenadeExplosionRadius_postfix"			"m"
+		"GrenadeDamage_label"						"爆発ダメージ"
+
+		"citadel_ability_lash_ultimate"			"デススラム"
+		"citadel_ability_lash_ultimate_quip"		"敵を持ち上げて地面に叩きつける"
+		"citadel_ability_lash_ultimate_desc"		"敵に鞭を繋げて集中し、チャネリングの後、繋がれた敵を<span class=\"highlight\">持ち上げてスタンさせ、</span>地面に叩きつけます。犠牲者や着地ゾーン内の敵は<span class=\"highlight\">ダメージを受けてスローさせられます</span>。<br>接続された敵を早めに投げるには[{s:iv_attack}]を押してください。視線にない敵やラッチタイム中に範囲外になる敵は掴むことができません。"
+		"citadel_ability_lash_ultimate/modifier_lash_grapple_enemy_debuff"		"デススラム"
+		"citadel_ability_lash_ultimate_debuff"	"移動スロー"
+
+		"ImpactRadius_label"						"衝撃半径"
+		"ImpactRadius_postfix"					"m"
+		"LashUltimateChargeTime_label"			"チャージ時間"
+		"LashUltimateChargeTime_postfix"			"s"
+		"ThrowDistance_label"						"最大投げ距離"
+		"ThrowDistance_postfix"					"m"
+
+		//-----------------------------------------------------------------------------
+		// Kelvin
+		//-----------------------------------------------------------------------------
+		"ability_icebeam/modifier_buildup"		"凍結"
+		"ability_icepath/modifier_icepath"		"アイスパス"
+		"modifier_citadel_crystal_shield"		"ダメージ吸収中"
+
+		"ability_ice_grenade"				"フロストグレネード"
+		"ability_ice_grenade_quip"			"敵にダメージを与え、スローさせる"
+
+		"ability_ice_grenade_desc"			"氷の雲の中で爆発するグレネードを投げ、<span class=\"highlight\">ダメージを与え、</span><span class=\"highlight\">敵をスローさせます</span>。"
+		"ability_ice_grenade_t2_desc"		"フロストグレネードは、味方に<span class=\"highlight\">{s:HealAmount} HP</span>を回復します。スピリットに応じてスケールします。"
+		"ability_ice_grenade/kelvin_ice_grenade_slow"	"アイスグレネードスロー"
+
+		"ability_icebeam"					"アークティックビーム"
+		"ability_icebeam_quip"				"解除できるスローを適用する"
+		"ability_icebeam_desc"				"前方に凍る冷気を放ち、<span class=\"highlight\">ターゲットにダメージを与え、</span><span class=\"highlight\">移動速度と攻撃速度のスローを蓄積</span>します。ビームを維持している間は移動速度が減少します。"
+		"ability_icebeam_t3_desc"			"<span class=\"highlight\">{s:BeamSplitCount}本の追加アークティックビームを</span>最後にヒットしたターゲットの{シs:BeamSplit}m以内の敵に放ちます。"
+		"modifier_citadel_kelvin_frozen"	"凍結中"
+		"ability_icebeam/modifier_slow"		"アークティックビームスロー"
+		"MaxSlowPercent_label"				"最大スロー"
+		"MaxSlowPercent_postfix"				"%"
+		"MaxSlowTime_label"					"最大スロービルド時間"
+		"MaxSlowTime_postfix"					"秒"
+		"modifier_citadel_disarmed_icebeam"	"武器凍結中"
+		"IceBeamBuildupProcDuration_label"	"スロー持続時間"
+		"IceBeamBuildupProcDuration_postfix"	"秒"
+		"modifier_icebeam_stacking_slow"		"アークティックビーム"
+		"BeamSplit_label"						"追加ビーム範囲"
+		"BeamSplit_postfix"					"m"
+
+		"ability_icepath"					"アイスパス"
+		"ability_icepath_quip"				"浮遊する氷の道を滑走する"
+		"ability_icepath_desc"				"{s:hero_name}が氷と雪の<span class=\"highlight\">浮遊する道</span>を作成し、彼と彼の仲間に移動ボーナスを与えます。Kelvinはこの間<span class=\"highlight\">{s:SlowResistancePercent}%のスロー抵抗</span>を得ます。敵も浮遊した道を歩くことができます。<br>アイスパス中に、[{s:key_innate_1}] / [{s:key_duck}]を押すと上下に移動できます。"
+		"ability_icepath_t3_desc"			"アクティブ中は、作成したアイスパスのメートルごとに+{s:BonusSpiritMeter}スピリットパワーを得ます。最大{s:BonusSpiritMax}スピリットパワー"
+		"SprintSpeedBonus_label"				"スプリント速度"
+		"SprintSpeedBonus_prefix"				"+"
+		"SprintSpeedBonus_postfix"			"m/s"
+		"IcePathAuraDuration_label"			"アイストレイル持続時間"
+		"IcePathAuraDuration_postfix"			"秒"
+		"BonusTechPower_label"				"パス中のスピリットパワー"
+		"IcePathShardRadius_label"			"パス幅"
+		"IcePathShardRadius_postfix"			"m"
+		"BonusTechDamagePercent_label"		"ボーナススピリットダメージ"
+		"BonusTechDamagePercent_postfix"		"%"
+		"ability_icepath/modifier_icepath/modifier_icepath_friendly_aura/modifier_icepath_buff"			"アイスパス"
+
+		"ability_ice_dome"				"フローズンシェルター"
+		"ability_ice_dome_quip"			"貫通不可能な癒しのドームを作成する"
+		"ability_ice_dome_desc"			"{s:hero_name}が周囲の空気を凍らせ、<span class=\"highlight\">貫通不可能なドーム</span>を自分の周りに作ります。ドーム内では、味方が急速に<span class=\"highlight\">HPを回復</span>し、敵は<span class=\"highlight\">スローされます</span>。"
+		"ability_ice_dome_t1_desc"		"<span class=\"highlight\">+{s:FireRateSlow}%</span> 攻撃速度低下"
+		"ability_ice_dome_t3_desc"		"<span class=\"highlight\">+{s:BonusHealthRegen}</span> HP再生し、スピリットパワーに応じてスケールします。"
+		"ability_ice_dome/modifier_ice_dome/modifier_debuff"						"フローズンシェルター"
+		"frozen_shelter_modifier_buff"		"フローズンシェルター"
+		"ability_ice_dome/modifier_ice_dome/ice_dome_enemy_aura/modifier_debuff"	"フローズンシェルター"
+
+
+		//-----------------------------------------------------------------------------
+		// Bebop
+		//-----------------------------------------------------------------------------
+		"citadel_ability_uppercut"				"爆発的アッパーカット"
+		"citadel_ability_uppercut_quip"			"誰かを自分から遠ざけてパンチする"
+		"citadel_ability_uppercut_desc"			"周囲のユニットに<span class=\"highlight\">ライト近接</span>ダメージを与え、彼らを<span class=\"highlight\">飛ばして</span>着地地点で<span class=\"highlight\">エリアダメージ</span>を引き起こします。味方にはダメージを与えません。"
+		"citadel_ability_uppercut_t2_desc"		"敵ヒーローにアッパーカットを決めると、<span class=\"highlight\">素早いスピンアップ時間、2倍の範囲、および +{s:BuffBaseWeaponPct}%の武器ダメージ</span>を{シs:UppercutBuffOnHit}秒間得ます。"
+		"citadel_ability_uppercut_t3_desc"		"敵ヒーローにアッパーカットを決めると、<span class=\"highlight\">フックのクールダウンを0に設定</span>し、現在のクリップに<span class=\"highlight\">+{s:ClipSizeBonus}%の弾丸</span>を即座に追加します。"
+		"modifier_citadel_enemy_uppercutted"	"アッパーカット中！"
+		"UppercutDamage_label"					"アッパーカットダメージ"
+		"LandingDamage_label"					"エリアダメージ"
+		"OnLandDamageRadius_label"				"着地半径"
+		"OnLandDamageRadius_postfix"			"m"
+		"modifier_uppercut_buff"					"武器ブースト"
+		"modifier_uppercut_movespeed"				"アッパーカット移動速度"
+		"StunOnLand_label"						"スタン持続時間"
+		"StunOnLand_postfix"					"s"
+		"UppercutBuffOnHit_label"				"ブースト持続時間"
+		"UppercutBuffOnHit_postfix"				"s"
+
+		"citadel_ability_sticky_bomb"			"スティッキーボム"
+		"citadel_ability_sticky_bomb_quip"		"敵にボムを設置する"
+		"citadel_ability_sticky_bomb_desc"		"近くのターゲットにスティッキーボムを取り付け、短い信管時間後に<span class=\"highlight\">爆発ダメージ</span>を与えます。<br>ヒットした敵ヒーローごとに<span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}%のボムダメージ</span>を得ます。<br>スティッキーボムは[{s:key_alt_cast}]を使用して自分に発動できます。"
+		"modifier_citadel_sticky_bomb_attached"	"ボムがあなたに取り付けられています"
+		"citadel_ability_sticky_bomb_t3_desc"	"取り付け時に、ターゲットを<span class=\"highlight\">{s:DebuffDuration}秒間</span> <span class=\"highlight\">無力化</span>します。"
+		"StunTargetOnExplode_label"				"持続時間"
+		"StunTargetOnExplode_postfix"				"s"
+
+		"citadel_ability_bebop_laser_beam"		"ハイパービーム"
+		"citadel_ability_bebop_laser_beam_quip"	"巨大なダメージビームを放出する"
+		"citadel_ability_bebop_laser_beam_desc" "レーザーをチャージして強力なエネルギーの渦を放ち、<span class=\"highlight\">ダメージを与え、</span><span class=\"highlight\">敵の移動とダッシュをスローさせます</span>。この間は移動速度と旋回速度が減少します。空中で発動した場合、ビームを放つ間ホバリングします。"
+		"modifier_bebop_laser_beam"				"ハイパービーム"
+		"citadel_ability_bebop_laser_beam_t3_desc"	"ハイパービームは{シs:BeamLifesteal}%のダメージで{シs:hero_name}を回復します。非ヒーローには{s:BeamLifestealNonHeroPercent}%。"
+		"BeamLength_label"						"ビーム長"
+		"BeamLength_postfix"					"m"
+		"BeamWidth_label"						"ビーム幅"
+		"BeamWidth_postfix"						"m"
+
+
+		"citadel_ability_hook"					"フック"
+		"citadel_ability_hook_quip"				"ターゲットを引き寄せる"
+		"citadel_ability_hook_desc"				"フックを発射し、最初にヒットした敵または味方ヒーローを<span class=\"highlight\">つかんで引き寄せます</span>。敵の場合はダメージを与えます。<br>ターゲットはあなたが向いている方向に配置されます。"
+		"citadel_ability_hook_t1_desc"			"Bebopはフックされた敵に対して<span class=\"highlight\">{s:BulletAmp}%増加した弾丸ダメージ</span>を{シs:BulletAmpDuration}秒間与えます。"
+		"BulletShieldOnHook_label"				"弾丸シールド"
+		"BulletShieldOnHook_postfix"				"HP"
+		"Citadel_ability_hook_on_hook"			"Bebopに："
+
+		"modifier_hook_bonus_movespeed"			"フック移動速度"
+		"hook_modifier_slow"					"フックスロー"
+		"hook_bullet_shield"						"弾丸シールド"
+		//-----------------------------------------------------------------------------
+		// Akimbo
+		//-----------------------------------------------------------------------------
+		"akimbo_chargedshot"		"オーバーロード"
+		"akimbo_chargedshot_desc"	"{s:hero_name}が銃をチャージし、前方の近くの敵に<span class=\"highlight\">スピリットダメージ</span>を与えます。"
+		"akimbo_chargedshot_t1_desc"	"<span class=\"highlight\">+{s:BonusMoveSpeed}m/s</span> の移動速度をチャージ中に得ます。"
+		"akimbo_chargedshot_t3_desc"	"敵の弾丸アーマーを<span class=\"highlight\">{s:BulletArmorReduction}</span>減少させ、<span class=\"highlight\">{s:BulletArmorReductionDuration}s</span>持続します。"
+
+		"akimbo_stealammo"			"クリップを盗む"
+		"akimbo_stealammo_desc"		"ターゲットを強制的にリロードさせる。{s:hero_name}はターゲットごとに<span class=\"highlight\">{s:StealTechPower}%のスピリットパワー</span>を獲得します。"
+		"akimbo_stealammo/modifier_bonus_tech_power"	"スピリットボーナス"
+		"StealTechPower_label"				"スピリットパワーを盗む"
+		"TargetReloadSpeedPenalty_label"	"ターゲットのリロード速度ペナルティ"
+		"TargetReloadSpeedPenalty_postfix"	"%"
+
+		"akimbo_bulletshield"		"弾丸シールド"
+		"akimbo_bulletshield_desc"	"{s:hero_name}を弾丸から保護し、弾丸ベースのプロックを防ぐシールドを作成します。弾丸シールドは期限が切れると爆発します。<br>防ぎます"
+		"akimbo_bulletshield/modifier_duration"		"{s:hero_name}の弾丸シールド"
+
+		"akimbo_rocketman"			"ロケットマン"
+		"akimbo_rocketman_desc"		"{s:hero_name}がグレネードに変身し、敵をスタンさせます。"
+
+		"akimbo_stealammo/modifier_reload_speed"	"リロード遅延"
+
+
+		//-----------------------------------------------------------------------------
+		// Astro
+		//-----------------------------------------------------------------------------
+		"ability_explosive_barrel"					"火薬樽"
+		"ability_explosive_barrel_quip"				"撃たれると爆発する樽を投げる"
+		"ability_explosive_barrel_desc"				"撃たれるか、近接攻撃やバウンスパッドを介して投げた後に着地すると爆発する樽を設置します。爆発する前に最小のアームタイムが必要です。"
+		"ability_explosive_barrel_t3_desc"			"{s:AbilityCooldown}のクールダウン<br>アームタイムなし"
+		"BarrelLifetime_label"						"樽の寿命"
+		"BarrelLifetime_postfix"						"秒"
+		//MinExplodeTime_label						"爆発までの最小時間"
+		//MinExplodeTime_postfix						"秒"
+		"MirvOnExplode_label"							"ミニボム"
+		"MirvExplodeTime_label"						"ミニボムの信管"
+		"MirvExplodeTime_postfix"						"秒"
+		"MirvRadius_label"						"ミニボム半径"
+		"MirvRadius_postfix"						"m"
+		//MirvDamagePercent_label					"ミニボムダメージ"
+		"BarrelDamage_label"							"爆発ダメージ"
+		"BarrelDamageRadius_label"						"爆発半径"
+		"BarrelDamageRadius_postfix"						"m"
+
+		"ability_hat_trick"						"ハットトリック"
+		"ability_hat_trick_quip"				"ハットを投げて敵を暴露する"
+		"ability_hat_trick_desc"				"敵を攻撃するために<span class=\"highlight\">ハット</span>を投げ、敵を<span class=\"highlight\">スローさせ、</span><span class=\"highlight\">壁を通して暴露します</span>。"
+
+		"ability_bounce_pad"					"バウンスパッド"
+		"ability_bounce_pad_quip"				"自分と他の者を飛ばす"
+		"ability_bounce_pad_desc"				"世界にバウンスパッドを設置し、<span class=\"highlight\">自分や他のヒーローを飛ばします</span>。着地時に踏みつけて<span class=\"highlight\">近くの敵にダメージ</span>を与えます。"
+		"ability_bounce_pad_t1_desc"			"着地時に、あなたと仲間は+{s:SpeedOnLand}m/sの移動速度ボーナスを{シs:SpeedOnLandDuration}秒間得ます。"
+		"ability_bounce_pad_t2_desc"			"<span class=\"highlight\">+{s:StompDamage}</span> 踏みつけダメージが増加します。"
+		"ability_bounce_pad_t3_desc"			"<span class=\"highlight\">+{s:StompStunDuration}sのスタン</span>を踏みつけ時に与えます。"
+		"StompDamage_label"			"踏みつけダメージ"
+		"StompStunDuration_postfix"					"s"
+		"StompStunDuration_label"					"持続時間"
+		"StompRadius_label"						"踏みつけ半径"
+		"StompRadius_postfix"						"m"
+		//"MinAirTimeForStomp_label"					"踏みつけのための最小空中時間"
+		//"MinAirTimeForStomp_postfix"				"秒"
+		"ability_bounce_pad/speed_on_land"	"移動速度"
+
+
+		"citadel_ability_running_decoy"					"デコイ"
+		"citadel_ability_running_decoy_desc"			"{s:hero_name}が一時的なデコイを作成し、ターゲットの位置に向かって走り、近くの敵を攻撃します。"
+		"modifier_decoy_self_buff"						"デコイアクティブ"
+		"citadel_ability_running_decoy_t1_desc"	"デコイがアクティブな間、移動速度<span class=\"highlight\">+{s:MoveSpeedMod} m/s</span>を得ます。"
+		"citadel_ability_running_decoy_t2_desc"	"Astroはデコイが受けたダメージの<span class=\"highlight\">{s:HealOnCloneDamage}%を回復します</span>。"
+
+		"ability_head_stomp"		"ヘッドストンプ"
+		"ability_head_stomp_desc"	"{s:hero_name}は空中でより多くの移動制御を得て、十分な空中速度を得た後に敵の頭を跳ね返る能力を獲得します。敵をヘッドストンプすると、敵をスタンさせます。"
+
+		"citadel_trick_shot"			"流星"
+		"citadel_trick_shot_desc"		"近くの敵にスロー弾を発射する流星を投げます。流星を撃つことで発射速度が増加します（敵も撃って減速させることができます）。武器のアップグレードが流星に適用されます。"
+		"TrickShotTargetCount_label"		"一回のショットあたりのターゲット数"
+
+		"BulletSlowDuration_label"			"スロー持続時間"
+		"BulletSlowDuration_postfix"			"s"
+
+		"ability_target_practice"			"ターゲット練習"
+		"ability_target_practice_quip"		"ターゲットに焦点を合わせて優位性を得る"
+		"ability_target_practice_desc"		"発動すると、次の銃撃で敵ヒーローをターゲットとして選択します。彼らを<span class=\"highlight\">{s:ShotsToProc}回</span>撃つことでスピリットダメージのバーストを与えます。ヘッドショットごとにバーストが増加します。"
+		"ability_target_practice_t3_desc"		"あなたの弾丸はターゲットの<span class=\"highlight\">弾丸抵抗を{s:BulletArmorReduction}%減少させます</span>、持続時間は{s:DebuffDuration}秒です。"
+		"BonusPerHeadshot_label"				"ヘッドショットごとのボーナス"
+		"BonusPerHeadshot_prefix"				"+"
+		"BonusPerHeadshot_postfix"			"%"
+
+		"modifier_target_practice"			"ターゲット練習"
+		"target_practice_buildup"				"ターゲットビルドアップ"
+		"CooldownReductionOnProc_label"		"適用時のクールダウン"
+		"CooldownReductionOnProc_postfix"		"s"
+		"TargetPracticeDuration_label"		"ターゲット練習の持続時間"
+		"TargetPracticeDuration_postfix"	"s"
+		"ShotsToProc_label"					"必要なショット数"
+		"DamageOnBuildup_label"				"ビルドアップ時のダメージ"
+		"modifier_target_practice_debuff"		"アーマーブレイク"
+		"modifier_target_practice_slow"		"スロー"
+
+		"ability_astro_rifle"					"マークスマン"
+		"ability_astro_rifle_quip"			"ダメージが増加する精密ショット"
+		"ability_astro_rifle_desc"			"ヒーローにスピリットダメージを与えるライフルを装備し、{s:hero_name}に対するスタックダメージボーナスを与えます。"
+		"ability_astro_rifle_t1_desc"			"ヒット時に<span class=\"highlight\">{s:SlowPercent}%スロー</span>を適用します。スタックごとに{シs:SlowDurationPerStack}秒持続します。"
+		"ability_astro_rifle_t3_desc"			"<span class=\"highlight\">+{s:Damage}</span> ダメージが増加します。"
+		"ability_astro_rifle_desc_debuff"		"ダメージ脆弱性"
+		"modifier_astro_rifle_slow"			"移動スロー"
+		"DamageAmplificationPerStack_prefix"	"{s:sign}"
+		"DamageAmplificationPerStack_label"	"スタックごとのボーナスダメージ"
+		"DamageAmplificationPerStack_postfix"	"%"
+
+		"ability_gravity_lasso"				"スピリットラッソ"
+		"ability_gravity_lasso_quip"		"敵を掴んで引きずり回す"
+		"ability_gravity_lasso_desc"		"<span class=\"highlight\">敵を掴みます</span>。ラッソを使って敵を引きずります。<span class=\"highlight\">敵はスタン状態</span>になり、Astroはラッソの間わずかにスローされます。<br><br>最初のバウンスパッドを使用中はラッソの持続時間が{s:BouncePadExtendDuration}秒間一時停止します。"
+		"modifier_astro_lasso_tether"		"ラッソチェーン"
+		"ability_gravity_lasso_t3_desc"		"ターゲットエリア内の別の敵をラッソで掴むことができます。"
+		"ability_gravity_lasso/modifier_citadel_gravity_lasso_enemy"	"スピリットラッソ"
+		"ability_gravity_lasso/modifier_citadel_gravity_lasso_self"		"スピリットラッソ"
+		"ability_astro_shotgun_toggle"			"自然の力"
+		"ability_astro_shotgun_toggle_desc"		"ピストルとショットガンを切り替えるために使用します。ショットガンは強力で、空中で発射されたときに{シs:hero_name}が撃った方向とは逆の方向に移動します。[{s:iv_attack}]は前方に、[{s:iv_attack2}]は若干の遅延で後方に撃ちます。ショットガンは特殊な弾薬を使用し、弾薬モッドの恩恵を受けません。<br><br>ラッソで掴まれたユニットは後方に撃った際にダメージを受けません。"
+		"ClipSizeOverride_label"			"弾薬"
+		"BulletDamageIncrease_label"		"弾丸ダメージ増加"
+		"BulletDamageIncrease_postfix"		"%"
+		"AstroShotgunCloseRange_label"			"近距離武器の力"
+		"ability_astro_shotgun_toggle_t1_desc"	"+{s:CloseRangeBonusWeaponPower} 近距離武器の力"
+		"ExtraTargetConeAngle_label"		"ターゲティングコーン角度"
+
+		"modifier_lasso_enemy"					"引きずられている"
+		"modifier_lasso_self"					"誰かを引きずっている"
+
+		//-----------------------------------------------------------------------------
+		// Hero Nano // Calico
+		//-----------------------------------------------------------------------------
+
+		"ability_perched_predator"				"止まり木の捕食者"
+		"ability_perched_predator_desc"			"前方にスピリットキャットを送り、道にいるターゲットをつかみます。ヒーローをつかむと、すぐに爆発します。<br> [{s:in_ability1}]を押して手動で爆発を作成します。"
+		"CatExplosionCount_label"				"爆発回数"
+		"CatMaxSpeed_label"						"ゴーストキャット最大速度"
+		"CatMaxSpeed_postfix"						"m/s"
+		"CatLifetime_label"						"キャットの寿命"
+		"CatLifetime_postfix"					"s"
+
+		"ability_nano_warp"						"カリコワープ"
+		"ability_nano_warp_quip"				"ターゲットにテレポートして混乱を引き起こす"
+		"ability_nano_warp_desc"				"<span class=\"highlight\">ターゲットにテレポート</span>し、近くの敵に<span class=\"highlight\">エリアダメージ</span>を与え、<span class=\"highlight\">スロー</span>させます。"
+		"ability_nano_warp_t2_desc"				"<span class=\"highlight\">+{s:ActiveReloadPercent}%</span> の弾薬をリロードし、<span class=\"highlight\">+{s:AbilityCastRange}m</span> のキャスト範囲を得ます。"
+		"ability_nano_warp_t3_desc"				"<span class=\"highlight\">+{s:WarpExplodeRadius}m</span> のダメージ半径と、<span class=\"highlight\">+{s:DamageAmplification}%</span> のダメージ増幅を{シs:DebuffDuration}秒間与えます。"
+		"WarpExplodeRadius_label"					"ダメージ半径"
+		"WarpExplodeRadius_postfix"				"m"
+		"ability_nano_warp/modifier_slow_base"	"スロー"
+
+		"modifier_nano_warp_debuff"				"ダメージ脆弱性"
+
+		"ability_nano_pounce"						"シャムの突撃"
+		"ability_nano_pounce_quip"				"ターゲットに飛びかかる"
+		"ability_nano_pounce_desc"				"<span class=\"highlight\">ターゲットに飛びかかる</span>。敵をターゲットにすると、近くの敵に<span class=\"highlight\">ダメージ</span>と<span class=\"highlight\">スロー</span>を与えます。味方をターゲットにすると、クールダウンとリチャージ時間が短縮されます。"
+		"ability_nano_pounce_t2_desc"			"敵をターゲットにした場合、<span class=\"highlight\">+{s:ActiveReloadPercent}%</span> の弾薬をリロードし、<span class=\"highlight\">+{s:AbilityCastRange}m</span> のキャスト範囲を得ます。"
+		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:WarpExplodeRadius}m</span> の半径と、<span class=\"highlight\">+{s:DamageAmplification}%</span> のダメージ増幅を{シs:DebuffDuration}秒間与えます。"
+		"FriendlyTargetCD_label"					"味方のクールダウン"
+		"FriendlyTargetCD_postfix"				"秒"
+		"FriendlyRechargeTime_label"				"味方のリチャージ時間"
+		"FriendlyRechargeTime_postfix"			"秒"
+
+
+		"ability_nano_proximity_ritual"			"致命的装飾"
+		"ability_nano_proximity_ritual_quip"	"生命を吸収し、与える像を展開"
+		"ability_nano_proximity_ritual_desc"	"近くの敵から<span class=\"highlight\">ライフスティール</span>を行い、自身と{s:hero_name}のHPを回復する<span class=\"highlight\">像</span>を生成します。像は{シs:hero_name}が近くにいるときのみ作動します。"
+		"StatueLifetime_label" "像の寿命"
+		"StatueLifetime_postfix" "秒"
+		"StatueLifesteal_label"					"ライフスティール"
+		"StatueLifesteal_postfix"					"%"
+		"StatueLifestealNonHero_label"			"非ヒーローに対するライフスティール"
+		"StatueLifestealNonHero_postfix"			"%"
+		"StatueActivateRange_label"				"作動範囲"
+		"StatueActivateRange_postfix"				"m"
+		"StatueHealth_label"						"(正規化)"
+		"StatueHealth_postfix"					"HP"
+		"ability_nano_proximity_ritual_t2_desc"  "被害者は<span class=\"highlight\">{s:FireRateSlow}%</span> の攻撃速度減少を受け、<span class=\"highlight\">+{s:ActiveRadius}m</span> の作動半径を得ます。"
+		"ability_nano_proximity_ritual_t3_desc"  "+{s:DPS} DPSと、被害者に対して{s:HealAmpReceivePenaltyPercent}%の回復減少を与えます。"
+
+		"modifier_nano_predatory_statue_target" "捕食者の視線"
+
+		"ability_nano_ult_shadow"				"影の女王"
+		"modifier_nano_ult_shadow"				"影の女王"
+
+
+		"ability_nano_cat_bullet"				"キャットバレット"
+		"ability_nano_cat_bullet_quip"			"敵を撃ってキャットに変える。"
+		"ability_nano_cat_bullet_desc"			"あなたの弾丸は敵に蓄積し、<span class=\"highlight\">妨害</span>し、<span class=\"highlight\">猫に変えます</span>。"
+		"ability_nano_cat_bullet_t2_desc"		"キャットターゲットは最後に止まった位置で爆発します（止まり木の捕食者のように）。"
+		"CatDuration_label"						"キャットターゲットの持続時間"
+		"CatDuration_postfix"					"秒"
+		"CatBulletDuration_label"				"キャットバレットの持続時間"
+		"CatBulletDuration_postfix"				"秒"
+		"modifier_cat_ammo"						"キャットバレット"
+		"modifier_cat_target"						"キャット"
+		"cat_immune"							"キャット無効"
+
+
+
+		//-----------------------------------------------------------------------------
+		// Grey Talon (以前の名前: アーチャー / オリオン)
+		// hero_archer
+		//-----------------------------------------------------------------------------
+		"ability_charged_shot"		"チャージショット"
+		"ability_charged_shot_quip"	"長距離ショットをチャージする"
+		"ability_charged_shot_desc"	"<span class=\"highlight\">強力なショットをチャージします</span>。敵を貫通します。[{s:ability_key}]または[{s:iv_attack}]を保持してショットをチャージします。"
+		"ability_charged_shot_t2_desc"	"<span class=\"highlight\">+{s:Damage} ダメージ</span>"
+		"ability_charged_shot_t3_desc"	"<span class=\"highlight\">ダメージスケーリングが改善されました</span>と、<span class=\"highlight\">{s:AbilityCooldownBetweenCharge}s</span> のチャージ遅延があります。"
+
+		"PowerJumpChannelTime_label"			"パワージャンプチャネル中"
+		"PowerJumpChannelTime_postfix"		"s"
+
+		"ability_power_jump"			"矢の雨"
+		"ability_power_jump_quip"		"高く飛び上がって多重ショットを放つ"
+		"ability_power_jump_desc"		"高く空中に飛び上がり、ゆっくり滑空できます。空中にいる間、<span class=\"highlight\">武器ダメージ</span>と<span class=\"highlight\">武器の多重ショット</span>を得ます。[{s:in_mantle}]を押すと滑空をキャンセルします。"
+		"ability_power_jump_t2_desc"	"空中にいる間、<span class=\"highlight\">+{s:WeaponDamageBonus}</span> 武器ダメージを得て、武器ダメージが<span class=\"highlight\">{s:SlowPercent}%</span> の移動スローを適用します。持続時間は{s:SlowDuration}秒です。"
+		"ability_power_jump_t3_desc"	"空中にいる間、<span class=\"highlight\">+{s:TechLifestealPercent}%</span> 弾丸ライフスティールと<span class=\"highlight\">+{s:BulletLifestealPercent}%</span> スピリットライフスティールを得ます。"
+		"modifier_citadel_archer_air_raid"			"パワージャンプ"
+		"BulletSplitShot_label"			"武器の多重ショット"
+		"AbilitySplitShot_label"			"チャージショットの多重ショット"
+		"ChargedShotBonus_label"			"チャージショットダメージ"
+		"ChargedShotBonus_prefix"			"+"
+		"ChargedShotBonus_postfix"			"%"
+		"ability_power_jump/modifier_citadel_archer_air_raid/modifier_slow_base"			"スロー弾"
+		"ability_power_jump/modifier_air_raid/modifier_slow_base"			"スロー"
+
+
+		"ability_immobilize_trap"			"移動不可能トラップ"
+		"ability_immobilize_trap_quip"		"敵を移動不可能にするトラップを設置"
+		"ability_immobilize_trap_desc"		"<span class=\"highlight\">トラップを投げます</span>。トラップは武装を開始します。武装されると、敵がその半径に入ると発動し、<span class=\"highlight\">移動不可能</span>にします。"
+		"modifier_citadel_immobilize_trap_immobilize"	"移動不可能トラップ"
+		"modifier_citadel_immobilize_trap_immobilize_debuff" "移動不可能トラップデバフ"
+		"ability_immobilize_trap_t3_desc"	"{s:hero_name}は移動不可能トラップに当たった敵に対して、<span class=\"highlight\">+{s:BulletVulnerbility}%</span> 追加の弾丸ダメージを与えます。持続時間は<span class=\"highlight\">{s:DebuffDuration}s</span>です。"
+		"ability_immobilize_trap/trap_debuff"	"スピリットアーマー減少"
+
+		"ability_guided_arrow"		"ガイド付きフクロウ"
+		"ability_guided_arrow_quip"	"遠くの敵を攻撃するためにフクロウを飛ばす"
+		"ability_guided_arrow_desc"	"発動に{s:AbilityCastDelay}秒のキャスト時間の後、<span class=\"highlight\">操作可能なスピリットフクロウを発射</span>し、衝撃で爆発して<span class=\"highlight\">ダメージとスタン</span>を与えます。[{s:iv_attack}]を押すとフクロウが加速します。<br>[{s:in_mantle}]を押すと操作を解除します。ガイド付きフクロウで敵ヒーローを倒すごとに<span class=\"highlight\">永続的なスピリットパワー</span>を得ます。"
+		"ability_guided_arrow_t3_desc"	"ヒット後、<span class=\"highlight\">{s:LowHealthEnemyThresholdPct}%のHP未満の敵を倒す</span>"
+		"BonusTechPowerPerKill_label"		"キルごとのスピリットパワー"
+
+		"modifier_citadel_archer_guided_arrow"		"ガイド付きフクロウ"
+
+		//-----------------------------------------------------------------------------
+		// Lady Geist
+		// hero ghost
+		//-----------------------------------------------------------------------------
+		"ability_blood_bomb"				"エッセンスボム"
+		"ability_blood_bomb_quip"			"健康の一部を犠牲にしてダメージボムを放つ"
+		"ability_blood_bomb_desc"			"<span class=\"highlight\">健康の一部を犠牲にして</span>、短いアーム時間の後にダメージを与えるボムを発射します。<br>自己ダメージタイプはスピリットで、軽減可能です。"
+		"ability_blood_bomb_t3_desc"	"ボムは地面に有毒な残骸を残し、元の<span class=\"highlight\">ダメージの<span class=\"highlight\">{s:BloodSpillDPSPercent}%</span>のダメージを</span>、<span class=\"highlight\">{s:BloodSpillDuration}秒</span>持続します。"
+
+		"ability_life_drain"				"ライフドレイン"
+		"ability_life_drain_quip"			"敵から時間をかけて健康を吸収する"
+		"ability_life_drain_desc"			"<span class=\"highlight\">敵の健康を時間をかけて吸収する</span>つながりを作り、<span class=\"highlight\">自分を癒す</span>。ターゲットは視界内にあり、最大範囲内でなければなりません。ドレイン中に弾を撃ったり他のアビリティを使用することができますが、移動速度は半分になります。[{s:in_ability2}]を押すとキャンセルします。"
+		"ability_life_drain/modifier_life_drain" "ライフドレイン"
+		"ability_life_drain/modifier_life_drain_caster" "ライフドレイン"
+		"modifier_life_drain_silence"		"沈黙"
+		"FriendlyTargetCooldown"			"味方ターゲットのクールダウン"
+		"FriendlyTargetCooldown_postfix"	"秒"
+		"ability_life_drain_t3_desc"			"ライフドレイン中、敵は<span class=\"highlight\">沈黙</span>します（視界が必要です）"
+		"ability_life_drain_cancel_trigger"	"ライフドレインをキャンセル"
+		"MaxRange_label"						"最大テザー範囲"
+		"MaxRange_postfix"					"m"
+		"BloodSpillDuration_label"			"有毒残骸の持続時間"
+		"BloodSpillDuration_postfix"		"秒"
+
+		"LifeDrainHealthMult_label"			"癒すためのダメージ"
+		"LifeDrainHealthMult_postfix"			"%"
+		"HealFriendRadius_label"				"味方を癒す半径"
+		"HealFriendRadius_postfix"			"m"
+
+		"ability_health_swap"					"ソウルエクスチェンジ"
+		"ability_health_swap_quip"			"敵ヒーローの健康と交換する"
+		"ability_health_swap_desc"			"<span class=\"highlight\">健康レベルを交換する</span>敵ターゲットと。敵が下げられる最小健康割合と、被害者の現在の健康に基づいて受け取る最小健康量があります。"
+		"ability_health_swap_t3_desc"			"発動時に、<span class=\"highlight\">+{s:BonusFireRate}%</span> の攻撃速度と、<span class=\"highlight\">+{s:TechResist}%</span> のスピリット耐性を<span class=\"highlight\">{s:HealthSwapBuffDuration}s</span>間得ます。"
+		"MinHealthTakenPct_label"				"最小健康受取"
+		"MinHealthTakenPct_postfix"			"%"
+		"modifier_blood_exchange"				"血の交換"
+		"EnemyMinHealthPct_label"				"敵の最小健康"
+		"EnemyMinHealthPct_postfix"			"%"
+		"EnemySlowPct_label"					"敵の移動スロー"
+		"EnemySlowPct_postfix"				"%"
+		"ability_health_swap/modifier_health_swap_debuff"	"健康交換"
+
+		"HealthSwapBuffDuration_label"		"バフ持続時間"
+		"HealthSwapBuffDuration_postfix"		"秒"
+		"modifier_health_swap_buff"			"ソウルエクスチェンジ"
+
+		"ability_death_tax"					"デス税"
+		"ability_death_tax_desc"			"レディ・ガイストによって負傷した敵はデス税でマークされます。マークされた敵が死ぬたびに、{s:hero_name}は健康を得ます。"
+		"modifier_citadel_death_tax"				"デス税"
+		"modifier_citadel_death_tax_tech_amp"		"デス税パワー"
+		"ability_death_tax_t1_desc"	"マークされた敵が死ぬと、あなたのクールダウンが<span class=\"highlight\">{s:CooldownReductionOnKill}s</span>短縮されます"
+		"ability_death_tax_t3_desc"	"マークされた敵が死ぬと、スピリットパワーが<span class=\"highlight\">{s:TechPowerAmpBonus}</span>増加し、<span class=\"highlight\">{s:TechPowerAmpBonusDuration}s</span>持続します。最大<span class=\"highlight\">{s:TechPowerAmpBonusMaxStacks}</span>回まで重複します。"
+
+		"ability_blood_shards"				"悪意"
+		"ability_blood_shards_quip"			"敵にダメージ増幅を蓄積する"
+		"ability_blood_shards_desc"			"<span class=\"highlight\">健康の一部を犠牲にする</span>血の破片を発射し、悪意のスタックを適用します。各スタックは<span class=\"highlight\">被害者をスローさせ</span>、<span class=\"highlight\">受けるダメージを増加させます</span>。スロー効果は時間と共に減少します。"
+		"ability_blood_shards_t2_desc"		"+{s:HealthToDamage} 健康からダメージに"
+		"ability_blood_shards_t3_desc"		"+{s:NumBloodShards} 血の破片"
+		"NumBloodShards_label"				"血の破片"
+		"MoveSpeedPenaltyPerStack_label"		"移動スロー"
+		"MoveSpeedPenaltyPerStack_postfix"	"%"
+		"VulnerabilityPerStack_label"			"ダメージ増幅"
+		"VulnerabilityPerStack_prefix"		"+"
+		"VulnerabilityPerStack_postfix"		"%"
+		"SelfDamage_label"					"自己ダメージ"
+		"ability_blood_shards/modifier_blood_shard_debuff"			"悪意"
+		"ghost_malice_stack_effect_header"	"スタックごとの効果:"
+
+		"FriendlyTargetCooldown_label"			"味方のクールダウン"
+
+		//-----------------------------------------------------------------------------
+		// Phalanx
+		//-----------------------------------------------------------------------------
+		"modifier_citadel_phalanx_reflect"			"反射"
+
+		"citadel_ability_shield_toss"				"シールドトス"
+		"citadel_ability_shield_toss_desc"			"{s:hero_name}はシールドを強力に投げ、敵の間で跳ね返ってダメージを与え、スタンさせます。"
+		"BounceCount_label"							"シールドの跳ね返り"
+		"DamagePerBounce_label"						"跳ね返りごとのダメージ"
+
+		"citadel_ability_phalanx_reflect"			"反射"
+		"citadel_ability_phalanx_reflect_desc"		"ファランクスはエネルギーシールドを発動し、敵の弾丸や手榴弾が当たると、攻撃者に反射します。突進する敵を押し戻します。弾丸のヒットはパリィ時間を延ばし、撃った者をスタンさせます。"
+
+		"modifier_citadel_reflect_shield"			"反射シールド"
+
+		"citadel_ability_reflect_shield"			"反射シールド"
+		"citadel_ability_reflect_shield_desc"		"ファランクスはエネルギーシールドを展開し、敵の弾丸や手榴弾が当たると攻撃者に反射し、スタンさせます。"
+
+		"citadel_ability_defensive_fortress"		"防御要塞"
+		"citadel_ability_defensive_fortress_desc"   "敵の弾丸を防ぎますが、あなたと味方はその中から撃つことができます。"
+
+		"citadel_ability_phalanx_sword_strike"		"グラウンドストライク"
+		"citadel_ability_phalanx_sword_strike_desc"	"ファランクスは地面を強く叩き、敵にダメージを与えてつまずかせる衝撃波を発生させます。敵の能力をキャンセルすることはありません。"
+
+		"citadel_ability_converge"					"収束"
+		"citadel_ability_converge_desc"				"手榴弾を投げ、敵をすばやく中央に引き寄せます。"
+
+		//-----------------------------------------------------------------------------
+		// Vindicta
+		//-----------------------------------------------------------------------------
+		"citadel_ability_hornet_chain"				"テザー"
+		"citadel_ability_hornet_chain_quip"			"敵を地面に繋ぎ止める"
+		"citadel_ability_hornet_chain_desc"			"地面に刺す杭を投げて、そこに着地した際に敵を<span class=\"highlight\">テザー</span>します。敵の移動はテザーの長さに制限されます。"
+		"citadel_ability_hornet_chain_t3_desc"		"テザーされた敵は<span class=\"highlight\">武器が無効化されます</span>"
+		"modifier_citadel_hornet_chain_connection"	"地面に繋がれている"
+		"citadel_ability_hornet_chain/modifier_citadel_hornet_chain_connection"	"地面に繋がれている"
+		"modifier_citadel_rootgrenade"			"移動不能"
+
+		"ChainLength_label"						"テザーの長さ"
+		"ChainLength_postfix"						"m"
+		"CaptureRadius_label"						"キャプチャ半径"
+		"CaptureRadius_postfix"					"m"
+
+		"citadel_ability_wing_blast"			"ウィングブラスト"
+		"citadel_ability_wing_blast_desc"		"空気の爆風を作り、敵を押しやり、ダメージを与えます。"
+		"modifier_citadel_wing_blast_push"		"ヴィンディクタに押されている"
+
+		"citadel_ability_hornet_leap"			"フライト"
+		"citadel_ability_hornet_leap_quip"		"飛び上がり、武器を強化する"
+		"citadel_ability_hornet_leap_desc"		"空中に飛び上がり、<span class=\"highlight\">飛行</span>します。飛行中は武器が<span class=\"highlight\">ボーナススピリットダメージ</span>を与えます。"
+		"citadel_ability_hornet_leap_t1_desc"	"<span class=\"highlight\">+{s:BonusClipSizePercent}%</span> 基本弾薬量を飛行中に獲得"
+		"MagicDamagePerBullet_label"				"1発あたりのスピリットダメージ"
+
+		"modifier_citadel_hornetleap"			"ヴィンディクタの跳躍"
+
+		"citadel_ability_hornet_crit_stacking_buff"		"ヘッドハンター"
+		"citadel_ability_hornet_crit_stacking_buff_desc"	"ヘッドショットを決めると、一時的に武器のダメージが増加し、最大{s:MaxStacks}回まで重複します。"
+		"modifier_citadel_hornet_crit_stacking_damage_buff"	"ヘッドハンター"
+
+		"citadel_ability_hornet_crit_vulernability"	"ヴィンディクタの印"
+		"citadel_ability_hornet_crit_vulernability_desc"	"弾が敵に当たると、ターゲットが脆弱になり、すべての弾がクリティカルヒットします。ヘッドショットはこの効果を必ず適用します。"
+		"modifier_citadel_hornet_crit_vulnerability"	"クリティカル脆弱"
+
+		"citadel_ability_hornet_explosive_headshots"		"爆発的ヘッドショット"
+		"citadel_ability_hornet_explosive_headshots_desc"	"与えたヘッドショットは爆発し、周囲の敵にダメージの一部を与えます。"
+
+		"citadel_ability_hornet_nest"			"ヴィンディクタの巣"
+		"citadel_ability_hornet_nest_desc"		"ヴィンディクタドローンを発生させる巣を展開し、ドローンはゆっくりと前方に飛んでいき、すべての敵を攻撃します。"
+
+		"citadel_ability_hornet_mark"			"ヴィンディクタの印"
+		"citadel_ability_hornet_mark_desc"		"ヴィンディクタが敵をマークします。期間中、ミニマップに表示され、ヴィンディクタは壁越しに敵を検知できます。"
+		"citadel_ability_hornet_mark_t2_desc"	"マークされた敵が倒されると、ヴィンディクタは即座に<span class=\"highlight\">{s:ChargeForKill}アサシネートの充電</span>を獲得します。"
+		"modifier_citadel_hornetmark"			"ヴィンディクタの印"
+
+		"citadel_ability_hornet_sting"			"カラスの仲間"
+		"citadel_ability_hornet_sting_quip"		"ターゲットを時間をかけて出血させる"
+		"citadel_ability_hornet_sting_desc"		"あなたのカラスの仲間が<span class=\"highlight\">衝撃ダメージ</span>を与え、<span class=\"highlight\">出血</span>を適用し、<span class=\"highlight\">ターゲットの現在の健康に基づく</span>ダメージを与えます。"
+		"citadel_ability_hornet_sting_t1_desc"	"カラスは<span class=\"highlight\">他の敵に向かって2回まで跳ね返る</span>"
+		"citadel_ability_hornet_sting_t3_desc"	"+{s:DotHealthPercent}%出血し、{s:HealAmpReceivePenaltyPercent}%の回復を抑制します。"
+		"citadel_ability_hornet_sting/modifier_citadel_hornet_sting_debuff"		"カラスの仲間"
+		"BulletVulnerbility_prefix"				"{s:sign}"
+		"BulletVulnerbility_label"				"武器ダメージ増幅"
+		"BulletVulnerbility_postfix"				"%"
+
+		"citadel_ability_hornet_snipe"			"アサシネイト"
+		"citadel_ability_hornet_snipe_quip"		"負傷したターゲットを狙撃して大ダメージを与える"
+		"citadel_ability_hornet_snipe_desc"		"スコープ付きライフルを使用して、長距離から強力な一撃を放ちます。スコープをかけた状態で1秒後に完全に充電されるまで部分的なダメージしか与えません。<span class=\"highlight\">残り健康が{s:LowHealthEnemyThresholdPct}%未満の敵にボーナスダメージ</span>を与えます。アサシネイトでプレイヤーを倒すと、<span class=\"highlight\">ボーナスソウル</span>を得ます。"
+		//"citadel_ability_hornet_snipe_t3_desc"	"アサシネイトのキルで+{s:BonusGoldOnKill}ソウルを獲得"
+		"LowHealthEnemyDamageBonus_label"		"ボーナスダメージ"
+		"LowHealthEnemyThresholdPct_label"		"低健康閾値"
+		"LowHealthEnemyThresholdPct_postfix"	"%"
+		"BonusGoldOnKill_label"					"アサシネーションごとのボーナスソウル"
+		"assassin_modifier"						"+武器ダメージ"
+		"modifier_citadel_assassinate_target"	"アサシネーションターゲット - カバーを見つけろ！"
+
+		//-----------------------------------------------------------------------------
+		// Digger (Formally Pouncer and Driller) Mo and Krill
+		//-----------------------------------------------------------------------------
+		"citadel_ability_grapplehook"			"グラップルフック"
+		"citadel_ability_grapplehook_desc"		"フックを投げ、{s:hero_name}を壁に引き寄せます。"
+		"modifier_citadel_grapplehook_wall_hanging"	"グラップルフック壁にぶら下がっている"
+
+		"ability_burrow"			"埋没"
+		"ability_burrow_quip"		"地下を移動し、スピンダメージで出現する"
+		"ability_burrow_desc"		"地下に埋まり、<span class=\"highlight\">より速く移動し、</span> <span class=\"highlight\">スピリットと弾薬のアーマー</span>を獲得します。敵ヒーローからのダメージは速度ボーナスを減少させます。飛び出すと、敵を空中に打ち上げ、<span class=\"highlight\">ダメージを与え、減速させる</span>スピン攻撃を行います。クールダウンは埋没が終了した時から始まります。"
+		"modifier_spin"				"スピン"
+		"SpinDuration_label"		"スピン持続時間"
+		"SpinDuration_postfix"		"s"
+		"ability_burrow_cancel_channel"	"埋没解除"
+
+		"ability_burrow_t1_desc"	"埋没時間<span class=\"highlight\">+{s:AbilityChannelTime}s</span>"
+		"ability_burrow_t2_desc"	"<span class=\"highlight\">+{s:DPS}</span> スピンダメージと半径 +{s:Radius}"
+		"ability_burrow_t3_desc"	"<span class=\"highlight\">{s:AbilityCooldown}</span> クールダウンと<span class=\"highlight\">+{s:BonusMoveSpeed}m/s</span> 移動速度"
+
+		"ability_intimidate"			"侮辱"
+		"ability_intimidate_quip"		"近くの敵にダメージを与え、各ヒットから回復する"
+		"ability_intimidate_desc"		"近くの敵に<span class=\"highlight\">ダメージ</span>を与え、そのダメージに基づいて<span class=\"highlight\">回復します</span>。ヒーローに対しては回復量が増加します。"
+		"ability_intimidate_t3_desc"	"敵にデバフを追加し、{s:hero_name}が彼らに対して<span class=\"highlight\">+{s:DamageBonus}%のダメージ</span>を与えます。重複し、{s:DebuffDuration}s持続します。"
+		"DamageHealMult_label"			"ヒーローダメージによる回復"
+		"DamageHealMult_postfix"		"x"
+		"DamageHealMultNonHero_label"		"非ヒーローダメージによる回復"
+		"DamageHealMultNonHero_postfix"	"x"
+		"modifier_intimidate_debuff"		"侮辱"
+
+		"ability_pounce"				"飛びかかる"
+		"ability_pounce_desc"			"{s:hero_name}が前方に飛びかかり、着地時に爆発を起こし、周囲の敵にダメージを与えます。"
+
+		"ability_ooc_health_regen"			"戦闘外の健康再生"
+		"ability_ooc_health_regen_desc"		""
+
+		"ability_throw_sand"			"砂の爆風"
+		"ability_throw_sand_quip"		"前方の敵を武器無効化する"
+		"ability_throw_sand_desc"		"前方の敵に<span class=\"highlight\">武器を無効化する</span>砂を撒き、<span class=\"highlight\">ダメージ</span>を与えます。"
+		"modifier_citadel_throw_sand_debuff"	"砂にさらされている"
+
+		"ability_throw_sand_t3_desc"	"ターゲットを<span class=\"highlight\">-{s:SlowPercent}%</span>減速させます。"
+
+		"citadel_ability_kineticcharge"			"キネティックチャージ"
+		"citadel_ability_kineticcharge_desc"	"{s:hero_name}がすべての受けるダメージを吸収するシールドを作ります。持続時間が終了するか、シールドが破壊されると爆発し、吸収したダメージを周囲の敵に返します。"
+		"modifier_citadel_kineticcharge"		"ダメージ吸収中"
+
+		"ability_ult_combo"				"コンボ"
+		"ability_ult_combo_quip"		"敵ヒーローをその場に留めて攻撃する"
+		"ability_ult_combo_desc"		"ターゲットをその場に留め、<span class=\"highlight\">スタンさせ、ダメージを与えます</span>。コンボ中に倒されると、永久に最大健康を獲得します。"
+		"ability_ult_combo_t2_desc"		"コンボの持続時間<span class=\"highlight\">+{s:AbilityChannelTime}s</span>"
+		"ability_ult_combo_t3_desc"		"<span class=\"highlight\">+{s:DPS}</span> ダメージ毎秒と<span class=\"highlight\">{s:LifeStealPercentOnHit}%のライフスティール</span>"
+		"LifestealPercentOnHit_label"		"ライフスティール"
+		"LifestealPercentOnHit_postfix"	"%"
+		"BonusHealthOnKill_label"			"キルごとのボーナス最大健康"
+
+		"GrabExtraTargetRange_label"		"追加ターゲット範囲"
+		"GrabExtraTargetRange_postfix"	"m"
+
+
+		//-----------------------------------------------------------------------------
+		// Shiv
+		//-----------------------------------------------------------------------------
+		"citadel_ability_shiv_dagger"			"ギザギザのナイフ"
+		"citadel_ability_shiv_dagger_quip"		"ターゲットに出血を積み重ねる"
+		"citadel_ability_shiv_dagger_desc"		"ナイフを投げて、敵に<span class=\"highlight\">ダメージを与え、減速させる</span>。追加のヒットごとに<span class=\"highlight\">スタック</span>が追加され、デバフの持続時間がリフレッシュされ、スタックごとのダメージが増加します。"
+		"citadel_ability_shiv_dagger_max_rage_desc" "アルティメット解除: <span class=\"highlight\">怒りが満タンの時</span>、ナイフは別の敵に跳ね返り、出血している敵に減速を適用します。"
+		"modifier_shiv_bleed_thrown_shiv"			"ギザギザのナイフ"
+		"modifier_citadel_shiv_dagger"			"ギザギザのナイフ"
+		"modifier_shiv_thrown_shiv_slow_debuff"		"ギザギザのナイフ"
+		"BleedDPSPerStack_label"					"ナイフあたりの出血DPS"
+		"AOERadius_label"							"衝撃半径"
+		"AOERadius_postfix"						"m"
+
+		"ShivStickDuration_label"					"スタックの持続時間"
+		"ShivStickDuration_postfix"				"s"
+
+		"citadel_ability_shiv_dagger_t3_desc"		"+{s:ImpactDamage} ダメージと +{s:BleedDPSPerStack} 出血DPS"
+
+		"modifier_shiv_bleed"						"出血"
+		"BleedDamage_label"						"出血ダメージ"
+		"BleedDuration_label"						"出血持続時間"
+		"BleedDuration_postfix"					"s"
+
+		"citadel_ability_shiv_dash"				"スライス＆ダイス"
+		"citadel_ability_shiv_dash_quip"		"前方にダッシュして、道中の敵にダメージを与える"
+		"citadel_ability_shiv_dash_desc"		"前方に<span class=\"highlight\">ダッシュし、道中の敵にダメージを与えます</span>。<br><br>アルティメット解除: <span class=\"highlight\">怒りが満タンの時</span>、シブのエコーがダッシュパスをたどり、短時間後に敵に再度ダメージを与えます。"
+		"citadel_ability_shiv_dash_t3_tooltip"	"ヒット時"
+		"DashRange_label"							"ダッシュ範囲"
+		"DashRange_postfix"						"m"
+		"ImpactDamage_label"						"ダメージ"
+		"ImpactSlowDuration_label"				"衝撃減速持続時間"
+		"ImpactSlowDuration_postfix"				"s"
+		"ImpactMoveSlow_label"					"衝撃移動減速"
+		"ImpactMoveSlow_postfix"					"%"
+		"DashSlowPct_label"						"ダッシュ減速"
+		"modifier_citadel_shiv_dash"				"スライス＆ダイス"
+		"modifier_shiv_bleed_dash"				"スライス＆ダイス"
+		"modifier_citadel_shiv_dash_impact_slow"	"スライス＆ダイス"
+		"modifier_shiv_dash_heal_reduction"		"スライス＆ダイス回復デバフ"
+		"BurstFireOnHeroHit_postfix"				"s"
+		"citadel_ability_shiv_dash_t3_desc"		"敵にヒットするたびにクールダウンが2秒減少します。最大6秒までダッシュごとに。"
+
+		"citadel_ability_shiv_defer_damage"		"血を流す"
+		"citadel_ability_shiv_defer_damage_quip"	"受けたダメージの一部を遅らせる"
+		"citadel_ability_shiv_defer_damage_desc"	"受けるダメージの一部だけを直ちに受け取り、残りを時間をかけて受け取ります。アクティベートすると、<span class=\"highlight\">遅らせたダメージの一部をクリアします</span>。"
+		"citadel_ability_shiv_defer_damage_max_rage_desc" "アルティメット解除: <span class=\"highlight\">怒りが満タンの時</span>、遅らせることができるダメージの量が増加します。"
+		"citadel_ability_shiv_defer_damage_on_cast" "アクティベート時"
+		"DamagePctDeferred_label"					"遅らせるダメージ"
+		"DamagePctDeferred_postfix"				"%"
+		"DamagePctDeferredMaxRage_label"			"遅らせるダメージ"
+		"DamagePctDeferredMaxRage_prefix"			"+"
+		"DamagePctDeferredMaxRage_postfix"		"%"
+		"DeferredDamageDuration_label"			"遅らせたダメージの持続時間"
+		"DeferredDamageDuration_postfix"			"s"
+		"DeferClearPct_label"						"遅らせたダメージのクリア"
+		"DeferClearPct_postfix"					"%"
+
+
+		"citadel_ability_shiv_killing_blow"		"キリングブロー"
+		"citadel_ability_shiv_killing_blow_quip"	"低健康のヒーローに移動し、一撃で倒す"
+		"citadel_ability_shiv_killing_blow_active_desc"	"敵ヒーローに飛び込んで、彼らの健康が<span class=\"highlight\">キル閾値未満</span>の場合、<span class=\"highlight\">一撃で倒します</span>。そうでない場合は{s:Damage}ダメージを与えます。"
+		"citadel_ability_shiv_killing_blow_passive_desc" "パッシブ: 敵をダメージを与えると怒りがたまります。満タンの時、シブはダメージが増加し、<span class=\"highlight\">他の能力に特別な効果</span>を得ます。"
+		"citadel_ability_shiv_killing_blow/active_buff"		"激昂"
+		"citadel_ability_shiv_killing_blow_while_full_rage" "怒りが満タンの時"
+		"citadel_ability_shiv_killing_blow_ui_meter" 		"怒り"
+
+		"EnemyHealthPercent_label"				"敵健康閾値"
+		"EnemyHealthPercent_postfix"				"%"
+		"BuffDamage_label"					"すべてのダメージ"
+		"BuffDamage_prefix"					"+"
+		"BuffDamage_postfix"					"%"
+		"BuffMoveSpeed_label"					"移動速度"
+		"BuffMoveSpeed_prefix"				"+"
+		"BuffMoveSpeed_postfix"				"m/s"
+
+		"citadel_ability_shiv_killing_blow_t1_desc"	"満タンの怒りで<span class=\"highlight\">+{s:BonusMoveSpeed} m/s</span>の移動速度を獲得します。"
+		"citadel_ability_shiv_killing_blow_t3_desc"	"キリングブローで敵を倒すと<span class=\"highlight\">クールダウンがリセットされます。</span>"
+
+		//-----------------------------------------------------------------------------
+		// Hero: Rutger
+		//-----------------------------------------------------------------------------
+		"rutger_rocket"			"ロケットランチャー"
+		"rutger_rocket_desc"		"ダメージを与え、ノックバックさせるロケットを発射します。<br>ラトガーは自分のロケットが衝撃半径内にいる場合、{s:SelfDamagePercent}%のダメージと{シ:SelfLaunchPercent}%のノックバックを受けます。"
+
+		"rutger_force_field"		"フォースフィールド"
+		"rutger_force_field_desc"	"指定した場所にフィールドを作成し、外側から敵を押し戻します。"
+
+		"rutger_cheat_death"			"死を欺く"
+		"rutger_cheat_death_desc"		"致命的なダメージを受けた時、ラトガーは4秒間不死になります。"
+		"rutger_cheat_death_t2_desc"	"<span class=\"highlight\">+{s:BonusMoveSpeed}%のボーナス移動速度</span>を死を欺くが発動した時に得る。"
+		"rutger_cheat_death_t3_desc"	"<span class=\"highlight\">+{s:BulletLifestealPercent}%の弾薬ライフスティール</span>を死を欺くが発動した時に得る。"
+
+		"rutger_pulse"			"パルス"
+		"rutger_pulse_desc"		"広い範囲で速いパルスを放出し、ダメージを与え、減速させ、<span class=\"highlight\">敵の能力使用を防ぎます</span>。<br>与えるダメージは、敵がパルスの中心に近いほど大きくなります。"
+		"DamageMin_label"			"最小ダメージ"
+		"DamageMax_label"			"最大ダメージ"
+		"MovementSlow_label"		"移動減速"
+		"MovementSlow_postfix"	"%"
+
+		//-----------------------------------------------------------------------------
+		// Hero: Pocket
+		//-----------------------------------------------------------------------------
+		"synth_plasma_flux"			"フライングクローク"
+		"synth_plasma_flux_quip"		"ダメージを与えるクロークを発射する"
+		"synth_plasma_flux_desc"		"前方に<span class=\"highlight\">移動する</span>感情のあるクロークを発射し、<span class=\"highlight\">敵にダメージを与えます</span>。<span class=\"highlight\">[{s:in_ability2}]</span>を押すことで、その場所に<span class=\"highlight\">テレポート</span>します。"
+		"synth_plasma_flux_t3_desc"	"<span class=\"highlight\">+{s:WeaponDamageBonus} 武器ダメージ</span>をテレポート後に得る。"
+		"DPSDuration_label"			"ダメージ持続時間"
+		"DPSDuration_postfix"			"s"
+		"modifier_synth_plasma_flux_dps"	"フライングクローク"
+		"WeaponPowerBonus_label"				"ボーナス勇気"
+		"WeaponPowerBonusDuration_label"		"ボーナス勇気持続時間"
+		"modifier_synth_plasma_flux_weapon_damage"	"ボーナス武器ダメージ"
+		"synth_plasma_flux_teleport"	"テレポート"
+		"modifier_synth_plasma_flux_auto_projectile"	"フライングクローク"
+
+		"synth_pulse"					"エンチャンターのサッチェル"
+		"synth_pulse_quip"			"スーツケースに一時的に逃げてからダメージを与えます"
+		"synth_pulse_desc"			"<span class=\"highlight\">スーツケースに逃げる</span>。持続時間が終了した時に、<span class=\"highlight\">近くの敵にダメージを与えます</span>。持続時間は、任意のアクションを行うことで早く終了できます。"
+		"synth_pulse_t3_desc"			"<span class=\"highlight\">{s:FireRateSlow}%</span>の火力減少を対象に適用します。"
+		"EscapeDuration_label"		"逃避持続時間"
+		"EscapeDuration_postfix"		"s"
+		"BulletShieldPerHero_label"	"ヒーローごとの弾薬シールド"
+
+		"synth_grasp"					"つかむ"
+		"synth_grasp_quip"			"近くの敵ヒーローをあなたの位置に繋げる"
+		"synth_grasp_desc"			"<span class=\"highlight\">近くの敵ヒーローを繋ぎ</span>、繋いだ敵ヒーローの数に応じて<span class=\"highlight\">弾薬シールド</span>を得ます。持続時間中は<span class=\"highlight\">動けなくなります</span>。"
+		"synth_grasp_t3_desc"			"対象の最大健康の{s:LifestealPerSecond}%を毎秒ダメージを与え、ライフスティールします。"
+		"TetherLength_label"			"繋ぎの長さ"
+		"TetherLength_postfix"		"m"
+		"modifier_synth_grasp_caster"	"つかむ"
+		"modifier_synth_grasp_victim"	"つかむ"
+
+		"synth_grasp_cancel"			"つかむ解除"
+
+		"synth_dematerialize"			"デマテリアライズ"
+		"synth_dematerialize_desc"	"一時的に外の世界に出るために構成を変更し、近くの敵にダメージパルスを与えます。早くキャンセルすることができます。"
+		"synth_dematerialize_t3_desc" "デマテリアライズは、各ダメージ間隔で敵にスタッキング<span class=\"highlight\">-15%の火力減少</span>を適用します。{s:FireRateSlowDuration}sの間持続します。"
+		"DamageInterval_label"		"ダメージ間隔"
+		"DamageInterval_postfix"		"s"
+
+		"synth_barrage"				"バラージ"
+		"synth_barrage_quip"			"空中滑空しながら複数の弾を撃つ"
+		"synth_barrage_desc"			"チャンネルして、発射点周辺に<span class=\"highlight\">ダメージを与える</span>プロジェクタイルを発射します。各ヒーローにヒットしたプロジェクタイルは、<span class=\"highlight\">すべてのダメージを増幅する</span>スタッキングバフを付与します。<br>空中で発動した場合、<span class=\"highlight\">浮く</span>ことができ、開始した水平方向の勢いを維持します。"
+
+		"DamagePerProjectile_label"	"弾あたりのダメージ"
+		"ProjectileAmount_label"		"弾の数"
+		"ProjectileInterval_label"	"弾の間隔"
+		"AmpPercentPerStack_label"	"スタックあたりの増幅"
+		"AmpPercentPerStack_postfix"	"%"
+		"AmpDuration_label"			"増幅の持続時間"
+		"AmpDuration_postfix"			"s"
+		"modifier_synth_barrage_debuff"	"バラージ減速"
+		"modifier_synth_barrage_amp"	"バラージ - ダメージ増幅"
+
+		"synth_blitz"					"ブリッツ"
+		"synth_blitz_quip"			"弾が早く発射され、スピリット増幅を適用します"
+		"synth_blitz_desc"			"短期間に<span class=\"highlight\">高速発射率</span>と<span class=\"highlight\">弾薬ライフスティール</span>を獲得します。"
+		"synth_blitz_t1_desc"			"各ブリッツショットは、ターゲットに対して{S:TechAmpPerBullet}%のスピリットダメージを増幅します。{s:TechAmpLinger}s持続します。"
+		"synth_blitz_t3_desc"			"+{s:FastFireBullets}の高速発射ショットと+{s:MaxStacks}の最大スタック数"
+		"TechAmpPerBullet_label"		"ショットあたりのスピリット増幅"
+		"TechAmpPerBullet_postfix"	"%"
+		"TechAmpLinger_label"			"スピリット増幅の持続時間"
+		"TechAmpLinger_postfix"		"s"
+		"FastFireBullets_label"		"高速発射ショット"
+		"FastFireDuration_label"		"高速発射持続時間"
+		"FastFireDuration_postfix"	"s"
+		"synth_blitz/modifier_synth_blitz"	"ブリッツ"
+		"synth_blitz/modifier_synth_blitz_tech_amp"	"ブリッツ - スピリット増幅"
+
+		"synth_affliction"			"アフリクション"
+		"synth_affliction_quip"		"近くの敵にダメージを与え続ける"
+		"synth_affliction_desc"		"近くの敵に<span class=\"highlight\">持続ダメージ</span>を適用します。<br>アフリクションのダメージは致命的でなく、アイテムのプロクを適用しません。"
+		"synth_affliction_t2_desc"	"対象の回復を{s:HealAmpReceivePenaltyPercent}%抑制します"
+		"synth_affliction_t3_desc"	"+{s:DPS} DPS"
+		"modifier_synth_affliction_debuff"	"アフリクション"
+
+		//-----------------------------------------------------------------------------
+		// Hero: Mirage
+		//-----------------------------------------------------------------------------
+		"mirage_tornado"					"トルネード"
+		"mirage_tornado_quip"				"敵を持ち上げるトルネードを発射"
+		"mirage_tornado_desc"				"敵に<span class=\"highlight\">ダメージを与え</span>、<span class=\"highlight\">空中に持ち上げる</span>トルネードを発射します。"
+		"mirage_tornado_t1_desc"			"持ち上げが終わると、<span class=\"highlight\">{s:MoveSlowPercent}% 移動減速</span>が{ｓ:MoveSlowDuration}s適用されます。"
+		"EnemyLiftDuration_label"			"持ち上げ持続時間" 
+		"EnemyLiftDuration_postfix"		"s"
+		"TornadoDuration_label"			"トルネードの寿命"
+		"TornadoDuration_postfix"			"s"
+		"modifier_mirage_tornado_lift"	"トルネード"
+		"modifier_mirage_tornado_slow"	"トルネード - 減速"
+
+		"mirage_fire_beetles"			"ファイヤービートル"
+		"mirage_fire_beetles_quip"		"敵を減速させダメージを与えるビートルを発射"
+		"mirage_fire_beetles_desc"		"地面の指定位置にファイヤービートルを発射し、そこに着地した敵にダメージと減速を与えます。発射ウィンドウが終了すると、この能力はクールダウンに入ります。"
+		"modifier_mirage_fire_beetles_launch_window"	"ファイヤービートルを発射中"
+		"LaunchWindowDuration_label"	"発射ウィンドウ"
+		"LaunchWindowDuration_postfix"	"s"
+		"LaunchWindowCooldown_label"	"クールダウン"
+		"LaunchWindowCooldown_postfix"	"s"
+		//"AbilityButtonHint_MirageLaunchFireBeetle"	"Launch Fire Beetle"
+
+		"mirage_djinns_reach"		"ジンの手"
+		"mirage_djinns_reach_quip"	"[短い説明]"
+		"mirage_djinns_reach_desc"	"プロジェクタイルを発射し、最初にヒットしたターゲットを拘束し、その後他の敵を主要なターゲットに繋ぎます。"
+		"DjinnsReachConeRadius_label"	"コーンの長さ"
+		"DjinnsReachConeRadius_postfix"	"m"
+		"ChainSlowPercent_label"	"テザー減速"
+		"ChainSlowPercent_postfix"	"%"
+
+		"mirage_sand_phantom"				"渦巻くダervish"
+		"mirage_sand_phantom_quip"		"弾を避けてより速く動く"
+		"mirage_sand_phantom_desc"		"渦巻きに包まれ、<span class=\"highlight\">弾の回避</span>とボーナス<span class=\"highlight\">移動速度</span>を獲得します。"
+		"mirage_sand_phantom_t3_desc"		"渦巻くダervish中に<span class=\"highlight\">+{s:WeaponDamageBonus} 武器ダメージ</span>"
+		"WhirlwindEvasionChance_label"	"弾回避確率"
+		"WhirlwindEvasionChance_postfix"	"%"
+		"WhirlwindDuration_label"			"持続時間"
+		"WhirlwindDuration_postfix"		"s"
+		"SlowAuraPercent_label"			"移動減速"
+		"SlowAuraPercent_postfix"			"%"
+		"SlowAuraRadius_label"			"減速半径"
+		"SlowAuraRadius_postfix"			"m"
+		"MoveSpeedDuration_prefix"		"+"
+		"MoveSpeedDuration_label"			"移動速度"
+		"MoveSpeedDuration_postfix"		"s"
+		"modifier_mirage_sand_phantom"	"渦巻くダervish"
+		"modifier_mirage_sand_phantom_whirlwind_reflect"	"渦巻くダervish"
+		"modifier_mirage_sand_phantom_slow_aura_effect"	"渦巻くダervish"
+
+		"mirage_ethereal_bullets"			"弾幕"
+		"mirage_ethereal_bullets_quip"	"短い遅延の後に弾を発射"
+		"mirage_ethereal_bullets_desc"	"短い遅延の後、前方の敵全てに<span class=\"highlight\">複数の弾を発射</span>します。これらのショットには<span class=\"highlight\">弾薬ライフスティール</span>があります。"
+		"mirage_ethereal_bullets_t3_desc"	"<span class=\"highlight\">+{s:ShotCount} 発</span>"
+		"DelayBeforeShots_label"			"遅延"
+		"DelayBeforeShots_postfix"		"s"
+		"MoveSlowPercent_label"			"移動減速"
+		"MoveSlowPercent_postfix"			"%"
+		"MoveSlowDuration_label"			"移動減速持続時間"
+		"MoveSlowDuration_postfix"		"s"
+		"ShotCount_label"					"ショット数"
+		"BurstWeaponPower_label"			"ボーナス勇気"
+
+		"mirage_sunfire_cataclysm"		"サンファイアカタクリズム"
+		"mirage_sunfire_cataclysm_quip"	"周囲の敵を引き寄せてダメージを与える"
+		"mirage_sunfire_cataclysm_desc"	"遅延の後、<span class=\"highlight\">指定したエリア内のすべての敵にダメージを与え</span>、<span class=\"highlight\">中心に引き寄せる</span>。"
+		"mirage_sunfire_cataclysm_t3_desc"	"ターゲットに<span class=\"highlight\">EMP</span>を{s:EMPDurationOnTarget}s適用します。"
+		"modifier_mirage_sunfire_cataclysm_emp"	"サイレンス (サンファイアカタクリズム)"
+		"modifier_mirage_sunfire_cataclysm"	"サンファイアカタクリズム"
+		"PostCastDelay_label"				"キャスト後の遅延"
+		"PostCastDelay_postfix"			"s"
+		"StaminaRegenPenalty_label"		"スタミナ再生ペナルティ"
+		"StaminaRegenPenalty_postfix"		"%"
+
+		//-----------------------------------------------------------------------------
+		// Pestilence
+		//-----------------------------------------------------------------------------
+
+		"citadel_ability_pestilence_infection"			"感染"
+		"citadel_ability_pestilence_infection_desc"		"あなたの能力と弾が敵に感染を引き起こします。各感染スタックは、時間をリセットし、敵が感染から受けるダメージを乗算します。"
+		"modifier_citadel_pestilence_infection_buildup"	"感染中"
+
+		"citadel_ability_pestilence_contaminate"				"汚染"
+		"citadel_ability_pestilence_contaminate_desc"			"武器でターゲットを攻撃すると、感染レベルが上昇し、持続時間がリセットされます。"
+		"citadel_ability_pestilence_contaminate_t1"		"DPS"
+		"citadel_ability_pestilence_contaminate_t2"		"DPS"
+		"citadel_ability_pestilence_contaminate_t3"		"DPS"
+
+		"citadel_ability_pestilence_drone"						"ドローン"
+		"citadel_ability_pestilence_drone_desc"					"{s:hero_name}は、敵にDOTを与えるドローンを生成します。"
+		"citadel_ability_pestilence_drone_t1"			"付着時間を追加"
+		"citadel_ability_pestilence_drone_t1_desc"		"+{s:DroneAttachLifetime}sの寿命を敵に付着したときに追加します。"
+		"citadel_ability_pestilence_drone_t2"			"ドローンを追加"
+		"citadel_ability_pestilence_drone_t2_desc"		"+{s:DroneCount}の追加ドローン"
+		"citadel_ability_pestilence_drone_t3"			"ドローンDPS"
+		"citadel_ability_pestilence_drone_t3_desc"		"+{s:DPS} DPS"
+
+		//-----------------------------------------------------------------------------
+		// TENGU // IVY
+		//-----------------------------------------------------------------------------
+		"citadel_ability_tengu_urn"			"クヅズボム"
+		"citadel_ability_tengu_urn_quip"	"周囲の敵にダメージと減速を与える"
+		"citadel_ability_tengu_urn_desc"	"窒息するつる植物の patch を召喚し、そこにいる敵に<span class=\"highlight\">ダメージを与え</span>、<span class=\"highlight\">減速させる</span>。"
+		"citadel_ability_tengu_urn_t3_desc"	"<span class=\"highlight\">+{s:DPS} DPS</span>"
+
+		"citadel_ability_tengu_ghost"			"ゴースト"
+		"citadel_ability_tengu_ghost_desc"		"ターゲットに当たった後、{s:Bounces}回ランダムに跳ね返る追跡ゴーストを召喚します。ヒットした敵を5秒間減速させます。"
+		"citadel_ability_tengu_ghost_t3_desc"	"さらに +{s:Bounces}回跳ね返ります。"
+
+		"citadel_ability_tengu_stone_form"			"ストーンフォーム"
+		"citadel_ability_tengu_stone_form_quip"		"近くの敵を気絶させる無敵の石に変わる"
+		"citadel_ability_tengu_stone_form_desc"		"<span class=\"highlight\">無敵の石</span>に変身し、地面に叩きつけて、近くの敵に<span class=\"highlight\">気絶させ、ダメージを与える</span>。最大健康の割合であなたを癒します。落下する前に空中制御ができます。"
+		"citadel_ability_tengu_stone_form_t2_desc"	"<span class=\"highlight\">+{s:Damage} ダメージ</span>、および<span class=\"highlight\">{s:StunDuration}s</span>の気絶を追加します。"
+		"MaxHealthRegen_label"						"最大健康回復"
+		"MaxHealthRegen_postfix"					"%"
+		"citadel_ability_tengu_stone_form/modifier_citadel_tengu_stone_form"	"ストーンフォーム"
+
+		"citadel_ability_tangotether"		"監視者の契約"
+		"citadel_ability_tangotether_quip"	"自分自身と近くの仲間を強化する"
+		"citadel_ability_tangotether_desc"	"ボーナスを獲得し、近くの仲間と自動的に接続して共有します。<span class=\"highlight\">治癒は接続されたすべての人に複製される</span>。接続には視線が必要です。ターゲットにロックオンするには[{s:in_ability2}]を押します。"
+		"citadel_ability_tangotether_t2_desc" "+{s:MoveSpeedBonus}m/sの移動ボーナス"
+		"tether_disconnecting"				"契約 - 切断中..."
+		"tether_disconnected"				"契約 - 切断されました"
+		"SelfMovementBonus_label"			"アイビーの速度ボーナス"
+		"SelfMovementBonus_prefix"			"+"
+		"SelfMovementBonus_postfix"			"m/s"
+		"TetherDistance_label"				"接続範囲"
+		"TetherDistance_postfix"			"m"
+		"TotalTetherTargets_label"			"接続カウント"
+		"TetherSharedHealPct_label"		"複製治癒"
+		"TetherSharedHealPct_postfix"	"%"
+		"citadel_modifier_tangotether_tether_receiver"	"契約"
+
+		"citadel_ability_tangotether_lock"			"ターゲットにロックオン"
+
+		"citadel_ability_tengu_lightningcrash"		"降り注ぐ恩寵"
+		"citadel_ability_tengu_lightningcrash_quip"	"戦場の上空に飛ぶ"
+		"citadel_ability_tengu_lightningcrash_desc"	"空中にジャンプし、しばらく飛ぶ。地面に当たると、飛んでいた時間に基づいてダメージを与え、<span class=\"highlight\">再生ブースト</span>を得る。飛行中に[{s:iv_attack}]を押すと、飛行速度が加速します。"
+		"citadel_ability_tengu_lightningcrash_t3_desc"	"<span class=\"highlight\">+{s:Damage}</span>のダメージと、<span class=\"highlight\">+{s:Regeneration}</span>の再生"
+		"AirSpeedHealthBonus_label"			"健康的な速度ボーナス"
+		"AirSpeedHealthBonus_postfix"			"m/s"
+
+		"ActiveFlightTime_label"			"飛行時間"
+		"ActiveFlightTime_postfix"			"s"
+		"BonusPerMeterPct_label"		"メートルあたりのシールド獲得"
+		"BonusPerMeterPct_postfix"	"%"
+		"RegenerationDuration_label"		"再生持続時間"
+		"RegenerationDuration_postfix"		"s"
+		"Regeneration_label"		"再生"
+		"Regeneration_postfix"		" HP/s"
+
+		"modifier_tengu_lightningcrash_regeneration" "降り注ぐ恩寵の再生"	
+				
+		"citadel_ability_tengu_dragonsfire"			"ワイルドファイア"
+		"citadel_ability_tengu_dragonsfire_desc"	"空中に飛び、敵に異界の炎を吹きかける。飛行中に弾薬耐性を獲得します。"
+		"AbilityButtonHint_DragonsFireDive"		"ダイブ"
+		"AbilityButtonHint_DragonsFireAscend"		"上昇"
+		"AbilityButtonHint_DragonsFireSpeedUp"		"加速"
+		"AbilityButtonHint_DragonsFireSpeedDown"	"減速"
+				
+		"DragonsFireBurnDuration_label"				"燃焼持続時間"
+		"DragonsFireBurnDuration_postfix"			"s"
+		"FlyingBulletResist_label"					"弾薬耐性"
+		"FlyingBulletResist_postfix"				"%"
+
+		"citadel_ability_tengu_dragonsfire_t3_desc"	"<span class=\"highlight\">+{s:AbilityDuration}s</span>の持続時間と、<span class=\"highlight\">+{s:FlyingBulletResist}</span>の飛行中の弾薬耐性"
+
+		"citadel_ability_tengu_airlift"				"エアドロップ"
+		"citadel_ability_tengu_airlift_quip"		"上空からの死！飛びながら敵に爆弾（または仲間）を落とす"
+		"citadel_ability_tengu_airlift_desc"		"仲間または爆弾と共に飛びます。仲間は弾薬耐性を得ますが、浮遊中は攻撃したり能力を使用したりできません。敵に向かって落とすことで、<span class=\"highlight\">大きな爆発</span>を引き起こし、<span class=\"highlight\">移動を減速させる</span>。{s:hero_name}と仲間は、飛行が終了すると弾薬シールドを得ます。<br>仲間をターゲットにしているときは素早くキャストできますが、自分に対しては時間がかかります。<br>飛行速度を加速させるには、<span class='keybind'>[{s:iv_attack}]</span>を押します。<br>仲間や爆弾を落とすには、<span class='keybind'>[{s:iv_attack2}]</span>を押します。"
+		"citadel_ability_tengu_airlift_t1_desc"		"<span class=\"highlight\">{s:AirDropBulletArmorReduction}%</span>がヒットした敵に適用され、<span class=\"highlight\">{s:AirDropDebuff02Duration}s</span>の間持続します。"
+		"citadel_ability_tengu_airlift_t2_desc"		"<span class=\"highlight\">+{s:AirDropBulletShield}</span>の弾薬シールドと、<span class=\"highlight\">+{s:AirDropExplodeRadius}m</span>の爆発半径を得ます。"
+		"citadel_ability_tengu_airlift_t3_desc"		"ヒットした敵に<span class=\"highlight\">沈黙</span>を適用し、<span class=\"highlight\">+{s:AirDropSilenceDuration}s</span>持続します。"
+		"modifier_airlift_ally"						"エアドロップ"
+
+		"AirDropDebuffDuration_label"		"減速持続時間"
+		"AirDropDebuffDuration_postfix"		"s"
+
+		"AirDropSilenceDuration_label"		"沈黙持続時間"
+		"AirDropSilenceDuration_postfix"	"s"
+
+		"AirDropDebuff02Duration_label"		"弾薬耐性持続時間"
+		"AirDropDebuff02Duration_postfix"	"s"
+
+		"AirDropExplodeRadius_label"		"爆発半径"
+		"AirDropExplodeRadius_postfix"	"m"
+		"AirDropBuffDuration_label"		"シールド持続時間"
+		"AirDropBuffDuration_postfix"		"s"
+		"AirDropBuffDuration_prefix"		""
+		"AirDropBulletResist_label"		"味方の弾薬耐性"
+		"AirDropBulletResist_postfix"	"%"
+		"AirDropBulletResist_prefix"		"+"
+		"AirDropBulletArmorReduction_label"	"敵の弾薬耐性"
+		"AirDropBulletArmorReduction_postfix"	"%"
+
+		"AirDropSelfCastDelay_label"		"自己キャスト時間"
+		"AirDropSelfCastDelay_postfix"	"s"
+
+		"AbilityButtonHint_DropBomb"		"爆弾を落とす"
+		"AirDropBulletShield_label"		"弾薬シールド"
+		"AirDropBulletShield_postfix"		""
+
+		//-----------------------------------------------------------------------------
+		// Tokamak
+		//-----------------------------------------------------------------------------
+		"tokamak_hot_shot" "ホットショット"
+		"tokamak_hot_shot_desc" "超加熱プラズマのジェットで敵を攻撃します。ヒートゲージが赤の時、追加ダメージを与えます。アクティブ中に熱放散が3倍になります。"
+		"tokamak_hot_shot_t3_desc" "+{s:NormalDPS} 通常DPS および +{s:NormalDPS_scale} 通常DPSスケール<br>+{s:HotDPS} ホットDPS および +{s:HotDPS_scale} ホットDPSスケール"
+		"HeatDPS_label" "熱パワーDPS"
+		"NormalDPS_label" "通常DPS"
+		"HotDPS_label" "ホットDPS"
+
+		"tokamak_breach" "ブリーチ"
+		"tokamak_breach_desc" "冷却剤の雲を爆発的に解放します。雲の中にいる味方は不可視になります。"
+//		"tokamak_breach_t1_desc"	"+{s:BulletResist} Bullet Resist to allies in smoke."
+		"tokamak_breach_t2_desc" "発動時にトカマクのデバフを解除します。"
+		"tokamak_breach_t3_desc" "煙の中の敵を沈黙させます。"
+//		"tokamak_breach_t1_desc"	"+{s:SlowPercent}% Movement Slow and -{s:BulletArmorReduction} Bullet Resist to enemies in smoke."
+//		"tokamak_breach_t3_desc"	"Effects linger for {s:LingerAfterLeavingSmokeDurationPerHeat}s after leaving smoke."
+		"LingerAfterLeavingSmokeDurationPerHeat_label" "持続時間"
+		"DurationPerHeat_label" "熱パワー持続時間"
+		"DurationPerHeat_postfix" "s"
+
+		"tokamak_dying_star" "ダイイングスター"
+		"tokamak_dying_star_desc" "前方に発射し、着地地点付近のすべての敵にダメージを与え、空中に吹き飛ばします。"
+		"tokamak_dying_star_t3_desc" "+{s:Damage} ダメージ および +{s:Damage_scale} ダメージスケール"
+		"HeatDamage_label" "熱パワーダメージ"
+
+		"tokamak_heat_sinks" "サーマルヴォルト"
+		"tokamak_heat_sinks_desc" "トカマクは加熱することでより多くの力を発揮します。トカマクの近接攻撃は、{s:MeleeIgniteTime}sのバーニングを追加し、{s:MeleeBurnDPS} 熱パワーDPSを与えます。"
+		"tokamak_heat_sinks_t1_desc" "+{s:MeleeSpeedBonusPercentage}% 近接攻撃速度"
+		"tokamak_heat_sinks_t3_desc" "+{s:BaseHeatPower} 基本熱パワー, +{s:MaxHeatPower} 最大熱パワー"
+		"MeleeBurnDPS_Label" "近接熱パワーDPS"
+
+		"tokamak_crimson_cannon" "パルスキャノン"
+		"tokamak_crimson_cannon_desc" "ターゲットを集め、発射準備ができるまで待機します。各ショットは{s:DelayBetweenShots}sの間隔があります。"
+		"tokamak_crimson_cannon_t2_desc" "<span class=\"highlight\">+{s:Damage} ダメージ</span> および <span class=\"highlight\">+{s:Damage_scale}</span> ダメージスケール"
+		"DelayBetweenShots_Label" "ショット間の遅延"
+		"tokamak_crimson_cannnon_hint" "発射！"
+
+		"tokamak_radiance" "眩い光"
+		"tokamak_radiance_desc" "コアを臨界状態に近づけ、あなたの方向を見る敵を眩ませ、ダメージを与えます。敵が直接見るほどダメージが増加します。"
+		"EvasionChance_Label" "弾薬回避率"
+
+		"modifier_tokamak_radiance" "眩い光"
+		"modifier_tokamak_ally_in_smoke" "煙の中で隠れている"
+		"modifier_tokamak_enemy_in_smoke" "煙の中を覗いている"
+
+		"BaseHeatPower_Label" "基本熱パワー"
+		"DPSPerHeat_Label" "熱パワーDPS"
+		"WeaponDamagePerHeat_Label" "熱パワーごとの勇気"
+
+		"thumper_ability_1" "シャッターキャノン"
+		"thumper_ability_1_desc" "サウンドウェーブを集めて硬い表面で反射させ、破片を飛ばします。"
+
+		"thumper_ability_2" "スパイクストリップ"
+		"thumper_ability_2_desc" "敵が通過するごとにダメージを与えるスパイクストリップを展開します。"
+
+		"thumper_ability_3" "バジャードドローン"
+		"thumper_ability_3_desc" "敵に向かってバジャードドローンを送り、位置を明らかにします。"
+
+		"thumper_ability_4" "ボルテックス"
+		"thumper_ability_4_desc" "強力な空気の爆風で敵を吹き飛ばします。"
+
+		//-----------------------------------------------------------------------------
+		// Slork
+		//-----------------------------------------------------------------------------
+
+		"modifier_slork_gun_poison" "スローク毒スプレーヤー"
+		"modifier_slork_scald" "スローク熱湯スプレー"
+
+		"citadel_weapon_hero_slork_set" "毒スプレーヤー"
+		"citadel_weapon_hero_slork_set_desc" "短距離の毒雲を噴出し、非英雄ターゲットに対してダメージが2倍になります。狙った敵には長距離の毒矢を放ちます。"
+
+		"slork_scald" "スコールド"
+		"slork_scald_desc" "超加熱された水の弧を噴霧し、<span class=\"highlight\">時間経過で敵にダメージを与えます</span>。"
+		"slork_scald_t1_desc" "広い弧で噴霧します。"
+		"slork_scald_t3_desc" "+{s:DPS} DPS および +{s:ImpactDamage} インパクトダメージ"
+		"DOTDuration_Label" "持続時間"
+		"DOTDuration_postfix" "s"
+
+		"slork_riptide" "リプタイド"
+		"slork_riptide_desc" "超加熱された水の渦を召喚し、<span class=\"highlight\">敵を焼き、</span> <span class=\"highlight\">スロークに引き寄せます</span>。"
+//		"slork_scald_t1_desc"		"Spray in a wide arc"
+		"slork_riptide_t3_desc" "+{s:DPS} DPS および +{s:ImpactDamage} インパクトダメージ"
+		"modifier_slork_riptide" "リプタイドによって焼かれた"
+
+		"slork_raging_current" "トレントストーム"
+		"slork_raging_current_desc" "地下深くから水を呼び出し、エリアを飽和させます。毎{s:TargetAcquireTime}sごとに、トレントが湧き上がり、敵を空中に投げ飛ばします。敵はスタンし、弾薬アーマーが減少します。"
+		"TorrentDelay_Label" "トレント遅延"
+		"TorrentDuration_Label" "トレント持続時間"
+		"TorrentRadius_Label" "トレント半径"
+		"TorrentRadius_postfix" "m"
+
+		"slork_chomp" "チョンプ"
+		"slork_chomp_desc" "<span class=\"highlight\">前方にダッシュし、敵を捕まえて</span>、繰り返し噛み付く。敵は減速し、武器が無効化され、沈黙します。ターゲットのヘルスが<span class=\"highlight\">半分未満</span>の時、最大ヘルスの<span class=\"highlight_tech\">{s:DamagePercentHealth}%</span>の追加ダメージを与えます。"
+		"HobbledMovementSlow_Label" "移動速度減少"
+		"HobbledMovementSlow_postfix" "%"
+		"slork_chomp_t2_desc" "+{s:ChompHealPercent}% ライフスチール"
+//		"slork_chomp_t3_desc"		"Chomp deals <span class=\"highlight\">{s:DamageMissingPercentHealth}%</span> of the enemies missing health each second."
+		"modifier_slork_chomp_grapple" "敵を噛んでいる"
+		"modifier_slork_chomp_hobbled" "噛まれている"
+
+
+		"slork_ability_4" "トレント"
+		"slork_ability_4_desc" "スロークが水の噴流を作り出し、周囲のすべての敵にダメージを与え、空中に吹き飛ばします。"
+
+		"slork_ability_invis" "待ち伏せ捕食者"
+		"slork_ability_invis_desc" "<span class=\"highlight\">撃っていない、または能力を使用していないときに姿を消します</span>。完全に不可視になると、敵に<span class=\"highlight_tech\">{s:AmbushDamage}</span>ダメージと<span class=\"highlight\">+{s:StaminaDamage}</span>スタミナダメージを与えることができます。"
+		"InvisReapplyDelay_Label" "消えるまでの遅延"
+		"InvisRegen_Label" "不可視最大ヘルス再生"
+		"InvisRegen_postfix" "%"
+		"AmbushDamage_Label" "待ち伏せダメージ"
+		"StaminaDamage_Label" "スタミナダメージ"
+//		"slork_ability_invis_t2_desc"	"-{s:InvisReapplyDelay}s Delay before fading"
+
+		"slork_last_breath" "深淵の抱擁"
+		"slork_last_breath_desc" "自分を水の球体に包み込み、<span class=\"highlight_tech\">{s:DamageAbsorb}</span>のダメージを吸収します。球体が何らかの理由で消えると、範囲内の敵に<span class=\"highlight_tech\">{s:BurstDamage}</span>ダメージを与えます。"
+		"DamageAbsorb_Label" "吸収ダメージ"
+		"HitsToRelease_Label" "解除ヒット数"
+
+
+		"modifier_slork_invis" "不可視"
+		"modifier_slork_ambush" "待ち伏せダメージ"
+		"modifier_slork_visible" "隠れられない"
+		"modifier_slork_lastbreath" "最後の息"
+		"modifier_slork_lastbreath_damage_amp" "おびき寄せた"
+
+		//-----------------------------------------------------------------------------
+		// Kali
+		//-----------------------------------------------------------------------------
+		"citadel_ability_kali_spinning_blade"			"オシリオブレード"
+		"citadel_ability_kali_spinning_blade_quip"		"戻ってくるブーメランを発射する"
+		"citadel_ability_kali_spinning_blade_desc"		"回転する刃を投げる。<span class=\"highlight\">ダメージを与え</span>、<span class=\"highlight\">戻ってくる</span>。"
+		"citadel_ability_kali_spinning_blade_t1_desc"		"<span class=\"highlight\">{s:SlowPercent}%のスロー</span>効果を、ヒットした敵に<span class=\"highlight\">{s:SlowDuration}s</span>与える"
+		"citadel_ability_kali_spinning_blade_t2_desc"		"<span class=\"highlight\">+{s:Damage}ダメージ</span>、オシリオブレードはスピリットから<span class=\"highlight\">+100%のダメージ</span>を得る"
+		"citadel_ability_kali_spinning_blade_t3_desc"		"オシリオブレードがヒットした敵ごとに<span class=\"highlight\">{s:CooldownReductionOnHit}sのクールダウン</span>を獲得"
+
+		//"CooldownReductionOnCatch_label"				"キャッチ時のクールダウン"
+		//"CooldownReductionOnCatch_postfix"				"s"
+		"CooldownReductionOnHit_label"					"ヒット時のクールダウン減少"
+		"CooldownReductionOnHit_postfix"					"s"
+
+		"ability_kali_dust_storm"							"ダストストーム"
+		"ability_kali_dust_storm_quip"						"敵をスローさせる竜巻を放つ"
+		"ability_kali_dust_storm_desc"						"接触した敵にダメージを与える竜巻を放ち、持続的な<span class=\"highlight\">移動速度と発射レートのスロー</span>を適用する。"
+		"EnemyBulletDamageReduction_label"					"敵の武器ダメージ"
+		"EnemyBulletDamageReduction_postfix"					"%"
+		"modifier_dust_storm_debuff"						"移動速度と発射レートの減少"
+		"ability_kali_dust_storm_t3_desc"					"<span class=\"highlight\">{s:AbilityCooldown}のクールダウン</span>と、<span class=\"highlight\">+{s:AbilityDuration}sの持続時間</span>"
+
+		"citadel_ability_kali_disruptive_charge"		"パックハンター"
+		"citadel_ability_kali_disruptive_charge_quip"	"あなたと近くの味方が大幅に速く移動する"
+		"citadel_ability_kali_disruptive_charge_desc"	"あなたと近くの味方に<span class=\"highlight\">大きな移動速度ボーナス</span>を提供する。速度ボーナスは時間とともに減少する。"
+		"citadel_ability_kali_disruptive_charge_t2_desc"  "<span class=\"highlight\">{s:LifestealPercent}%のライフスチール</span>をパックハンターの持続時間中獲得"
+
+		"modifier_citadel_disruptive_charge"				"パックハンター"
+		"MoveSpeedBonusPercentStart_label"				"速度ボーナス"
+		"MoveSpeedBonusPercentStart_prefix"				"+"
+		"MoveSpeedBonusPercentStart_postfix"				"%"
+
+		"ability_kali_tornado_blade"			"渦巻く刃"
+		"ability_kali_tornado_blade_desc"		"周囲のすべてにダメージを与える刃を投げる。<span class=\"highlight\">スキルの能力キーを押すことで</span>、<span class=\"highlight\">その場に留め</span>、<span class=\"highlight\">サイズを拡大する</span>。拡大時に追加ダメージを与える。"
+
+		"ability_kali_trappers_bolo"			"トラッパーの喜び"
+		"ability_kali_trappers_bolo_quip"		"近くの敵を固定する"
+		"ability_kali_trappers_bolo_desc"		"敵ヒーローの間を跳ね返るボロを投げ、戻ってくる。犠牲者は<span class=\"highlight\">{s:DebuffDelay}sの間スロー</span>され、その後<span class=\"highlight\">{s:ImmobilizeDuration}sの間 固定する</span>。各ヒーローごとに一度跳ね返る。"
+		"ability_kali_trappers_bolo_t1_desc"	"ボロにヒットした敵は<span class=\"highlight\">{s:ReverseLifeLeech}%のライフスチール</span>を<span class=\"highlight\">{s:ReverseLifeLeechDuration}sの間</span>獲得する"
+		"ability_kali_trappers_bolo_t3_desc"	"<span class=\"highlight\">スタン</span>を与える敵を immobilized させる"
+		"BoloBounceCount_label"					"最大バウンド数"
+
+		"BoloProcDamage_label"					"固定時のダメージ"
+		"BoloHitDamage_label"						"ヒット時のダメージ"
+
+		"modifier_citadel_bolo"					"固定中..."
+		"modifier_bolo_immobilized"				"固定された"
+		"modifier_bolo_leech"					"リーク中..."
+
+		//-----------------------------------------------------------------------------
+		// Hero Demoman
+		//-----------------------------------------------------------------------------
+		"mortar_sentry_grenade"			"迫撃砲セントリーグレネード"
+
+		"ability_explosive_trap"		"リモート爆弾"
+		"ability_explosive_trap_desc"	"当たったものを<span class=\"highlight\">空中に打ち上げる</span>爆弾。装填後に<span class=\"highlight\">[1]</span>を押して手動で起爆する。<span class=\"highlight\">機動性</span>に役立つ。"
+		"ability_explosive_trap_t1_desc"		"装填時間が<span class=\"highlight\">{s:ArmTime}</span>減少し、爆風の力が<span class=\"highlight\">+{s:Force}</span>"
+		"ability_explosive_trap_t3_desc"		"爆弾投げ範囲が<span class=\"highlight\">+{s:ProjectileSpeedBonus}%</span>、ダメージが<span class=\"highlight\">+{s:Damage}</span>"
+		"Force_label"								"爆風の力"
+
+		"citadel_ability_mortarsentry"					"迫撃砲セントリー"
+		"citadel_ability_mortarsentry_desc"				"{s:hero_name}の前にセントリーを配置し、定期的に目標エリアの敵に迫撃砲を発射する。ボス系へのダメージは減少する。"
+		"citadel_ability_mortarsentry_t1_desc"	"セントリーの健康が<span class=\"highlight\">+{s:Health}Hp </span>、セントリーの寿命が<span class=\"highlight\">+{s:TurretLifetime}s</span>"
+		"citadel_ability_mortarsentry_t2_desc"	"能力チャージが<span class=\"highlight\">+{s:AbilityCharges}s</span>、探索半径が<span class=\"highlight\">+{s:SearchRadius}m</span>"
+		"citadel_ability_mortarsentry_t3_desc"	"ボレーごとの爆弾数が<span class=\"highlight\">+{s:GrenadesPerVolley}</span>"
+
+		"ability_mirv_grenade_buff"						"マッドボンバー"
+		"ability_mirv_grenade_buff_desc"				"{s:hero_name}の主武器攻撃を一時的に爆発してクラスターボムに変える。"
+		"ability_mirv_grenade_buff_t1"			"マッドボンバー"
+		"ability_mirv_grenade_buff_t1_desc"		"クラスターボムごとに+{s:Grenades}の爆弾を追加し、+{s:AbilityDuration}sの持続時間"
+		"ability_mirv_grenade_buff_t2"			"効果"
+		"ability_mirv_grenade_buff_t2_desc"		"爆弾ごとに+{s:BlastDamage}ダメージと+{s:AbilityDuration}sの持続時間"
+		"ability_mirv_grenade_buff_t3"			"カーペット爆撃"
+		"ability_mirv_grenade_buff_t3_desc"		"マッドボンバーがアクティブな間、無限ショット"
+
+		"ability_carpetbomb_drone"						"ストリートクリーナー"
+		"ability_carpetbomb_drone_desc"					"飛びながら爆弾を落とすドローンを召喚する。ドローンは<span class=\"highlight\">狙った方向</span>に向かって移動する。ドローンが消失すると、爆弾のクラスタに爆発する。"
+		"ability_carpetbomb_drone_t1_desc"		"ドローンの寿命が<span class=\"highlight\">+{s:DroneLifeTime}s</span>"
+		"ability_carpetbomb_drone_t2_desc"		"能力クールダウンが<span class=\"highlight\">{s:AbilityCooldown}s</span>、ドローンの健康が<span class=\"highlight\">+{s:DroneHealth}</span>"
+		"ability_carpetbomb_drone_t3_desc"		"爆弾落下間隔が<span class=\"highlight\">{s:AttackRate}s</span>、ドローンの速度が<span class=\"highlight\">+{s:DroneSpeed}</span>"
+
+		"modifier_consumed_armor_buff"		"スピリットと弾丸のアーマー"
+		"modifier_mirv_grenades"			"マッドボンバー"
+
+		//-----------------------------------------------------------------------------
+
+		//-----------------------------------------------------------------------------
+		// Hero Hijack
+		//-----------------------------------------------------------------------------
+
+		"citadel_ability_hijack_stacking_weapon_jammer"			"武器ジャマー"
+		"citadel_ability_hijack_stacking_weapon_jammer_desc"	"あなたの弾丸は敵ヒーローに<span class=\"highlight\">武器ジャマー</span>を充填し、彼らに<span class=\"highlight\">誤射の確率</span>を与える（弾丸が発射されず、自分にダメージを与える）。"
+		"citadel_modifier_passive_hijack_stacking_weapon_jammer"		"銃が詰まった"
+		"citadel_ability_surveillance_drone"				"戦闘ドローンを展開"
+		"citadel_ability_surveillance_drone_desc"				"特有の能力を持つ脆弱な戦闘ドローンを展開する。"
+		"modifier_citadel_surveillance_drone_alive"			"戦闘ドローンがアクティブ"
+
+		"citadel_hijack_drone_extra_abilities"						"戦闘ドローンの能力"
+		"citadel_ability_surveillance_drone_player_camera"			"プレイヤーカメラ"
+		"citadel_ability_surveillance_drone_player_camera_desc"		"カメラをドローンからプレイヤーに切り替える"
+		"citadel_ability_drone_detecting_enemies"					"ドローン赤外線カメラ"
+		"citadel_ability_drone_detecting_enemies_desc"				"ドローンが現在見ている前方のすべての敵プレイヤー（隠れている敵を含む）をハイライトする。"
+		"citadel_ability_surveillance_drone_camera"					"ドローンカメラ"
+		"citadel_ability_surveillance_drone_camera_desc"			"カメラをプレイヤーからドローンに切り替える"
+		"citadel_ability_drone_teleport"							"ドローンテレポート"
+		"citadel_ability_drone_teleport_desc"						"即時発動：キャスト遅延後にハイジャックをドローンの下にテレポートする。"
+		"citadel_ability_surveillance_drone_crash"					"ドローンクラッシュ"
+		"citadel_ability_surveillance_drone_crash_desc"				"ドローンを地面にクラッシュさせ、AOEダメージを与える"
+		"citadel_ability_hijack_mind_control"						"敵ユニットをハック"
+		"citadel_ability_hijack_mind_control_desc"					"特定エリア内の敵NPCのチームを変更し、追加の健康とボーナス武器ダメージを与える。{s:hero_name}と近くの味方は、ハックしたユニットごとに半分の金を獲得する。"
+		"ability_hijack_richochet_projectile"						"リコシェダガー"
+		"ability_hijack_richochet_projectile_desc"					"壁にバウンドして近くの敵に向かって飛ぶダガーを投げる。ヒットした敵ユニットにダメージを与え、貫通する。壁からの最初のバウンド後にダメージが増加する。"
+		"citadel_modifier_passive_hijack_weapon_jammer_buildup"					"武器ジャマー"
+		"citadel_modifier_passive_hijack_weapon_jammer_buildup_desc"			"武器ジャマー構築中"
+		"modifier_citadel_hijack_weapon_jammer_proc"							"武器が詰まった"
+		"modifier_citadel_hijack_weapon_jammer_proc_desc"						"武器が詰まっている"
+		"modifier_citadel_drone_spotted_enemy"									"敵に見つかった"
+		"modifier_citadel_drone_spotted_enemy_desc"								"敵はあなたの位置を見ることができる"
+		"citadel_ability_surveillance_drone_t2_desc"		"+<span class=\"highlight\">{s:CrashImpactRadius}</span>クラッシュインパクト半径、+<span class=\"highlight\">{s:DroneCrashDamage}</span>ドローンクラッシュダメージ"
+
+		"ExtraDamagePerBounce_label"						"バウンドごとの追加ダメージ"
+		"MindControlHealthBonus_label"					"ユニットに与える追加健康"
+		"MisfireBuildupPercentPerShot_label"			"ショットごとの蓄積率"
+		"CrashImpactRadius_label"						"クラッシュダメージ半径"
+		"DroneCrashDamage_label"						"ドローンクラッシュダメージ"
+		"DroneSpeed_label"							"ドローンの速度"
+
+		"MaxUnitsMindControl_label"						"最大ユニット数"
+		"PreBounceDamage_label"							"バウンド前のダメージ"
+		"PostBounceDamage_label"						"バウンド後のダメージ"
+
+		"MisfireProcChance_label"						"敵の誤射確率"
+		"UnitBonusDamagePercent_label"					"ダメージ増加率"
+		"ability_hijack_richochet_projectile_t3_desc"	"<span class=\"highlight\">+{s:PreBounceDamage}</span>バウンド前のダメージ。<span class=\"highlight\">+{s:PostBounceDamage}</span>バウンド後のダメージ。"
+		"citadel_ability_hijack_mind_control_t1_desc"	"ハックしたユニットは追加で<span class=\"highlight\">{s:UnitBonusDamagePercent}</span>%のダメージを与える"
+		"citadel_ability_hijack_mind_control_t3_2_desc"	"ハックしたユニットは追加で<span class=\"highlight\">{s:UnitBonusDamagePercent}</span>%のダメージを与える"
+
+		"citadel_ability_drone_detecting_enemies_t3"		"ドローン赤外線カメラ"
+		"citadel_ability_drone_detecting_enemies_t3_desc"	"ドローンの赤外線カメラを有効にする"
+
+		//-----------------------------------------------------------------------------
+
+		//-----------------------------------------------------------------------------
+
+		//-----------------------------------------------------------------------------
+		// Mecha Guy
+		//-----------------------------------------------------------------------------
+
+		"citadel_ability_mechaguy_echo"						"エコー"
+		"citadel_ability_mechaguy_echo_desc"			"対象にエコーを付与します。対象がダメージを受けると、近くの敵が<span class=\"highlight\">{s:SlowPercent}%</span>スローされる<span class=\"highlight\">{s:SlowDuration}s</span>。"
+		"citadel_ability_mechaguy_echo_t2_desc"			"ダメージがエコーの持続時間を<span class=\"highlight\">{s:RefreshAmount}s</span>延長します。"
+		"citadel_ability_mechaguy_echo_t3_desc"			"エコーが近くの敵に広がります。"
+
+		"modifier_citadel_mechaguy_echo_slow"			"スロー中"
+		"modifier_citadel_mechaguy_echo"				"エコー"
+
+
+		"citadel_ability_mechaguy_retaliate"			"報復"
+		"citadel_ability_mechaguy_retaliate_desc"			"{s:AbilityDuration}s間、プロジェクトをチャージします。ダメージは{s:Damage} + {s:DamageMultiplier}×チャージ中に受けたダメージです。"
+
+		"citadel_ability_mechaguy_retaliate_t1_desc"			"プロジェクトの爆発半径が{s:Radius}m増加します。"
+		"citadel_ability_mechaguy_retaliate_t2_desc"			"+{s:DamageMultiplier}×ダメージ倍率。"
+		"citadel_ability_mechaguy_retaliate_t3_desc"			"受けたダメージの{s:HealPercent}%を回復します。"
+
+		"modifier_citadel_mechaguy_retaliate"			"報復"
+
+		"citadel_ability_mechaguy_double_edge"			"ダブルエッジ"
+		"citadel_ability_mechaguy_double_edge_desc"			"あなたとターゲットの両方に{s:Damage}ダメージを与えます。"
+
+		"citadel_ability_mechaguy_double_edge_t2_desc"			"あなたの健康の{s:DamageHealthPercent}%を追加ダメージとして与えます。"
+		"citadel_ability_mechaguy_double_edge_t3_desc"			"+{s:AbilityUnitTargetLimit}ターゲット。"
+
+		"citadel_ability_mechaguy_defense_field"		"リアクティブアーマー"
+		"citadel_ability_mechaguy_defense_field_desc"		"攻撃者に防御ロケットを発射し、受けたダメージごとに再生を構築します（{s:RegenThreshold}ダメージごと）。"
+		"modifier_mechaguy_defense_field_aura_thinker"	"リアクティブアーマー"
+
+		"citadel_ability_mechaguy_defense_field_t2_desc"		"+{s:RegenPercent}%健康回復"
+
+
+
+
+
+
+
+		//-----------------------------------------------------------------------------
+
+
+		//-----------------------------------------------------------------------------
+		// Duo
+		//-----------------------------------------------------------------------------
+
+		"citadel_ability_duo_summon_drone"		"召喚"
+		"citadel_ability_duo_summon_drone_desc"	"あなたのドローンを召喚します。"
+
+		"citadel_ability_duo_summon_drone_t1_desc"	"ドローンもプレイヤーアイテムを取得します。"
+		"citadel_ability_duo_summon_drone_t2_desc"	"セントリーモード中にロケットの群れを発射します。"
+		"citadel_ability_duo_summon_drone_t3_desc"	"攻撃モードでターゲットをその場に immobilize します。"
+
+		//
+		"citadel_ability_duo_energy_link"		"エネルギーリンク"
+		"citadel_ability_duo_energy_link_desc"		"あなたのドローンを回復する短距離のテザーです。範囲外に移動すると切れます。<br><br>敵をターゲットにすると、代わりにダメージを与えます。"
+		"modifier_citadel_duo_energy_link"		"エネルギーリンク"
+		"modifier_citadel_duo_energy_link_duration"	"エネルギーリンク"
+
+
+		"citadel_ability_duo_energy_link_t2_desc"	"<span class=\"highlight\">+{s:ExternalBonusHealthRegen}</span>再生<br><span class=\"highlight\">+{s:DPS}</span> DPS"
+		"citadel_ability_duo_energy_link_t3_desc"	"ターゲットから{s:ZapDistance}m以内でダメージと回復効果を適用します。"
+
+		//
+		"citadel_ability_duo_fusion_scalpel"	"融合スカルペル"
+		"citadel_ability_duo_fusion_scalpel_desc"	"あなたとドローンの間にリンクを形成し、触れた敵にダメージを与えます。"
+
+		"modifier_citadel_duo_fusion_scalpel_target"	"融合スカルペル"
+
+		"citadel_ability_duo_fusion_scalpel_t2_desc"	"敵を<span class=\"highlight\">{s:SlowPercent}%</span>スローし、{s:DebuffDuration}sの間持続します。"
+		"citadel_ability_duo_fusion_scalpel_t3_desc"	"最大<span class=\"highlight\">{s:MaxAllyLinks}</span>の近くの味方とリンクします。"
+
+		//
+		"citadel_ability_duo_arc_cannon"		"アークキャノン"
+		"citadel_ability_duo_arc_cannon_desc"		"デュオのドローンが空からレーザーを<span class=\"highlight\">{s:SweepCount}回</span>スイープし、通過した敵にダメージを与えます。"
+
+		"citadel_ability_duo_arc_cannon_t1_desc"		"地面を焼き、<span class=\"highlight\">{s:BurnDPS} dps</span>を<span class=\"highlight\">{s:BurnDuration}s</span>の間与えます。"
+		"citadel_ability_duo_arc_cannon_t3_desc"		"<span class=\"highlight\">+{s:SweepCount}</span>回のスイープ<br><span class=\"highlight\">{s:SweepInterval}s</span>の間隔でレーザースイープを行います。"
+
+
+		"citadel_modifier_duo_arc_cannon"		"アークキャノン"
+
+		"citadel_ability_duo_grenade"					"グレネード"
+		"citadel_ability_duo_grenade_desc"			"{s:ArmingDuration}s後に爆発するグレネードを投げます。"
+		"citadel_ability_duo_grenade_t3_desc"				"<span class=\"highlight\">+{s:AbilityCharges}</span>のチャージとチャージ遅延<span class=\"highlight\">{s:AbilityCooldownBetweenCharge}s</span>。"
+
+		// ドローンの命令
+		"citadel_duo_drone_extra_abilities"		"戦闘ドローンの能力"
+
+		"citadel_ability_duo_order"				"命令"
+		"citadel_ability_duo_order_attack"		"攻撃"
+		"citadel_ability_duo_order_attack_desc"	"特定のターゲットを攻撃するようドローンに命令します。必要に応じてターゲットを追跡します。"
+		"citadel_ability_duo_order_sentry"		"セントリー"
+		"citadel_ability_duo_order_sentry_desc"	"エリアを守るようドローンに命令します。近くの脅威を自動的に攻撃します。"
+		"citadel_ability_duo_order_follow"		"フォロー"
+		"citadel_ability_duo_order_follow_desc"	"あなたを追従するようドローンに命令します。あなたに攻撃する誰かや、あなたが攻撃する誰かを自動的に攻撃します。"
+		"citadel_ability_duo_order_cancel"		"キャンセル"
+
+
+		// UI
+		"modifier_duo_drone_health"				"ドローン"
+
+		// Drone
+		"citadel_modifier_duo_drone_tracker"				"ドローン"
+
+		//-----------------------------------------------------------------------------
+
+		//-----------------------------------------------------------------------------
+		// Yamato
+		//-----------------------------------------------------------------------------
+		"citadel_ability_power_slash"		"パワースラッシュ"
+		"citadel_ability_power_slash_quip"	"攻撃をチャージし、フルチャージで高ダメージを与える"
+		"citadel_ability_power_slash_desc"	"チャージして、{s:AbilityCastDelay}秒の間にダメージを増加させ、最後に<span class=\"highlight\">フルチャージの剣撃</span>を放つ。<br>早めに発動するには[{s:in_ability1}]または[{s:iv_attack}]を押すと、部分的なダメージを与える。"
+		"power_slash_debuff"				"パワースラッシュ"
+		"SlashLength_label"					"スラッシュの長さ"
+		"SlashWideRadius_label"				"パワースタンススラッシュ半径"
+		"SlashWideRadius_postfix"			"m"
+		"SlashLength_postfix"				"m"
+		"RecoveryDuration_label"			"回復時間"
+		"RecoveryDuration_prefix"			""
+		"RecoveryDuration_postfix"			"s"
+		"StanceWeaponRangeScale_label"		"武器の射程"
+		"StanceWeaponRangeScale_postfix"	"%"
+		"DamageMinDisplay_label"			"最小ダメージ"
+		"DamageMaxDisplay_label"			"最大ダメージ"
+		"ShortChargeDamagePct_label"			"短いチャージダメージ"
+		"ShortChargeDamagePct_postfix"			"%"
+		"MediumChargeDamagePct_label"			"中程度のチャージダメージ"
+		"MediumChargeDamagePct_postfix"			"%"
+		"FullChargeDamage_label"				"フルチャージダメージ"
+		"citadel_ability_power_slash_t1_desc"	"チャージ中は<span class=\"highlight\">+{s:BulletResist}バレット抵抗</span>を獲得"
+		"citadel_ability_power_slash_t2_desc"	"ヒットした敵に<span class=\"highlight\">{s:SlowPercent}%の移動速度減少</span>を<span class=\"highlight\">{s:SlowDuration}s</span>与える"
+		"StaminaToRemove_label"				"スタミナ消耗"
+
+		"citadel_ability_flying_strike"			"フライングストライク"
+		"citadel_ability_flying_strike_quip"	"敵に向かって飛ぶ"
+		"citadel_ability_flying_strike_desc"	"グラップリングフックを投げて、敵に向かって<span class=\"highlight\">引き寄せ、敵にダメージを与え、スロー効果を与える</span>。"
+		"citadel_ability_flying_strike/slow" "フライングストライクスロー"
+		"citadel_ability_flying_strike/weapon_buff" "+武器ダメージ"
+		"citadel_ability_flying_strike_t3_desc" "<span class=\"highlight\">+{s:WeaponDamageBonus}</span>武器ダメージを<span class=\"highlight\">{s:WeaponPowerIncreaseDuration}s</span>ターゲットにヒット後に得る"
+		"yamato_flying_strike_t3_header"			"ターゲットに到達時："
+
+		"citadel_ability_infinity_slash"		"シャドウトランスフォーメーション"
+		"citadel_ability_infinity_slash_quip"	"無敵かつより強力になる"
+		"citadel_ability_infinity_slash_desc"	"ヤマトの影の魂に満たされる。最初の<span class=\"highlight\">無敵の</span>変身の後、あなたの<span class=\"highlight\">能力がリフレッシュされ、60%速くなる</span>。武器には<span class=\"highlight\">無限の弾薬</span>があり、<span class=\"highlight\">ダメージ抵抗</span>と<span class=\"highlight\">負のステータス効果への免疫</span>を得る。このモードでは死亡できない。"
+		"citadel_ability_infinity_slash_buff_header" "ヒーローヒットごとに"	
+		"ShadowDuration_label"					"爆発遅延"
+		"ShadowDuration_postfix"				"s"
+		"PrepareTime_label"						"準備時間"
+		"PrepareTime_postfix"					"s"
+		"AbilitySpeedPct_label"					"能力速度"
+		"AbilitySpeedPct_prefix"				"+"
+		"AbilitySpeedPct_postfix"				"%"
+
+		"citadel_ability_infinity_slash/timer"	"シャドーフォーム"
+
+		"citadel_ability_healing_slash"			"クリムゾンスラッシュ"
+		"citadel_ability_healing_slash_quip"	"近くの敵にダメージを与え、ヒット時に回復する"
+		"citadel_ability_healing_slash_desc"	"前方の敵をスラッシュし、<span class=\"highlight\">ダメージを与え、発射レートをスローさせる</span>。ヒーローがヒットすると、あなたは<span class=\"highlight\">回復する</span>。"
+		"citadel_ability_healing_slash/debuff"	"クリムゾンスラッシュ"
+		"HealMaxHealth_label"					"ヒーローヒット時の回復"
+		"HealMaxHealth_postfix"					"最大健康の%"
+		"HealFixedHealth_label"					"ヒーローヒット時の回復"
+
+		//-----------------------------------------------------------------------------
+
+		//-----------------------------------------------------------------------------
+		// Ballista
+		//-----------------------------------------------------------------------------
+
+		"citadel_ability_ballista_shell_shotgun"	"フラックキャノン"
+		"citadel_ability_ballista_shell_shotgun_desc"	"バリスタは巨大なフラックキャノンを扱い、前方の敵にダメージを与え、ノックバックさせる。<br><br>武器ダメージを与える"
+		"citadel_ability_ballista_shell_shotgun_t3_desc"	"ヒットした<span class=\"highlight\">{s:TargetsToAddCharge}+</span>ターゲットでチャージが返却される"
+
+		"citadel_ability_ballista_bullet_storm"			"バレットストーム"
+		"citadel_ability_ballista_bullet_storm_desc"			"空中にシェルを発射し、破片の雨に爆発する。時間経過でダメージを与え、スローさせる。"
+
+		"citadel_ability_ballista_bullet_storm/modifier_ballista_bullet_storm_aura/modifier_ballista_bullet_storm_debuff"		"バレットストーム"
+
+		"citadel_ability_ballista_ammo_pack"			"ベルトフィード"
+		"citadel_ability_ballista_ammo_pack_desc"			"弾薬バックパックを装備し、重い弾丸を高速で発射できる。ユーザーをややスローさせる。<br><br>オフにすることでキャンセル可能。残りのシェルは失われる。"
+
+		"citadel_ability_ballista_ammo_pack_t1_desc"			"<span class=\"highlight\">+{s:ClipSize}</span>シェル"
+
+		"modifier_citadel_ballista_ammo_pack_pickup_timer"		"弾薬パックを拾っている..."
+
+		"ability_teammate_armor_buff"					"保護シェル"
+		"ability_teammate_armor_buff_desc"				"友好的なユニットまたは自分に一時的なバレットとスピリットのバリアを適用する。"
+		"ability_teammate_armor_buff_t1_desc"	"移動速度ボーナス効果を追加<span class=\"highlight\">+{s:SpeedBonus}m/s</span>"
+		"ability_teammate_armor_buff_t2_desc"	"健康再生効果を追加<span class=\"highlight\">+{s:HealthRegenBonus}</span>"
+		"ability_teammate_armor_buff_t3_desc"	"バレットシールド<span class=\"highlight\">+{s:BulletShieldHealth}</span>とスピリットシールド<span class=\"highlight\">+{s:TechShieldHealth}</span>"
+		"SpeedBonus_label"						"移動速度ボーナス"
+		"SpeedBonus_postfix"					"m/s"
+
+		"ability_teammate_armor_buff/modifier_consumed_armor_buff"	"保護シェル"
+
+		"citadel_ability_ballista_mine_field"		"地雷原"
+		"citadel_ability_ballista_mine_field_desc"		"ターゲットエリアの周りに近接地雷のクラスターを配置する。地雷はダメージを与え、犠牲者をスローさせる。"
+		"citadel_ability_ballista_mine_field_t2_desc"		"<span class=\"highlight\">+{s:NumMines}</span>地雷"
+
+		"citadel_ability_ballista_fusion_bomb"		"フュージョンボム"
+		"citadel_ability_ballista_fusion_bomb_desc"		"軽ダメージを毎秒与える融合爆弾を設置し、{s:Fuse}後に爆発する。"
+		"Fuse_label"							"融合時間"
+		"Fuse_postfix"						"s"
+		"TickDamage_label"					"ボムのティックダメージ"
+		"BombDamagePercent_label"			"ターゲットの最大健康に対するダメージ"
+		"BombDamagePercent_postfix"			"%"
+		"MoveSpeedSlowPercent_label"		"移動速度減少"
+		"MoveSpeedSlowPercent_postfix"		"%"
+
+		"citadel_ability_ballista_fusion_bomb/modifier_citadel_ballista_fusion_bomb_slow"	"スロー"
+		"citadel_ability_ballista_fusion_bomb/modifier_citadel_ballista_fusion_bomb_plant"	"爆弾を設置中..."
+		"citadel_ability_ballista_fusion_bomb/modifier_ballista_fusion_bomb_warning_aura/modifier_ballista_fusion_bomb_warning_target"	"隠れる！"
+
+		//-----------------------------------------------------------------------------
+		// Viscous
+		//-----------------------------------------------------------------------------
+		"viscous_goo_grenade"                            "スプラッター"
+		"viscous_goo_grenade_desc"                        "ダメージを与え、半径内の敵に<span class=\"highlight\">移動速度を遅くする</span>粘液の水たまりを残すボールを投げます。"
+		"viscous_goo_grenade_bounce_desc"                 "同じターゲットへの複数のヒットは、ダメージが減少します。"
+		"viscous_goo_grenade_quip"                         "敵にダメージを与えて混乱を引き起こす"
+		"viscous_goo_grenade_puddle_desc"                 "粘液の水たまりは地面に残り、その上を歩く敵に<span class=\"highlight\">移動速度を遅くする</span>効果を与えます。"
+		"viscous_goo_grenade/modifier_viscous_goo_grenade_debuff"  "減速"
+		"viscous_goo_grenade_t2_desc"                     "+{s:Damage} ダメージと +{s:Radius}m 半径"
+		"viscous_goo_grenade_t3_desc"                     "最大で{s:MaxBounces}回跳ね返ります"
+		"MaxBounces_label"                                "跳ね返り"
+		"PuddleRadius_label"                               "水たまりの半径"
+		"PuddleRadius_postfix"                             "m"
+		"PuddleDuration_label"                             "水たまりの持続時間"
+		"PuddleDuration_postfix"                           "s"
+
+		"viscous_restorative_goo"                          "キューブ"
+		"viscous_restorative_goo_desc"                     "対象を回復粘液のキューブに包み込み、<span class=\"highlight\">デバフを消去し、ダメージから守り、HP回復を増加させる</span>。対象はキューブに入っている間、<span class=\"highlight\">新たな行動を取れなくなる</span>。自己に使用可能。早く脱出するには<span class=\"highlight\">[{s:in_mantle}]</span>を押してください。"
+		"viscous_restorative_goo_quip"                     "キューブは安全な場所です"
+		"viscous_restorative_goo_t1_desc"                 "移動速度とスタミナ回復を増加させる"
+		"viscous_restorative_goo_buff_desc"               "キューブから出た後、対象は短時間<span class=\"highlight\">移動速度とスタミナ回復が増加</span>します。"
+		"PostCubeBuffDuration_label"                       "バフの持続時間"
+		"PostCubeBuffDuration_postfix"                     "s"
+		"modifier_restorative_goo"                         "キューブ"
+		"viscous_restorative_goo/modifier_restorative_goo/breakoutProgress"  "脱出中"
+
+		"viscous_goo_puddle"                               "粘液形態"
+		"viscous_goo_puddle_desc"                          "自分自身を粘液の水たまりに変え、<span class=\"highlight\">ダメージを受けず</span>、<span class=\"highlight\">近くの敵にダメージを与える</span>。"
+		"viscous_goo_puddle_t3_desc"                       "[未実装]"
+
+		"viscous_goo_bowling_ball"                         "粘液ボール"
+		"viscous_goo_bowling_ball_desc"                   "大きな粘液ボールに変身し、<span class=\"highlight\">ダメージを与え</span>、敵を<span class=\"highlight\">スタンさせる</span>。ボールは大量の<span class=\"highlight\">弾薬</span>と<span class=\"highlight\">霊</span>に対する耐性を与え、壁に跳ね返り、<span class=\"highlight\">ダブルジャンプ</span>が可能です。"
+		"viscous_goo_bowling_ball_quip"                   "転がって混乱を引き起こす"
+		"viscous_goo_bowling_ball_t3_desc"                "転がりながらアビリティを発動し、アイテムを使用できます"
+
+		"viscous_telepunch"                               "水たまりパンチ"
+		"viscous_telepunch_desc"                          "世界に拳を具現化し、そのエリア内のユニットを<span class=\"highlight\">パンチ</span>して吹き飛ばします。敵には<span class=\"highlight\">ダメージ</span>が与えられ、一時的にダッシュ距離が減少し、<span class=\"highlight\">移動速度が遅くなる</span>。これは<span class=\"highlight\">軽い近接攻撃</span>と見なされます。"
+		"viscous_telepunch_quip"                          "巨大な拳で敵をパンチ"
+		"viscous_telepunch_t3_desc"                       "+{s:Damage} ダメージと +{s:SlowPercent}% 移動速度減少"
+		"ImpactDuration_label"                             "減速の持続時間"
+		"ImpactDuration_postfix"                           "s"
+		"BonusDamageAmp_label"                            "ダメージ増加"
+		"BonusDamageAmp_postfix"                           "%"
+
+		"viscous_gootapult"                               "スプラタポルト"
+		"viscous_gootapult_desc"                          "充電して自分を発射し、ダメージを与え、衝撃時に遅延エリアを残します。"
+
+		"GooSlowPercent_label"                             "水たまりの減速率"
+		"GooSlowPercent_postfix"                           "%"
+		"GooDuration_label"                               "水たまりの持続時間"
+		"GooDuration_postfix"                             "s"
+		"citadel_ability_viscous_ball_boost"              "スラムボール"
+		"RollingTime_label"                               "転がり時間"
+		"RollingTime_postfix"                             "s"
+		"CubeHealth_label"                                "キューブのHP"
+		"viscous_gootapult_hint"                          "発射！"
+		//-----------------------------------------------------------------------------
+		// Hero Sky Monk
+		//-----------------------------------------------------------------------------
+		"hero_skymonk_role"                               "イニシエーション"
+		"hero_skymonk_strengths"                          "巧妙"
+
+		"skymonk_sky_duel"                                "スカイデュエル"
+		"ability_flying_nimbus"                           "フライングニンバス"
+		"skymonk_break_of_dawn"                           "ブレイクオブドーン"
+
+		"skymonk_pool_of_light"                           "プールオブライト"
+		"modifier_pool_of_light_buff"                     "プールオブライト"
+		"modifier_pool_of_light_debuff"                   "勇気減少"
+
+		//-----------------------------------------------------------------------------
+		// Gunslinger
+		//-----------------------------------------------------------------------------
+		"gunslinger_rapid_fire"                           "ラピッドファイア"
+		"gunslinger_rapid_fire_desc"                      "ターゲットに対して完璧な精度で銃を急速に発射し、{s:AbilityChannelTime}s間ダメージを50%増加させます。空中にいる場合、{s:hero_name}とターゲットは浮きます。"
+
+		"gunslinger_rocket_launcher"                       "ロケットランチャー"
+		"gunslinger_rocket_launcher_desc"                 "爆発するロケットを発射するロケットランチャーを装備します。ロケットの爆風は敵や{s:hero_name}を空中に吹き飛ばすことができます。"
+
+		"gunslinger_tenacity"                             "テナシティ"
+		"gunslinger_tenacity_desc"                        "{s:BulletLifestealPercent}%の弾薬ライフスティールを獲得し、{s:hero_name}の失ったHPに基づいて最大{s:LowHealthHealingScalePercent}%まで増加します。"
+
+		"gunslinger_sleep_bomb"                           "スリープボム"
+		"gunslinger_sleep_bomb_desc"                      "衝撃時に爆発するスリープボムを投げ、触れた敵を眠らせる拡張する雲を作成します。"
+		
+
+
+		//-----------------------------------------------------------------------------
+		// Spade
+		//-----------------------------------------------------------------------------
+		"citadel_ability_spade_hat_trick"                 "ハットトリック"
+		"citadel_ability_spade_hat_trick_desc"            "スペードが帽子を投げ、進行方向の敵を攻撃します。<span class=\"highlight\">連続ヒット</span>で追加ダメージを与えます。<br><br>クールダウンが完了すると、すべてのチャージが回復します。"
+		"citadel_ability_spade_hat_trick_t1_desc"         "ヒットしたユニットごとにクールダウンが1秒短縮"
+		"citadel_ability_spade_hat_trick_t3_desc"         "ヒーローキルで全チャージが回復"
+
+		"citadel_ability_spade_sleight_of_hand"           "手品"
+		"citadel_ability_spade_sleight_of_hand_desc"      "近くの敵を刺します。<span class=\"highlight\">背後から</span>行った場合、対象の移動速度を大幅に減少させます。"
+		"StackDamage_label"                                "スタックダメージ"
+		"citadel_ability_spade_sleeve_toss"               "スリーブトス"
+		"citadel_ability_spade_sleeve_toss_desc"          "スペードが袖からハトを引き出し、空中に投げます。ハトはスペードのクロスヘアに従い、起爆します。"
+		"EffectDuration_label"                             "デバフの持続時間"
+		"EffectDuration_postfix"                           "s"
+		"Projectiles_label"                                "発射物"
+
+		"citadel_ability_spade_sleeve_toss/modifier_citadel_architect_lock_on"   "移動時にダメージ！"
+		"citadel_ability_spade_sleeve_toss/modifier_citadel_spade_sleeve_toss_card_draw"  "スリーブトス"
+		"DamagePerMeter_label"                             "メートルあたりのダメージ"
+
+		"citadel_ability_spade_vanishing_act"              "消失の技"
+		"citadel_ability_spade_vanishing_act_desc"        "世界から消え、不可視かつダメージ免疫になります。効果中に行った最初の行動は<span class=\"highlight\">ボーナスダメージ</span>を得ます。"
+		"citadel_ability_spade_vanishing_act_t3_desc"     "<span class=\"highlight\">+50%</span> ボーナスダメージ"
+
+		"citadel_ability_spade_puppeteer"                  "操り人形師"
+		"citadel_ability_spade_puppeteer_desc"            "スペードが対象を操り人形に変え、近くの味方を<span class=\"highlight\">攻撃させる</span>。対象が範囲内にいない場合、制御は減少します。<br><br>操り人形は制御中に受けるダメージが減少します。"
+
+		"citadel_ability_spade_draw"                       "カードを引く"
+		"citadel_ability_spade_draw_desc"                 "スペードがデッキからカードを引きます。このカードはプレイするか、スリーブトスに効果を追加するために使用できます。"
+		"citadel_ability_spade_draw_t2_desc"              "+100% カードボーナス"
+		"citadel_ability_spade_draw_t3_desc"              "2枚のカードを引く"
+		"CardsDrawn_label"                                 "引いたカード"
+
+		"citadel_ability_spade_play"                       "プレイ"
+		"citadel_ability_spade_play_desc"                 "現在のカードをプレイし、引いたカードに応じてボーナスを得ます。<br><br>バグ：カードをプレイしてショップのアップグレードを表示します"
+
+		"citadel_ability_spade_translocate"                "煙と鏡"
+		"citadel_ability_spade_translocate_desc"          "スペードが敵ヒーローの位置をマークします。短時間後、彼らはその場所に戻されます。"
+		"citadel_ability_spade_translocate_t3_desc"       "テレポート後に装甲を無効化"
+
+		"TeleportTime_label"                               "テレポート遅延"
+		"TeleportTime_postfix"                             "s"
+
+		"citadel_ability_spade_translocate/modifier_citadel_spade_translocate" "戻ってきます..."
+
+		"citadel_ability_spade_misdirection"               "シャドウボックス"
+		"citadel_ability_spade_misdirection_desc"         "越えた際にダメージを与えるバリアを作成します。"
+
+		"citadel_ability_spade_misdirection/citadel_modifier_spade_misdirection/modifier_spade_misdirection_aura"  "ミスディレクションゾーン"
+		"citadel_ability_spade_misdirection/citadel_modifier_spade_misdirection"  "ミスディレクション"
+
+		// Modifiers
+
+		"citadel_ability_spade_vanishing_act/modifier_citadel_spade_vanishing_act"  "消失中"
+		"citadel_ability_spade_puppeteer/modifier_citadel_spade_pupeteer_puppet"    "操り人形"
+		"citadel_ability_spade_sleight_of_hand/modifier_slow_base"                  "減速"
+		"citadel_ability_spade_hat_trick/modifier_citadel_spade_hattrick_tracker"   "ダメージスタック"
+		"citadel_ability_spade_sleeve_toss/modifier_citadel_spade_rupture"         "出血中、動かないで！"
+
+		//
+		// カード
+		//
+		"citadel_ability_spade_draw/modifier_citadel_spade_card"                     "カード"
+
+		// バフ
+		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_citadel_spade_card_cooldown"  "クールダウン減少"
+		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_weapon"  "攻撃速度増加"
+		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_speed"    "移動速度増加"
+		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_citadel_spade_card_regen"  "再生"
+		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_strength" "強さ"
+		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_joker"    "メタルスキン"
+		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_card_kingofclubs"  "スリーブトスが移動不能に"
+		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_card_hattrickdisarm"  "ハットトリック武器解除"
+
+		// デバフ
+		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_emp"      "アビリティ無効"
+		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_citadel_root"   "移動不能"
+		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_citadel_disarmed" "武器解除"
+		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_dot"     "出血中"
+		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_weakness" "弾薬装甲減少"
+		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_joker_debuff"  "バグ発生中"
+
+		//-----------------------------------------------------------------------------
+		// Yakuza
+		//-----------------------------------------------------------------------------
+		"yakuza_shakedown"                            "シェイクダウン"
+		"yakuza_shakedown_target"                     "シェイクダウン"
+		"yakuza_shakedown_target_desc"                "ドローンを送り、エリアをロックダウンし、範囲内の敵を移動不能かつダメージを与えます。ドローン間のリンクは、あなたが受けるダメージの一部をランダムな移動不能の敵と共有します。"
+		"yakuza_shakedown_target_t2_desc"             "チャンネル減速を無視"
+		"ShareDamagePercent_label"                     "ダメージ共有増加"
+		"ShareDamagePercent_postfix"                   "%"
+		"AbilityChannelTimeDisplay_label"              "チャンネル時間"
+		"AbilityChannelTimeDisplay_postfix"            "s"
+
+
+		"yakuza_kobun"                                "雇われの筋"
+		"yakuza_kobun_desc"                           "友好的なユニットを追尾し、ターゲットに最も近い敵を攻撃する部下のギャングスターを召喚します。ダブルタップで自己発動します。"
+		"SummonHealth_label"                          "ギャングスターのHP"
+		"SummonDPS_label"                             "ギャングスターのDPS"
+		"SummonCount_label"                           "召喚したギャングスター"
+		"SummonLifetime_label"                        "ギャングスターの持続時間"
+		"SummonLifetime_postfix"                      "s"
+		"SummonCasterHealthPct_prefix"                "ギャングスターのHP"
+		"SummonCasterHealthPct_label"                 "ギャングスターのHPへ"
+		"SummonCasterHealthPct_postfix"               "ボスのHPの%"
+
+		"yakuza_protection_racket"                    "プロテクションラケット"
+		"yakuza_protection_racket_desc"               "味方を守るための保護力シールドを作成し、クリティカルダメージを増加させます。キャスト時に対象のネガティブ効果を消去します。"
+
+		"yakuza_protection_racket_t1_desc"            "-{s:WeaponRecoilReduction}% 武器の反動減少、-{s:MoveWhileShootingSpeedPenaltyReductionPercent}% 撃っている間の移動速度減少。"
+
+		"MoveWhileShootingSpeedPenaltyReductionPercent_label" "撃っている間の移動速度ペナルティ減少"
+
+		"yakuza_setting_sun"                          "沈む太陽"
+		"yakuza_setting_sun_desc"                     "軌道から精密なガンマ線ブラストを呼び下ろし、カバーに関係なく半径内のすべてのユニットにダメージを与えます。ビームの中心近くにいるユニットは、より多くのダメージを受けます。"
+		"CenterDamage_label"                           "中心でのダメージ"
+		"OuterDamage_label"                            "外側でのダメージ"
+		"SecondHit_label"                              "範囲内のランダムなヒーローをダブルストライクします。"
+
+		//-----------------------------------------------------------------------------
+		// Hero Bomber
+		//-----------------------------------------------------------------------------
+
+		"modifier_charged_bomb"                          "チャージドボム"
+
+
+		//-----------------------------------------------------------------------------
+		// ヒーローアビリティの終了
+		//-----------------------------------------------------------------------------
+
+		// 武器名
+		"citadel_gun_damage"                              "銃ダメージ"
+		"citadel_weapon_combo_melee"                      "近接コンボ"
+
+		"citadel_weapon_hero_yamato_set"                 "姉妹の悲哀"
+		"citadel_weapon_hero_inferno_set"                "燃え上がる言葉"
+		"citadel_weapon_hero_gigawatt_set"               "冷徹な計算"
+		"citadel_weapon_hero_hornet_set"                 "壁の花の復讐"
+		"citadel_weapon_hero_orion_set"                  "悲しみが訪れる"
+		"citadel_weapon_hero_ghost_set"                  "ヨハンの贈り物"
+
+		"citadel_weapon_hero_atlas_set"                  "ケースクローズド"
+		"citadel_weapon_hero_atlas_set_desc"             "一度に1発の弾をリロードします。中断可能です"
+
+		"citadel_weapon_hero_wraith_set"                 "ザ・レイク"
+
+		"citadel_weapon_hero_forge_set"                  "提供されたサービス"
+		"citadel_weapon_hero_forge_set_desc"             "銃が回転するにつれて発射速度が増加します"
+
+		"citadel_weapon_hero_bebop_set"                  "謙虚なパイ"
+		"citadel_weapon_hero_bebop_set_desc"             "弾の移動がない連続ビームを発射します"
+
+		"citadel_weapon_hero_nano_set"                   "甘い嘘"
+		"citadel_weapon_hero_dynamo_set"                 "ザ・ヴォンネガン"
+		"citadel_weapon_hero_kelvin_set"                 "探検の終わり"
+		"citadel_weapon_hero_viscous_set"                "深海の通訳者"
+		"citadel_weapon_hero_haze_set"                   "非難と贖罪"
+		"citadel_weapon_hero_astro_set"                  "オカルト45"
+		"citadel_weapon_hero_chrono_set"                  "貿易の秘密"
+		"citadel_weapon_hero_shiv_set"                   "バストフラッシュ"
+		"citadel_weapon_hero_tengu_set"                  "猫の父の豪華さ"
+		"citadel_weapon_hero_krill_set"                  "黄色いカナリア"
+		"citadel_weapon_hero_lash_set"                   "テープの物語"
+		"citadel_weapon_hero_warden_set"                 "自由の代償"
+		"citadel_weapon_hero_mirage_set"                 "守られた約束"
+		"citadel_weapon_hero_synth_set"                  "黒羊"
+
+		"citadel_weapon_hero_duo_set"                    "デュオガン"
+		"citadel_weapon_hero_heavy_set"                  "ヘビガン"
+		"citadel_weapon_hero_akimbo_set"                 "アキンボガン"
+		"citadel_weapon_hero_gunslinger_set"             "ガンスリンガーガン"
+		"citadel_weapon_hero_yakuza_set"                 "ヤクザボスガン"
+		"citadel_weapon_hero_phalanx_set"                "ファランクスガン"
+		"citadel_weapon_hero_kali_set"                   "カーリーガン"
+		"citadel_weapon_hero_revenant_set"               "レヴナントガン"
+		"citadel_weapon_hero_demoman_set"                "デモマンガン"
+		"citadel_weapon_hero_hijack_set"                 "ハイジャックガン"
+		"citadel_weapon_hero_mechaguy_set"               "メカガイガン"
+		"citadel_weapon_hero_zealot_set"                 "熱心な信者のガン"
+		"citadel_weapon_hero_ballista_set"               "バリスタガン"
+		"citadel_weapon_hero_apocalypse_set"             "アポカリプスガン"
+		"citadel_weapon_hero_clawdril_set"               "クローリルガン"
+		"citadel_weapon_hero_coldmetal_set"              "冷たい金属のガン"
+		"citadel_weapon_hero_spade_set"                  "スペードダイスランチャー"
+		"citadel_weapon_hero_rutger_set"                 "ラトガーガン"
+		"citadel_weapon_hero_tokamak_set"                "キュリーの時"
+		"citadel_weapon_hero_tempest_set"                "テンペストガン"
+		"citadel_weapon_hero_wrecker_set"                "デモリション賛歌"
+
+		// 近接名
+		"ability_melee_ghost"                             "近接"
+		"citadel_ability_melee_bull"                      "近接"
+		"citadel_ability_melee_gigawatt"                  "近接"
+		"citadel_ability_melee_engineer"                  "近接"
+		"ability_melee_heavy"                             "近接"
+		"citadel_ability_melee_hornet"                    "近接"
+		"ability_melee_archer"                            "近接"
+		"citadel_ability_melee_chrono"                    "近接"
+		"ability_melee_inferno"                           "近接"
+		"citadel_ability_melee_wraith"                    "近接"
+		"citadel_ability_melee_sumo"                      "近接"
+		"ability_melee_kelvin"                            "近接"
+		"ability_melee_viscous"                           "近接"
+		"ability_melee_astro"                             "近接"
+		"ability_melee_haze"                              "近接"
+		"citadel_ability_melee_bebop"                     "近接"
+		"ability_melee_nano"                              "近接"
+		"citadel_ability_melee_shiv"                      "近接"
+		"citadel_ability_melee_tengu"                     "近接"
+		"ability_melee_digger"                            "近接"
+		"citadel_ability_melee_kali"                      "近接"
+		"citadel_ability_melee_revenant"                  "近接"
+		"citadel_ability_melee_phalanx"                   "近接"
+		"citadel_ability_melee_demoman"                   "近接"
+		"ability_melee_zealot"                            "近接"
+		"ability_melee_lash"                              "近接"
+		"citadel_ability_melee_warden"                    "近接"
+		"citadel_ability_melee_apocalypse"                "近接"
+		"citadel_ability_melee_clawdril"                  "近接"
+		"citadel_ability_melee_coldmetal"                 "近接"
+		"citadel_ability_melee_ballista"                  "近接"
+		"citadel_ability_melee_spade"                     "近接"
+		"citadel_ability_melee_tokamak"                   "近接"
+		"ability_melee_yamato"                            "近接"
+		"ability_melee_wrecker"                           "近接"
+
+		"hero_astro_role"                                 "トリックショットを放ちながらバウンスする"
+		"hero_atlas_role"                                 "接近戦に突入する"
+		"hero_ballista_role"                              "バリアを張って爆弾を落とす"
+		"hero_bebop_role"                                 "敵をフックでノックアウトコンボに持ち込む"
+		"hero_wrecker_role"                               "スクラップを回収して武器を作る"
+		"hero_chrono_role"                                "空間と時間を操作する"
+		"hero_dynamo_role"                                "敵チームを制圧する"
+		"hero_forge_role"                                 "戦闘タレットで戦闘をコントロールする"
+		"hero_heavy_role"                                 "重火器のエキスパート"
+		"hero_ghost_role"                                 "体力を犠牲にし、その後吸い取る"
+		"hero_gigawatt_role"                              "敵の群れを感電させる"
+		"hero_haze_role"                                  "忍び込んで弾を撒き散らす"
+		"hero_hornet_role"                                "不意打ちで敵を狙う"
+		"hero_inferno_role"                               "敵を燃やし、見て楽しむ"
+		"hero_kelvin_role"                                "敵を凍らせる"
+		"hero_lash_role"                                  "ダイブして敵を踏みつける"
+		"hero_krill_role"                                 "敵の下に潜り込む"
+		"hero_nano_role"                                  "サイドラインから混乱を引き起こす"
+		"hero_orion_role"                                 "遠距離からスキルショットを放つ"
+		"hero_shiv_role"                                  "敵を出血させ、次に殺しに行く"
+		"hero_viscous_role"                               "転がって弾を反らす"
+		"hero_warden_role"                                "敵を弱体化させ、追いかける"
+		"hero_wraith_role"                                "孤立したターゲットを溶かす"
+		"hero_yamato_role"                                "洗練されたチャージ攻撃を届ける"
+		"hero_tengu_role"                                 "運の良い味方とパワーデュオを組む"
+		"hero_mirage_role"                                "弾を避けながらバラージを放つ"
+		"hero_synth_role"                                 "背後を侵入し、混乱を引き起こす"
+
+		"hero_akimbo_playstyle"         "アキンボは近接戦闘において卓越しており、スピード、扇状の攻撃、そしてできるだけ多くの標的を撃つための大量の弾薬を駆使します。" 
+		"hero_astro_playstyle"          "アストロは、空中に打ち上げたものを狙い撃つ名手としての技術に依存しています。的確な狙いで重いダメージを与えられます。彼女の移動スキルにより、敵を孤立させたり、迅速に撤退したりすることができます。"
+		"hero_atlas_playstyle"          "エイブラムスは、その大柄な体と持続力を活かして前線を率い、敵の真ん中に突入して敵を散らします。敵が彼に火力を浪費すれば、後方の仲間たちは無防備にダメージを与えることができます。"
+		"hero_ballista_playstyle"       "人々が嫌うことは何か？ショットガンで後退させられることだ。さらに嫌なことは？地雷原に後退させられることだ。それよりもさらに嫌なことは？融合爆弾で原子化されることだ。バリスタは戦場を爆発的なルーブ・ゴールドバーグ装置に変えます。"
+		"hero_bebop_playstyle"          "ビバップは、自身の能力をさまざまな形で組み合わせることができます。敵の位置を乱したり、味方を助けたり、瞬時にダメージを与えたり。状況に応じて彼の巨大なレーザーは多くの問題を解決します。"
+		"hero_wrecker_playstyle"        "パーツを回収しスクラップを集めるレッカーは、兵士を分解したり、ウィッキングボールで敵を押しつぶしたり、スタシス・トラップで敵を捕らえたりします。"
+		"hero_chrono_playstyle"         "時間を操ることで、パラドックスは1対1の戦闘で敵を上回ります。彼女は、敵を待機中のパルスグレネード、壁、または仲間の真ん中にタイムリーに移動させることで、敵を打ちのめします。"
+		"hero_dynamo_playstyle"         "ダイナモは、自分と仲間を健康に保ちながら、待機しています。シンギュラリティの協調的な使用は、チーム戦の流れを大きく変えることができます。"
+		"hero_forge_playstyle"          "マギー・マギニスにとって、正確な配置がすべてです。彼女はキルゾーンを作成するか、敵チームを分断することができます。彼女は、陣地にこもった状態でチームを維持し、難攻不落にする手助けをします。"
+		"hero_ghost_playstyle"          "健康を犠牲にして壊滅的な効果を生み出すことが、レディ・ガイストの力の源です。彼女がエネルギーを失ったとき、敵から命を吸い取ることができます。"
+		"hero_gigawatt_playstyle"       "セブンは小競り合いの中で待機し、攻撃の瞬間を狙います。彼は嵐のように戦いに突入し、稲妻の滝で敵を叩きます。"
+		"hero_haze_playstyle"           "ヘイズはターゲットに集中すると、銃撃戦で自分を守ることができます。彼女は一方的な交換を好み、ダメージを避けながら近くの無防備なターゲットを狙います。"
+		"hero_hornet_playstyle"         "ヴィンディクタは、自由に接近し、獲物を狙ってゆっくりと出血させることができる機動力を持っています。どんな距離からでも傷ついた敵は、彼女がマップにいるときに狙われることを恐れるべきです。"
+		"hero_inferno_playstyle"        "インフェルヌスは、時間をかけてダメージを与える多くの方法を持ち、敵を燃やしてから致命的な一撃を仕掛けます。インフェルヌスの燃えるようなスピードのおかげで、敵は炎から逃れることができません。"
+		"hero_kali_playstyle"           "カリは彼のブーメランを使って致命的な攻撃を仕掛けますが、ブレードを捕まえ損ねると、その効果は大幅に減少します。"
+		"hero_kelvin_playstyle"         "適切なタイミングでの回復と、チーム戦をうまく分けることが、容易な勝利と悲惨な敗北の違いです。敵を遅くすることで、ケルビンのチームはこの状況を実現するための機動的な優位性を得ます。"
+		"hero_lash_playstyle"           "ラッシュは敵に息をつく隙を与えず、長距離から飛び込んで無防備な敵と戦ったり、敵が逃げようとしたときに追いかけたりします。"
+		"hero_krill_playstyle"          "モーとクリルは地面を掘り進むことで、ほぼ誰にでも奇襲をかけることができます。そして、近づくとその結果は壊滅的なものになることがあります。"
+		"hero_nano_playstyle"           "(変動中) 良い政治家のように、ナノは人々を対立させ、自分の汚れた仕事をさせた後、やってきてすべての功績を主張します。"
+		"hero_orion_playstyle"          "狡猾な捕食者、グレイ・タロンは、致命的な精度、罠、巧妙なポジショニングの組み合わせを用いて、最も手強い相手を打ち倒します。"
+		"hero_shiv_playstyle"           "シブはフェアにプレイすることにまったく興味がないため、敵を弱体化させた後に突入するために、ヒットアンドラン戦術に依存します。"
+		"hero_tempest_playstyle"        "まるで子供がテレビの仕組みを理解していないように、誰も正確にテンペストがどのようにあなたを殺すのかを知らない。テスラコイルだったのか？テスラコイルは見えなかった。いずれにせよ、あなたは死んでいて、テンペストは笑っている。"
+		"hero_viscous_playstyle"        "ビスカスは巧妙な回避と戦略的な治療の使用を通じて敵を悩ませ、彼を最も残虐な敵の攻撃に耐えさせることができます。"
+		"hero_warden_playstyle"         "ウォーデンは前線を率い、戦闘に飛び込んで敵の戦闘能力を妨害します。しかし、ウォーデンが勇敢だと考えることは、他の人には無謀だと見なされることがあり、注意しなければすぐに自分が危険な状況に陥ることになります。"
+		"hero_wraith_playstyle"         "1対1の戦闘で優れた能力を持つレイスは、ターゲットを孤立させ、 ruthlessに排除します。そして、誰も反撃できる前にテレポートします。"
+		"hero_yamato_playstyle"         "ヤマトは正確な一撃を使ってライバルを壊滅させます。しかし、そのようなダメージ攻撃はしばしば彼女をさらけ出すため、彼女はすべての一撃を確実に当てる必要があります。"
+		"hero_spade_playstyle"          "ロレム・イプサム・ドロール・シット・アメット、コンセクテトゥール・アディピシシング・エリト、セド・ド・エウスモド・テンプル・インシディドゥント・ウート・ラボレ・エト・ドローレ・マグナ・アリクア。"
+		"hero_tokamak_playstyle"        "トカマクの武器を撃つことで熱が生じ、銃が撃っていないときにその熱が放散します。高温レベルは、一部の能力のパワーを増加させるために使用できます。"
+		"hero_rutger_playstyle"         "ロケットランチャーは彼にロケットジャンプの能力を与え、フォースフィールドは移動の選択肢を封じ、チートデスは悪い戦闘を逆転させ、チーム戦の真ん中で放たれるパルスは結果を決定します。"
+		"hero_synth_playstyle"          "強力なショットガンと細い体を持つポケットは、神秘的なスーツケースに短時間隠れて、飛んでいるマントを通じてテレポートする能力に依存し、近接戦闘を生き残ります。"
+		"hero_mirage_playstyle"         "[プレイスタイル情報はこちら]"
+		"hero_slork_playstyle"          "スロークの武器は、当たったものすべてを毒します。主な攻撃は扇状にヒットし、狙った攻撃は毒に侵されたターゲットに当たるとクリティカルヒットします。"
+		"hero_tengu_playstyle"          "アイビーは、敵を遅くし、スタンさせる妨害戦術を持っています。彼女は仲間と連携することで最も効果的で、彼女と仲間の銃を強化し、回復を分け合います。"
+
+	
+		"hero_akimbo_lore"				"孤独なガンスリンガーによって作られたアキンボは、銃で全ての問題を解決できるわけではないと教えられた。このことがロボットの無法者にとって非常に苛立たしいものであったが、時間が経つにつれ、アキンボは彼の人間の父が正しかったことに気付いた。銃は彼の問題の約75%を解決できたが、全ての問題を解決するには少なくとも2丁の銃が必要だった。"
+		"hero_astro_lore"				"ニューヨークに移住することを夢見て生涯を過ごす人々がいる。しかし、ホリデイはそのような人ではない。小さな町の保安官であることに満足し、ホリデイはカウンティフェアでのトリックシューティングの時にしか銃を使う必要がなかった… だが、殺人事件が始まった。\n\n残虐で非人道的なその事件では、遺体が肋骨を裂かれ、中身が鳥に突かれたかのように引き裂かれて見つかった…ホリデイは殺人犯を追跡した。メディアが「トルバドール」と名付けた移動民謡音楽家であったが、彼に対峙した時、彼はカラスの群れに爆発して逃げてしまった。\n\nそれが6ヶ月前のことであり、セントラルイリノイでの殺人事件は止まったが、ホリデイの捜査は続いている。彼女はトルバドールがニューヨークに向かっていると信じており、彼を見つけた時にはその悪党を殺すつもりだ。"
+		"hero_atlas_lore"				"ハードヒッティング、ハードヘッディング、ハードドリンキング。アブラムス探偵はニューヨークの捜査シーンで長年の顔である。盗まれた芸術から行方不明者、儀式的な殺人まで、アブラムスは机に載った案件は何でも解決したわけではなく、それらを解決した。\n\nしかし、 cheating spouseを追う日々は、オフィスのドアを開けたときに『The Tome』が彼の机に置かれているのを見た時に終わった。\n\n彼に残された指示は、黒曜石の血で書かれた「彼らにそれを持たせるな」という短いメモだけだった。この物体の出所はまだ不明だが、家が3度も侵入され、オフィスが荒らされ、車が火炎瓶で襲撃されたことから、アブラムスは一体何が起きているのかを解明することに強い興味を持っている。"
+		"hero_bebop_lore"				"未亡人のジャンクヤードの従業員によって鍛えられたベバップは、ただのスクラップゴーレムの労働者ではなく、彼女が持てなかった子供だった。昼間は鉄の庭で働き、夜はジャズを聴くという予測可能でありながら心地よいルーチンを共にしていた。しかし今、ベバップの創造者が病に倒れ、ミス・シェリーがベバップが夜に行う活動を知ったら賛成しないだろうが、彼女が知らないことは彼女を傷つけない。"
+		"hero_wrecker_lore"				"メイルストロームがニューヨークに襲いかかった時、それは単に新たな神秘主義の時代をもたらしただけでなく、地政学をも変えた。CIAの予知者が権力を握る数十年前から脅威を特定するのから、煙る裏部屋でのオカルトの契約に至るまで、無数の戦争と atrocities が歴史を形作ることを防いできた。しかし、それは戦争がなくなったということではなく、戦争が変わっただけだ。\n\n超常的な軍事会社が台頭してきた。これらのグループは、異次元の生物と様々な血の魔法を組み合わせて、国家の監視のための枠を回避し、戦争をする国々の代理として機能している。\n\nレッカーはそんな兵士の一人である。\n\nエルドリッチ・タクティカル・ソリューションズ（フェアファックス・インダストリーズの子会社）に雇われたレッカーは、他のPMCが胃がもたれないような汚れ仕事をする名高い傭兵である。"
+		"hero_chrono_lore"				"パラドックス。時間のアーティファクトであり、悪名高い盗賊ギルドの名前… 彼らは最も手が届かない個人や機関を標的とした精巧な強盗を構築することを誇りに思っている。パラドックスが盗んだ無数のアーティファクト、国家機密、セレブリティの親子鑑定書はどうなるのか？ ポップアップ博物館に展示し、誰もがパラドックスの手の届かない場所ではないことを示すためだ。\n\n謎に包まれたパラドックスの各メンバーはマスクをかぶり、組織の名前を名乗る。彼らはどこにでもいる。彼らはどこにもいない。そして、彼らが何かを望む時、それは避けられない。"
+		"hero_dynamo_lore"				"科学者として、ダイナモ教授は常に好奇心旺盛な心を持っていた。中央公園で時空の裂け目が開いたとき、彼は最初に現場に駆けつけ調査した—そしてその壮大な光景が人生を変えるものになると思ったが、彼の考えていたのは比喩的な意味であり、実際に彼の身体が原子化されて小さな死にゆく星にされることではなかった。\n\nしかし、彼の身体は消えたが、彼の精神と知識への渇望は生き続けている。コロンビアカレッジのテニュア教授として、ダイナモは自身の状態についてもっと学ぼうとしながら授業を維持している。結局、彼には未来の心を啓発する義務があるのだから。"
+		"hero_forge_lore"				"マギー・マギニスは常に物を作る才能を持っていた。4歳の時にはリンカーン・ログを使って建築の驚異を再現し、10歳の時には親の記念日用にカスタムの照明器具を作り直した。15歳の時には、死者の魂を精製する機械を設計した…最後のものはリンカーン・ログよりも注目を浴びた。\n\n現在、フェアファックス・インダストリーズの軍事R&D部門の責任者であるマギニスは、実験室ではなく機械工房で時間を過ごしている。彼女は理論には興味がなく、科学は触れることのできる魔法だと考えている。"
+		"hero_ghost_lore"				"かつてレディ・ジャンヌ・ガイストは町の人気者でした。しかし、時が経つにつれ彼女の美しさは失われ、高貴な社会から遠ざかる一方で、最終的には介護施設の中で過去の栄光を語るだけの frailな女性になってしまいました。そこで誓いの守護者が現れました。別の次元から来た強力な精霊である誓いの守護者は、彼女に過去の栄光を取り戻す道を提案しました…彼は彼女の若さを取り戻すことができると言い、彼女が生きている限りその本質を吸い取る必要があると言いました。\n\nガイストは葛藤しました。明らかに殺人は恐ろしい行為であり、誓いの守護者は信頼できる存在ではありませんでした…しかし、若返るチャンスを得ることはあまりにも魅力的でした。そこで彼女は計画を練りました：誓いの守護者と契約を結んだ後、彼を束縛し、その影響力を制限することにしました。誓いの守護者はまだ餌を得ることができましたが、彼女の条件で。\n\nしかし、年が経つにつれ、守りの力は弱まり、誓いの守護者はかつてないほどの飢えを感じています…"
+		"hero_gigawatt_lore"			"神秘的なエネルギーが地球で目覚めたとき、世界は変わりました... 何でも可能になりました。しかし、何でも可能だからといって、何でも許されるわけではありません。そこで政府はルールを作りました。法律です。超自然の世界の恩恵を安全に享受できる手段です。しかし、ルールや法律は劣った人間のためのものです。制限を持つ人間のためのものです。セブンではない人間のためのものです。\n\nセブンがロスト・ウィスパーという危険なオカルト活動者の牢獄に送られた理由については多くの噂があります。しかし、彼の処刑の夜に何が起こったかは疑いの余地がありません。\n\n7か国の最も強力な儀式者によって設置された護符…その護符は、処刑に神秘的な干渉を防ぐだけでなく、同時にセブンの魂を消滅させるように設計されていました。それによって彼の足跡を追おうとする者たちによって接触、復活、または他の形で利用されることが不可能になるはずでした…失敗しました。\n\n見物人たちは、米陸軍の最強のメンタリストの頭がぶどうのように弾けるのを恐怖で見つめました。スコットランドヤードの最高のオカルト調査官が灰になって崩れるのを見て叫びました。セブンの体は拘束具に縛られて激しくうねり、彼の肌は異次元の電気で燃えていました…しかし、彼は死ななかった。彼は笑いました。\n\n彼は自らの束縛から解放されるときに笑いました。\n\n彼は捕らえられた者たちが恐怖におののく様子を見て笑いました。\n\n彼は彼を苦しめた者たちを虐殺する際に笑いました。\n\n彼は数年も拒否されていた新鮮な空気を味わったときに笑いました。\n\nそして、彼はニューヨーク市に到達したときに何をするつもりかを考えながら笑いました。"
+		"hero_haze_lore"				"オカルトセキュリティおよび調査委員会は、CIAよりも透明性がないブラックボックスの政府組織です。OSICの男たち、女たち、そして存在たちが、地元の法執行機関の能力を超えた邪悪な力から国を守る責任を負っています。\n\n悪名高いサンドマン部隊の一員として、ヘイズは重要人物の夢に侵入し、脅威のレベルを評価し、必要であれば…彼らを眠らせる任務を日常的に受けています。"
+		"hero_hornet_lore"				"セーラム魔女裁判のジョン・ハソーンの犠牲者であるヴィンディクタは、彼女の霊が初めて超自然が一般に知られるようになったマエルストロムの際に、再び肉体に戻されることで第二の人生を得ました。\n\n「人間の友人たち」の新興宗教と戦う一人の幽霊の戦争を繰り広げながら、ヴィンディクタは超自然をハソーンの仲間から守ることを目指しており、必要ならばいかなる犠牲を払うことを恐れません。"
+		"hero_inferno_lore"				"ほとんどのティーンエイジャーと同様に、インフェルヌスはワイルドで、反抗的で、衝動的でした。他のティーンエイジャーとは異なり、インフェルヌスは別の次元の存在であり、火に対する超自然的な支配力を持っていました。言うまでもなく、彼の青春は放火、殺人、そして証拠の隠滅に満ちていました。しかし、あれは過去のこと。今や大人になったインフェルヌスはかなり落ち着いています。彼は素晴らしいライブ音楽が流れるバーで働き、興味深い人々と話すことに幸せを感じています。それでも、バーで誰かが攻撃的または暴力的になると、彼はかつて磨いたスキルを取り出すことを恐れません。"
+		"hero_kelvin_lore"				"著名な冒険科学者であるケルビンは、未知のものを探求し理解することを人生の使命としました。したがって、北極に隠された第8の星界の門に関する噂が広がったとき、彼は迅速に遠征チームを結成しました。彼の世代の brightest mindsを集め、ケルビンと彼のチームは盛大に出発しました。\n\n彼らは二度と帰ってこなかった。\n\n1年半後、氷漬けのケルビンの遺体が漁船によって発見され、彼の手には光るルーンで刻まれた石が握られていました。乗組員たちは体を近くで見ようと氷を削り取りましたが、驚くことにケルビンは目を開けました。彼らは彼のバイタルサインをチェックしました... 脈はありませんでした。彼の開いた傷を包もうとしました... 血はありませんでした。しかし、ありえないことに、ケルビンは「生きている」状態でした。\n\n遠征で何が起こったのかの記憶はなく、ケルビンは答えを探しています。"
+		"hero_lash_lore"				"ジェイコブ・ラッシュは嫌な奴です。"
+		"hero_krill_lore"				"モーとクリルはトンネルラッツのメンバーで、地下トンネルのネットワークを利用してボロ区間間の不法取引と商取引を促進しています。しかし、ニューヨークの裏社会の住民はトンネルラッツの仕事を尊重している一方で、時折ギャングが個人的な復讐のためにトンネルシステムを悪用しようとします...そのとき、モーとクリルが介入し、彼らのホスピタリティを無視した者がどうなるかを思い出させます。"
+		"hero_nano_lore"				"タイム誌の「地球上で最も危険な女性」に選ばれるという名誉を与えられたカリコは、価格次第であらゆる衝突のいかなる側面にも資金提供を行う謎のオカルト武器商人です。\n\n彼女の批評家（および友人）は、彼女を道徳的でないと正しく指摘しますが、彼女には彼女なりの原則がある…それがどんなに冷酷で計算された原則であっても。"
+		"hero_orion_lore"				"「バクスター協会」の創設メンバーであるウェスリー・グレー・タロンは、人間を襲う怪物を追い詰めて約40年を過ごした後、ついに後継者を見つけ、弓を下ろすことを決意しました。グレー・タロンの任務は、妻や子供と過ごす時間がほとんどなかったため、息子が自分の家族を持つようになった今、彼は愛する人々と再接続する最後のチャンスを認識しました。\n\n退職後、ウェスリーは余裕のある生活を楽しみました。彼は妻との失われた時間を取り戻し、孫たちを可愛がり、毎週水曜日に家族全員のために夕食を作っていました。彼は幸せでした。\n\nしかし、彼は電話を受けました。\n\n当局はそれを freak accidentと主張しました... 火事が彼の息子の家を消耗させ、誰も逃げるチャンスがなかったと。しかし、ウェスリーはもっと知っていました。彼の息子の妻はイクセイでした... 彼女は思考だけで火を消すことができたのです。もし彼らの遺体が焼かれた状態で発見されたなら、火事が起こるずっと前に彼らは死んでいたはずです。\n\nそして、グレー・タロンは再び弓を取り、責任を負う者を見つけたとき、血の報復が待っているでしょう。"
+		"hero_shiv_lore"				"「バクスター協会」の忠実なメンバーであり、モンスター狩りの国際組織の一員であるシブは、北アメリカを横断し、生ける者を襲う生物を排除しようとしています。\n\n彼のあまりにも磨かれていない性格と犯罪歴のせいで、協会のより伝統的なメンバーの中には警戒する者もいますが、誰も彼の効果を否定することはできません。"
+		"hero_viscous_lore"				"バミューダトライアングルは神話ではなく、大西洋の深部にある影の結びつきです。ほとんどの場合、この星界の門から逃げたものは無害でした（ネッシーのように）が、今や暗く捕食的な存在が海を狩り...その住民たちは恐怖におののいています。\n\nその住民の一人であるサイキック海葦は、これを解決したいと考えています。表面で生き残るために、彼はエクトプラズムの身体を作り出し、パトロンたちを召喚して深海を敵から守ろうと必死です。"
+		"hero_warden_lore"				"ほとんどの人々は超自然が50年前に世界に入ったと考えています。しかし、彼らは間違っています。その存在は何世代にもわたって民俗を形成してきました…影を恐れる人々がいる限り、彼らのために戦うために自分の人生を捧げた者たちがいました。\n\n軍事錬金術師の家系から生まれたウォーデンの家族は、神秘的な黙示録から身を守るために訓練してきました…しかし、時が経つにつれ、その教訓の重要性はますます薄れていきました。かつては真摯な警告として見られていたものが、次第に迷信深い祖父母の面白い逸話として認識されるようになりました。\n\nセントラルパークでポータルが開いたとき、ウォーデンの両親は、彼らが言われていたすべてが真実であり、彼らが準備不足であることに気づきました。次の世代が仕事を怠けることを許さないために、ウォーデンは誕生以来、超自然的な殺戮マシンとして訓練されてきました。一つの目的は、パトロンたちが私たちの世界に入ることを決して許さないことです。"
+		"hero_wraith_lore"				"ニューヨークのギャンブルシーンの礎であるレイスの組織は、あまりにも明白な秘密です。しかし、相当な額の賄賂、脅迫、そして恐喝のおかげで、レイスは法律の上に立っていることを知っています。"
+		"hero_yamato_lore"				"犯罪組織のボスの家に生まれたカオリと兄のヤマトは、\n父の死後、セブンスムーンの運営を引き継ぐ運命に\nあることをずっと自覚していた。彼らは何年もの間、\n二頭体制で組織を運営し、利益と成功をもたらし、\nアメリカへの進出も計画していた。\n\n計画は単純だった。カオリは日本に残って国内を\n統制し、ヤマトはアメリカに渡り国際的な拠点を\n作るはずだった。兄妹にとって不運だったのは、\nカオリが日本で指揮をとるという計画を快く\n思わない部下たちがいたことだった。\n\n反逆は迅速かつ暴力的だった。ヤマトが命を犠牲に\nしてカオリを守ったおかげで、カオリは一握りの\n部下たちと共に日本からアメリカへ逃れることができた。\n\nアメリカに到着したカオリとその一行を迎え入れたのは、\nヤマトを出迎えるはずの人物だった。その男は\n日本人の名前には馴染みがなく、カオリのことを\n「ヤマト」と呼んだ。カオリは間違いを正そうかと思ったが、\n兄を記憶に留める最善の方法は、自分がヤマトの\n名前を受け継ぎ、彼の夢をかなえることだと決意した。"   
+		"hero_tengu_lore"				"ガーゴイルは、自身が生き返ったときに何が起こっているのか分からなかった...ただ、大きな人間と小さな人間が傷つけられていることを知っていました。そこでガーゴイルは行動に出て、攻撃者を恐怖に駆り立てました。小さな人間は感謝の言葉を述べ、ガーゴイルの名前を尋ねました。ガーゴイルには名前がありませんでした。そこで小さな人間は、「アイビーと呼ぶことにする」と言いました。ガーゴイルはその時アイビーで覆われていたため、それが少し明白すぎると思いましたが、小さな人間のためにそれに従うことにしました。\n\n人間たちはアイビーに自分たちの感謝を示すために家に来てくれるように頼み、アイビーは彼らと共に歩きました。その夜、彼女は多くのことを学びました。その家族はアローヨと呼ばれていました。小さな子供の名前はソフィア。モフォンゴとは、彼らが「美味しさの皿」と呼んでいたものでした。しかし最も重要なのは、彼女が攻撃していた者たちの名前が「メンドーザシンジケート」であり、彼らが人々を傷つけていることを知ったことです…アローヨのような素敵な人々を。\n\nアローヨがアイビーを家に連れ帰った日から18年が経過しました...その間、彼女はメンドーザシンジケートを解体し、スペイン・ハーレムからその支配を解放することを使命としてきました。しかし、ほぼ20年間、一つの追求に人生を捧げることの難しさは、達成した後に何をすべきか分からなくなることです。彼女は人生で初めて、スペイン・ハーレムの外に出て、義賊の正義を超えて世界が何を提供するかを見る準備ができています。"
+		"hero_synth_lore"				"アリン・フェアファックスは、フェアファックス・インダストリーズの長男として、18歳の誕生日に銃撃を受けて死んだふりをさせられてから5年間、隠れて生活しています。アリンは、誰が彼らを親の会社の支配から阻止しようとしているのか分かりません…しかし、貪欲に満ちたフェアファックス・インダストリーズの巣窟では、それが誰であっても不思議ではありません。\n\n「ポケット」という名前を名乗っているアリンは、自分の本当のアイデンティティを秘密に保ちたいと必死です…それは自分の保護のためだけではなく、親とは別の自分自身のアイデンティティを築きたいからです。"
+		"hero_mirage_lore"				"ジンは現代の世界で最も好奇心をそそるグループの一つです。制御された量で大きな力を持つジンは、器に休むことなく肉体の形を48分以上維持することができません。その結果、ほとんどのジンは移動、保護、そして仲間のために人間のボディガードを雇います。\n\nミラージュはそのようなボディガードの一人です。ジン大使ナシャラ・ディオンに雇われたミラージュは、外交任務でニューヨークにいます。ジンたちは、彼らのために主権国家を築くためにワイオミングの一部を売却するために、米国政府と交渉できることを望んでいます。"
+
+
+
+	}	
+}		
+		
