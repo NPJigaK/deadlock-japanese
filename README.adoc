@@ -26,43 +26,43 @@ Build 5.095 2024/08/27 - 19:03:02
 . ゲームがインストールされているフォルダ（例: `C:\Program Files (x86)\Steam\steamapps\common\Deadlock`）を開く
 .. インストールされているフォルダが分からない場合は、steamを開いて、ライブラリからdeadlockを右クリックしてプロパティを開き、インストール済みファイルタブにある参照ボタンを押すと直接開けます。
 . `game` フォルダを、先ほどダウンロードしたフォルダの中にある `game` フォルダで上書きします
-.. 上書き後に以下のような構成になっていれば大丈夫です。
+.. 上書き後に以下のような構成になっていれば大丈夫です。（ファイルを追加したフォルダのみ表示しています）
 +
 [source, 例: C:\Program Files (x86)\Steam\steamapps\common\Deadlock\]
 ----
-game\
-├─ citadel\
-│  ├─ resource\
-│  │  ├─ localization\
-│  │  │  ├─ citadel_attributes\
-│  │  │  │  ├─ citadel_attributes_english.txt など...
-│  │  │  │  └─ citadel_attributes_japanese.txt <- 今回追加したファイル
-│  │  │  ├─ citadel_gc\
-│  │  │  │  ├─ citadel_gc_english.txt など...
-│  │  │  │  └─ citadel_gc_japanese.txt <- 今回追加したファイル
-│  │  │  ├─ citadel_heroes\
-│  │  │  │  ├─ citadel_heroes_english.txt など...
-│  │  │  │  └─ citadel_heroes_japanese.txt <- 今回追加したファイル
-│  │  │  ├─ citadel_main\
-│  │  │  │  ├─ citadel_main_english.txt など...
-│  │  │  │  └─ citadel_main_japanese.txt <- 今回追加したファイル
-│  │  │  ├─ citadel_mods\
-│  │  │  │  ├─ citadel_mods_english.txt など...
-│  │  │  │  └─ citadel_mods_japanese.txt <- 今回追加したファイル
-├─ core\
-│  ├─ panorama\
-│  │  └─ localization\
-│  │     ├─ panorama_english.txt など...
-│  │     ├─ panorama_japanese.txt <- 今回追加したファイル
-│  │     ├─ core_tools_english.txt など...
-│  │     └─ core_tools_japanese.txt <- 今回追加したファイル
-│  ├─ resource\
-│  │  ├─ countries_english.txt など...
-│  │  ├─ countries_japanese.txt <- 今回追加したファイル
-│  │  ├─ valve_english.txt など...
-│  │  ├─ valve_japanese.txt <- 今回追加したファイル
-│  │  ├─ vgui_english.txt など...
-│  │  └─ vgui_japanese.txt <- 今回追加したファイル
+game
+├─ citadel
+│  └─ resource
+│     └─ localization
+│        ├─ citadel_attributes
+│        │  ├─ citadel_attributes_english.txt など...
+│        │  └─ citadel_attributes_japanese.txt <- 今回追加したファイル
+│        ├─ citadel_gc
+│        │  ├─ citadel_gc_english.txt など...
+│        │  └─ citadel_gc_japanese.txt <- 今回追加したファイル
+│        ├─ citadel_heroes
+│        │  ├─ citadel_heroes_english.txt など...
+│        │  └─ citadel_heroes_japanese.txt <- 今回追加したファイル
+│        ├─ citadel_main
+│        │  ├─ citadel_main_english.txt など...
+│        │  └─ citadel_main_japanese.txt <- 今回追加したファイル
+│        └─ citadel_mods
+│           ├─ citadel_mods_english.txt など...
+│           └─ citadel_mods_japanese.txt <- 今回追加したファイル
+└─ core
+   ├─ panorama
+   │  └─ localization
+   │     ├─ panorama_english.txt など...
+   │     ├─ panorama_japanese.txt <- 今回追加したファイル
+   │     ├─ core_tools_english.txt など...
+   │     └─ core_tools_japanese.txt <- 今回追加したファイル
+   └─ resource
+      ├─ countries_english.txt など...
+      ├─ countries_japanese.txt <- 今回追加したファイル
+      ├─ valve_english.txt など...
+      ├─ valve_japanese.txt <- 今回追加したファイル
+      ├─ vgui_english.txt など...
+      └─ vgui_japanese.txt <- 今回追加したファイル
 ----
 . Steamを開いて、ライブラリからdeadlockを右クリックしてプロパティを開き、起動オプションに以下を入力してください。
 +
