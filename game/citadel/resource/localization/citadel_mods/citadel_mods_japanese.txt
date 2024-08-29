@@ -561,7 +561,7 @@
 		//Echo Shard
 		"upgrade_ability_power_shard_active" "直前に使用した非アルティメットアビリティの<span class=\"highlight\">クールダウンをリセット</span>します。"
 
-		//Imbued Ability"
+		//Imbued Ability
 		"upgrade_imbued_ability_passive1" "このモッドを購入すると、<span class=\"highlight\">{s:ImbuedBonusDuration}%のボーナス持続時間</span>と<span class=\"highlight\">{s:ImbuedBonusDamage}%のボーナスダメージ</span>を付与するアビリティを選択します。"
 		"upgrade_imbued_ability_passive2" "あなたのスピリットダメージがターゲットの<span class=\"highlight\">移動速度を遅く</span>します。"
 
@@ -785,7 +785,7 @@
 		"BonusSpiritWithMagicShield_prefix" "+"
 
 		//Aerial Assault
-		"upgrade_aerial_assault_active" "<span class=\"highlight\">真上に発射</span>して空中高くに飛びます。空中では{span class=\"highlight\">s:AssaultDuration秒</span>間一時停止します。<span class=\"highlight\">この間、+{s:AssaultLifestealPercent}%の弾丸ライフスティール</span>、<span class=\"highlight\">無限クリップ</span>、<span class=\"highlight\">+{s:AssaultFireRate}%の発射速度</span>を得て、弾丸が<span class=\"highlight\">{s:ExplodeRadius}mの範囲で爆発</span>します。"
+		"upgrade_aerial_assault_active" "<span class=\"highlight\">真上に発射</span>して空中高くに飛びます。空中では<span class=\"highlight\">{s:AssaultDuration}秒</span>間一時停止します。<span class=\"highlight\">この間、+{s:AssaultLifestealPercent}%の弾丸ライフスティール</span>、<span class=\"highlight\">無限クリップ</span>、<span class=\"highlight\">+{s:AssaultFireRate}%の発射速度</span>を得て、弾丸が<span class=\"highlight\">{s:ExplodeRadius}mの範囲で爆発</span>します。"
 		"upgrade_aerial_assault/modifier_aerial_assault_watcher/modifier_aerial_assault" "エアリアルアサルト"
 		"modifier_aerial_assault" "エアリアルアサルト"
 
