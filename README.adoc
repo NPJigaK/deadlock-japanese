@@ -61,12 +61,13 @@ game
 ## 更新履歴
 
 ### 2024/08/31
-* 一部スキル説明のパラメータが正しく引用されていない問題を修正しました。
+* 一部アビリティ説明のパラメータが正しく引用されていない問題を修正しました。
 * 起動オプションの誤記を修正しました。link:https://github.com/NPJigaK/deadlock-japanese/issues/13[#13]
+* ヒーロー `Viscous` の3番目のアビリティが正しく表示されていない問題を修正しました。
 
 ### 2024/08/30 
 * 最新版 `Build 5.106 2024/08/29 - 23:02:44` に対応しました。
-* ヒーロー `Mirage` のスキル `ファイアービートル` の説明文を修正しました。link:https://github.com/NPJigaK/deadlock-japanese/pull/10/files[#10]
+* ヒーロー `Mirage` のアビリティ `ファイアービートル` の説明文を修正しました。link:https://github.com/NPJigaK/deadlock-japanese/pull/10/files[#10]
 * 公式で対応されたため `core` フォルダ配下の日本語化設定ファイルを削除しました。
 
 ### 2024/08/29 
