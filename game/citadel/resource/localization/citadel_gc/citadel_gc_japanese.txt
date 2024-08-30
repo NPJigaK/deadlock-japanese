@@ -310,6 +310,7 @@
 		"upgrade_close_quarter_combat"			"至近距離戦"
 		"upgrade_headshot_booster"				"ヘッドショットブースター"
 		"upgrade_sharpshooter"					"シャープシューター"
+		"upgrade_headhunter"					"ヘッドハンター"
 		"upgrade_banshee_slugs"					"麻痺ヘッドショット"
 		"upgrade_berserker"						"バーサーカー"
 		"upgrade_fervor"						"狂乱"

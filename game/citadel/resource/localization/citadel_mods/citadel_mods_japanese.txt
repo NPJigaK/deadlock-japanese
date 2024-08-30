@@ -93,7 +93,7 @@
 		"ImmunityDuration_label" "免疫持続時間"
 		"ImmunityDuration_postfix" "秒"
 
-		//レベラー
+		//Leveler
 		"upgrade_leveler_active_desc" "ターゲットに<span class=\"highlight\">固定</span>を適用し、<span class=\"highlight\">あなたとターゲットの弾丸耐性</span>を減少させます。"
 		"upgrade_leveler_passive_desc" "ヘッドショットがボーナスダメージを与え、敵の攻撃速度を大幅に低下させます。"
 		"upgrade_leveler_innate_desc" "近距離戦<br>デンションラウンド"
@@ -129,7 +129,7 @@
 		"CasterSlowPercent_label" "自身のスロー"
 		"CasterSlowPercent_postfix" "%"
 
-		//トーメントパルス
+		//Torment Pulse
 		"upgrade_tech_damage_pulse_desc" "定期的に近くの2体の敵に<span class=\"highlight\">スピリットダメージ</span>を与えます。"
 
 		//ミスティックバースト
@@ -158,7 +158,7 @@
 		//改良型攻撃速度
 		"upgrade_attack_speed_2_desc" "あなたの<span class=\"highlight\">攻撃速度</span>を増加させます。"
 
-		//スピリチュアルオーバーフロー
+		//Spiritual Overflow
 		"upgrade_tech_overflow_desc" "敵ヒーローに弾丸をチャージすることで<span class=\"highlight\">スピリットパワー</span>のボーナスを得ます。"
 		"modifier_tech_overflow" "スピリチュアルオーバーフロー"
 		"modifier_tech_overflow_building" "スピリチュアルオーバーフロー蓄積中..."
@@ -188,7 +188,7 @@
 		//ロングレンジ
 		"upgrade_long_range_desc" "ターゲットから<span class=\"highlight\">一定距離以上</span>離れている場合、追加の<span class=\"highlight\">武器ダメージ</span>を与えます。"
 
-		//ミスティックショット
+		//Mystic Shot
 		"upgrade_crackshot_desc" "次の弾丸がボーナス<span class=\"highlight\">スピリットダメージ</span>を与えます。"
 		"ProcBonusMagicDamage_prefix" "{s:sign}"
 		"ProcBonusMagicDamage_label" "スピリットダメージ"
@@ -206,9 +206,13 @@
 
 		//シャープシューター
 		"upgrade_sharpshooter_desc" "ターゲットから<span class=\"highlight\">一定距離以上</span>離れている場合、追加の<span class=\"highlight\">武器ダメージ</span>を与えます。"
-		"upgrade_sharpshooter_headshots_desc" "ヘッドショットでボーナス<span class=\"highlight\">武器ダメージ</span>を与えます。"
 
-		//クリップリングヘッドショット
+		//Headhunter
+		"upgrade_headhunter_desc"	"ヘッドショットを成功させると、ボーナスダメージを与え、最大HPの一部を回復し、短時間の移動速度ボーナスを得る。"
+		"HealPercentPerHeadshot_label"		"ヘッドショットごとの回復量"
+		"HealPercentPerHeadshot_postfix"	"%"
+
+		//Crippling Headshot
 		"upgrade_banshee_slugs_headshots_desc" "<span class=\"highlight\">ヘッドショット</span>がターゲットの<span class=\"highlight\">弾丸耐性とスピリット耐性</span>を減少させます。"
 		"BulletResistReduction_label" "弾丸耐性減少"
 		"BulletResistReduction_postfix" "%"
@@ -263,7 +267,7 @@
 		"upgrade_surging_power/surge/active" "サージングパワー"
 		"upgrade_surging_power/surge" "サージングパワー"
 
-		//サイフォンバレット
+		//Siphon Bullets
 		//"upgrade_siphon_bullets_desc_passive1" "ターゲットに<span class=\"highlight\">近距離</span>で追加の<span class=\"highlight\">武器ダメージ</span>を与えます。"
 		"upgrade_siphon_bullets_desc_passive2" "あなたの弾丸は一時的に敵の<span class=\"highlight\">最大HPを吸収</span>します。デバフが終了すると敵は吸収された体力を取り戻します。吸収対象が死亡すると、体力を1スタック永久に吸収し、死亡した場合 {s:StackLostPerDeath} スタック失います。"
 		"modifier_siphon_bullets_health_gain" "サイフォンバレット"
@@ -291,7 +295,7 @@
 		"BaseBonusWeaponPower_label" "勇気"
 		"BaseBonusWeaponPower_prefix" "+"
 		
-		//ライフストライク
+		//Lifestrike
 		"upgrade_boxing_glove_desc" "あなたの<span class=\"highlight\">メレー攻撃</span>が<span class=\"highlight\">移動速度低下</span>を適用し、与えた<span class=\"highlight\">メレーダメージの {s:LifestealHealPercent}%</span>と {s:LifestealHeal} を回復します。この回復は非ヒーローに対しては<span class=\"highlight\">{s:NonHeroHealPct}%</span>の効果しかありません。"
 		"BonusMeleeSpeed_label" "メレー速度"
 		"BonusMeleeSpeed_prefix" "+"
@@ -611,13 +615,15 @@
 		"upgrade_quick_silver_desc" "アビリティに最初の一撃で<span class=\"highlight\">スピリットダメージ</span>のボーナスを付与します。そのアビリティを使用すると、武器が<span class=\"highlight\">リロード</span>され、そのマガジンに<span class=\"highlight\">発射速度</span>のボーナスが付与されます。"
 		"modifier_quick_silver_buff" "+発射速度"
 
-		//Magic Carpet
+		// Magic carpet
 		"upgrade_magic_carpet_desc" "魔法の絨毯を召喚して飛行します。飛行中は弾丸とスピリットのシールドを得ます。絨毯を召喚中はアビリティを使用できません。飛行中にアクションを行うと絨毯が消えます。"
 		"modifier_magiccarpet" "魔法の絨毯"
 		"modifier_summon_magiccarpet" "魔法の絨毯を召喚中"
 		"MagicCarpetMoveSpeed_prefix" "+"
 		"MagicCarpetMoveSpeed_label" "ボーナス飛行速度"
 		"MagicCarpetMoveSpeed_postfix" "m/s"
+		"MagicCarpetShieldDuration_label"		"シールドの持続時間"
+		"MagicCarpetShieldDuration_postfix"		"秒"
 
 		//-----------------------------------------------------------------------------
 		// Upgrades: Armor
@@ -778,11 +784,17 @@
 		"BonusBaseWeaponDamageWithShield_label" "シールド中の武器ダメージ"
 		"BonusBaseWeaponDamageWithShield_postfix" "%"
 		"BonusBaseWeaponDamageWithShield_prefix" "+"
+		"FireRateWhenShielded_label"	"シールド中の発射速度"
+		"FireRateWhenShielded_postfix"	"%"
+		"FireRateWhenShielded_prefix"	"+"
 
 		//Enchanter's Barrier
 		"upgrade_magic_shield_desc" "<span class=\"highlight\">スピリットシールド</span>を持っている間、ボーナス<span class=\"highlight\">スピリットパワー</span>を得ます。"
 		"BonusSpiritWithMagicShield_label" "シールド中のスピリットパワー"
 		"BonusSpiritWithMagicShield_prefix" "+"
+		"CooldownReductionWithShield_label"		"シールド中のクールダウン短縮"
+		"CooldownReductionWithShield_prefix"	"+"
+		"CooldownReductionWithShield_postfix"	"%"
 
 		//Aerial Assault
 		"upgrade_aerial_assault_active" "<span class=\"highlight\">真上に発射</span>して空中高くに飛びます。空中では<span class=\"highlight\">{s:AssaultDuration}秒</span>間一時停止します。<span class=\"highlight\">この間、+{s:AssaultLifestealPercent}%の弾丸ライフスティール</span>、<span class=\"highlight\">無限クリップ</span>、<span class=\"highlight\">+{s:AssaultFireRate}%の発射速度</span>を得て、弾丸が<span class=\"highlight\">{s:ExplodeRadius}mの範囲で爆発</span>します。"

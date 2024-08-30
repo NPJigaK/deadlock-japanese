@@ -1345,7 +1345,8 @@
 		"ability_nano_pounce"						"シャムの突撃"
 		"ability_nano_pounce_quip"				"ターゲットに飛びかかる"
 		"ability_nano_pounce_desc"				"<span class=\"highlight\">ターゲットに飛びかかる</span>。敵をターゲットにすると、近くの敵に<span class=\"highlight\">ダメージ</span>と<span class=\"highlight\">スロー</span>を与えます。味方をターゲットにすると、クールダウンとリチャージ時間が短縮されます。"
-		"ability_nano_pounce_t2_desc"			"敵をターゲットにした場合、<span class=\"highlight\">+{s:ActiveReloadPercent}%</span> の弾薬をリロードし、<span class=\"highlight\">+{s:AbilityCastRange}m</span> のキャスト範囲を得ます。"
+		//"ability_nano_pounce_t2_desc"			"On Enemy Target, reload <span class=\"highlight\">+{s:ActiveReloadPercent}%</span> Ammo and <span class=\"highlight\">+{s:AbilityCastRange}m</span> Cast Range."
+		"ability_nano_pounce_t2_desc"			"{s:DoublePounce}秒以内に新しいターゲットに再使用可能"
 		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:WarpExplodeRadius}m</span> の半径と、<span class=\"highlight\">+{s:DamageAmplification}%</span> のダメージ増幅を{シs:DebuffDuration}秒間与えます。"
 		"FriendlyTargetCD_label"					"味方のクールダウン"
 		"FriendlyTargetCD_postfix"				"秒"
@@ -1372,8 +1373,8 @@
 		"modifier_nano_predatory_statue_target" "捕食者の視線"
 
 		"ability_nano_ult_shadow"				"影の女王"
+		"ability_nano_ult_shadow_desc"			""
 		"modifier_nano_ult_shadow"				"影の女王"
-
 
 		"ability_nano_cat_bullet"				"キャットバレット"
 		"ability_nano_cat_bullet_quip"			"敵を撃ってキャットに変える。"
@@ -1671,9 +1672,6 @@
 		"AOERadius_label"							"衝撃半径"
 		"AOERadius_postfix"						"m"
 
-		"ShivStickDuration_label"					"スタックの持続時間"
-		"ShivStickDuration_postfix"				"s"
-
 		"citadel_ability_shiv_dagger_t3_desc"		"+{s:ImpactDamage} ダメージと +{s:BleedDPSPerStack} 出血DPS"
 
 		"modifier_shiv_bleed"						"出血"
@@ -1851,6 +1849,7 @@
 		"mirage_fire_beetles"			"ファイヤービートル"
 		"mirage_fire_beetles_quip"		"敵を減速させダメージを与えるビートルを発射"
 		"mirage_fire_beetles_desc"		"地面の指定位置にファイヤービートルを発射し、そこに着地した敵にダメージと減速を与えます。発射ウィンドウが終了すると、この能力はクールダウンに入ります。"
+		"mirage_fire_beetles_t2_desc"	"ヒーローに対して+{s:HealingFactor}%の回復"
 		"modifier_mirage_fire_beetles_launch_window"	"ファイヤービートルを発射中"
 		"LaunchWindowDuration_label"	"発射ウィンドウ"
 		"LaunchWindowDuration_postfix"	"s"
@@ -1861,10 +1860,12 @@
 		"mirage_djinns_reach"		"ジンの手"
 		"mirage_djinns_reach_quip"	"[短い説明]"
 		"mirage_djinns_reach_desc"	"プロジェクタイルを発射し、最初にヒットしたターゲットを拘束し、その後他の敵を主要なターゲットに繋ぎます。"
-		"DjinnsReachConeRadius_label"	"コーンの長さ"
-		"DjinnsReachConeRadius_postfix"	"m"
 		"ChainSlowPercent_label"	"テザー減速"
 		"ChainSlowPercent_postfix"	"%"
+		"MaxTargets_label"		"最大対象数"
+		"DamageSharePercent_label"		"ダメージ共有率"
+		"DamageSharePercent_postfix"	"%"
+
 
 		"mirage_sand_phantom"				"渦巻くダervish"
 		"mirage_sand_phantom_quip"		"弾を避けてより速く動く"
