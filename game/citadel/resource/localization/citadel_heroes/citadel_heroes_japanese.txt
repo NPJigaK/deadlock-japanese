@@ -2563,7 +2563,7 @@
 		"viscous_telepunch"                               "水たまりパンチ"
 		"viscous_telepunch_desc"                          "世界に拳を具現化し、そのエリア内のユニットを<span class=\"highlight\">パンチ</span>して吹き飛ばします。敵には<span class=\"highlight\">ダメージ</span>が与えられ、一時的にダッシュ距離が減少し、<span class=\"highlight\">移動速度が遅くなる</span>。これは<span class=\"highlight\">軽い近接攻撃</span>と見なされます。"
 		"viscous_telepunch_quip"                          "巨大な拳で敵をパンチ"
-		"viscous_telepunch_t3_desc"                       "+{s:Damage} ダメージと +{s:SlowPercent}% 移動速度減少"
+		"viscous_telepunch_t2_desc"                       "+{s:Damage} ダメージと +{s:SlowPercent}% 移動速度減少"
 		"ImpactDuration_label"                             "減速の持続時間"
 		"ImpactDuration_postfix"                           "s"
 		"BonusDamageAmp_label"                            "ダメージ増加"
