@@ -1847,7 +1847,7 @@
 		"modifier_mirage_tornado_slow"	"トルネード - 減速"
 
 		"mirage_fire_beetles"			"ファイヤービートル"
-		"mirage_fire_beetles_quip"		"敵を減速させダメージを与えるビートルを発射"
+		"mirage_fire_beetles_quip"		"敵へダメージを与えてライフスティールするビートルを発射"
 		"mirage_fire_beetles_desc"		"地面の指定位置にファイヤービートルを発射し、そこに着地した敵にダメージと減速を与えます。発射ウィンドウが終了すると、この能力はクールダウンに入ります。"
 		"mirage_fire_beetles_t2_desc"	"ヒーローに対して+{s:HealingFactor}%の回復"
 		"modifier_mirage_fire_beetles_launch_window"	"ファイヤービートルを発射中"
