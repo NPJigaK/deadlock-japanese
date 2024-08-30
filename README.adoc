@@ -54,7 +54,7 @@ game
 +
 [source, 起動オプション]
 ----
-–language japanese
+-language japanese
 ----
 . Deadlockを起動して、日本語化されていればOKです
 
