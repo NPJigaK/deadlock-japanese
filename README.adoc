@@ -54,16 +54,19 @@ game
 +
 [source, 起動オプション]
 ----
-–language japanese
+-language japanese
 ----
 . Deadlockを起動して、日本語化されていればOKです
 
 ## 更新履歴
 
+### 2024/08/31
+* 起動オプションの誤記を修正しました。link:https://github.com/NPJigaK/deadlock-japanese/issues/13[#13]
+
 ### 2024/08/30 
 * 最新版 `Build 5.106 2024/08/29 - 23:02:44` に対応しました
 * ヒーロー `Mirage` のスキル `ファイアービートル` の説明文を修正しました。link:https://github.com/NPJigaK/deadlock-japanese/pull/10/files[#10]
-* 公式で対応されたため `core` フォルダの日本語化設定ファイルを削除しました。 link:https://github.com/NPJigaK/deadlock-japanese/issues/11[#11]
+* 公式で対応されたため `core` フォルダの日本語化設定ファイルを削除しました。
 
 ### 2024/08/29 
 * 最新版 `Build 5.095 2024/08/27 - 19:03:02` に対応しました
