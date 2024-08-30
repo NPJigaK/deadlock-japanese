@@ -8,8 +8,8 @@ Valve社からパブリッシュされているゲーム `Deadlock` を日本語
 翻訳の修正・改善提案は随時受け付けています。ご協力お願い致します。 + 
 `ここの翻訳が足りていない`, `ここの日本語訳をこうしてほしい`, `新しいbuildバージョンに対応して欲しい`, etc...
 
-- https://forms.gle/AYovpxB2JmRsaGsGA[Google formで提案する^]
-- https://github.com/NPJigaK/deadlock-japanese[PullRequestで直接修正を提案する（Githubアカウントを持っている方）]
+* https://forms.gle/AYovpxB2JmRsaGsGA[Google formで提案する^]
+* https://github.com/NPJigaK/deadlock-japanese[PullRequestで直接修正を提案する（Githubアカウントを持っている方）]
 
 ## 対応バージョン
 ----
@@ -75,10 +75,11 @@ game
 ## 更新履歴
 
 ### 2024/08/30 
-- 最新版 `Build 5.106 2024/08/29 - 23:02:44` に対応しました
+* 最新版 `Build 5.106 2024/08/29 - 23:02:44` に対応しました
+* ヒーロー `Mirage` のスキル `ファイアービートル` の説明文を修正しました。link:https://github.com/NPJigaK/deadlock-japanese/pull/10/files[#10]
 
 ### 2024/08/29 
-- 最新版 `Build 5.095 2024/08/27 - 19:03:02` に対応しました
+* 最新版 `Build 5.095 2024/08/27 - 19:03:02` に対応しました
 
 ### 2024/08/28 
-- 日本語化設定ファイルを作成・公開
+* 日本語化設定ファイルを作成・公開
