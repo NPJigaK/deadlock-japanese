@@ -171,7 +171,6 @@
 		"StatDesc_TechRange_postfix"					"%"
 		"StatDesc_MaxChargesIncrease"					"最大チャージ増加"
 		"StatDesc_RechargeRate"							"再充電速度"
-		"StatDesc_HealingOutput"						"回復力"
 		"StatDesc_TechDuration"							"アビリティ持続時間"
 		"StatDesc_TechDuration_postfix"					"%"
 		"StatDesc_WeaponPowerAttribute"					"武器ダメージ"
@@ -199,6 +198,10 @@
 		"StatDesc_StaminaRegenIncrease_prefix"			"+"
 		"StatDesc_StaminaRegenIncrease"					"スタミナ回復増加"
 		"StatDesc_StaminaRegenIncrease_postfix"			"%"
+		"StatDesc_DebuffResist"							"デバフ耐性"
+		"StatDesc_DebuffResist_postfix"					"%"
+		"StatDesc_HealingOutput"						"回復効果増加"
+		"StatDesc_HealingOutput_postfix"				"%"
 
 		"StatDesc_BulletSpeed"							"弾速"
 		"StatDesc_BulletSpeed_postfix"					"m/s"

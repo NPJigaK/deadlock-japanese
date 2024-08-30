@@ -10,8 +10,9 @@
 		"Close" "閉じる"
 		"DontShowAgain" "今後表示しない"
 
-		"Citadel_PlaytestWarningTitle" "開発初期のビルド"
-		"Citadel_PlaytestWarningBody" "Deadlockへようこそ。このゲームは開発初期段階にあり、多くの仮アートや実験的なゲームプレイが含まれています。フィードバックをお待ちしています！"
+		"Citadel_GameName"										"Deadlock"
+		"Citadel_PlaytestWarningTitle"							"開発初期のビルド"
+		"Citadel_PlaytestWarningBody" "Deadlockへようこそ。このゲームは開発初期段階にあり、多くの仮モデルや実験的なゲームプレイが含まれています。フィードバックをお待ちしています！"
 
 		// クライアントのみのリッチプレゼンス
 		"Citadel_RP_PendingReceived" "フレンドリクエスト保留中"
@@ -135,14 +136,19 @@
 		"citadel_replay_manager_error_write_failure" "リプレイのローカルディスクへの書き込みに失敗しました"
 
 
-		//ゲーム
+		//Game
 		"Citadel_Scoreboard_TeamKills" "キル"
 		"Citadel_Scoreboard_TeamAP" "AP"
 		"Citadel_Scoreboard_KDA_Kills" "K"
 		"Citadel_Scoreboard_KDA_Deaths" "D"
 		"Citadel_Scoreboard_KDA_Assists" "A"
 
-		//プレイテストユーザー
+		//Match Info
+		"Citadel_ViewMatchID_Loading_Title"					"試合を読み込み中"
+		"Citadel_ViewMatchID_Loading_Body"					"お待ちください"
+		"Citadel_ViewMatchID_Loading_Error"					"試合を表示できません"
+
+		//Playtest User
 		"Citadel_PlaytestUser_SubmitProcessing" "お待ちください"
 		"Citadel_PlaytestUser_SubmitProcessingTitle" "ユーザーを送信中"
 		"Citadel_PlaytestUser_Result_Success" "このユーザーを推薦していただきありがとうございます！"
@@ -220,6 +226,12 @@
 		"Citadel_ReportPlayer_Result_GenericFailure" "プレイヤー報告の送信に失敗しました。Deadlockネットワークとの通信ができませんでした。しばらくしてから再試行してください。"
 		"Citadel_ReportPlayer_Result_AlreadyReported" "このプレイヤーは既に報告されています。"
 		"Citadel_ReportPlayer_Result_WindowClosed" "報告の期限が過ぎました。プレイヤーはマッチ終了から1時間以内に報告される必要があります。"
+		"Citadel_ReportPlayer_Reason_Title"					"理由:"
+		"Citadel_ReportPlayer_Reason_VoiceTextAbuse"		"ボイス/テキストの悪用"
+		"Citadel_ReportPlayer_Reason_Abandon"				"試合放棄"
+		"Citadel_ReportPlayer_Reason_Griefing"				"嫌がらせ行為"
+		"Citadel_ReportPlayer_Reason_MatchmakingIssue"		"マッチメイキングの問題"
+		"Citadel_ReportPlayer_Reason_Comments"				"コメント:"
 		"Citadel_ReportPlayer_CommentPlaceholder" "このプレイヤーとの問題を説明してください"
 
 		"Citadel_SkipTutorial_Title" "チュートリアルをスキップ"
@@ -244,12 +256,18 @@
 		"Citadel_MatchHistory_TooBusy" "Deadlockネットワークが混雑しており、現在マッチ履歴を提供できません"
 		"Citadel_MatchHistory_RateLimited" "さらにマッチ履歴をリクエストする前に、少しお待ちください"
 
+		"Citadel_MatchHistory_Loss" "負け"
+		"Citadel_MatchHistory_Win" "勝ち"
+		"Citadel_MatchHistory_ServerIssue" ""
+
 		"Citadel_MatchDetails_NoResponse" "Deadlockネットワークとの通信ができませんでした。しばらくしてから再試行してください。"
 		"Citadel_MatchDetails_InternalError" "マッチ詳細の取得中に予期しないエラーが発生しました"
 		"Citadel_MatchDetails_InvalidPermission" "このマッチの詳細を表示する権限がありません"
 		"Citadel_MatchDetails_TemporarilyDisabled" "マッチ詳細はメンテナンスのため一時的に無効化されています"
 		"Citadel_MatchDetails_TooBusy" "Deadlockネットワークが混雑しており、現在マッチ詳細を提供できません"
 		"Citadel_MatchDetails_RateLimited" "さらにマッチ詳細をリクエストする前に、少しお待ちください"
+		"Citadel_MatchDetails_InvalidMatch"							"無効な試合ID"
+		"Citadel_MatchDetails_MatchInFlight"						"この試合はまだ進行中です"
 
 		"Citadel_MatchDetails_WinningTeam" "{g:citadel_team_name:winning_team} が勝利しました"
 		"Citadel_MatchDetails_ServerError" "サーバーエラー"
@@ -263,6 +281,8 @@
 		"Citadel_Hud_PreGame_Countdown" "ゲーム開始中..."
 		"Citadel_Hud_CantPause" "あと{i:pause_cooldown}秒間、一時停止できません"
 		"Citadel_Hud_CantUnpause" "あと{i:pause_cooldown}秒間、一時停止を解除できません"
+		"Citadel_Hud_NoPausesLeft"									"一時停止できません。この試合で利用できる一時停止はすでに使用しました。"
+		"Citadel_Hud_NoTeamPausesLeft"								"一時停止できません。あなたのチームはこの試合で利用可能な一時停止を使い切りました。"		
 		"Citadel_Hud_PlayerSpeedUnits" "m/s"
 		"Citadel_Hud_ToNext" "次へ"
 		"Citadel_Hud_SoulsGathered" "収集されたソウル"
@@ -278,6 +298,8 @@
 		"Citadel_Hud_DPS" "DPS {i:dps}"
 		"Citadel_Hud_RespawnIn" "リスポーンまでの時間："
 		"Citadel_Hud_RideZipLine" "[ {s:jump_key} ] を押してライドする"
+		"Citadel_Hud_RideZipLineOnCooldownValue"					"{f:1:cooldown_seconds}秒"
+		"Citadel_Hud_RideZipLineOnCooldown"							"ダメージを受けた後は使用不可"
 		"Citadel_Hud_CaptureZipLine" "{s:use_key} を押し続けてキャプチャ"
 		"Citadel_Hud_OpenShop" "[ {s:upgrade_key} ] を押してショップを開く"
 		"Citadel_Hud_LoadingDeathReplay" "デスリプレイを読み込み中"
@@ -433,7 +455,9 @@
 		"BotMatchWarning_LateGame" "ボットマッチは通常のゲームよりも長く続く傾向があります。パトロンを倒すためには、リーダーシップを発揮する必要があります！"
 
 
-		// ブック
+
+
+		// Book
 		"Citadel_Book_NotEnoughXP" "この章をアンロックするには{d:unlock_cost}が必要ですが、現在利用可能なアンロック数は{d:available_unlocks}です。より多くのアンロックを得るために、さらにマッチをプレイしてください。"
 		"Citadel_Book_NotEnoughXPSingle" "この章をアンロックするにはアンロックが必要ですが、現在利用可能なアンロックがありません。より多くのアンロックを得るために、さらにマッチをプレイしてください。"
 		"Citadel_Book_NotEnoughXP_Title" "アンロックが不足しています"
@@ -451,7 +475,7 @@
 		"Citadel_Book_Pause" "一時停止"
 		"Citadel_Book_Play" "再生"
 
-		// ライブラリ
+		// Library
 		"Citadel_Library_Title" "ライブラリ"
 		"Citadel_Library_Welcome" "ライブラリへようこそ"
 		"Citadel_Library_Description" "マッチをプレイすることで、ここで使用できるチャプターキーを獲得し、Deadlockの世界の物語を探求することができます。<br><br>現在は<b>The Binding of Oathkeeper</b>のみが利用可能です。時間が経つにつれて、各ヒーローはそれぞれの物語を持つようになり、プレイヤーはその世界に自分の指紋を残すことができるようになります。"
@@ -462,7 +486,7 @@
 		"Citadel_Library_AvailableBooks" "利用可能な書籍"
 		"Citadel_library_Modal_CTA" "これはどう機能するのですか？"
 
-		// パーティー
+		// Party
 		"Citadel_Party_InviteFriend" ""
 		"Citadel_Party_PrivateMatch" "プライベートマッチ"
 		"Citadel_Party_MatchMaking" "カジュアルマッチ"
@@ -557,6 +581,7 @@
 		"Citadel_Party_DisabledInMMTooltip" "マッチメイキング中は招待を受け入れることができません"
 		"Citadel_Party_DeclineInviteTooltip" "招待を辞退する"
 		"Citadel_Party_OutOfDateClientTooltip" "ゲームが古いバージョンです"
+		"Citadel_Party_InviteSent"									"招待を送信しました"
 
 		"Citadel_RosterMode_Party_Matchmaking" "パーティーマッチメイキング"
 		"Citadel_RosterMode_Party_CoopBotMM" "パーティー協力ボットマッチメイキング"
@@ -670,7 +695,8 @@
 		"Citadel_Hud_KillFeedNeutral" "中立 #{i:unit_num}"
 		"Citadel_Hud_KillFeedSentry" "セントリータレット"
 		"Citadel_Hud_KillFeedGuardian" "ガーディアン"
-		"Citadel_Hud_KillFeedBarracksBoss" "基地の守護者"
+		"Citadel_Hud_KillFeedAllGuardians"							"敵のガーディアン"
+		"Citadel_Hud_KillFeedBarracksBoss" "基地守護者"
 		"Citadel_Hud_KillFeedWalker" "ウォーカー"
 		"Citadel_Hud_KillFeedAllWalkers" "敵のウォーカー"
 		"Citadel_Hud_KillFeedShieldName" "聖堂"
@@ -788,6 +814,9 @@
 		"Citadel_HUD_DamageReport_DamagePercentWeapon" "{i:weapon_damage_percent}%"
 		"Citadel_HUD_DamageReport_DamagePercentAbility" "{i:ability_damage_percent}%"
 
+		"Citadel_HUD_Impact_Kill"									"キル"
+		"Citadel_HUD_Impact_Assist"									"キル<br>アシスト"		
+
 		"Citadel_PartyChat_Title" "パーティーチャット"
 		"Citadel_PartyChat_VoiceAndText" "ボイス＆テキストチャット"
 		"Citadel_PartyChat_PlayerCount" "{i:players_in_team_chat} 人がチームチャットに参加中"
@@ -799,12 +828,12 @@
 		"Citadel_HUD_DamageRows_DamageName" "{s:damage_name}"
 		"Citadel_HUD_DamageRows_DamageValue" "{i:damage_done}"
 		"Citadel_HUD_DamageRows_Hits" "（{i:hit_count} ヒット）"
-
+	
 		"Citadel_Tip_0" "これはヒントです。"
 		"Citadel_Tip_1" "これもヒントです。"
 		"Citadel_Tip_2" "これもまたヒントです。"
 		"Citadel_Tip_4" "コアを破壊して勝利します。"
-
+	
 		"Citadel_PlayerContextMenu_InviteToParty" "パーティーに招待"
 		"Citadel_PlayerContextMenu_SpectateGame" "ゲーム観戦"
 		"Citadel_PlayerContextMenu_AcceptFriendRequest" "フレンドリクエストを承認"
@@ -820,7 +849,7 @@
 		"Citadel_PlayerContextMenu_AddFriend" "フレンド招待を送信"
 		"Citadel_PlayerContextMenu_ViewProfile" "プロフィールを見る"
 		"Citadel_PlayerContextMenu_EmptyMenu" "--"
-
+	
 		"Citadel_PlayerCard_FavoriteHero" "お気に入りのヒーロー"
 
 		"Citadel_Party_Context_Invite" "フレンドを招待"
@@ -831,6 +860,8 @@
 		"Citadel_Party_Context_HideCode" "パーティーコードを非表示"
 		"Citadel_Party_SentInvite" "招待を送信しました"
 		"Citadel_Party_Leave" "パーティーを離れる"
+		"Citadel_Party_Report"										"報告する"
+		"Citadel_Party_Reported"									"報告済み"
 
 		"Citadel_Main_EarlyDevBuild" "開発初期ビルド"
 		"Citadel_Main_ViewProfile" "プロフィールを見る"
@@ -889,6 +920,7 @@
 		"Citadel_StartMatchmaking_InParty" "パーティーにいるため、一人ではマッチメイキングに入れません。"
 		"Citadel_StartMatchmaking_InvalidHeroSelection" "マッチメイキングに入るための有効なヒーローを選択していません。"
 		"Citadel_StartMatchmaking_HeroRosterTooPopular" "選択したヒーローロスターにすでに使用されているヒーローが含まれています"
+		"Citadel_StartMatchmaking_NoRegionPings"					"いずれのSteam Datagram Relayとも通信できません。インターネットに接続されている場合、通常これはファイアウォール、MTU、またはインターネット接続の問題が原因です。"		
 		"Citadel_StopMatchMaking_FailedToGetResponse" "マッチメイキングが停止しました。GCからの応答が得られませんでした"
 		"Citadel_StopMatchMaking_GeneralError" "マッチメイキングに失敗しました。もう一度お試しください"
 		"Citadel_LeaveLobby_FailedToGetResponse" "マッチメイキングを停止できませんでした。もう一度お試しください。"
@@ -898,6 +930,13 @@
 		"Citadel_Dashboard_Matchmaking_SearchingForBotMatchTime" "COOP BOT MATCH - マッチは {s:coop_time_remaining} 後に形成されます"
 		"Citadel_Dashboard_Matchmaking_UsersInQueue" "キューに {s:users_in_queue} 人のプレイヤー"
 		"Citadel_Dashboard_Matchmaking_UsersInQueue_Single" "キューに {s:users_in_queue} 人のプレイヤー"
+
+		"Citadel_IdleMatchmaking_Removed_Title"						"マッチメイキングから除外されました"
+		"Citadel_IdleMatchmaking_Removed_Body"						"長時間放置していたため、マッチメイキングから除外されました"
+		"Citadel_IdleMatchmaking_IdleTimerExpired_Title"			"マッチメイキングでの放置"
+		"Citadel_IdleMatchmaking_IdleTimerExpired_Body"				"マッチメイキングのキューで長時間放置されています。マッチメイキングを続けるにはマウスを動かしてください！"
+		"Citadel_IdleMatchmaking_Dialog_Title"						"放置状態のマッチメイキング"
+		"Citadel_IdleMatchmaking_Dialog_Body"						"現在マッチメイキング中ですが、コンピュータの前にいないようです。マウスを動かしてください。このままではマッチメイキングから除外されます。"
 
 		"Citadel_Dashboard_EnterMatchmaking" "マッチメイキングに\n入る"
 		"Citadel_Dashboard_Roster_HeroTooPopular" "すべての選択されたヒーローがすでにキューにいます"
@@ -918,6 +957,8 @@
 		"Citadel_Dashboard_Status_ConnectingToServer_Detail" "まもなくマッチが始まります"
 		"Citadel_Dashboard_Status_GCOffline" "Deadlock ネットワークオフライン"
 		"Citadel_Dashboard_Status_GCOffline_Detail" "一部の機能が利用できない場合があります"
+		"Citadel_Dashboard_Status_OutOfDateClient"					"ゲームのアップデートが利用可能です"
+		"Citadel_Dashboard_Status_OutOfDateClient_Detail"			"最新のアップデートをSteamでダウンロードしてください"
 		"Citadel_Dashboard_RejoinTooltip" "進行中のゲームに再参加する"
 		"Citadel_Dashboard_AbandonTooltip" "現在プレイしているマッチから離脱"
 		"Citadel_Dashboard_PatchNotesTooltip" "最新のパッチノートを表示"
@@ -1081,9 +1122,39 @@
 
 		"Citadel_Profile_Title"									"プロフィール"
 		"Citadel_Profile_MatchHistory"							"試合履歴"
+		"Citadel_Profile_MatchHistory_ViewAll"					"すべての試合履歴を表示"
+		"Citadel_Profile_MatchHistory_ViewDetails"				"詳細を見る"
 		"Citadel_Profile_Loading"								"読み込み中..."
 		"Citadel_Profile_MostPlayed"							"最もプレイされたヒーロー"
+		"Citadel_Profile_Win"									"勝利"
+		"Citadel_Profile_Loss"									"敗北"
+		"Citadel_Profile_Win_Short"								"勝"
+		"Citadel_Profile_Loss_Short"							"敗"
+		"Citadel_Profile_Statistics"							"統計"
+		"Citadel_Profile_Stats_All"								"すべてのヒーロー"
+		"Citadel_Profile_Stats_TitleSection"					"全期間の統計"
+		"Citadel_Profile_Stats_GamesPlayed"						"プレイした試合数"
+		"Citadel_Profile_Stats_GamesWon"						"勝利した試合数"
+		"Citadel_Profile_Stats_Kills"							"キル"
+		"Citadel_Profile_Stats_Assists"							"アシスト"
+		"Citadel_Profile_Stats_HeroDamage"						"ヒーローダメージ"
+		"Citadel_Profile_Stats_ObjDamage"						"オブジェクトダメージ"
+		"Citadel_Profile_Stats_LastHits"						"ラストヒット"
+		"Citadel_Profile_Stats_Denies"							"ディナイ"
+		"Citadel_Profile_Stats_Healing"							"回復"
+		"Citadel_Profile_Stats_Networth"						"集めたソウル"
 
+
+		"Citadel_TEMP1"											"McGinnis"
+		"Citadel_TEMP2"											"31:33"
+		"Citadel_TEMP3"											"08/23/2024"
+		"Citadel_TEMP4"											"39k"
+		"Citadel_TEMP5"											"000"
+		"Citadel_TEMP6"											"Stat Name"
+
+		"Citadel_MatchPage_Prev"								"Prev"
+		"Citadel_MatchPage_Next"								"Next"
+	
 		"Citadel_Social_Party"									"パーティ"
 		"Citadel_Social_Invite"									"招待"
 
@@ -1161,6 +1232,10 @@
 		"Citadel_Replay_Watch"									"リプレイを視聴"
 		"Citadel_Replay_NotReadyYet"							"リプレイはまだ準備できていません"
 		"Citadel_Replay_Unavailable"							"リプレイは利用できません"
+		"Citadel_Replay_Expired"								"リプレイの有効期限切れ"
+		"Citadel_Replay_ErrorDirect"							"エラー"
+		"Citadel_Replay_FindingReplay"							"リプレイを検索中"
+		"Citadel_Replay_RequestingReplay"						"リプレイをリクエスト中"
 		"Citadel_Replay_Error"									"エラー {s:replay_error}"
 		"Citadel_Replay_DownloadingPct"							"ダウンロード中 - {d:replay_progress}%"
 		"Citadel_Replay_DecompressPct"							"解凍中 - {d:replay_progress}%"
@@ -1239,6 +1314,7 @@
 		"CitadelHeroStats_Spirit"						"スピリットステータス"
 		"CitadelHeroStats_SpiritPower_Impact"			"スピリットパワーの影響"
 		"CitadelHeroStats_SpiritPower_Desc"				"スピリットパワーは、アビリティやアイテムの効果を強化します。"
+		"CitadelHeroStats_Weapon_Falloff"					"減衰距離"
 
 		// Hero Builds UI	
 		"Citadel_HeroBuilds_Title"						"ヒーロービルド"
@@ -1458,6 +1534,7 @@
 		"CITADEL_ABILITY_INVALID_ONLY_TWO_AIR_DASHES"	"空中ダッシュは2回しかできません"
 		"CITADEL_ABILITY_INVALID_ONLY_ONE_DOWN_DASH"	"下降ダッシュは1回しかできません"
 		"CITADEL_ABILITY_INVALID_ONLY_TWO_DOWN_DASHES"	"下降ダッシュは2回しかできません"
+		"CITADEL_ABILITY_INVALID_ONLY_ONE_WALL_JUMP"	"2回連続で壁ジャンプはできません"
 		"CITADEL_ABILITY_INVALID_NOTHING_TO_REFRESH"	"リフレッシュするものがありません"
 		"CITADEL_ABILITY_INVALID_BEETLE_TARGET"			"ターゲットにビートルがいます"
 		"CITADEL_ABILITY_INVALID_CLIP_IS_FULL"			"弾倉が満タンです"
@@ -1561,6 +1638,7 @@
 		"citadel_settings_about"						"情報"
 		"citadel_settings_hotkeys"						"ホットキー"
 		"citadel_settings_chatwheel"					"チャットホイール"
+		"chat_wheel_options"							"ホイールオプション"
 		"citadel_settings_volume"						"音量"
 		"citadel_settings_voice"						"ボイス設定"
 		"citadel_settings_game"							"ゲーム"
@@ -1609,6 +1687,8 @@
 		"citadel_settings_videodefaults"				"デフォルトに戻す"
 		"citadel_settings_enable_console"				"コンソールを有効にする"
 		"citadel_settings_enable_console_tooltip"		"-dev や -console などのコンソールを有効にする起動オプションがある場合、この設定を上書きします。"
+		"citadel_settings_streamer_mode"				"ストリーマーモード"
+		"citadel_settings_streamer_mode_tooltip"		"これをオンにすると、ゲーム内やダッシュボードでプレイヤー名が非表示になります。ただし、プロフィールカードのプレイヤー名は非表示になりません。"
 		"citadel_camera_pitch_inverted"					"マウスを反転"
 		"citadel_camera_zoom_is_toggle"					"ズームをトグル"
 		"citadel_enable_ping_indicator"					"HUDピンインジケーターを有効にする"
@@ -1625,6 +1705,7 @@
 		"citadel_settings_resolution_display_mode"		"ウィンドウモード"
 		"citadel_settings_window"						"ウィンドウ"
 		"citadel_settings_fullscreen"					"全画面"
+		"citadel_settings_fullscreenbrightness"			"全画面の明るさ"
 		"citadel_settings_borderless"					"ボーダレスウィンドウ"
 		"citadel_settings_chat_ptt"						"Push to Talk"
 		"citadel_settings_chat_openmic"					"オープンマイク"
@@ -1999,6 +2080,11 @@
 		"hud_next_player"					"次のプレイヤー"
 		"hud_spectating"					"観戦中"
 		"hud_change_camera"					"カメラを変更"
+		"hud_spectate_next_prev"			"次 / 前"
+		"hud_spectate_fly_down"				"上昇"
+		"hud_spectate_fly_up"				"下降"
+		"hud_spectate_change_team"			"チーム変更"
+		"hud_spectate_count"				"{d:spectatorCount} 人の観戦者"
 
 		"kill_hype_KillStreak"	"{i:kills}連続キル"
 		"kill_hype_FirstBlood"	"ファーストブラッド"
@@ -2022,6 +2108,7 @@
 
 
 		"Citadel_FlexSlot_Title"						"フレックススロット解除"
+		"Citadel_FlexSlotUnlockedAllTier1"				"すべての敵を倒したことでフレックススロットが解除されました"
 		"Citadel_FlexSlotUnlockedLane"					"レーンのボスを倒してフレックススロットを解除しました"
 		"Citadel_FlexSlotUnlockedGenerator"				"ジェネレーターを倒してフレックススロットを解除しました"
 		//"Citadel_FlexSlotUnlockedTier3"				"You've unlocked a flex slot for killing the "
@@ -2076,6 +2163,7 @@
 		"Citadel_Confirm_Discord_Created_Title"		"Discord招待を作成できません"
 		"Citadel_Confirm_Discord_InMatch_Title"		"今は請求できません"
 		"Citadel_Confirm_Discord_InMatch_Body"		"パーティーやマッチメイキング中ではないときにDiscordリンクを後で請求してください"
+		"Citadel_Dashboard_Recommended"				"おすすめ"
 
 		"menu_exit_db_page"							"戻る"
 		"menu_settings"								"設定"
@@ -2140,6 +2228,7 @@
 		"ModIconTooltip_UnlockGuardians"			"チームが敵のベースガーディアンを破壊した後に解除されます"	
 		"ModIconTooltip_UnlockGenerators"			"チームが敵の祠を破壊した後に解除されます"	
 		//"ModIconTooltip_UnlockTier3"				"Unlocked after your team destroys the enemy Patron's first form"
+		"ModIconTooltip_UnlockAllTier1"				"チームがすべての敵ガーディアンを倒した後に解除されます"
 		"ModIconTooltip_UnlockAllTier2"				"チームがすべての敵ウォーカーを破壊した後に解除されます"
 
 		"HeroesPageTitle"							"ヒーロー"
@@ -2178,6 +2267,8 @@
 		"MyRosterPartyHighSkillRange"				"あなたのパーティーには幅広いスキルレベルのプレイヤーが含まれています。これにより、パーティーにとってより難しい試合になる可能性があります。"
 
 		"MyRosterPartyReadyCount"					"{d:party_ready_count}/{d:party_player_count} 準備完了"
+		"MyRosterPartyMemberRoster"					"すでにロスターに含まれているヒーロー:"
+
 
 		//-----------------------------------------------------------------------------
 		// SANDBOX - DEMO CONTROLS
@@ -2255,6 +2346,8 @@
 		"ReportCard_AbilitiesUpgraded"				"アビリティをアップグレード"
 		"ReportCard_AbilitiesUpgraded_Desc"			"[{s:key_extra_info}]を押してアビリティをアップグレード"
 		"ReportCard_AbilitiesUpgraded_Progress"		"<span class=\"yourscore\">{i:abilitiesUpgraded}</span> / {i:abilitiesUpgradedNextGoal}"
+
+		"ReportCard_SoulsCollected_Desc"			"敵兵を倒して1000個のソウルを集める"
 
 		"ReportCard_GuardianDamage"					"ガーディアンダメージ"
 		"ReportCard_GuardianDamage_Desc"			"敵のオブジェクトに与えたダメージ"
@@ -2382,7 +2475,7 @@
 		"AbilityButtonHint_HatTrickFire"			"撃つ"
 		"AbilityButtonHint_HatTrickCancel"			"戻す"
 		"AbilityButtonHint_MeleeRejuvinator"		"重攻撃でリジュヴィネーターを獲得"
-
+		"AbilityButtonHint_ClimbRope"				"ホールドしてロープを登る"
 
 		"AbilityButtonHint_HoldToAltVoidSphere"			"味方を連れてくるには長押し"
 		"AbilityButtonHint_DoubleTapAltVoidSphere"		"味方を連れてくるにはダブルタップ"
