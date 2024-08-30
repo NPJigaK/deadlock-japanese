@@ -76,7 +76,7 @@ game
 
 ### 2024/08/30 
 * 最新版 `Build 5.106 2024/08/29 - 23:02:44` に対応しました
-* ヒーロー `Mirage` のスキル `ファイアービートル` の説明文を修正しました。link:https://github.com/NPJigaK/deadlock-japanese/pull/10/files#diff-39b2fdc57205d589c5d6792ad351c498307bd832576e467dbe45deb6206f9825[#10]
+* ヒーロー `Mirage` のスキル `ファイアービートル` の説明文を修正しました。link:https://github.com/NPJigaK/deadlock-japanese/pull/10/files[#10]
 
 ### 2024/08/29 
 * 最新版 `Build 5.095 2024/08/27 - 19:03:02` に対応しました
