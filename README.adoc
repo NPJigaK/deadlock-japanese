@@ -9,7 +9,7 @@ Valve社からパブリッシュされているゲーム `Deadlock` を日本語
 `ここの翻訳が足りていない`, `ここの日本語訳をこうしてほしい`, `新しいbuildバージョンに対応して欲しい`, etc...
 
 * https://forms.gle/AYovpxB2JmRsaGsGA[Google formで提案する^]
-* https://github.com/NPJigaK/deadlock-japanese[PullRequestで直接修正を提案する（Githubアカウントを持っている方）]
+* https://github.com/NPJigaK/deadlock-japanese/issues[Githubで直接提案する（Githubアカウントをお持ちの方）]
 
 ## 対応バージョン
 ----
@@ -62,12 +62,12 @@ game
 
 ### 2024/08/31
 * 一部アビリティ説明のパラメータが正しく引用されていない問題を修正しました。
-* 起動オプションの誤記を修正しました。link:https://github.com/NPJigaK/deadlock-japanese/issues/13[#13]
+* 起動オプションの誤記を修正しました。`en-dash (–)` で表記していましたが正しくは `hyphen (-)`
 * ヒーロー `Viscous` の3番目のアビリティが正しく表示されていない問題を修正しました。
 
 ### 2024/08/30 
 * 最新版 `Build 5.106 2024/08/29 - 23:02:44` に対応しました。
-* ヒーロー `Mirage` のアビリティ `ファイアービートル` の説明文を修正しました。link:https://github.com/NPJigaK/deadlock-japanese/pull/10/files[#10]
+* ヒーロー `Mirage` のアビリティ `ファイアービートル` の説明文を修正しました。
 * 公式で対応されたため `core` フォルダ配下の日本語化設定ファイルを削除しました。
 
 ### 2024/08/29 
