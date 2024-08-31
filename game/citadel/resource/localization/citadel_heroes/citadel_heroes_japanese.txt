@@ -894,9 +894,9 @@
 		// Hero Warden
 		//-----------------------------------------------------------------------------
 		"ability_warden_lock_down"				"バインディングワード"
-		"ability_warden_lock_down_quip"			"ターゲットを呪い、逃げられなければ根付かせる"
-		"ability_warden_lock_down_desc"			"敵ヒーローに呪いをかけます。指定した<span class=\"highlight\">逃走時間</span>内に元の位置から移動しないと、ダメージを受けて<span class=\"highlight\"> immobilized</span>します。"
-		"ability_warden_lock_down_t3_desc"		"{s:hero_name}は捕らえたヒーローに対して<span class=\"highlight\">+{s:BulletArmorReduction}%増加した弾丸ダメージ</span>を与え、<span class=\"highlight\">{s:BulletArmorReductionDuration}秒</span>持続します。"
+		"ability_warden_lock_down_quip"			"対象に呪いをかけ、逃げなければ動けなくする"
+		"ability_warden_lock_down_desc"			"敵ヒーローに呪いをかける。指定された<span class=\"highlight\">逃走時間</span>内に元の位置から動かなければ、<span class=\"highlight\">ダメージを受け</span>、<span class=\"highlight\">動けなくなる</span>。"
+		"ability_warden_lock_down_t3_desc"		"{s:hero_name}は、捕らえられたヒーローに対して<span class=\"highlight\">+{s:BulletArmorReduction}%の追加弾丸ダメージ</span>を<span class=\"highlight\">{s:BulletArmorReductionDuration}秒間</span>与える"
 		"StaminaReduction_label"					"スタミナ減少"
 
 		"EscapeRange_label"						"逃走範囲"
@@ -2198,12 +2198,12 @@
 		"ability_kali_tornado_blade"			"渦巻く刃"
 		"ability_kali_tornado_blade_desc"		"周囲のすべてにダメージを与える刃を投げる。<span class=\"highlight\">スキルの能力キーを押すことで</span>、<span class=\"highlight\">その場に留め</span>、<span class=\"highlight\">サイズを拡大する</span>。拡大時に追加ダメージを与える。"
 
-		"ability_kali_trappers_bolo"			"トラッパーの喜び"
-		"ability_kali_trappers_bolo_quip"		"近くの敵を固定する"
-		"ability_kali_trappers_bolo_desc"		"敵ヒーローの間を跳ね返るボロを投げ、戻ってくる。犠牲者は<span class=\"highlight\">{s:DebuffDelay}sの間スロー</span>され、その後<span class=\"highlight\">{s:ImmobilizeDuration}sの間 固定する</span>。各ヒーローごとに一度跳ね返る。"
-		"ability_kali_trappers_bolo_t1_desc"	"ボロにヒットした敵は<span class=\"highlight\">{s:ReverseLifeLeech}%のライフスチール</span>を<span class=\"highlight\">{s:ReverseLifeLeechDuration}sの間</span>獲得する"
-		"ability_kali_trappers_bolo_t3_desc"	"<span class=\"highlight\">スタン</span>を与える敵を immobilized させる"
-		"BoloBounceCount_label"					"最大バウンド数"
+		"ability_kali_trappers_bolo"			"トラッパーズデライト"
+		"ability_kali_trappers_bolo_quip"		"近くの敵を動けなくする"
+		"ability_kali_trappers_bolo_desc"		"ボロを投げると、敵ヒーロー間を跳ね返り、再びあなたのもとに戻ってくる。被害者は<span class=\"highlight\">{s:DebuffDelay}秒間かけて減速し</span>、その後<span class=\"highlight\">{s:ImmobilizeDuration}秒間動けなくなる</span>。各ヒーローごとに一度だけ跳ね返る。"
+		"ability_kali_trappers_bolo_t1_desc"	"ボロに当たった敵は<span class=\"highlight\">{s:ReverseLifeLeech}%のライフスティール</span>を<span class=\"highlight\">{s:ReverseLifeLeechDuration}秒間</span>与える"
+		"ability_kali_trappers_bolo_t3_desc"	"動けなくなった敵を<span class=\"highlight\">スタン</span>させる"
+		"BoloBounceCount_label"					"最大バウンド回数"
 
 		"BoloProcDamage_label"					"固定時のダメージ"
 		"BoloHitDamage_label"						"ヒット時のダメージ"
