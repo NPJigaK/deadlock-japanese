@@ -810,12 +810,12 @@
 		"citadel_ability_self_vacuum_t3_desc"	"特異点は毎秒敵の最大HPの<span class=\"highlight\">{s:DamagePercentHealth}%</span>を奪います。"
 		"VacuumRadius_label"						"特異点半径"
 		"VacuumRadius_postfix"					"m"
-		"DamagePercentHealth_label"				"ダメージ健康割合"
+		"DamagePercentHealth_label"				"ダメージ体力割合"
 		"DamagePercentHealth_postfix"				"%"
 
 		"citadel_ability_nikuman"				"再生のオーロラ"
 		"citadel_ability_nikuman_quip"			"自分と周囲の仲間を癒す"
-		"citadel_ability_nikuman_desc"			"チャネリング中に、<span class=\"highlight\">時間をかけて健康を回復</span>します。"
+		"citadel_ability_nikuman_desc"			"チャネリング中に、<span class=\"highlight\">時間をかけて体力を回復</span>します。"
 		"citadel_ability_nikuman/modifier_nikuman"	"再生のオーロラ"
 		"TechShieldPerSecond_label"				"追加スピリットシールド"
 		"TechShieldPerSecond_postfix"			"/s"
@@ -1439,13 +1439,13 @@
 		// hero ghost
 		//-----------------------------------------------------------------------------
 		"ability_blood_bomb"				"エッセンスボム"
-		"ability_blood_bomb_quip"			"健康の一部を犠牲にしてダメージボムを放つ"
-		"ability_blood_bomb_desc"			"<span class=\"highlight\">健康の一部を犠牲にして</span>、短いアーム時間の後にダメージを与えるボムを発射します。<br>自己ダメージタイプはスピリットで、軽減可能です。"
+		"ability_blood_bomb_quip"			"体力の一部を犠牲にしてダメージボムを放つ"
+		"ability_blood_bomb_desc"			"<span class=\"highlight\">体力の一部を犠牲にして</span>、短いアーム時間の後にダメージを与えるボムを発射します。<br>自己ダメージタイプはスピリットで、軽減可能です。"
 		"ability_blood_bomb_t3_desc"	"ボムは地面に有毒な残骸を残し、元の<span class=\"highlight\">ダメージの<span class=\"highlight\">{s:BloodSpillDPSPercent}%</span>のダメージを</span>、<span class=\"highlight\">{s:BloodSpillDuration}秒</span>持続します。"
 
 		"ability_life_drain"				"ライフドレイン"
-		"ability_life_drain_quip"			"敵から時間をかけて健康を吸収する"
-		"ability_life_drain_desc"			"<span class=\"highlight\">敵の健康を時間をかけて吸収する</span>つながりを作り、<span class=\"highlight\">自分を癒す</span>。ターゲットは視界内にあり、最大範囲内でなければなりません。ドレイン中に弾を撃ったり他のアビリティを使用することができますが、移動速度は半分になります。[{s:in_ability2}]を押すとキャンセルします。"
+		"ability_life_drain_quip"			"敵から時間をかけて体力を吸収する"
+		"ability_life_drain_desc"			"<span class=\"highlight\">敵の体力を時間をかけて吸収する</span>つながりを作り、<span class=\"highlight\">自分を癒す</span>。ターゲットは視界内にあり、最大範囲内でなければなりません。ドレイン中に弾を撃ったり他のアビリティを使用することができますが、移動速度は半分になります。[{s:in_ability2}]を押すとキャンセルします。"
 		"ability_life_drain/modifier_life_drain" "ライフドレイン"
 		"ability_life_drain/modifier_life_drain_caster" "ライフドレイン"
 		"modifier_life_drain_silence"		"沈黙"
@@ -1464,24 +1464,24 @@
 		"HealFriendRadius_postfix"			"m"
 
 		"ability_health_swap"					"ソウルエクスチェンジ"
-		"ability_health_swap_quip"			"敵ヒーローの健康と交換する"
-		"ability_health_swap_desc"			"<span class=\"highlight\">健康レベルを交換する</span>敵ターゲットと。敵が下げられる最小健康割合と、被害者の現在の健康に基づいて受け取る最小健康量があります。"
+		"ability_health_swap_quip"			"敵ヒーローの体力と交換する"
+		"ability_health_swap_desc"			"<span class=\"highlight\">体力レベルを交換する</span>敵ターゲットと。敵が下げられる最小体力割合と、被害者の現在の体力に基づいて受け取る最小体力量があります。"
 		"ability_health_swap_t3_desc"			"発動時に、<span class=\"highlight\">+{s:BonusFireRate}%</span> の攻撃速度と、<span class=\"highlight\">+{s:TechResist}%</span> のスピリット耐性を<span class=\"highlight\">{s:HealthSwapBuffDuration}s</span>間得ます。"
-		"MinHealthTakenPct_label"				"最小健康受取"
+		"MinHealthTakenPct_label"				"最小体力受取"
 		"MinHealthTakenPct_postfix"			"%"
 		"modifier_blood_exchange"				"血の交換"
-		"EnemyMinHealthPct_label"				"敵の最小健康"
+		"EnemyMinHealthPct_label"				"敵の最小体力"
 		"EnemyMinHealthPct_postfix"			"%"
 		"EnemySlowPct_label"					"敵の移動スロー"
 		"EnemySlowPct_postfix"				"%"
-		"ability_health_swap/modifier_health_swap_debuff"	"健康交換"
+		"ability_health_swap/modifier_health_swap_debuff"	"体力交換"
 
 		"HealthSwapBuffDuration_label"		"バフ持続時間"
 		"HealthSwapBuffDuration_postfix"		"秒"
 		"modifier_health_swap_buff"			"ソウルエクスチェンジ"
 
 		"ability_death_tax"					"デス税"
-		"ability_death_tax_desc"			"レディ・ガイストによって負傷した敵はデス税でマークされます。マークされた敵が死ぬたびに、{s:hero_name}は健康を得ます。"
+		"ability_death_tax_desc"			"レディ・ガイストによって負傷した敵はデス税でマークされます。マークされた敵が死ぬたびに、{s:hero_name}は体力を得ます。"
 		"modifier_citadel_death_tax"				"デス税"
 		"modifier_citadel_death_tax_tech_amp"		"デス税パワー"
 		"ability_death_tax_t1_desc"	"マークされた敵が死ぬと、あなたのクールダウンが<span class=\"highlight\">{s:CooldownReductionOnKill}s</span>短縮されます"
@@ -1489,8 +1489,8 @@
 
 		"ability_blood_shards"				"悪意"
 		"ability_blood_shards_quip"			"敵にダメージ増幅を蓄積する"
-		"ability_blood_shards_desc"			"<span class=\"highlight\">健康の一部を犠牲にする</span>血の破片を発射し、悪意のスタックを適用します。各スタックは<span class=\"highlight\">被害者をスローさせ</span>、<span class=\"highlight\">受けるダメージを増加させます</span>。スロー効果は時間と共に減少します。"
-		"ability_blood_shards_t2_desc"		"+{s:HealthToDamage} 健康からダメージに"
+		"ability_blood_shards_desc"			"<span class=\"highlight\">体力の一部を犠牲にする</span>血の破片を発射し、悪意のスタックを適用します。各スタックは<span class=\"highlight\">被害者をスローさせ</span>、<span class=\"highlight\">受けるダメージを増加させます</span>。スロー効果は時間と共に減少します。"
+		"ability_blood_shards_t2_desc"		"+{s:HealthToDamage} 体力からダメージに"
 		"ability_blood_shards_t3_desc"		"+{s:NumBloodShards} 血の破片"
 		"NumBloodShards_label"				"血の破片"
 		"MoveSpeedPenaltyPerStack_label"		"移動スロー"
@@ -1580,7 +1580,7 @@
 
 		"citadel_ability_hornet_sting"			"カラスの仲間"
 		"citadel_ability_hornet_sting_quip"		"ターゲットを時間をかけて出血させる"
-		"citadel_ability_hornet_sting_desc"		"あなたのカラスの仲間が<span class=\"highlight\">衝撃ダメージ</span>を与え、<span class=\"highlight\">出血</span>を適用し、<span class=\"highlight\">ターゲットの現在の健康に基づく</span>ダメージを与えます。"
+		"citadel_ability_hornet_sting_desc"		"あなたのカラスの仲間が<span class=\"highlight\">衝撃ダメージ</span>を与え、<span class=\"highlight\">出血</span>を適用し、<span class=\"highlight\">ターゲットの現在の体力に基づく</span>ダメージを与えます。"
 		"citadel_ability_hornet_sting_t1_desc"	"カラスは<span class=\"highlight\">他の敵に向かって2回まで跳ね返る</span>"
 		"citadel_ability_hornet_sting_t3_desc"	"+{s:DotHealthPercent}%出血し、{s:HealAmpReceivePenaltyPercent}%の回復を抑制します。"
 		"citadel_ability_hornet_sting/modifier_citadel_hornet_sting_debuff"		"カラスの仲間"
@@ -1590,10 +1590,10 @@
 
 		"citadel_ability_hornet_snipe"			"アサシネイト"
 		"citadel_ability_hornet_snipe_quip"		"負傷したターゲットを狙撃して大ダメージを与える"
-		"citadel_ability_hornet_snipe_desc"		"スコープ付きライフルを使用して、長距離から強力な一撃を放ちます。スコープをかけた状態で1秒後に完全に充電されるまで部分的なダメージしか与えません。<span class=\"highlight\">残り健康が{s:LowHealthEnemyThresholdPct}%未満の敵にボーナスダメージ</span>を与えます。アサシネイトでプレイヤーを倒すと、<span class=\"highlight\">ボーナスソウル</span>を得ます。"
+		"citadel_ability_hornet_snipe_desc"		"スコープ付きライフルを使用して、長距離から強力な一撃を放ちます。スコープをかけた状態で1秒後に完全に充電されるまで部分的なダメージしか与えません。<span class=\"highlight\">残り体力が{s:LowHealthEnemyThresholdPct}%未満の敵にボーナスダメージ</span>を与えます。アサシネイトでプレイヤーを倒すと、<span class=\"highlight\">ボーナスソウル</span>を得ます。"
 		//"citadel_ability_hornet_snipe_t3_desc"	"アサシネイトのキルで+{s:BonusGoldOnKill}ソウルを獲得"
 		"LowHealthEnemyDamageBonus_label"		"ボーナスダメージ"
-		"LowHealthEnemyThresholdPct_label"		"低健康閾値"
+		"LowHealthEnemyThresholdPct_label"		"低体力閾値"
 		"LowHealthEnemyThresholdPct_postfix"	"%"
 		"BonusGoldOnKill_label"					"アサシネーションごとのボーナスソウル"
 		"assassin_modifier"						"+武器ダメージ"
@@ -1631,7 +1631,7 @@
 		"ability_pounce"				"飛びかかる"
 		"ability_pounce_desc"			"{s:hero_name}が前方に飛びかかり、着地時に爆発を起こし、周囲の敵にダメージを与えます。"
 
-		"ability_ooc_health_regen"			"戦闘外の健康再生"
+		"ability_ooc_health_regen"			"戦闘外の体力再生"
 		"ability_ooc_health_regen_desc"		""
 
 		"ability_throw_sand"			"砂の爆風"
@@ -1647,12 +1647,12 @@
 
 		"ability_ult_combo"				"コンボ"
 		"ability_ult_combo_quip"		"敵ヒーローをその場に留めて攻撃する"
-		"ability_ult_combo_desc"		"ターゲットをその場に留め、<span class=\"highlight\">スタンさせ、ダメージを与えます</span>。コンボ中に倒されると、永久に最大健康を獲得します。"
+		"ability_ult_combo_desc"		"ターゲットをその場に留め、<span class=\"highlight\">スタンさせ、ダメージを与えます</span>。コンボ中に倒されると、永久に最大体力を獲得します。"
 		"ability_ult_combo_t2_desc"		"コンボの持続時間<span class=\"highlight\">+{s:AbilityChannelTime}s</span>"
 		"ability_ult_combo_t3_desc"		"<span class=\"highlight\">+{s:DPS}</span> ダメージ毎秒と<span class=\"highlight\">{s:LifeStealPercentOnHit}%のライフスティール</span>"
 		"LifestealPercentOnHit_label"		"ライフスティール"
 		"LifestealPercentOnHit_postfix"	"%"
-		"BonusHealthOnKill_label"			"キルごとのボーナス最大健康"
+		"BonusHealthOnKill_label"			"キルごとのボーナス最大体力"
 
 		"GrabExtraTargetRange_label"		"追加ターゲット範囲"
 		"GrabExtraTargetRange_postfix"	"m"
@@ -1715,14 +1715,14 @@
 
 
 		"citadel_ability_shiv_killing_blow"		"キリングブロー"
-		"citadel_ability_shiv_killing_blow_quip"	"低健康のヒーローに移動し、一撃で倒す"
-		"citadel_ability_shiv_killing_blow_active_desc"	"敵ヒーローに飛び込んで、彼らの健康が<span class=\"highlight\">キル閾値未満</span>の場合、<span class=\"highlight\">一撃で倒します</span>。そうでない場合は{s:Damage}ダメージを与えます。"
+		"citadel_ability_shiv_killing_blow_quip"	"低体力のヒーローに移動し、一撃で倒す"
+		"citadel_ability_shiv_killing_blow_active_desc"	"敵ヒーローに飛び込んで、彼らの体力が<span class=\"highlight\">キル閾値未満</span>の場合、<span class=\"highlight\">一撃で倒します</span>。そうでない場合は{s:Damage}ダメージを与えます。"
 		"citadel_ability_shiv_killing_blow_passive_desc" "パッシブ: 敵をダメージを与えると怒りがたまります。満タンの時、シブはダメージが増加し、<span class=\"highlight\">他の能力に特別な効果</span>を得ます。"
 		"citadel_ability_shiv_killing_blow/active_buff"		"激昂"
 		"citadel_ability_shiv_killing_blow_while_full_rage" "怒りが満タンの時"
 		"citadel_ability_shiv_killing_blow_ui_meter" 		"怒り"
 
-		"EnemyHealthPercent_label"				"敵健康閾値"
+		"EnemyHealthPercent_label"				"敵体力閾値"
 		"EnemyHealthPercent_postfix"				"%"
 		"BuffDamage_label"					"すべてのダメージ"
 		"BuffDamage_prefix"					"+"
@@ -1782,7 +1782,7 @@
 		"synth_grasp"					"つかむ"
 		"synth_grasp_quip"			"近くの敵ヒーローをあなたの位置に繋げる"
 		"synth_grasp_desc"			"<span class=\"highlight\">近くの敵ヒーローを繋ぎ</span>、繋いだ敵ヒーローの数に応じて<span class=\"highlight\">弾薬シールド</span>を得ます。持続時間中は<span class=\"highlight\">動けなくなります</span>。"
-		"synth_grasp_t3_desc"			"対象の最大健康の{s:LifestealPerSecond}%を毎秒ダメージを与え、ライフスティールします。"
+		"synth_grasp_t3_desc"			"対象の最大体力の{s:LifestealPerSecond}%を毎秒ダメージを与え、ライフスティールします。"
 		"TetherLength_label"			"繋ぎの長さ"
 		"TetherLength_postfix"		"m"
 		"modifier_synth_grasp_caster"	"つかむ"
@@ -1947,9 +1947,9 @@
 
 		"citadel_ability_tengu_stone_form"			"ストーンフォーム"
 		"citadel_ability_tengu_stone_form_quip"		"近くの敵を気絶させる無敵の石に変わる"
-		"citadel_ability_tengu_stone_form_desc"		"<span class=\"highlight\">無敵の石</span>に変身し、地面に叩きつけて、近くの敵に<span class=\"highlight\">気絶させ、ダメージを与える</span>。最大健康の割合であなたを癒します。落下する前に空中制御ができます。"
+		"citadel_ability_tengu_stone_form_desc"		"<span class=\"highlight\">無敵の石</span>に変身し、地面に叩きつけて、近くの敵に<span class=\"highlight\">気絶させ、ダメージを与える</span>。最大体力の割合であなたを癒します。落下する前に空中制御ができます。"
 		"citadel_ability_tengu_stone_form_t2_desc"	"<span class=\"highlight\">+{s:Damage} ダメージ</span>、および<span class=\"highlight\">{s:StunDuration}s</span>の気絶を追加します。"
-		"MaxHealthRegen_label"						"最大健康回復"
+		"MaxHealthRegen_label"						"最大体力回復"
 		"MaxHealthRegen_postfix"					"%"
 		"citadel_ability_tengu_stone_form/modifier_citadel_tengu_stone_form"	"ストーンフォーム"
 
@@ -1975,7 +1975,7 @@
 		"citadel_ability_tengu_lightningcrash_quip"	"戦場の上空に飛ぶ"
 		"citadel_ability_tengu_lightningcrash_desc"	"空中にジャンプし、しばらく飛ぶ。地面に当たると、飛んでいた時間に基づいてダメージを与え、<span class=\"highlight\">再生ブースト</span>を得る。飛行中に[{s:iv_attack}]を押すと、飛行速度が加速します。"
 		"citadel_ability_tengu_lightningcrash_t3_desc"	"<span class=\"highlight\">+{s:Damage}</span>のダメージと、<span class=\"highlight\">+{s:Regeneration}</span>の再生"
-		"AirSpeedHealthBonus_label"			"健康的な速度ボーナス"
+		"AirSpeedHealthBonus_label"			"体力的な速度ボーナス"
 		"AirSpeedHealthBonus_postfix"			"m/s"
 
 		"ActiveFlightTime_label"			"飛行時間"
@@ -2227,7 +2227,7 @@
 
 		"citadel_ability_mortarsentry"					"迫撃砲セントリー"
 		"citadel_ability_mortarsentry_desc"				"{s:hero_name}の前にセントリーを配置し、定期的に目標エリアの敵に迫撃砲を発射する。ボス系へのダメージは減少する。"
-		"citadel_ability_mortarsentry_t1_desc"	"セントリーの健康が<span class=\"highlight\">+{s:Health}Hp </span>、セントリーの寿命が<span class=\"highlight\">+{s:TurretLifetime}s</span>"
+		"citadel_ability_mortarsentry_t1_desc"	"セントリーの体力が<span class=\"highlight\">+{s:Health}Hp </span>、セントリーの寿命が<span class=\"highlight\">+{s:TurretLifetime}s</span>"
 		"citadel_ability_mortarsentry_t2_desc"	"能力チャージが<span class=\"highlight\">+{s:AbilityCharges}s</span>、探索半径が<span class=\"highlight\">+{s:SearchRadius}m</span>"
 		"citadel_ability_mortarsentry_t3_desc"	"ボレーごとの爆弾数が<span class=\"highlight\">+{s:GrenadesPerVolley}</span>"
 
@@ -2243,7 +2243,7 @@
 		"ability_carpetbomb_drone"						"ストリートクリーナー"
 		"ability_carpetbomb_drone_desc"					"飛びながら爆弾を落とすドローンを召喚する。ドローンは<span class=\"highlight\">狙った方向</span>に向かって移動する。ドローンが消失すると、爆弾のクラスタに爆発する。"
 		"ability_carpetbomb_drone_t1_desc"		"ドローンの寿命が<span class=\"highlight\">+{s:DroneLifeTime}s</span>"
-		"ability_carpetbomb_drone_t2_desc"		"能力クールダウンが<span class=\"highlight\">{s:AbilityCooldown}s</span>、ドローンの健康が<span class=\"highlight\">+{s:DroneHealth}</span>"
+		"ability_carpetbomb_drone_t2_desc"		"能力クールダウンが<span class=\"highlight\">{s:AbilityCooldown}s</span>、ドローンの体力が<span class=\"highlight\">+{s:DroneHealth}</span>"
 		"ability_carpetbomb_drone_t3_desc"		"爆弾落下間隔が<span class=\"highlight\">{s:AttackRate}s</span>、ドローンの速度が<span class=\"highlight\">+{s:DroneSpeed}</span>"
 
 		"modifier_consumed_armor_buff"		"スピリットと弾丸のアーマー"
@@ -2274,7 +2274,7 @@
 		"citadel_ability_surveillance_drone_crash"					"ドローンクラッシュ"
 		"citadel_ability_surveillance_drone_crash_desc"				"ドローンを地面にクラッシュさせ、AOEダメージを与える"
 		"citadel_ability_hijack_mind_control"						"敵ユニットをハック"
-		"citadel_ability_hijack_mind_control_desc"					"特定エリア内の敵NPCのチームを変更し、追加の健康とボーナス武器ダメージを与える。{s:hero_name}と近くの味方は、ハックしたユニットごとに半分の金を獲得する。"
+		"citadel_ability_hijack_mind_control_desc"					"特定エリア内の敵NPCのチームを変更し、追加の体力とボーナス武器ダメージを与える。{s:hero_name}と近くの味方は、ハックしたユニットごとに半分の金を獲得する。"
 		"ability_hijack_richochet_projectile"						"リコシェダガー"
 		"ability_hijack_richochet_projectile_desc"					"壁にバウンドして近くの敵に向かって飛ぶダガーを投げる。ヒットした敵ユニットにダメージを与え、貫通する。壁からの最初のバウンド後にダメージが増加する。"
 		"citadel_modifier_passive_hijack_weapon_jammer_buildup"					"武器ジャマー"
@@ -2286,7 +2286,7 @@
 		"citadel_ability_surveillance_drone_t2_desc"		"+<span class=\"highlight\">{s:CrashImpactRadius}</span>クラッシュインパクト半径、+<span class=\"highlight\">{s:DroneCrashDamage}</span>ドローンクラッシュダメージ"
 
 		"ExtraDamagePerBounce_label"						"バウンドごとの追加ダメージ"
-		"MindControlHealthBonus_label"					"ユニットに与える追加健康"
+		"MindControlHealthBonus_label"					"ユニットに与える追加体力"
 		"MisfireBuildupPercentPerShot_label"			"ショットごとの蓄積率"
 		"CrashImpactRadius_label"						"クラッシュダメージ半径"
 		"DroneCrashDamage_label"						"ドローンクラッシュダメージ"
@@ -2334,14 +2334,14 @@
 		"citadel_ability_mechaguy_double_edge"			"ダブルエッジ"
 		"citadel_ability_mechaguy_double_edge_desc"			"あなたとターゲットの両方に{s:Damage}ダメージを与えます。"
 
-		"citadel_ability_mechaguy_double_edge_t2_desc"			"あなたの健康の{s:DamageHealthPercent}%を追加ダメージとして与えます。"
+		"citadel_ability_mechaguy_double_edge_t2_desc"			"あなたの体力の{s:DamageHealthPercent}%を追加ダメージとして与えます。"
 		"citadel_ability_mechaguy_double_edge_t3_desc"			"+{s:AbilityUnitTargetLimit}ターゲット。"
 
 		"citadel_ability_mechaguy_defense_field"		"リアクティブアーマー"
 		"citadel_ability_mechaguy_defense_field_desc"		"攻撃者に防御ロケットを発射し、受けたダメージごとに再生を構築します（{s:RegenThreshold}ダメージごと）。"
 		"modifier_mechaguy_defense_field_aura_thinker"	"リアクティブアーマー"
 
-		"citadel_ability_mechaguy_defense_field_t2_desc"		"+{s:RegenPercent}%健康回復"
+		"citadel_ability_mechaguy_defense_field_t2_desc"		"+{s:RegenPercent}%体力回復"
 
 
 
@@ -2471,7 +2471,7 @@
 		"citadel_ability_healing_slash_desc"	"前方の敵をスラッシュし、<span class=\"highlight\">ダメージを与え、発射レートをスローさせる</span>。ヒーローがヒットすると、あなたは<span class=\"highlight\">回復する</span>。"
 		"citadel_ability_healing_slash/debuff"	"クリムゾンスラッシュ"
 		"HealMaxHealth_label"					"ヒーローヒット時の回復"
-		"HealMaxHealth_postfix"					"最大健康の%"
+		"HealMaxHealth_postfix"					"最大体力の%"
 		"HealFixedHealth_label"					"ヒーローヒット時の回復"
 
 		//-----------------------------------------------------------------------------
@@ -2499,7 +2499,7 @@
 		"ability_teammate_armor_buff"					"保護シェル"
 		"ability_teammate_armor_buff_desc"				"友好的なユニットまたは自分に一時的なバレットとスピリットのバリアを適用する。"
 		"ability_teammate_armor_buff_t1_desc"	"移動速度ボーナス効果を追加<span class=\"highlight\">+{s:SpeedBonus}m/s</span>"
-		"ability_teammate_armor_buff_t2_desc"	"健康再生効果を追加<span class=\"highlight\">+{s:HealthRegenBonus}</span>"
+		"ability_teammate_armor_buff_t2_desc"	"体力再生効果を追加<span class=\"highlight\">+{s:HealthRegenBonus}</span>"
 		"ability_teammate_armor_buff_t3_desc"	"バレットシールド<span class=\"highlight\">+{s:BulletShieldHealth}</span>とスピリットシールド<span class=\"highlight\">+{s:TechShieldHealth}</span>"
 		"SpeedBonus_label"						"移動速度ボーナス"
 		"SpeedBonus_postfix"					"m/s"
@@ -2515,7 +2515,7 @@
 		"Fuse_label"							"融合時間"
 		"Fuse_postfix"						"s"
 		"TickDamage_label"					"ボムのティックダメージ"
-		"BombDamagePercent_label"			"ターゲットの最大健康に対するダメージ"
+		"BombDamagePercent_label"			"ターゲットの最大体力に対するダメージ"
 		"BombDamagePercent_postfix"			"%"
 		"MoveSpeedSlowPercent_label"		"移動速度減少"
 		"MoveSpeedSlowPercent_postfix"		"%"
@@ -2874,9 +2874,9 @@
 		"hero_bebop_playstyle"          "ビバップは、自身の能力をさまざまな形で組み合わせることができます。敵の位置を乱したり、味方を助けたり、瞬時にダメージを与えたり。状況に応じて彼の巨大なレーザーは多くの問題を解決します。"
 		"hero_wrecker_playstyle"        "パーツを回収しスクラップを集めるレッカーは、兵士を分解したり、ウィッキングボールで敵を押しつぶしたり、スタシス・トラップで敵を捕らえたりします。"
 		"hero_chrono_playstyle"         "時間を操ることで、パラドックスは1対1の戦闘で敵を上回ります。彼女は、敵を待機中のパルスグレネード、壁、または仲間の真ん中にタイムリーに移動させることで、敵を打ちのめします。"
-		"hero_dynamo_playstyle"         "ダイナモは、自分と仲間を健康に保ちながら、待機しています。シンギュラリティの協調的な使用は、チーム戦の流れを大きく変えることができます。"
+		"hero_dynamo_playstyle"         "ダイナモは、自分と仲間を体力に保ちながら、待機しています。シンギュラリティの協調的な使用は、チーム戦の流れを大きく変えることができます。"
 		"hero_forge_playstyle"          "マギー・マギニスにとって、正確な配置がすべてです。彼女はキルゾーンを作成するか、敵チームを分断することができます。彼女は、陣地にこもった状態でチームを維持し、難攻不落にする手助けをします。"
-		"hero_ghost_playstyle"          "健康を犠牲にして壊滅的な効果を生み出すことが、レディ・ガイストの力の源です。彼女がエネルギーを失ったとき、敵から命を吸い取ることができます。"
+		"hero_ghost_playstyle"          "体力を犠牲にして壊滅的な効果を生み出すことが、レディ・ガイストの力の源です。彼女がエネルギーを失ったとき、敵から命を吸い取ることができます。"
 		"hero_gigawatt_playstyle"       "セブンは小競り合いの中で待機し、攻撃の瞬間を狙います。彼は嵐のように戦いに突入し、稲妻の滝で敵を叩きます。"
 		"hero_haze_playstyle"           "ヘイズはターゲットに集中すると、銃撃戦で自分を守ることができます。彼女は一方的な交換を好み、ダメージを避けながら近くの無防備なターゲットを狙います。"
 		"hero_hornet_playstyle"         "ヴィンディクタは、自由に接近し、獲物を狙ってゆっくりと出血させることができる機動力を持っています。どんな距離からでも傷ついた敵は、彼女がマップにいるときに狙われることを恐れるべきです。"
