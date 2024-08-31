@@ -493,7 +493,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>※基本的にbuildバージョンが違くても翻訳可能ですが、新しいbuildバージョンで設定値が増えていた場合、そこだけ英語のままになります。</p>
 </div>
 <div class="paragraph">
-<p>キャラクター名は英語のままにしています。</p>
+<p>ヒーロー名は英語のままにしています。<br>
+ショップのアイテム名は英語のままにしています。<br></p>
 </div>
 </div>
 </div>
@@ -539,7 +540,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
          │  └─ citadel_attributes_japanese.txt &lt;- 今回追加したファイル
          ├─ citadel_gc
          │  ├─ citadel_gc_english.txt など...
-         │  └─ citadel_gc_japanese.txt &lt;- 今回追加したファイル
+         │  ├─ citadel_gc_japanese.txt &lt;- 今回追加したファイル
+         │  └─ ex-citadel_gc_japanese.txt &lt;- アイテムの日本語表示にしたい方向け
          ├─ citadel_heroes
          │  ├─ citadel_heroes_english.txt など...
          │  └─ citadel_heroes_japanese.txt &lt;- 今回追加したファイル
@@ -574,14 +576,36 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_更新履歴">更新履歴</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_20240831">2024/09/01</h3>
+<h3 id="_20240901">2024/09/01</h3>
+<div class="paragraph">
+<p><strong>※ 大きな変更があります</strong></p>
+</div>
 <div class="ulist">
 <ul>
 <li>
-<p>ヒーローのアビリティ名をカタカナ読みに変更しました。</p>
+<p><strong>ショップのアイテム名を英語に戻しました。</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>アイテムは名前で並び順が変わってしまい、ビルドに影響が出てしまうためです。</p>
 </li>
 <li>
-<p>英語のアビリティ名を説明欄に表示するようにしました。</p>
+<p>元の日本語翻訳されたファイルは <code>ex-citadel_gc_japanese.txt</code> として残しています。<br>
+ファイル名を <code>citadel_gc_japanese.txt</code> にリネームすることで引き続き利用可能です。</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>ヒーローのアビリティ名をカタカナ読みに変更しました。</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>アビリティ名は名前で並び順が変わらないため、どなたでも読めるカタカナ読みにします。<br>
+併せて英語のアビリティ名を説明欄に表示するようにしました。</p>
+</li>
+</ul>
+</div>
 </li>
 <li>
 <p><code>スロー</code>（移動速度低下）の表記を <code>スロウ</code> に修正しました。</p>
@@ -590,7 +614,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect2">
-<h3 id="_20240831_2">2024/08/31</h3>
+<h3 id="_20240831">2024/08/31</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -655,7 +679,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-09-01 05:18:47 +0900
+Last updated 2024-09-01 05:51:16 +0900
 </div>
 </div>
 </body>
