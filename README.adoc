@@ -41,7 +41,7 @@ game
          ├─ citadel_gc
          │  ├─ citadel_gc_english.txt など...
          │  ├─ citadel_gc_japanese.txt <- 今回追加したファイル
-         │  └─ ex-citadel_gc_japanese.txt <- アイテムの日本語表示にしたい方向け                               
+         │  └─ ex-citadel_gc_japanese.txt <- ショップのアイテムを日本語表示にしたい方向け                               
          ├─ citadel_heroes
          │  ├─ citadel_heroes_english.txt など...
          │  └─ citadel_heroes_japanese.txt <- 今回追加したファイル
