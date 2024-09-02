@@ -1,24 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4DHKP8L8SH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-4DHKP8L8SH');
-</script>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.17">
 <meta name="author" content="Localizing Valve&#8217;s game 'Deadlock' into Japanese">
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Deadlock 日本語化設定ファイル" />
-<meta name="twitter:description" content="Deadlockの日本語化設定ファイルです。翻訳の修正・改善提案は常に募集しています。お気軽にご提案下さい。" />
-<meta name="twitter:url" content="https://deadlock-japanese.devkey.jp/" />
 <title>deadlock-japanese</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -495,24 +482,17 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p>ヒーロー名は英語のままにしています。</p>
-</li>
-<li>
-<p>ショップのアイテム名は英語のままにしています。</p>
-<div class="ulist">
-<ul>
-<li>
-<p>アイテム名を日本語化するファイルも同梱しています。詳しくは<a href="#section-20240901">こちら</a>を参照ください。</p>
+<p>ヒーロー名、ショップのアイテム名は英語のままにしています。</p>
 </li>
 </ul>
 </div>
-</li>
-</ul>
+<div class="paragraph">
+<p>ショップのアイテム名は日本語にすることも可能です。詳しくは<a href="#section-items-to-japanese">こちら</a>を参照ください。</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_設定方法">設定方法</h2>
+<h2 id="section-settings">設定方法</h2>
 <div class="sectionbody">
 <div class="olist arabic">
 <ol class="arabic">
@@ -583,11 +563,29 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ol>
 </div>
+<div class="sect2">
+<h3 id="section-items-to-japanese">ショップのアイテム名を日本語にする</h3>
+<div class="paragraph">
+<p>ショップのアイテム名を日本語にする場合は追加の作業が必要になります。<br>
+<strong><a href="#section-settings">通常の日本語化設定</a> を行った後</strong> に <code>ショップのアイテム名を日本語にしたい人向け</code> フォルダの中にある <code>game</code> フォルダでさらに上書きします。<br>
+必ず <strong>先に通常の日本語化設定を行う</strong> 必要がありますので順番にはお気を付けください。</p>
+</div>
+</div>
 </div>
 </div>
 <div class="sect1">
 <h2 id="_更新履歴">更新履歴</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_20240902">2024/09/02</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>ショップのアイテム名を日本語にする方法を簡略化しました。</p>
+</li>
+</ul>
+</div>
+</div>
 <div class="sect2">
 <h3 id="section-20240901">2024/09/01</h3>
 <div class="paragraph">
@@ -602,10 +600,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul>
 <li>
 <p>アイテムは名前で並び順が変わってしまい、ビルドに影響が出てしまうためです。</p>
-</li>
-<li>
-<p>以前までのアイテム名が日本語翻訳されたファイルは <code>ex-citadel_gc_japanese.txt</code> として残しています。<br>
-アイテム名も日本語でプレイしたい方は、ファイル名を <code>citadel_gc_japanese.txt</code> にリネームしてからファイルの上書きをしてください。</p>
 </li>
 </ul>
 </div>
@@ -693,7 +687,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-09-01 16:09:29 +0900
+Last updated 2024-09-02 13:39:17 +0900
 </div>
 </div>
 </body>
