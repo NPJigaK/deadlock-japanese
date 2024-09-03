@@ -1441,7 +1441,7 @@
 		"ability_blood_bomb"				"エッセンスボム"
 		"ability_blood_bomb_quip"			"体力を犠牲にしてダメージを与える爆弾を発射"
 		"ability_blood_bomb_desc"			"<span class=\"highlight\">体力の一部を犠牲にして</span>、短い起動時間の後に<span class=\"highlight\">ダメージを与える</span>爆弾を発射する。<br>自己ダメージの種類はスピリットであり、軽減が可能。<br>Essence Bomb."
-		"ability_blood_bomb_t3_desc"		"爆弾が地面に毒の残留物を残し、元の<span class=\"highlight\">ダメージの{ s:BloodSpillDPSPercent}%</span>を<span class=\"highlight\">毎秒</span>、<span class=\"highlight\">{ s:BloodSpillDuration}秒</span>間与える。"
+		"ability_blood_bomb_t3_desc"		"爆弾が地面に毒の残留物を残し、元の<span class=\"highlight\">ダメージの{s:BloodSpillDPSPercent}%</span>を<span class=\"highlight\">毎秒</span>、<span class=\"highlight\">{s:BloodSpillDuration}秒</span>間与える。"
 
 		"ability_life_drain"				"ライフドレイン"
 		"ability_life_drain_quip"			"敵から徐々に体力を吸収する"
