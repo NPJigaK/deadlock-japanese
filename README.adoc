@@ -11,6 +11,8 @@ Valve社からパブリッシュされているゲーム `Deadlock` を日本語
 * https://forms.gle/AYovpxB2JmRsaGsGA[Google formで提案する^]
 * https://github.com/NPJigaK/deadlock-japanese/issues[Githubで直接提案する（Githubアカウントをお持ちの方）]
 
+その他の質問に関してましては link:https://x.com/steinsgg/status/1831259780293538199[X(Twitter)] にて相談を受け付けております。お気軽にご相談ください。
+
 ## 対応バージョン
 ----
 Build 5.120 2024/09/02 - 19:21:34
