@@ -1,3 +1,4 @@
+:note-caption: 💡
 # deadlock-japanese
 Localizing Valve's game 'Deadlock' into Japanese
 
@@ -6,7 +7,7 @@ Valve社からパブリッシュされているゲーム `Deadlock` を日本語
 全ての権利は `Valve Corporation©` に帰属します。
 
 翻訳の修正・改善提案は随時受け付けています。ご協力お願い致します。 + 
-`ここの翻訳が足りていない`, `ここの日本語訳をこうしてほしい`, `新しいbuildバージョンに対応して欲しい`, etc...
+例：`ここの日本語訳が足りていない`, `ここの日本語訳を分かりやすくしてほしい`, `新しいbuildバージョンに対応して欲しい`, etc...
 
 * https://forms.gle/AYovpxB2JmRsaGsGA[Google formで提案する^]
 * https://github.com/NPJigaK/deadlock-japanese/issues[Githubで直接提案する（Githubアカウントをお持ちの方）]
@@ -17,10 +18,13 @@ Valve社からパブリッシュされているゲーム `Deadlock` を日本語
 ----
 Build 5.122 2024/09/05 - 15:28:41
 ----
-※基本的にbuildバージョンが違くても翻訳可能ですが、新しいbuildバージョンで設定値が増えていた場合、そこだけ英語のままになります。
 
-* ヒーロー名、ショップのアイテム名は英語のままにしています。
+[NOTE]
+======
+基本的にbuildバージョンが違くても日本語化出来ます。新しいbuildバージョンでヒーローやアイテムが増えていた場合、そこだけ英語のままになりますので、定期的に最新の日本語化ファイルに更新することをお勧めします。
+======
 
+ヒーロー名、ショップのアイテム名は英語のままにしています。 + 
 ショップのアイテム名は日本語にすることも可能です。詳しくは<<section-items-to-japanese,こちら>>を参照ください。
 
 [[section-settings]]
