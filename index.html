@@ -454,11 +454,24 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 </head>
-<body class="article">
+<body class="article toc2 toc-left">
 <div id="header">
 <h1>deadlock-japanese</h1>
 <div class="details">
 <span id="author" class="author">Localizing Valve&#8217;s game 'Deadlock' into Japanese</span><br>
+</div>
+<div id="toc" class="toc2">
+<div id="toctitle">目次</div>
+<ul class="sectlevel1">
+<li><a href="#_対応バージョン">対応バージョン</a></li>
+<li><a href="#section-settings">設定方法</a>
+<ul class="sectlevel2">
+<li><a href="#section-items-to-japanese">ショップのアイテム名を日本語にする場合</a></li>
+</ul>
+</li>
+<li><a href="#section-tips">Tips</a></li>
+<li><a href="#_更新履歴">更新履歴</a></li>
+</ul>
 </div>
 </div>
 <div id="content">
@@ -588,7 +601,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ol>
 </div>
 <div class="sect2">
-<h3 id="section-items-to-japanese">ショップのアイテム名を日本語にする</h3>
+<h3 id="section-items-to-japanese">ショップのアイテム名を日本語にする場合</h3>
 <div class="paragraph">
 <p>ショップのアイテム名を日本語にする場合は追加の作業が必要になります。<br>
 <strong><a href="#section-settings">通常の日本語化設定</a> を行った後</strong> に <code>ショップのアイテム名を日本語にしたい人向け</code> フォルダの中にある <code>game</code> フォルダでさらに上書きします。<br>
@@ -598,10 +611,51 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
+<h2 id="section-tips">Tips</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>プレイに役立つサイトへのリンク集です。記載されていないおススメのサイトがあれば教えてください。</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><a href="https://deadlockhero.com/builds" class="bare">https://deadlockhero.com/builds</a></dt>
+<dd>
+<p>ユーザー作成のビルド情報を確認できます。</p>
+</dd>
+<dt class="hdlist1"><a href="https://deadlocktracker.gg/" class="bare">https://deadlocktracker.gg/</a></dt>
+<dd>
+<p>Match IDを入力することで、その試合の詳細な統計を確認できます。</p>
+</dd>
+<dt class="hdlist1"><a href="https://tracklock.gg/items" class="bare">https://tracklock.gg/items</a></dt>
+<dt class="hdlist1"><a href="https://deadlocktracker.gg/items" class="bare">https://deadlocktracker.gg/items</a></dt>
+<dd>
+<p>アイテムの利用率/勝率を確認できます。ビルド作成時に役立ちます。</p>
+</dd>
+<dt class="hdlist1"><a href="https://tracklock.gg/heroes" class="bare">https://tracklock.gg/heroes</a></dt>
+<dt class="hdlist1"><a href="https://deadlocktracker.gg/heroes" class="bare">https://deadlocktracker.gg/heroes</a></dt>
+<dd>
+<p>ヒーローの利用率/勝率を確認できます。</p>
+</dd>
+<dt class="hdlist1"><a href="https://mobalytics.gg/deadlock/tier-list/heroes" class="bare">https://mobalytics.gg/deadlock/tier-list/heroes</a></dt>
+<dt class="hdlist1"><a href="https://deadlockhero.com/tiers/hero-list" class="bare">https://deadlockhero.com/tiers/hero-list</a></dt>
+<dd>
+<p>ヒーローのティアリストを確認できます。</p>
+</dd>
+<dt class="hdlist1"><a href="https://tracklock.gg/players" class="bare">https://tracklock.gg/players</a></dt>
+<dd>
+<p>プレイヤーランキングを確認できます。</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="_更新履歴">更新履歴</h2>
 <div class="sectionbody">
-<div class="sect2">
-<h3 id="_20240907">2024/09/07</h3>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">2024/09/07</dt>
+<dd>
 <div class="ulist">
 <ul>
 <li>
@@ -609,19 +663,22 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_20240906">2024/09/06</h3>
+</dd>
+<dt class="hdlist1">2024/09/06</dt>
+<dd>
 <div class="ulist">
 <ul>
 <li>
 <p>最新版 <code>Build 5.122 2024/09/05 - 15:28:41</code> に対応しました。</p>
 </li>
+<li>
+<p>本サイトに <a href="#section-tips">Tips</a> セクションを追加しました。</p>
+</li>
 </ul>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_20240903">2024/09/03</h3>
+</dd>
+<dt class="hdlist1">2024/09/03</dt>
+<dd>
 <div class="ulist">
 <ul>
 <li>
@@ -632,9 +689,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_20240902">2024/09/02</h3>
+</dd>
+<dt class="hdlist1">2024/09/02</dt>
+<dd>
 <div class="ulist">
 <ul>
 <li>
@@ -648,13 +705,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
-</div>
-<div class="sect2">
-<h3 id="section-20240901">2024/09/01</h3>
-<div class="paragraph">
+</dd>
+<dt class="hdlist1">2024/09/01</dt>
+<dd>
 <p><strong>※ 大きな変更があります</strong><br>
 <a href="https://x.com/steinsgg/status/1829208615779217490">Xで実施したアンケート</a>結果とフォームで頂いた提案に基づいて、以下の変更を加えました。</p>
-</div>
 <div class="ulist">
 <ul>
 <li>
@@ -685,9 +740,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_20240831">2024/08/31</h3>
+</dd>
+<dt class="hdlist1">2024/08/31</dt>
+<dd>
 <div class="ulist">
 <ul>
 <li>
@@ -710,9 +765,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_20240830">2024/08/30</h3>
+</dd>
+<dt class="hdlist1">2024/08/30</dt>
+<dd>
 <div class="ulist">
 <ul>
 <li>
@@ -726,9 +781,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_20240829">2024/08/29</h3>
+</dd>
+<dt class="hdlist1">2024/08/29</dt>
+<dd>
 <div class="ulist">
 <ul>
 <li>
@@ -736,9 +791,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_20240828">2024/08/28</h3>
+</dd>
+<dt class="hdlist1">2024/08/28</dt>
+<dd>
 <div class="ulist">
 <ul>
 <li>
@@ -746,13 +801,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
+</dd>
+</dl>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-09-07 04:15:00 +0900
+Last updated 2024-09-07 18:25:55 +0900
 </div>
 </div>
 </body>
