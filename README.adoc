@@ -95,26 +95,27 @@ UTF-8対応の解凍ソフトを使って下さい。日本語なのでUTF-8で�
 == Tips
 プレイに役立つサイトへのリンク集です。記載されていないおススメのサイトがあれば教えてください。
 
-https://deadlockhero.com/builds::
-ユーザー作成のビルド情報を確認できます。
+https://forums.playdeadlock.com/forums/changelog.10/::
+Deadlock公式のパッチノートを確認できます。
 
 https://deadlocktracker.gg/::
 Match IDを入力することで、その試合の詳細な統計を確認できます。
 
-https://tracklock.gg/items::
 https://deadlocktracker.gg/items::
-アイテムの利用率/勝率を確認できます。ビルド作成時に役立ちます。
+アイテムの利用率/勝率を確認できます。ビルド作成時に役立ちます。メタ確認。
 
-https://tracklock.gg/heroes::
 https://deadlocktracker.gg/heroes::
-ヒーローの利用率/勝率を確認できます。
+ヒーローの利用率/勝率を確認できます。メタ確認。
+
+https://deadlockhero.com/builds::
+ユーザー作成のビルド情報を確認できます。
+
+https://tracklock.gg/players::
+プレイヤーランキングを確認できます。
 
 https://mobalytics.gg/deadlock/tier-list/heroes::
 https://deadlockhero.com/tiers/hero-list::
 ヒーローのティアリストを確認できます。
-
-https://tracklock.gg/players::
-プレイヤーランキングを確認できます。
 
 == 更新履歴
 2024/09/08::
