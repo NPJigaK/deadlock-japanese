@@ -806,11 +806,11 @@
 		"upgrade_combo_breaker/modifier_combo_breaker" "コンボブレイカー"
 
 		//Unstoppable - Deprecated
-		"upgrade_slow_immunity_desc" "使用時にルーツとチェーンを解除し、持続時間中にスロウに免疫を持ちます。"
+		"upgrade_slow_immunity_desc" "使用時にルートや鎖の効果を解除し、効果時間中はスロウを無効化します"
 		"modifier_slow_immunity" "アンストッパブル"
 
 		//Unstoppable
-		"upgrade_unstoppable_desc" "<span class=\"highlight\">ネガティブステータス効果</span>を抑制し、<span class=\"highlight\">スタン、サイレンス、睡眠、ルーツ、および武器使用不可</span>に対して<span class=\"highlight\">免疫</span>を持ちます。"
+		"upgrade_unstoppable_desc" "<span class=\"highlight\">デバフ</span>を取り除き、<span class=\"highlight\">スタン、サイレンス、睡眠、ルート、および武器使用不可</span>を<span class=\"highlight\">無効化</span>します。"
 		"modifier_unstoppable" "アンストッパブル"
 
 		//Colossus
