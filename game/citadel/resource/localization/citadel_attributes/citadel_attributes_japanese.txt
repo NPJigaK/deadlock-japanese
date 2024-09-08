@@ -13,7 +13,7 @@
 		"MODIFIER_STATE_SILENCED"							"沈黙"
 		"MODIFIER_STATE_STUNNED"							"スタン"
 		"MODIFIER_STATE_INVULNERABLE"						"無敵"
-		"MODIFIER_STATE_TECH_INVULNERABLE"					"精神無敵"
+		"MODIFIER_STATE_TECH_INVULNERABLE"					"スピリット無敵"
 		"MODIFIER_STATE_BURNING"							"燃焼中"
 
 		// プレイヤーの頭上に表示されないようにコメントアウト
@@ -77,7 +77,7 @@
 		"emp_immune"							"EMP無効"
 		"modifier_citadel_muted"				"ミュート"
 		"modifier_citadel_disarmed"				"武装解除"
-		"modifier_citadel_tech_shield"			"精神シールド"
+		"modifier_citadel_tech_shield"			"スピリットシールド"
 
 		"modifier_item_disarmed"				"武装解除"
 		"modifier_citadel_disarm_proc"			"武装解除中"
@@ -133,12 +133,12 @@
 		"StatDesc_IncomingBulletDamageScale"			"弾丸ダメージ倍率"
 		"StatDesc_IncomingMeleeDamageReduction"			"近接ダメージ耐性"
 		"StatDesc_IncomingMeleeDamageScale"				"近接ダメージ倍率"
-		"StatDesc_TechArmor"							"精神アーマー"
-		"StatDesc_TechArmorDamageReduction"		 		"精神耐性"
+		"StatDesc_TechArmor"							"スピリットアーマー"
+		"StatDesc_TechArmorDamageReduction"		 		"スピリット耐性"
 		"StatDesc_TechArmorDamageReduction_postfix"		"%"
 		"StatDesc_IncomingAbilityDamageReduction"		"アビリティ耐性"
 		"StatDesc_IncomingAbilityDamageScale"			"アビリティダメージ倍率"
-		"StatDesc_TechPower"							"精神力"
+		"StatDesc_TechPower"							"スピリットパワー"
 		"StatDesc_ManaPerLevel"							"レベルごとのエネルギー"
 		"StatDesc_HealthPerLevel"						"レベルごとの体力"
 		"StatDesc_ManaRegenPerLevel"					"レベルごとのエネルギー回復"
@@ -154,7 +154,7 @@
 		"StatDesc_Weaponry"								"武器"
 		"StatDesc_WeaponPower"							"武器ダメージ"
 		"StatDesc_BulletDamage"							"弾丸ダメージ"
-		"StatDesc_TechPowerAmp"							"精神強化"
+		"StatDesc_TechPowerAmp"							"スピリット強化"
 		"StatDesc_EnergyMax"							"エネルギーセル"
 		"StatDesc_EnergyRegenTime"						"エネルギー回復時間"
 		"StatDesc_RoundsPerSecond"						"毎秒発射数"
@@ -176,7 +176,7 @@
 		"StatDesc_WeaponPowerAttribute"					"武器ダメージ"
 		"StatDesc_ArmorAttribute"						"アーマー"
 		"StatDesc_HealthAttribute"						"体力"
-		"StatDesc_TechDamageAttribute"					"精神ダメージ"
+		"StatDesc_TechDamageAttribute"					"スピリットダメージ"
 		"StatDesc_FireRateAttribute"					"発射速度"
 		"StatDesc_ReloadTime"							"リロード時間"
 		"StatDesc_ReloadTime_postfix"					"秒"
@@ -185,8 +185,8 @@
 		"StatDesc_StaminaRegenPerSecond_postfix"		"%"
 		"StatDesc_BaseWeaponDamage"						"基本武器ダメージ"
 		"StatDesc_BaseWeaponDamage_postfix"				"%"
-		"StatDesc_TechDamageScale"						"精神ダメージ倍率"
-		"StatDesc_TechShieldHealth"						"精神シールド"
+		"StatDesc_TechDamageScale"						"スピリットダメージ倍率"
+		"StatDesc_TechShieldHealth"						"スピリットシールド"
 		"StatDesc_BulletShieldHealth"					"バレットシールド"
 		"StatDesc_ReloadSpeed_prefix"					"{s:sign}"
 		"StatDesc_ReloadSpeed"							"リロード時間短縮"
@@ -216,11 +216,11 @@
 		"StatDesc_DefensePower"							"防御力"
 
 		"StatDesc_TechLifesteal_prefix"					"{s:sign}"
-		"StatDesc_TechLifesteal"						"精神吸収"
+		"StatDesc_TechLifesteal"						"スピリット吸収"
 		"StatDesc_TechLifesteal_postfix"				"%"
 
 		"StatDesc_TechLifestealNonHero_prefix"			"{s:sign}"
-		"StatDesc_TechLifestealNonHero"					"非ヒーロー対象精神吸収"
+		"StatDesc_TechLifestealNonHero"					"非ヒーロー対象スピリット吸収"
 
 		"StatDesc_BulletLifesteal_prefix"					"{s:sign}"
 		"StatDesc_BulletLifesteal"						"弾丸吸収"
@@ -237,15 +237,15 @@
 		"Attribute_EWeaponAttribute_Projectile"			"投射物"
 
 		"WeaponPowerAttribute_Desc"						"%s1 武器ダメージボーナス"
-		"ArmorAttribute_Desc"							"%s1 弾丸と精神アーマーボーナス"
+		"ArmorAttribute_Desc"							"%s1 弾丸とスピリットアーマーボーナス"
 		"HealthAttribute_Desc"							"%s1 体力と体力回復ボーナス"
-		"TechDamageAttribute_Desc"						"%s1 精神ダメージボーナス"
+		"TechDamageAttribute_Desc"						"%s1 スピリットダメージボーナス"
 		"FireRateAttribute_Desc"						"%s1 武器の発射速度ボーナス"
 
 		"WeaponPowerAttribute_Desc_0"					"追加の武器ダメージボーナスなし"
 		"ArmorAttribute_Desc_0"							"追加の弾丸アーマーボーナスなし"
 		"HealthAttribute_Desc_0"						"追加の体力と体力回復ボーナスなし"
-		"TechDamageAttribute_Desc_0"					"追加の精神ダメージボーナスなし"
+		"TechDamageAttribute_Desc_0"					"追加のスピリットダメージボーナスなし"
 		"FireRateAttribute_Desc_0"						"追加の武器発射速度ボーナスなし"
 
 		//-----------------------------------------------------------------------------
@@ -418,26 +418,26 @@
 
 		"TechArmorDamageReduction_prefix"				"{s:sign}"
 		"TechArmorDamageReduction_postfix"				"%"
-		"TechArmorDamageReduction_Label"				"精神耐性"
+		"TechArmorDamageReduction_Label"				"スピリット耐性"
 
 		"TechDamageScale_prefix"						"{s:sign}"
 		"TechDamageScale_postfix"						"%"
-		"TechDamageScale_label"							"精神ダメージ"
+		"TechDamageScale_label"							"スピリットダメージ"
 
 		"TechArmor_prefix"								"{s:sign}"
-		"TechArmor_label"								"精神アーマー"
+		"TechArmor_label"								"スピリットアーマー"
 		
 		"TechResist_prefix"								"{s:sign}"
 		"TechResist_postfix"							"%"
-		"TechResist_label"								"精神耐性"
+		"TechResist_label"								"スピリット耐性"
 
 		"TechResistPerStack_prefix"						"{s:sign}"
 		"TechResistPerStack_postfix"					"%"
-		"TechResistPerStack_label"						"スタックごとの精神強化"
+		"TechResistPerStack_label"						"スタックごとのスピリット強化"
 
 		"MagicIncreasePerStack_prefix"					"{s:sign}"
 		"MagicIncreasePerStack_postfix"					"%"
-		"MagicIncreasePerStack_label"					"スタックごとの精神強化"
+		"MagicIncreasePerStack_label"					"スタックごとのスピリット強化"
 
 		"BulletDamageReduction_postfix"					"%"
 		"BulletDamageReduction_label"					"弾丸耐性"
@@ -489,7 +489,7 @@
 		"BulletPenetrationPercent_label"				"弾丸貫通"
 
 		"TechPower_prefix"								"{s:sign}"
-		"TechPower_label"								"精神力"
+		"TechPower_label"								"スピリットパワー"
 		"TechPower_postfix"								""
 
 		"ArmorPower_prefix"								"{s:sign}"
@@ -497,15 +497,15 @@
 		"ArmorPower_postfix"							"%"
 
 		"TechPowerAmp_prefix"							"{s:sign}"
-		"TechPowerAmp_label"							"精神"
+		"TechPowerAmp_label"							"スピリット"
 		"TechPowerAmp_postfix"							""
 
 		"SpellAmplificationPercent_prefix"				"{s:sign}"
-		"SpellAmplificationPercent_label"				"精神力"
+		"SpellAmplificationPercent_label"				"スピリットパワー"
 		"SpellAmplificationPercent_postfix"				""
 
 		//"BaseDamagePerShot_label"							"基礎ダメージ"
-		"NanoTechPerShot_label"							"精神ダメージ"
+		"NanoTechPerShot_label"							"スピリットダメージ"
 		"ExplosiveSplashDamage_label"					"爆発ダメージ"
 		"BulletDamageTotal_label"						"弾丸ダメージ"
 
@@ -531,7 +531,7 @@
 		"BonusMeleeAttackSpeed_postfix"					"%"
 		"BonusMeleeAttackSpeed_label"					"近接速度"
 
-		"AbilityDamageReduction_label"					"精神ダメージ軽減"
+		"AbilityDamageReduction_label"					"スピリットダメージ軽減"
 		"AbilityDamageReduction_postfix"				"%"
 
 		"SlowProcChance_label"							"ヒット時のスロー発生確率"
@@ -639,7 +639,7 @@
 		"BulletLifestealPercent_postfix"				"%"
 
 		"TechLifestealPercent_prefix"					"{s:sign}"
-		"TechLifestealPercent_label"					"精神吸収"
+		"TechLifestealPercent_label"					"スピリット吸収"
 		"TechLifestealPercent_postfix"					"%"
 
 		"MeleeLifestealPercent_prefix"					"{s:sign}"
@@ -737,10 +737,10 @@
 		"MeleeDamagePercent_postfix"					"%"
 
 
-		"TechShieldHealth_label"						"精神シールド耐久力"
-		"TempTechShieldHealth_label"					"一時的な精神シールド耐久力"
+		"TechShieldHealth_label"						"スピリットシールド耐久力"
+		"TempTechShieldHealth_label"					"一時的なスピリットシールド耐久力"
 		"TechShieldDamagePercent_prefix"				"{s:sign}"
-		"TechShieldDamagePercent_label"					"精神シールドダメージ"
+		"TechShieldDamagePercent_label"					"スピリットシールドダメージ"
 		"TechShieldDamagePercent_postfix"				"%"
 
 		"BulletShieldHealth_label"						"弾丸シールド耐久力"
@@ -786,15 +786,15 @@
 		"BulletDamagePercent_postfix"					"%"
 
 		"AbilityLifestealPercent_prefix"				"{s:sign}"
-		"AbilityLifestealPercent_label"					"精神吸収"
+		"AbilityLifestealPercent_label"					"スピリット吸収"
 		"AbilityLifestealPercent_postfix"				"%"
 		
 		"AbilityLifestealPercentHero_prefix"			"{s:sign}"
-		"AbilityLifestealPercentHero_label"				"精神吸収"
+		"AbilityLifestealPercentHero_label"				"スピリット吸収"
 		"AbilityLifestealPercentHero_postfix"			"%"
 
 		"AbilityLifestealPercentNonHero_prefix"			"{s:sign}"
-		"AbilityLifestealPercentNonHero_label"			"非ヒーロー対象精神吸収"
+		"AbilityLifestealPercentNonHero_label"			"非ヒーロー対象スピリット吸収"
 		"AbilityLifestealPercentNonHero_postfix"		"%"
 
 		"RegenDuration_label"							"回復持続時間"
@@ -922,7 +922,7 @@
 		"MoveSpeedMax_label"							"移動速度"
 		"MoveSpeedMax_postfix"							" m/s"
 
-		"BulletDamagePercentAsTechDamage_label"			"ボーナス精神ダメージ"
+		"BulletDamagePercentAsTechDamage_label"			"ボーナススピリットダメージ"
 		"BulletDamagePercentAsTechDamage_postfix"		"% 弾丸ダメージ"
 
 		"BonusCritDamagePercent_prefix"					"{s:sign}"
@@ -934,9 +934,9 @@
 
 		"DamagePerSecond_label"							"毎秒ダメージ"
 
-		"TechReduction_label"							"精神ダメージ軽減"
+		"TechReduction_label"							"スピリットダメージ軽減"
 
-		"TechResistReduction_label"						"ターゲットの精神耐性"
+		"TechResistReduction_label"						"ターゲットのスピリット耐性"
 		"TechResistReduction_prefix"					""
 		"TechResistReduction_postfix"					"%"
 		"DamagePulseAmount_label"						"パルスダメージ"
@@ -1213,10 +1213,10 @@
 		"FullDistance_label"							"最大射程: "
 		"FullDistance_postfix"							"m"
 
-		"ProcDamage_label"								"精神ダメージ"
+		"ProcDamage_label"								"スピリットダメージ"
 		"ProcDamage_postfix"							""
 
-		"BaseDamagePct_label"							"ボーナス精神強化"
+		"BaseDamagePct_label"							"ボーナススピリット強化"
 		"BaseDamagePct_prefix"							"{s:sign}"
 		"BaseDamagePct_postfix"							"%"
 
@@ -1331,7 +1331,7 @@
 		"ExplosiveShotRadiusPercent_label"			"爆発ショット半径増加"
 		"ExplosiveShotRadiusPercent_postfix"		"%"
 				
-		"TechPowerPerCharge_label"					"チャージごとの精神力"	
+		"TechPowerPerCharge_label"					"チャージごとのスピリットパワー"	
 		
 		"FireRatePerCharge_label"					"チャージごとの発射速度"
 		"FireRatePerCharge_postfix"					"%"
@@ -1453,7 +1453,7 @@
 		"BulletShieldMaxHealth_prefix"				"{s:sign}"
 		"BulletShieldMaxHealth_label"				"弾丸シールド耐久力"
 		"TechShieldMaxHealth_prefix"				"{s:sign}"
-		"TechShieldMaxHealth_label"					"精神シールド耐久力"
+		"TechShieldMaxHealth_label"					"スピリットシールド耐久力"
 
 		"ActiveBulletShieldMaxHealth_prefix"		"{s:sign}"
 		"ActiveBulletShieldMaxHealth_label"			"アクティブシールド耐久力"
@@ -1504,7 +1504,7 @@
 		"FervorFireRate_postfix"				"%"
 		"FervorDebuffResistance_label"			"怒りデバフ耐性"
 		"FervorDebuffResistance_postfix"		"%"
-		"FervorTechResist_label"				"精神耐性"
+		"FervorTechResist_label"				"スピリット耐性"
 
 		"PassiveFireRate_label"					"発射速度"
 		"PassiveFireRate_postfix"				"%"
@@ -1525,7 +1525,7 @@
 
 		"BulletDamageReflectedPct_label"		"反射された弾丸ダメージ"
 		"BulletDamageReflectedPct_postfix"		"%"
-		"SpiritDamageReflectedPct_label"		"反射された精神ダメージ"
+		"SpiritDamageReflectedPct_label"		"反射されたスピリットダメージ"
 		"SpiritDamageReflectedPct_postfix"		"%"
 		"DamageReflectedFrequencyPct_label"		"発生確率"
 		"DamageReflectedFrequencyPct_postfix"	"%"
@@ -1569,7 +1569,7 @@
 		"TechResistDuration_label"			"持続時間"
 		"TechResistDuration_postfix"		"秒"
 
-		"BleedTechResist_label"				"精神耐性"
+		"BleedTechResist_label"				"スピリット耐性"
 		"BleedTechResist_prefix"			"{s:sign}"
 		"BleedTechResist_postfix"			"%"
 
@@ -1636,24 +1636,24 @@
 		"WeaponDamageBonus_label"			"武器ダメージ"
 
 		"TechDamageBonusPercent_prefix"		"{s:sign}"
-		"TechDamageBonusPercent_label"		"精神ダメージ"
+		"TechDamageBonusPercent_label"		"スピリットダメージ"
 		"TechDamageBonusPercent_postfix"	"%"
 
 		"SuperiorStaminaBonusSpirit_prefix"	"{s:sign}"
-		"SuperiorStaminaBonusSpirit_label"	"二段ジャンプ/ダッシュ後の精神力"
+		"SuperiorStaminaBonusSpirit_label"	"二段ジャンプ/ダッシュ後のスピリットパワー"
 
 		"EchoShardBonusSpirit_prefix"		"{s:sign}"
-		"EchoShardBonusSpirit_label"		"エコーアビリティの精神力"
+		"EchoShardBonusSpirit_label"		"エコーアビリティのスピリットパワー"
 
 
 
 		"BonusSpirit_prefix"				"{s:sign}"
-		"BonusSpirit_label"					"精神力"
+		"BonusSpirit_label"					"スピリットパワー"
 		"modifier_power_shard_bonus"		"エコーブースト"
 
 		"BonusDuration_label"				"ボーナス持続時間"
 		"BonusDuration_postfix"				"秒"
-		"superior_stamina_buff"				"ボーナス精神力"
+		"superior_stamina_buff"				"ボーナススピリットパワー"
 
 		"HighGroundBonusWeaponPower_prefix"	"{s:sign}"
 		"HighGroundBonusWeaponPower_label"	"敵より高い位置での武器ダメージ"
@@ -1668,7 +1668,7 @@
 		"BaseAttackDamagePercent_postfix"	"%"
 
 		"ImbuedTechPower_prefix"			"{s:sign}"
-		"ImbuedTechPower_label"				"インビュードアビリティ精神力"
+		"ImbuedTechPower_label"				"インビュードアビリティスピリットパワー"
 
 		"MovementSpeedBonusDuration_label"	"移動速度持続時間"
 		"MovementSpeedBonusDuration_postfix"	"秒"
@@ -1704,7 +1704,7 @@
 		"Cloaked"								"クローク中"
 
 		"zipline_boost"							"ハイパーラインブースト中"
-		"ActiveTechPower_label"					"精神力"
+		"ActiveTechPower_label"					"スピリットパワー"
 		"ActiveTechPower_prefix"				"+"
 
 		"ActiveBulletShieldHealth_label"		"アクティブシールド耐久力"
@@ -1756,7 +1756,7 @@
 		"ChannelMoveSpeed_prefix"            ""
 
 		"BulletShieldOnCast_label"           "弾丸シールド"
-		"TechShieldOnCast_label"             "精神シールド"
+		"TechShieldOnCast_label"             "スピリットシールド"
 		"BulletShieldDuration_label"         "弾丸シールド持続時間"
 		"BulletShieldDuration_postfix"       "秒"
 
@@ -1769,7 +1769,7 @@
 
 		"LowHealthThreshold_label"           "ヘルス閾値"
 		"LowHealthThreshold_postfix"         "%"
-		"LowHealthTechResist_label"          "精神耐性"
+		"LowHealthTechResist_label"          "スピリット耐性"
 		"LowHealthTechResist_prefix"         "{s:sign}"
 		"LowHealthWeaponPowerPercent_label"  "勇気"
 		"LowHealthWeaponPowerPercent_prefix" "{s:sign}"
@@ -1798,7 +1798,7 @@
 		"BonusClipPerKill_label"             "キルごとのボーナス弾薬"
 
 		"BonusSpiritPerKill_prefix"          "{s:sign}"
-		"BonusSpiritPerKill_label"           "キルごとのボーナス精神力"
+		"BonusSpiritPerKill_label"           "キルごとのボーナススピリットパワー"
 
 		"MaxClipBonus_label"                 "最大クリップボーナス"
 
