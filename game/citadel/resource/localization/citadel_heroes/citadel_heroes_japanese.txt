@@ -2883,7 +2883,7 @@
    		"hero_inferno_playstyle"        "インフェルナスは多彩な手段で敵を燃やして継続的なダメージを与え、燃やし尽くしてから一気に仕留める。インフェルナスの炎のようなスピードから敵は逃れることができない。"
         "hero_kali_playstyle"           "Kali is positively lethal with his boomerang, however if he misses catching the blade on it's return path his effectiveness reduces dramatically."
 		"hero_kelvin_playstyle"         "適切なタイミングで回復と敵チームを分断することが、勝利と悲惨な敗北の分かれ目だ。ケルヴィンは滑らかに移動しながら敵の動きを鈍らせることで、それを実現する。"
-		"hero_lash_playstyle"           "ラッシュは遠い距離から飛び込んで不意を突き、逃げようとする敵を執拗に追いかけ回し、相手に息をつく間を与えない。"
+		"hero_lash_playstyle"           "ラッシュは遠い距離から飛び込んで不意を突き、逃げようとする敵を執拗に追いかけ回し、相手に息のつく間も与えない。"
 		"hero_krill_playstyle"          "モー＆クリルは地中を潜り抜けることでどんな敵にでも近づくことができる。一度近距離に持ち込めば、その結果は破滅的だ。"
         "hero_nano_playstyle"           "(in flux) Like any good politician, Nano turns people against each other and lets them do her dirty work before swooping in and claiming credit for everything."
  		"hero_orion_playstyle"          "狡猾な捕食者であるグレイタロンは、圧倒的な精密射撃、トラップ、そして巧妙なポジショニングを駆使して、どんなに手強い敵も倒す。"
