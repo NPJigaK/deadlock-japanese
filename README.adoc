@@ -102,6 +102,9 @@ UTF-8対応の解凍ソフトを使って下さい。日本語なのでUTF-8で�
 == Tips
 プレイに役立つサイトへのリンク集です。記載されていないおススメのサイトがあれば教えてください。
 
+https://iamxqq.notion.site/b9561e80a35d4d30be94440d47ecf5d9?v=45e8357bbf0e425faed25702d5971116[Deadlock XQQメモ(未完成)]::
+XQQさんがまとめているDeadlockの情報ページです。日本語で解説されています。
+
 https://forums.playdeadlock.com/forums/changelog.10/::
 Deadlock公式のパッチノートを確認できます。
 
@@ -121,7 +124,6 @@ https://tracklock.gg/players::
 プレイヤーランキングを確認できます。
 
 https://mobalytics.gg/deadlock/tier-list/heroes::
-https://deadlockhero.com/tiers/hero-list::
 ヒーローのティアリストを確認できます。
 
 [[section-tou]]
