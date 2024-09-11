@@ -748,7 +748,7 @@
 		"ability_smoke_bomb_desc" "視界から消え、<span class=\"highlight\">透明</span>になり、<span class=\"highlight\">スプリント速度</span>を得ます。攻撃すると透明性が解除されます。近くの敵はあなたの透明性を透視できます。<br>Smoke Bomb."
 		//"ability_smoke_bomb_t1_desc"	"<span class=\"highlight\">{s:AbilityCooldown}s</span> Ability Cooldown"
 		"ability_smoke_bomb_t2_desc" "<span class=\"highlight\">+{s:InvisMoveSpeedMod}m/s</span> 透明スプリント速度"
-		"ability_smoke_bomb_t3_desc" "透明後に<span class=\"highlight\">+{s:BulletLifesteal}%の弾丸ライフスティール</span>を{秒}sの間獲得します"
+		"ability_smoke_bomb_t3_desc" "透明後に<span class=\"highlight\">+{s:BulletLifesteal}%の弾丸ライフスティール</span>を{s:PostInvisBuffDuration}秒の間獲得します"
 		"modifier_citadel_smoke_bomb_in_smoke" "煙の中"
 		"modifier_citadel_smoke_bomb_invis" "透明"
 		"ability_smoke_bomb/modifier_buff" "スタビライザー"
