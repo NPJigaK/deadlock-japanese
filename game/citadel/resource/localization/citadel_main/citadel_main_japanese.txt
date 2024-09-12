@@ -910,7 +910,7 @@
 		"Citadel_StartMatchmaking_NotAllPlayersCanPlayRanked" "このパーティー内のすべてのプレイヤーがランクマッチメイキングをアンロックしていないため、このモードでプレイできません。"
 		"Citadel_StartMatchmaking_PlayerBannedFromMode" "このパーティー内のプレイヤーがこのモードでのプレイを禁止されています。"
 		"Citadel_StartMatchmaking_ModeLocked" "このモードでプレイするためのアンロックがまだ完了していません"
-		"Citadel_StartMatchmaking_ModeBanned" "{t:s:time_stamp} までこのモードでのプレイが一時的に禁止されています"
+		"Citadel_StartMatchmaking_ModeBanned" "{t:s:time_stamp} の {t:t:time_stamp} までこのモードでのプレイが一時的に禁止されています"
 		"Citadel_StartMatchmaking_PermanentBan" "このモードでのプレイが永久に禁止されています"
 		"Citadel_StartMatchmaking_TooManyPlayersOnTeam" "同じチームにプレイヤーが多すぎます"
 		"Citadel_StartMatchmaking_UnableToFillTeam" "現在のプレイヤーチームに基づいて有効なチームを作成できません"
