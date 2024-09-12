@@ -691,20 +691,20 @@
 
 		"Citadel_Hud_KillFeedNone" "<なし>"
 		"Citadel_Hud_KillFeedTrooper" "トルーパー #{i:unit_num}"
-		"Citadel_Hud_KillFeedSuperNeutral" "神殿の守護者"
+		"Citadel_Hud_KillFeedSuperNeutral" "神殿のガーディアン"
 		"Citadel_Hud_KillFeedNeutral" "中立 #{i:unit_num}"
 		"Citadel_Hud_KillFeedSentry" "セントリータレット"
 		"Citadel_Hud_KillFeedGuardian" "ガーディアン"
 		"Citadel_Hud_KillFeedAllGuardians"							"敵のガーディアン"
-		"Citadel_Hud_KillFeedBarracksBoss" "基地守護者"
+		"Citadel_Hud_KillFeedBarracksBoss" "基地ガーディアン"
 		"Citadel_Hud_KillFeedWalker" "ウォーカー"
 		"Citadel_Hud_KillFeedAllWalkers" "敵のウォーカー"
 		"Citadel_Hud_KillFeedShieldName" "聖堂"
 		"Citadel_Hud_KillFeedTitan" "パトロン"
 		"Citadel_Hud_KillFeedEnemyGuardian" "敵のガーディアン"
 		"Citadel_Hud_KillFeedEnemyWalker" "敵のウォーカー"
-		"Citadel_Hud_KillFeedEnemyBarracksGuardian" "敵の基地守護者"
-		"Citadel_Hud_KillFeedFriendlyBarracksGuardian" "味方の基地守護者"
+		"Citadel_Hud_KillFeedEnemyBarracksGuardian" "敵の基地ガーディアン"
+		"Citadel_Hud_KillFeedFriendlyBarracksGuardian" "味方の基地ガーディアン"
 		"Citadel_Hud_KillFeedEnemyTitan" "敵のパトロン"
 		"Citadel_Hud_KillFeedFriendlyGuardian" "味方のガーディアン"
 		"Citadel_Hud_KillFeedFriendlyWalker" "味方のウォーカー"
@@ -774,7 +774,7 @@
 		"Citadel_HUD_Damage_NoTroopers" "トルーパーが必要です"
 		"Citadel_HUD_Damage_Resistant" "耐性あり"
 		"Citadel_HUD_Damage_NotInMidPit" "ピット内ではありません"
-		"Citadel_HUD_Damage_NotInTier3Pit" "Tier3のピット内ではありません"
+		"Citadel_HUD_Damage_NotInTier3Pit" "ピット内ではありません"
 
 		"Citadel_DamageType_CITADEL_DAMAGETYPE_ABILITY" "アビリティダメージ"
 		"Citadel_DamageType_CITADEL_DAMAGETYPE_BULLET" "銃ダメージ"
@@ -782,14 +782,14 @@
 		"Citadel_DamageType_CITADEL_DAMAGETYPE_MELEE" "近接ダメージ"
 		"Citadel_DamageType_CITADEL_DAMAGETYPE_POISON" "毒ダメージ"
 
-		"Citadel_AttackerClass_CLASS_TROOPER" "トルーパー"
-		"Citadel_AttackerClass_CLASS_TROOPER_NEUTRAL" "デニゼン"
-		"Citadel_AttackerClass_CLASS_TROOPER_BOSS" "T1ボス"
-		"Citadel_AttackerClass_CLASS_BOSS_BARRACKS" "バラックボス"
-		"Citadel_AttackerClass_CLASS_BOSS_TIER_2" "T2ボス"
-		"Citadel_AttackerClass_CLASS_BOSS_TIER_3" "パトロン"
-		"Citadel_AttackerClass_CLASS_SUPER_NEUTRAL" "中ボス"
-		"Citadel_AttackerClass_CLASS_ZAP_TRIGGER" "ザップ"
+		"Citadel_AttackerClass_CLASS_TROOPER"						"トルーパー"
+		"Citadel_AttackerClass_CLASS_TROOPER_NEUTRAL"				"デニゼン"
+		"Citadel_AttackerClass_CLASS_TROOPER_BOSS"					"T1ガーディアン"
+		"Citadel_AttackerClass_CLASS_BOSS_BARRACKS"					"聖堂ガーディアン"
+		"Citadel_AttackerClass_CLASS_BOSS_TIER_2"					"T2ウォーカー"
+		"Citadel_AttackerClass_CLASS_BOSS_TIER_3"					"パトロンの呪い"
+		"Citadel_AttackerClass_CLASS_SUPER_NEUTRAL"					"中ボス"
+		"Citadel_AttackerClass_CLASS_ZAP_TRIGGER"					"ザップ"
 
 		"Citadel_HUD_DamageReport_Title" "ダメージレポート"
 		"Citadel_HUD_DamageReport_DamageReceived" "受けたダメージ"
@@ -1266,7 +1266,7 @@
 		"Citadel_LaneStats_PlayerDamage"				"プレイヤーダメージ"
 		"Citadel_LaneStats_Tier1"						"ティア1"
 		"Citadel_LaneStats_Tier2"						"ティア2"
-		"Citadel_LaneStats_Guardians"					"ガーディアン"
+		"Citadel_LaneStats_Guardians"					"基地ガーディアン"
 
 		"Citadel_WatchPage_FilterByHeroDefault"			"ヒーローでフィルタ"
 		"Citadel_WatchPage_SearchMatchID"				"試合IDで検索"
@@ -1988,7 +1988,7 @@
 		"guide_the_map_troopers_desc"				"トルーパーは定期的に基地からスポーンし、レーンを進みながら出会う敵と戦います。"
 
 		"guide_the_map_core_header"					"コア"
-		"guide_the_map_core_desc"					"各チームの基地の奥には祠があります。この祠を破壊することで勝利が得られます。"
+		"guide_the_map_core_desc"					"各チームの基地の奥には聖堂があります。この聖堂を破壊することで勝利が得られます。"
 
 		"guide_the_map_core_alt_header"				"基地"
 		"guide_the_map_core_alt_desc"				"目標は敵基地を包囲し、防御を破ってチームのパトロンを露出させることです。パトロンを破壊すれば、勝利はあなたのものです。"
@@ -2091,14 +2091,14 @@
 
 		"team_msg_Idol_Desc"	"ソウルアーン"
 
-		"team_msg_Winner_SubText"	"パトロンがあなたを選んでいます"
+		"team_msg_Winner_SubText"	"パトロンがあなたを祝っています"
 		"Citadel_GameOver_Victory"	"勝利"
 		"Citadel_GameOver_Defeat"	"敗北"
 
 
-		"Citadel_LaneColorPurple"						"紫"
-		"Citadel_LaneColorBlue"							"青"
-		"Citadel_LaneColorYellow"						"黄"
+		"Citadel_LaneColorPurple"						"パープル"
+		"Citadel_LaneColorBlue"							"ブルー"
+		"Citadel_LaneColorYellow"						"イエロー"
 		"Citadel_LaneColorOrange"						"オレンジ"
 		"Citadel_TeamMsg_EnemyBossKilledTitle"			"敵の {s:lane_color} ティア {i:boss_tier}"
 		"Citadel_TeamMsg_BossKilledTitle"				"あなたの {s:lane_color} ティア {i:boss_tier}"
@@ -2108,11 +2108,11 @@
 
 
 		"Citadel_FlexSlot_Title"						"フレックススロット解除"
-		"Citadel_FlexSlotUnlockedAllTier1"				"すべての敵を倒したことでフレックススロットが解除されました"
-		"Citadel_FlexSlotUnlockedLane"					"レーンのボスを倒してフレックススロットを解除しました"
-		"Citadel_FlexSlotUnlockedGenerator"				"ジェネレーターを倒してフレックススロットを解除しました"
+		"Citadel_FlexSlotUnlockedAllTier1"				"すべての敵を倒してフレックススロットが解除されました"
+		"Citadel_FlexSlotUnlockedLane"					"レーンの敵を倒してフレックススロットが解除されました"
+		"Citadel_FlexSlotUnlockedGenerator"				"最初の敵を倒してフレックススロットが解除されました"
 		//"Citadel_FlexSlotUnlockedTier3"				"You've unlocked a flex slot for killing the "
-		"Citadel_FlexSlotUnlockedAllTier2"				"すべてのティア2ボスを倒してフレックススロットを解除しました"
+		"Citadel_FlexSlotUnlockedAllTier2"				"すべての敵を倒してフレックススロットが解除されました"
 
 		"team_msg_TitanDefeated_Title"		"パトロンが破壊されました"
 		"team_msg_YourTitanDefeated_Desc"	"あなたのパトロンが破壊されました"
@@ -2226,7 +2226,7 @@
 
 		"ModIconTooltip_UnlockTier2"				"チームが敵のウォーカーを破壊した後に解除されます"
 		"ModIconTooltip_UnlockGuardians"			"チームが敵のベースガーディアンを破壊した後に解除されます"	
-		"ModIconTooltip_UnlockGenerators"			"チームが敵の祠を破壊した後に解除されます"	
+		"ModIconTooltip_UnlockGenerators"			"チームが敵の聖堂を破壊した後に解除されます"	
 		//"ModIconTooltip_UnlockTier3"				"Unlocked after your team destroys the enemy Patron's first form"
 		"ModIconTooltip_UnlockAllTier1"				"チームがすべての敵ガーディアンを倒した後に解除されます"
 		"ModIconTooltip_UnlockAllTier2"				"チームがすべての敵ウォーカーを破壊した後に解除されます"
