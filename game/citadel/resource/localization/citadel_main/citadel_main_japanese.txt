@@ -714,7 +714,7 @@
 		"Citadel_Hud_KillFeedVehicle" "ビークル"
 		"Citadel_Hud_KillFeedWorld" "ワールド"
 
-		"Objective_MidBoss" "中ボス"
+		"Objective_MidBoss" "ミッドボス"
 
 		"Objective_Friendly_T1" "味方のガーディアン"
 		"Objective_Enemy_T1" "敵のガーディアン"
@@ -788,7 +788,7 @@
 		"Citadel_AttackerClass_CLASS_BOSS_BARRACKS"					"聖堂ガーディアン"
 		"Citadel_AttackerClass_CLASS_BOSS_TIER_2"					"T2ウォーカー"
 		"Citadel_AttackerClass_CLASS_BOSS_TIER_3"					"パトロンの呪い"
-		"Citadel_AttackerClass_CLASS_SUPER_NEUTRAL"					"中ボス"
+		"Citadel_AttackerClass_CLASS_SUPER_NEUTRAL"					"ミッドボス"
 		"Citadel_AttackerClass_CLASS_ZAP_TRIGGER"					"ザップ"
 
 		"Citadel_HUD_DamageReport_Title" "ダメージレポート"
@@ -1462,8 +1462,8 @@
 		"citadel_ability_tier2boss_stomp"		"ストンプ"
 		"citadel_ability_tier2boss_rocket_barrage" "ロケットバラージ"
 		"trooper_neutral_gun"					"ティンカンガン"
-		"super_neutral_gun"						"中ボスガン"
-		"super_neutral_charge"					"中ボスチャージ"
+		"super_neutral_gun"						"ミッドボスガン"
+		"super_neutral_charge"					"ミッドボスチャージ"
 
 		"citadel_ability_tier3boss_laser_beam"	"パトロンレーザー"
 
