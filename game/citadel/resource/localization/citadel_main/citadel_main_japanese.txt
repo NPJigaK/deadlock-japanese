@@ -691,7 +691,7 @@
 
 		"Citadel_Hud_KillFeedNone" "<なし>"
 		"Citadel_Hud_KillFeedTrooper" "トルーパー #{i:unit_num}"
-		"Citadel_Hud_KillFeedSuperNeutral" "寺院の守護者"
+		"Citadel_Hud_KillFeedSuperNeutral" "神殿の守護者"
 		"Citadel_Hud_KillFeedNeutral" "中立 #{i:unit_num}"
 		"Citadel_Hud_KillFeedSentry" "セントリータレット"
 		"Citadel_Hud_KillFeedGuardian" "ガーディアン"
@@ -1993,7 +1993,7 @@
 		"guide_the_map_core_alt_header"				"基地"
 		"guide_the_map_core_alt_desc"				"目標は敵基地を包囲し、防御を破ってチームのパトロンを露出させることです。パトロンを破壊すれば、勝利はあなたのものです。"
 
-		"guide_the_map_midboss_header"				"寺院ボス"
+		"guide_the_map_midboss_header"				"神殿ボス"
 		"guide_the_map_midboss_desc"				"マップの中央には強力な中立ボスがいます。それを倒したチームは、次に死んだときに即座にリスポーンします。"
 
 		"guide_upgrades_last_hit_header"			"ソウル"
