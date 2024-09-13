@@ -7,16 +7,16 @@
 		// Hero Bull // Abrams
 		//-----------------------------------------------------------------------------
 		"citadel_ability_bull_charge"			"ショルダーチャージ"
-		"citadel_ability_bull_charge_quip"		"突撃して敵を引きずり込む"
-		"citadel_ability_bull_charge_desc"		"<span class=\"highlight\">前方に突撃</span>し、敵に衝突して引きずり込む。<span class=\"highlight\">壁</span>にぶつかると、{s:hero_name}が捕まえた敵を<span class=\"highlight\">スタン</span>させる。敵ヒーローに衝突した後、スピードが上昇。<br>Shoulder Charge."
+		"citadel_ability_bull_charge_quip"		"突進して敵を引きずり込む"
+		"citadel_ability_bull_charge_desc"		"<span class=\"highlight\">前方に突進</span>し、敵に衝突して引きずり込む。<span class=\"highlight\">壁</span>にぶつかると、{s:hero_name}が捕まえた敵を<span class=\"highlight\">スタン</span>させる。敵ヒーローと衝突後、速度が上昇する。<br>Shoulder Charge."
 		//"modifier_citadel_bull_charging"		"Charging"
 		"citadel_ability_bull_charge_t3_desc"		"<span class=\"highlight\">+{s:WeaponDamageBonus}</span>の武器ダメージを、敵に衝突した後<span class=\"highlight\">{s:WeaponPowerIncreaseDuration}秒間</span>得る"
 		"modifier_shoulder_charge_buff"			"ボーナスダメージ"
 		"modifier_charge_drag_enemy"			"ショルダーチャージ"
 
 		"citadel_ability_bull_heal"				"サイフォンライフ"
-		"citadel_ability_bull_heal_quip"		"前方の敵から体力を吸収する"
-		"citadel_ability_bull_heal_desc"		"前方の敵から体力を吸収し、範囲内にいる間回復する。<br>Siphon Life."
+		"citadel_ability_bull_heal_quip"		"前方の敵から体力を奪う。"
+		"citadel_ability_bull_heal_desc"		"範囲内にいる前方の敵から体力を奪う。<br>Siphon Life."
 
 		"HealingFactor_label"					"ヒーローに対する回復"
 		"HealingFactor_postfix"					"%"
@@ -26,26 +26,26 @@
 		"citadel_ability_bull_heal/modifier_bull_heal_aura"				"サイフォンライフ"
 
 		"citadel_ability_passive_beefy"			"インファナル・レジリエンス"
-		"citadel_ability_passive_beefy_quip"	"受けたダメージの一部を再生する"
-		"citadel_ability_passive_beefy_desc"	"<span class=\"highlight\">再生</span>を行い、受けたダメージの一部を時間をかけて回復する。<br>Infernal Resilience."
-		"RegenIncomingDamagePercent_label"		"回復されたダメージ"
+		"citadel_ability_passive_beefy_quip"	"受けたダメージの一部を回復する"
+		"citadel_ability_passive_beefy_desc"	"受けたダメージの一部を時間をかけて<span class=\"highlight\">回復</span>する。<br>Infernal Resilience."
+		"RegenIncomingDamagePercent_label"		"回復するダメージ"
 		"RegenIncomingDamagePercent_postfix"		"%"
-		"RegenIncomingDamageDuration_label"		"再生時間"
+		"RegenIncomingDamageDuration_label"		"回復時間"
 		"RegenIncomingDamageDuration_postfix"		"秒"
 
 		"citadel_ability_bull_leap"				"サイズミク・インパクト"
-		"citadel_ability_bull_leap_quip"		"空中から敵に激突し、スタンさせる"
-		"citadel_ability_bull_leap_desc"		"<span class=\"highlight\">高く跳躍</span>し、地上の任意の位置に突撃する。着地すると、<span class=\"highlight\">範囲内のすべての敵にダメージを与え、スタンさせる</span>。<br> [{s:iv_attack}]を押すと早めに着地する。<br>Seismic Impact."
+		"citadel_ability_bull_leap_quip"		"空中から敵に突撃し、スタンさせる"
+		"citadel_ability_bull_leap_desc"		"<span class=\"highlight\">高くジャンプ</span>して、地上の任意の位置に突撃する。着地すると、<span class=\"highlight\">範囲内のすべての敵にダメージを与え、スタンさせる</span>。<br> [{s:iv_attack}]を押すと早めに着地する。<br>Seismic Impact."
 		//"modifier_citadel_bull_leap"			"Boosting"
-		"citadel_ability_bull_leap_t2_desc"		"ヒットしたヒーローごとに{s:BonusMaxHealthPerHero}の最大HPと{s:BonusFireRatePerHero}%の攻撃速度を獲得。効果は{s:LandingBonusesDuration}秒間持続。"
-		"citadel_ability_bull_leap_t3_desc"		"キャスト時に、<span class=\"highlight\">スタン、サイレンス、スリープ、ルート、武装解除</span>に<span class=\"highlight\">免疫</span>を得る。着地後{s:ImmunityDuration}秒で効果が切れる。"
+		"citadel_ability_bull_leap_t2_desc"		"ヒットしたヒーローごとに{s:BonusMaxHealthPerHero}の最大HPと{s:BonusFireRatePerHero}%の発射速度を得る。効果は{s:LandingBonusesDuration}秒間持続。"
+		"citadel_ability_bull_leap_t3_desc"		"キャスト時に、<span class=\"highlight\">スタン、サイレンス、スリープ、ルート、武装解除</span>の<span class=\"highlight\">耐性</span>を得る。着地後{s:ImmunityDuration}秒間、効果が持続する。"
 		"AbilityButtonHint_BullLeapCrash"			"早めに着地"
 		//"modifier_abrams_immunity"				"Immunity"
 
 		//-----------------------------------------------------------------------------
 		// Hero Seven 
 		//-----------------------------------------------------------------------------
-		"citadel_ability_static_charge_desc"		"対象の敵ヒーローにチャージを適用します。短時間後に、スタティックチャージが<span class=\"highlight\">範囲内の敵をスタンさせ、ダメージを与えます</span>。<br>Static Charge."
+		"citadel_ability_static_charge_desc"		"対象の敵ヒーローにチャージを付与する。しばらくすると、スタティックチャージが<span class=\"highlight\">範囲内の敵をスタンさせ、ダメージを与えます</span>。<br>Static Charge."
 
 
 		//"citadel_ability_chain_lightning"		"Chain Lightning"
@@ -55,20 +55,20 @@
 		//"citadel_ability_chain_lightning_t3_desc"	"Chain lightning can hit any enemies around the target."
 
 		"citadel_ability_static_charge"			"スタティックチャージ"
-		"citadel_ability_static_charge_quip"	"敵ヒーローに遅延型の範囲スタンを適用"
+		"citadel_ability_static_charge_quip"	"敵ヒーローに遅延型の範囲スタンを付与"
 		"citadel_ability_static_charge/modifier_citadel_staticcharge"	"スタティックチャージ"
 
 		"citadel_ability_lightning_ball"		"ライトニングボール"
-		"citadel_ability_lightning_ball_quip"	"ダメージを与える雷球を発射"
-		"citadel_ability_lightning_ball_desc"	"直線的に移動する雷球を発射します。<span class=\"highlight\">範囲内のすべてのターゲットにダメージを与えます</span>。敵にダメージを与えると速度が低下し、地形に当たると停止します。<br>Lightning Ball."
+		"citadel_ability_lightning_ball_quip"	"ダメージを与える雷のボールを発射"
+		"citadel_ability_lightning_ball_desc"	"直線的に移動する雷のボールを発射します。<span class=\"highlight\">範囲内のすべてのターゲットにダメージを与えます</span>。敵にダメージを与えると減速し、地形に当たると停止します。<br>Lightning Ball."
 		"citadel_ability_lightning_ball_t3_desc" "+{s:DPS} DPS"
 		"citadel_ability_lightning_ball/modifier_citadel_lightningball"	"ライトニングボール スロウ"
 
 		"ability_power_surge"					"パワーサージ"
-		"ability_power_surge_quip"			"ショットで電撃を発生させる"
-		"ability_power_surge_desc"			"武器にショック効果を付与し、<span class=\"highlight\">ターゲットにショックダメージを与える弾丸を発生させます</span>。このショックダメージは<span class=\"highlight\">ターゲットの近くの敵に跳ね返ります</span>。バーストショットごとに一度発生します。<br>Power Surge."
-		"ability_power_surge_t1_desc"			"ショックダメージが{s:DebuffDuration}秒間、{s:TechResistDebuff}%のスピリット耐性を減少させます"
-		"ability_power_surge_t3_desc"			"+{s:DamagePerChain} ショックダメージ、強化されたスピリットスケーリング、および+{s:ChainCount} 最大ジャンプ数"
+		"ability_power_surge_quip"			"弾丸に電撃をまとわせる"
+		"ability_power_surge_desc"			"武器にショック効果を付与し、<span class=\"highlight\">弾丸がターゲットにショックダメージを与える強化をする</span>。このショックダメージは<span class=\"highlight\">ターゲットの近くの敵に跳ね返ります</span>。バーストショットごとに一度発生します。<br>Power Surge."
+		"ability_power_surge_t1_desc"			"ショックダメージが{s:DebuffDuration}秒間、スピリット耐性を{s:TechResistDebuff}%低下させる"
+		"ability_power_surge_t3_desc"			"ショックダメージ +{s:DamagePerChain}、スピリットスケーリングの強化、および最大ジャンプ数 +{s:ChainCount}"
 		"modifier_power_surge"				"チェーンライトニング"
 		"modifier_power_surge_debuff"			"スピリット耐性低下"
 
@@ -84,8 +84,8 @@
 
 		"citadel_ability_storm_cloud"			"ストームクラウド"
 		"citadel_ability_storm_cloud_quip"		"広範囲の敵を焼き尽くす"
-		"citadel_ability_storm_cloud_desc"		"周囲に広がるストームクラウドをチャネリングし、<span class=\"highlight\">範囲内のすべての敵にダメージを与えます</span>。視線が通らない場合、敵はダメージを受けません。<br>Storm Cloud."
-		"citadel_ability_storm_cloud_t1_desc"		"ストームクラウドのチャネリング中、<span class=\"highlight\">+{s:BulletResistOnActive}%の弾丸耐性</span>を獲得"
+		"citadel_ability_storm_cloud_desc"		"自分の周囲にストームクラウドをチャネリングし、<span class=\"highlight\">範囲内のすべての敵にダメージを与えます</span>。敵が視界外にいる場合はダメージを受けない。チャネリング中は<span class=\"highlight\">弾丸耐性</span>が上昇する。<br>Storm Cloud."
+		"citadel_ability_storm_cloud_t1_desc"		"ストームクラウドのチャネリング中、<span class=\"highlight\">+{s:BulletResistOnActive}%の弾丸耐性</span>を得る"
 		"citadel_ability_storm_cloud_t2_desc"		"<span class=\"highlight\">+{s:AbilityChannelTime}秒</span>のチャネリング時間と<span class=\"highlight\">+{s:Radius}m</span>の範囲"
 		"citadel_ability_storm_cloud_t3_desc"		"+{s:DPS} DPS"
 
@@ -152,9 +152,9 @@
 		//-----------------------------------------------------------------------------
 
 		"citadel_ability_fissure_wall"			"スペクトラルウォール"
-		"citadel_ability_fissure_wall_quip"		"敵を阻む壁を召喚する"
-		"citadel_ability_fissure_wall_desc"		"地形を半分に分ける壁を作成します。作成時に壁は周囲の敵に<span class=\"highlight\">ダメージを与え</span>、<span class=\"highlight\">スロウ効果</span>を適用します。<br>キャスト後、[{s:iv_attack}] または [{s:in_ability3}] を押すと壁を早期に爆発させることができます。<br>Spectral Wall."
-		"citadel_ability_fissure_wall_t1_desc"	"<span class=\"highlight\">{s:StaminaReduction} スタミナを削減</span>し、{s:hero_name}のダメージを<span class=\"highlight\">{s:BonusDamagePercent}%</span>増加させます。効果は敵に命中してから {s:DebuffDuration}秒間持続します。"
+		"citadel_ability_fissure_wall_quip"		"敵を遮る壁を作る"
+		"citadel_ability_fissure_wall_desc"		"地形を半分に分ける壁を作成する。作成時に壁は周囲の敵に<span class=\"highlight\">ダメージを与え</span>、<span class=\"highlight\">スロウ効果</span>を与える。<br>キャスト後、[{s:iv_attack}] または [{s:in_ability3}] を押すと壁を早期に壊すことができます。<br>Spectral Wall."
+		"citadel_ability_fissure_wall_t1_desc"	"<span class=\"highlight\">スタミナを{s:StaminaReduction}消費</span>し、{s:hero_name}のダメージを<span class=\"highlight\">{s:BonusDamagePercent}%</span>増加させます。効果は敵に命中してから {s:DebuffDuration}秒間持続します。"
 		"citadel_ability_fissure_wall_t3_desc"	"スペクトラルウォールが命中した敵に <span class=\"highlight\">{s:WallStunDuration}秒のスタン</span>を追加します。"
 		//"citadel_ability_fissure_wall_trigger"	"Trigger Fissure Wall"
 		//"citadel_ability_fissure_wall_cancel"		"Cancel Fissure Wall"
@@ -164,9 +164,9 @@
 		"WallImpactRange_postfix"				"m"
 
 		"citadel_ability_mobile_resupply"		"メディシナルスペクター"
-		"citadel_ability_mobile_resupply_quip"	"癒しの精霊を配置する"
-		"citadel_ability_mobile_resupply_desc"	"周囲のユニットを<span class=\"highlight\">回復する精霊</span>を配置します。<br>Medicinal Specter."
-		"MaxHealthRegenPct_label"				"最大ヘルスリジェネ"
+		"citadel_ability_mobile_resupply_quip"	"回復装置を展開する"
+		"citadel_ability_mobile_resupply_desc"	"周囲のユニットを<span class=\"highlight\">回復する装置</span>を展開する。<br>Medicinal Specter."
+		"MaxHealthRegenPct_label"				"最大体力回復"
 		"MaxHealthRegenPct_postfix"				"%"
 		"modifier_mobile_resupply"				"メディシナルスペクター"
 		"citadel_ability_mobile_resupply/modifier_mobile_resupply_aura/modifier_mobile_resupply"	"回復中"
@@ -176,8 +176,8 @@
 		//TurretHealMult_label					"Turret Heal Mult"
 		//TurretHealMult_postfix				"x"
 
-		"citadel_ability_mobile_resupply_t1_desc" "<span class=\"highlight\">+{s:AuraFireRateBonus}% 発射速度</span>がメディシナルスペクターによって回復されるユニットに適用されます。"
-		"citadel_ability_mobile_resupply_t3_desc"	"+{s:MaxHealthRegenPct}% 最大ヘルスリジェネ/秒"
+		"citadel_ability_mobile_resupply_t1_desc" "<span class=\"highlight\">+{s:AuraFireRateBonus}% の発射速度</span>がメディシナルスペクターによって回復されているユニットに適用されます。"
+		"citadel_ability_mobile_resupply_t3_desc"	"毎秒、最大体力の +{s:MaxHealthRegenPct}% を回復"
 
 		"citadel_ability_shieldedsentry"		"ミニタレット"
 		"citadel_ability_shieldedsentry_quip"	"自動タレットを配置する"
@@ -193,10 +193,10 @@
 		//"TurretDeployTime_label"				"Deploy Time"
 		"TurretDeployTime_postfix"				"秒"
 		"BulletArmorReductionPerStack_label"	"弾丸ダメージ"
-		"BulletArmorReductionPerStack_postfix"	"%/スタック"
+		"BulletArmorReductionPerStack_postfix"	"%（スタック毎）"
 		"BulletArmorReductionPerStack_prefix"	"+"
-		"ShieldedSentry_EffectsPerStack"		"スタックごとの効果:"
-		"TurretHealthScaling_label"					"タレットヘルス"
+		"ShieldedSentry_EffectsPerStack"		"スタック毎:"
+		"TurretHealthScaling_label"					"タレットの体力"
 		"TurretHealthScaling_postfix"					"%"
 
 
@@ -209,11 +209,11 @@
 
 		"citadel_ability_rocket_barrage"		"ヘビーバラ―ジ"
 		"citadel_ability_rocket_barrage_quip"	"ロケットでエリアを爆撃する"
-		"citadel_ability_rocket_barrage_desc"	"ターゲットした位置に誘導するロケットの弾幕を発射します。<br>Heavy Barrage."
+		"citadel_ability_rocket_barrage_desc"	"狙った場所に向かって誘導するロケットを一斉射撃する。<br>Heavy Barrage."
 		"citadel_ability_rocket_barrage_t1_desc"	"移動速度を<span class=\"highlight\">{s:MoveSlowPercent}%低下</span>させます。"
-		"citadel_ability_rocket_barrage_t3_desc"	"<span class=\"highlight\">+{s:DamagePerRocket} ロケットごとのダメージ </span>"
+		"citadel_ability_rocket_barrage_t3_desc"	"<span class=\"highlight\">ロケットごとのダメージ +{s:DamagePerRocket}</span>"
 		"DamagePerRocket_label"					"ロケットごとのダメージ"
-		"GrenadesPerSecond_label"				"秒ごとのロケット"
+		"GrenadesPerSecond_label"				"毎秒発射されるロケット数"
 		"MaxDistance_label"						"最大射程"
 		"MaxDistance_postfix"					"m"
 		"MinDistance_label"						"最小射程"
@@ -225,8 +225,8 @@
 		//-----------------------------------------------------------------------------
 
 		"citadel_ability_psychic_lift"			"テレキネシス"
-		"citadel_ability_psychic_lift_quip"		"敵を浮かせ、妨害と沈黙を与える"
-		"citadel_ability_psychic_lift_desc"		"敵ヒーローを空中に浮かせ、短時間<span class=\"highlight\">スタン</span>を与えます。浮遊が終了すると、対象にテレキネシスダメージが加わります。<br>Telekinesis."
+		"citadel_ability_psychic_lift_quip"		"敵を浮かせ、行動を中断させてサイレンスを与える"
+		"citadel_ability_psychic_lift_desc"		"敵ヒーローを空中に浮かせ、短時間<span class=\"highlight\">スタン</span>させる。浮遊が終了すると、対象にテレキネシスダメージが与える。<br>Telekinesis."
 		"citadel_ability_psychic_lift/lift"		"テレキネシス"
 		"citadel_ability_psychic_lift_t3_desc"	"テレキネシスは、{s:hero_name}の周囲にいる敵を対象とします。"
 		"modifier_citadel_psychiclift"			"浮かされている - なんてこった！"
@@ -237,11 +237,11 @@
 		"citadel_ability_projectmind"			"プロジェクトマインド"
 		"citadel_ability_projectmind_quip"		"指定した場所にテレポートする"
 		"citadel_ability_projectmind_desc"			"指定した場所に<span class=\"highlight\">テレポート</span>します。<br>Project Mind."
-		"BulletShieldOnLand_label"				"テレポート時のバレットシールド"
-		"citadel_ability_projectmind_t2_desc"	"テレポート時に<span class=\"highlight\">{s:BulletShieldOnLand} バレットシールド</span>を提供します。シールドは{s:BulletShieldDuration}秒間持続し、スピリットパワーに応じて増加します。"
-		"modifier_wraith_project_mind_shield"				"バレットシールド"
-		"citadel_ability_projectmind/modifier_citadel_projectmind/modifier_wraith_project_mind_shield"	"バレットシールド"
-		"wraith_project_mind_t2_title"			"バレットシールド："
+		"BulletShieldOnLand_label"				"テレポート時の弾丸シールド"
+		"citadel_ability_projectmind_t2_desc"	"テレポート時に<span class=\"highlight\">{s:BulletShieldOnLand} 弾丸シールド</span>を{s:BulletShieldDuration}秒間付与する。シールドの量はスピリットパワーに応じて増加する。"
+		"modifier_wraith_project_mind_shield"				"弾丸シールド"
+		"citadel_ability_projectmind/modifier_citadel_projectmind/modifier_wraith_project_mind_shield"	"弾丸シールド"
+		"wraith_project_mind_t2_title"			"弾丸シールド："
 
 		//"citadel_ability_psychic_daggers"		"Royal Flush"
 		//"citadel_ability_psychic_daggers_quip"	"Damage random targets around you"
@@ -252,15 +252,15 @@
 		//"DamagePerDagger_label"					"Damage per card"
 
 		"citadel_ability_wraith_rapidfire"		"フルオート"
-		"citadel_ability_wraith_rapidfire_quip"	"発射速度を強化する"
-		"citadel_ability_wraith_rapidfire_desc"	"一時的に<span class=\"highlight\">発射速度</span>を強化します。近くの味方も発射速度ボーナスの半分を受け取ります。<br>Full Auto."
+		"citadel_ability_wraith_rapidfire_quip"	"発射速度を上昇させる"
+		"citadel_ability_wraith_rapidfire_desc"	"一時的に<span class=\"highlight\">発射速度</span>を上昇させます。近くにいる味方にも、発射速度ボーナスの半分を受ける。<br>Full Auto."
 		//"citadel_ability_wraith_rapidfire/modifier_rapidfire" "Rapid Fire"
 
 
 		"citadel_ability_card_toss"	"カードトリック"
-		"citadel_ability_card_toss_quip" "追尾カードを投げる"
-		"citadel_ability_card_toss_desc" "武器ダメージを与えてカードを召喚します。アクティブにして、敵や照準の下のポイントに向かって飛ぶカードを投げます。<br>Card Trick."
-		"CardResourceGenPctScale_label"				"カード召喚率"
+		"citadel_ability_card_toss_quip" "追尾するカードを投げる"
+		"citadel_ability_card_toss_desc" "武器ダメージを与えてカードを召喚します。アクティブにすると、クロスヘアの下にある敵またはポイントに向かって飛ぶカードを投げる。<br>Card Trick."
+		"CardResourceGenPctScale_label"				"カード召喚速度"
 		"CardResourceGenPctScale_postfix"			"%"
 
 		//"citadel_ability_psychic_pulse" "Psychic Pulse"
@@ -285,7 +285,7 @@
 		//"ability_rocket_drone_t2_desc" "The Drone applies health regen to Heavy and a nearby target for <span class=\"highlight\">{s:DroneHealthRegen} health per second </span>."
 		//"ability_rocket_drone_t3_desc" "Maximum rockets per second <span class=\"highlight\">+{s:RocketsPerSecond}</span>"
 
-		"RocketsPerSecond_label"	"毎秒のロケット数"
+		"RocketsPerSecond_label"	"Rockets per second"
 
 		//"ability_uber_drone"		"Uber Charge"
 		//"ability_uber_drone_desc"		"After a charge-up time, Heavy turns <span class=\"highlight\">invulnerable</span>"
@@ -1146,10 +1146,10 @@
 		// Bebop
 		//-----------------------------------------------------------------------------
 		"citadel_ability_uppercut"				"エクスプローディング・アッパーカット"
-		"citadel_ability_uppercut_quip"			"誰かを自分から遠ざけてパンチする"
-		"citadel_ability_uppercut_desc"			"周囲のユニットに<span class=\"highlight\">ライト近接</span>ダメージを与え、彼らを<span class=\"highlight\">飛ばして</span>着地地点で<span class=\"highlight\">エリアダメージ</span>を引き起こします。味方にはダメージを与えません。<br>Exploding Uppercut."
-		"citadel_ability_uppercut_t2_desc"		"敵ヒーローにアッパーカットを決めると、<span class=\"highlight\">素早いスピンアップ時間、2倍の範囲、および +{s:BuffBaseWeaponPct}%の武器ダメージ</span>を{s:UppercutBuffOnHit}秒間得ます。"
-		"citadel_ability_uppercut_t3_desc"		"敵ヒーローにアッパーカットを決めると、<span class=\"highlight\">Hookのクールダウンを0に設定</span>し、現在のクリップに<span class=\"highlight\">+{s:ClipSizeBonus}%の弾丸</span>を即座に追加します。"
+		"citadel_ability_uppercut_quip"			"相手を遠くに吹き飛ばすパンチ"
+		"citadel_ability_uppercut_desc"			"近くの敵に<span class=\"highlight\">軽近接攻撃</span>ダメージを与え、<span class=\"highlight\">後方に吹き飛ばす</span>。着地点で<span class=\"highlight\">範囲ダメージ</span>を与える。味方にはダメージを与えない。<br>Exploding Uppercut."
+		"citadel_ability_uppercut_t2_desc"		"敵ヒーローにアッパーカットを決めると、<span class=\"highlight\">素早いスピンアップ時間、2倍の範囲、および +{s:BuffBaseWeaponPct}%の武器ダメージ</span>を{s:UppercutBuffOnHit}秒間得る。"
+		"citadel_ability_uppercut_t3_desc"		"敵ヒーローにアッパーカットを決めると、<span class=\"highlight\">フックのクールダウンが0</span>になり、現在のマガジンに<span class=\"highlight\">+{s:ClipSizeBonus}%の弾丸</span>を即座に追加します。"
 		//"modifier_citadel_enemy_uppercutted"	"Uppercutted!"
 		"UppercutDamage_label"					"アッパーカットダメージ"
 		"LandingDamage_label"					"エリアダメージ"
@@ -1163,8 +1163,8 @@
 		"UppercutBuffOnHit_postfix"				"s"
 
 		"citadel_ability_sticky_bomb"			"スティッキーボム"
-		"citadel_ability_sticky_bomb_quip"		"敵にボムを設置する"
-		"citadel_ability_sticky_bomb_desc"		"近くのターゲットにスティッキーボムを取り付け、短い信管時間後に<span class=\"highlight\">爆発ダメージ</span>を与えます。<br>ヒットした敵ヒーローごとに<span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}%のボムダメージ</span>を得ます。<br>スティッキーボムは[{s:key_alt_cast}]を使用して自分に発動できます。<br>Sticky Bomb."
+		"citadel_ability_sticky_bomb_quip"		"敵に爆弾を仕掛ける"
+		"citadel_ability_sticky_bomb_desc"		"近くのターゲットにスティッキーボムを取り付け、短い起爆時間後に<span class=\"highlight\">爆発ダメージ</span>を与える。<br>敵ヒーローに命中するごとに<span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}%のボムダメージ</span>を得ます。<br>[{s:key_alt_cast}]を押し続けると、自分にスティッキーボムを取り付けます。<br>Sticky Bomb."
 		"modifier_citadel_sticky_bomb_attached"	"ボムがあなたに取り付けられています"
 		"citadel_ability_sticky_bomb_t3_desc"	"取り付け時に、ターゲットを<span class=\"highlight\">{s:DebuffDuration}秒間</span> <span class=\"highlight\">無力化</span>します。"
 		"StunTargetOnExplode_label"				"持続時間"
@@ -1172,9 +1172,9 @@
 
 		"citadel_ability_bebop_laser_beam"		"ハイパービーム"
 		"citadel_ability_bebop_laser_beam_quip"	"巨大なダメージビームを放出する"
-		"citadel_ability_bebop_laser_beam_desc" "レーザーをチャージして強力なエネルギーの渦を放ち、<span class=\"highlight\">ダメージを与え、</span><span class=\"highlight\">敵の移動とダッシュをスロウさせます</span>。この間は移動速度と旋回速度が減少します。空中で発動した場合、ビームを放つ間ホバリングします。<br>Hyper Beam."
+		"citadel_ability_bebop_laser_beam_desc" "レーザーをチャージして強力なエネルギーの渦を放ち、<span class=\"highlight\">ダメージを与え、</span><span class=\"highlight\">敵の移動とダッシュをスロウさせます</span>。チャネリング中は移動速度と振り向き速度が遅くなる。空中で発動した場合、ビームを放ちながらホバリングする。<br>Hyper Beam."
 		"modifier_bebop_laser_beam"				"ハイパービーム"
-		"citadel_ability_bebop_laser_beam_t3_desc"	"ハイパービームは{s:BeamLifesteal}%のダメージで{s:hero_name}を回復します。非ヒーローには{s:BeamLifestealNonHeroPercent}%。"
+		"citadel_ability_bebop_laser_beam_t3_desc"	"ヒーローに与えたダメージの<span class=\"highlight\">{s:BeamLifesteal}%</span>分だけ{s:hero_name}を回復する。非ヒーローの場合は{s:BeamLifestealNonHeroPercent}%。"
 		"BeamLength_label"						"ビーム長"
 		"BeamLength_postfix"					"m"
 		"BeamWidth_label"						"ビーム幅"
@@ -1182,9 +1182,9 @@
 
 
 		"citadel_ability_hook"					"フック"
-		"citadel_ability_hook_quip"				"ターゲットを引き寄せる"
-		"citadel_ability_hook_desc"				"フックを発射し、最初にヒットした敵または味方ヒーローを<span class=\"highlight\">つかんで引き寄せます</span>。敵の場合はダメージを与えます。<br>ターゲットはあなたが向いている方向に配置されます。<br>Hook."
-		"citadel_ability_hook_t1_desc"			"Bebopはフックされた敵に対して<span class=\"highlight\">{s:BulletAmp}%増加した弾丸ダメージ</span>を{s:BulletAmpDuration}秒間与えます。"
+		"citadel_ability_hook_quip"				"ターゲットを自分の方に引き寄せる"
+		"citadel_ability_hook_desc"				"フックを発射し、最初にヒットしたヒーローを<span class=\"highlight\">つかんで引き寄せます</span>。敵の場合はダメージを与えます。<br>ターゲットはあなたが向いている方向に配置されます。<br>Hook."
+		"citadel_ability_hook_t1_desc"			"ビボップはフックした敵に対して{s:BulletAmpDuration}秒の間、<span class=\"highlight\">{s:BulletAmp}%の追加弾丸ダメージ</span>を与える。"
 		"BulletShieldOnHook_label"				"弾丸シールド"
 		//"BulletShieldOnHook_postfix"				"HP"
 		//"Citadel_ability_hook_on_hook"			"To Bebop:"
@@ -2478,7 +2478,7 @@
 
 		"citadel_ability_infinity_slash"		"シャドウ・トランスフォーメーション"
 		"citadel_ability_infinity_slash_quip"	"無敵かつより強力になる"
-		"citadel_ability_infinity_slash_desc"	"ヤマトの影の魂に満たされる。最初の<span class=\"highlight\">無敵の</span>変身の後、あなたの<span class=\"highlight\">能力がリフレッシュされ、60%速くなる</span>。武器には<span class=\"highlight\">無限の弾薬</span>があり、<span class=\"highlight\">ダメージ抵抗</span>と<span class=\"highlight\">負のステータス効果への免疫</span>を得る。このモードでは死亡できない。<br>Shadow Transformation."
+		"citadel_ability_infinity_slash_desc"	"ヤマトの影の魂に満たされる。最初の<span class=\"highlight\">無敵の</span>変身の後、あなたの<span class=\"highlight\">能力がリフレッシュされ、60%速くなる</span>。武器には<span class=\"highlight\">無限の弾薬</span>があり、<span class=\"highlight\">ダメージ抵抗</span>と<span class=\"highlight\">負のステータス効果への耐性</span>を得る。このモードでは死亡できない。<br>Shadow Transformation."
 		//"citadel_ability_infinity_slash_buff_header" "Per Hero Hit"	
 		"ShadowDuration_label"					"爆発遅延"
 		"ShadowDuration_postfix"				"s"
