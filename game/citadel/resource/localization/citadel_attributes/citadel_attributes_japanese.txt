@@ -77,7 +77,7 @@
 		//"emp_immune"							"Silenced Immune"
 		//"modifier_citadel_muted"				"Muted"
 		"modifier_citadel_disarmed"				"武装解除"
-		"modifier_citadel_tech_shield"			"スピリットシールド"
+		"modifier_citadel_tech_shield"		"スピリットシールド"
 
 		"modifier_item_disarmed"				"武装解除"
 		"modifier_citadel_disarm_proc"			"武装解除中"
@@ -971,6 +971,8 @@
 		"SurgeOfPower_conditional"						"アビリティ使用後"
 
 		"SpiritStrike_conditional"						"近接攻撃成功後"
+
+		"LongRangeBonusWeaponPowerMinRange_label"		"最小距離"
 		"LongRangeBonusWeaponPowerMinRange_postfix"		"m"
 
 		"LongRangeBonusWeaponPower_prefix"				"{s:sign}"
