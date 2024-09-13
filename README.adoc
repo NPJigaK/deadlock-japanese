@@ -118,9 +118,6 @@ https://deadlocktracker.gg/items::
 https://deadlocktracker.gg/heroes::
 ヒーローの利用率/勝率を確認できます。メタ確認。
 
-https://deadlockhero.com/builds::
-ユーザー作成のビルド情報を確認できます。
-
 https://tracklock.gg/players::
 プレイヤーランキングを確認できます。
 
