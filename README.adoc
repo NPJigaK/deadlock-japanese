@@ -16,7 +16,7 @@ Valveの新作ゲーム `Deadlock` を日本語化する設定ファイルです
 * https://github.com/NPJigaK/deadlock-japanese/issues[Githubで直接提案する（Githubアカウントをお持ちの方）]
 
 その他の質問などは link:https://x.com/steinsgg[X(Twitter)] にて受け付けております。お気軽にご相談ください。 +
-もしご利用いただき、良いと感じていただけましたら、ツイートをリツイートしてご紹介いただけると大変励みになります！
+ご利用いただき、良いと感じていただけましたら、ツイートをリツイートしてご紹介いただけると大変励みになります！
 
 ## 対応バージョン
 [source,Deadlock バージョン]
