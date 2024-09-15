@@ -64,7 +64,7 @@
 		"upgrade_silencer_active" "次の {s:AbilityDuration}秒間、<span class=\"highlight\">すべての弾丸が即座にサイレンスを適用</span>します。サイレンスはターゲットがアビリティを使用できないようにします。"
 		//"upgrade_silencer_passive1"		"Your bullets deal <span class=\"highlight\">+{s:BonusBulletDamageToEMPTargets}% damage to Silenced targets</span>."
 		//"upgrade_silencer_passive2"		"Your bullets build up an <span class=\"highlight\">EMP</span> on enemy heroes, preventing them from using abilities."
-		"SilencerSlowPercent_label" "弾丸のスロー効果"
+		"SilencerSlowPercent_label" "弾丸のスロウ効果"
 		"SilencerSlowPercent_postfix" "%"
 		"SilencerSlowPercent_prefix" "+"
 
@@ -73,7 +73,7 @@
 
 		//Slowing Bullets
 		"upgrade_slowing_bullets_desc" "あなたの弾丸は<span class=\"highlight\">移動速度低下</span>を適用します。"
-		"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base" "スロー"
+		"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base" "スロウ"
 
 		//Inhibitor
 		"upgrade_inhibitor_desc" "あなたの弾丸は<span class=\"highlight\">移動速度低下</span>を適用し、ヒットしたターゲットの<span class=\"highlight\">与ダメージを減少</span>させます。"
@@ -142,7 +142,7 @@
 		"MagicShockDamage_postfix" "%"
 
 		//Mystic Reverb
-		"upgrade_tech_bleed_desc" "アビリティに範囲内の敵に<span class=\"highlight\">スロー</span>を適用し、ターゲット周辺の敵に<span class=\"highlight\">与えたダメージの追加分</span>を短時間後に与える効果を追加します。"
+		"upgrade_tech_bleed_desc" "アビリティに範囲内の敵に<span class=\"highlight\">スロウ</span>を適用し、ターゲット周辺の敵に<span class=\"highlight\">与えたダメージの追加分</span>を短時間後に与える効果を追加します。"
 		//"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"			"Spirit Echo"	
 
 		//Toxic Bullets
@@ -183,7 +183,7 @@
 
 		//Close Quarters
 		"upgrade_close_range_desc" "ターゲットに<span class=\"highlight\">近距離</span>で追加の<span class=\"highlight\">武器ダメージ</span>を与えます。"
-		"upgrade_close_quarter_combat/modifier_cqc_proc/modifier_slow_base" "スロー"
+		"upgrade_close_quarter_combat/modifier_cqc_proc/modifier_slow_base" "スロウ"
 
 		//Long Range
 		"upgrade_long_range_desc" "ターゲットから<span class=\"highlight\">一定距離以上</span>離れている場合、追加の<span class=\"highlight\">武器ダメージ</span>を与えます。"
