@@ -717,7 +717,7 @@
 		"ability_sleep_dagger_desc" "ダガーを投げて、対象に<span class=\"highlight\">ダメージ</span>を与え、<span class=\"highlight\">スリープ状態</span>にする。スリープ状態の対象は、ダメージを受けるとすぐに目を覚ます。ダガーを投げても自分の透明状態は解除されない。スリープダガーは敵のチャネリングアビリティを中断しない。<br>Sleep Dagger."
 		"ability_sleep_dagger/modifier_citadel_sleep_bomb/modifier_citadel_sleep_dagger_asleep" "眠っている"
 		"ability_sleep_dagger_t1_desc" "<span class=\"highlight\">スタミナを{s:StaminaReduction}除去</span>"
-		"ability_sleep_dagger_t3_desc" "目覚めたときに<span class=\"highlight\">{s:BulletResistReduction}%の弾丸耐性低下</span>{s:BulletResistReductionDuration}秒間付与する。"
+		"ability_sleep_dagger_t3_desc" "目覚めたときに<span class=\"highlight\">{s:BulletResistReduction}%の弾丸耐性低下を</span>{s:BulletResistReductionDuration}秒間付与する。"
 
 		"modifier_citadel_sleep_dagger_asleep" "眠っている"
 		//"HazeDaggerRadius_label"			"Hit Radius"
@@ -1587,7 +1587,7 @@
 		"citadel_ability_hornet_sting"			"クロウ・ファミリア"
 		"citadel_ability_hornet_sting_quip"		"ターゲットを時間をかけて出血させる"
 		"citadel_ability_hornet_sting_desc"		"あなたのカラスの仲間が<span class=\"highlight\">衝撃ダメージ</span>を与え、<span class=\"highlight\">出血</span>を適用し、<span class=\"highlight\">ターゲットの現在の体力に基づく</span>ダメージを与えます。<br>Crow Familiar."
-		"citadel_ability_hornet_sting_t1_desc"	"カラスは<span class="highlight">最大2回まで</span>、{s:TargetBounceRange}m以内の他の敵に跳ね返る。"
+		"citadel_ability_hornet_sting_t1_desc"	"カラスは<span class=\"highlight\">最大2回まで</span>、{s:TargetBounceRange}m以内の他の敵に跳ね返る。"
 		"citadel_ability_hornet_sting_t3_desc"	"+{s:DotHealthPercent}%出血し、{s:HealAmpReceivePenaltyPercent}%の回復を抑制します。"
 		"citadel_ability_hornet_sting/modifier_citadel_hornet_sting_debuff"		"クロウ・ファミリア"
 		"BulletVulnerbility_prefix"				"{s:sign}"
