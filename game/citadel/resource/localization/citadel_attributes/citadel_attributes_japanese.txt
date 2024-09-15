@@ -538,7 +538,7 @@
 		//"SlowProcChance_label"						"Chance to slow on hit"
 		"SlowProcChance_postfix"						"%"
 
-		"SlowDuration_label"							"スロー持続時間"
+		"SlowDuration_label"							"スロウ持続時間"
 		"SlowDuration_postfix"							"秒"
 
 		//"PoisonDamage_label"							"Poison Damage"
@@ -1364,7 +1364,7 @@
 		"ShieldDuration_label"						"シールド持続時間"
 		"ShieldDuration_postfix"					"秒"
 
-		"SlowRadius_label"							"スロー半径"
+		"SlowRadius_label"							"スロウ半径"
 		"SlowRadius_postfix"						"m"
 		
 		//"SmokeDuration_label"							"Smoke Duration"
@@ -1599,7 +1599,7 @@
 		//"ShockBuildupDuration_label"			"Shock Buildup Lifetime"
 		"ShockBuildupDuration_postfix"		"秒"
 
-		"GalvanicProcDuration_label"		"スロー持続時間"
+		"GalvanicProcDuration_label"		"スロウ持続時間"
 		"GalvanicProcDuration_postfix"		"秒"
 
 		"FireRateSlow_label"				"発射速度減少"

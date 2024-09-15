@@ -350,7 +350,7 @@
 		"upgrade_health_stealing_magic"			"スピリットライフスティール"
 		"upgrade_magic_vulnerability"			"ミスティック・ヴァルネラビリティ"
 		"upgrade_healbane"						"ヒールベイン"
-		"upgrade_magic_slow"					"ミスティックスロー"
+		"upgrade_magic_slow"					"ミスティックスロウ"
 		"upgrade_escalating_exposure"			"エスカレーティングエクスポージャー"
 		"upgrade_magic_reach"					"ミスティックリーチ"
 		"upgrade_tech_range"					"改良リーチ"
