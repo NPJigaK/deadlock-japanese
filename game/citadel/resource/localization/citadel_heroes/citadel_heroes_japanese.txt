@@ -780,7 +780,7 @@
 
 		"citadel_ability_void_sphere"				"クアンタム・エンテングルメント"
 		"citadel_ability_void_sphere_quip"		"存在から消えて再出現する"
-		"citadel_ability_void_sphere_desc"		"{s:hero_name}は一時的に<span class=\"highlight\">虚空に消え</span>、短い距離を移動して再出現する。再出現時に武器が<span class=\"highlight\">リロードされ</span>、次のマガジンに対して<span class=\"highlight\">攻撃速度ボーナス</span>が付与される（最大{s:FireRateBonusDurationMax}秒）。[{s:key_alt_cast}]で発動すると、近くの味方も連れて行き、連れて行った味方にも半分の攻撃速度ボーナスを付与する。<br>Quantum Entanglement."
+		"citadel_ability_void_sphere_desc"		"{s:hero_name}は一時的に<span class=\"highlight\">虚空に消え</span>、短い距離を移動して再出現する。再出現時に武器が<span class=\"highlight\">リロードされ</span>、次のマガジンに対して<span class=\"highlight\">発射速度ボーナス</span>が付与される（最大{s:FireRateBonusDurationMax}秒）。[{s:key_alt_cast}]で発動すると、近くの味方も連れて行き、連れて行った味方にも半分の発射速度ボーナスを付与する。<br>Quantum Entanglement."
 		"citadel_ability_void_sphere_t3_desc"		"再出現時に<span class=\"highlight\">+{s:BonusClipSizePercent}%</span>の基本弾薬を獲得"
 		"modifier_void_sphere"					"クアンタム・エンテングルメント"
 		//"modifier_voidsphere_buff"				"Void Sphere +Fire Rate"
