@@ -1526,13 +1526,16 @@
 		"BonusBulletDamageToEMPTargets_postfix"	"%"
 		"modifier_silencer_proc_active"			"サイレンサー"
 
-		"BulletDamageReflectedPct_label"		"反射された弾丸ダメージ"
-		"BulletDamageReflectedPct_postfix"		"%"
-		"SpiritDamageReflectedPct_label"		"反射されたスピリットダメージ"
-		"SpiritDamageReflectedPct_postfix"		"%"
-		"DamageReflectedFrequencyPct_label"		"発生確率"
-		"DamageReflectedFrequencyPct_postfix"	"%"
-		"modifier_armor_reactive_armor"			"反撃"
+		"BulletDamageReflectedPct_label"					"反射された弾丸ダメージ"
+		"BulletDamageReflectedPct_postfix"					"%"
+		"SpiritDamageReflectedPct_label"					"反射されたスピリットダメージ"
+		"SpiritDamageReflectedPct_postfix"					"%"
+		"DamageReflectedFrequencyPct_label"				"発動確率"
+		"DamageReflectedFrequencyPct_postfix"				"%"
+		"modifier_armor_reactive_armor"					"反撃"
+		"ReturnFireBulletResist_prefix"					"+"
+		"ReturnFireBulletResist_label"					"弾丸耐性"
+		"ReturnFireBulletResist_postfix"					"%"
 
 		//"RespawnBonusHealth_label"							"Respawn Bonus Health"
 		//"RespawnBonusHealthDuration_label"					"Respawn Bonus Health Duration"
@@ -1810,8 +1813,15 @@
 
 		"SummonDuration_label"               "召喚持続時間"
 		"SummonDuration_postfix"             "秒"
+		
+		"Reloaded"							"リロード完了！"
+		"BonusAmmo"							"ボーナス弾薬！"
 
-		"Reloaded"							"リロード完了!"
+		"ExplodeDamage_label"				"爆発ダメージ"
+
+		"StaminaRegenPercent_label"			"スタミナ回復"
+		"StaminaRegenPercent_postfix"		"%"
+
 		//-----------------------------------------------------------------------------
 		// END Ability Properties desc
 		//-----------------------------------------------------------------------------
