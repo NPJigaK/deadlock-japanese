@@ -21,7 +21,7 @@ Valveの新作ゲーム `Deadlock` を日本語化する設定ファイルです
 ## 対応バージョン
 [source,Deadlock バージョン]
 ----
-Build 5.164 2024/09/14 - 21:03:43
+Build 5.208 2024/09/26 - 18:51:54
 ----
 
 [NOTE]
@@ -139,6 +139,9 @@ https://mobalytics.gg/deadlock/tier-list/heroes::
 
 [[section-update]]
 == 更新履歴
+2024/09/27::
+* 最新版 `Build 5.208 2024/09/26 - 18:51:54` に対応しました。
+
 2024/09/16::
 * 最新版 `Build 5.164 2024/09/14 - 21:03:43` に対応しました。
 * ヒーロー `Paradox`, `Infernus`, `Haze`, `dynamo`, `Warden` のアビリティ説明をより分かりやすい日本語に再翻訳しました。

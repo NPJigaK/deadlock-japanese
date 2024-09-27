@@ -25,7 +25,9 @@
 
 		//Ammo Scavenger
 		"upgrade_ammo_scavenger_desc" "ソウルを確保または否定するたびに、<span class=\"highlight\">弾薬を回収</span>し、<span class=\"highlight\">スピリットパワー</span>をスタックで獲得します。"
+		"AmmoPerSoul_prefix"				"+"
 		"AmmoPerSoul_label" "ソウルごとの弾薬"
+		"SpiritPowerPerSoul_prefix"			"+"
 		"SpiritPowerPerSoul_label" "ソウルごとのスピリットパワー"
 		"AmmoScavengerDuration_label" "スピリットパワーの持続時間"
 		"AmmoScavengerDuration_postfix" "秒"
@@ -78,8 +80,8 @@
 		//Inhibitor
 		"upgrade_inhibitor_desc" "あなたの弾丸は<span class=\"highlight\">移動速度低下</span>を適用し、ヒットしたターゲットの<span class=\"highlight\">与ダメージを減少</span>させます。"
 		"modifier_inhibitor_debuff" "インヒビター"
-		"OutgoingAbilityDamagePenaltyPercent_label" "ダメージペナルティ"
-		"OutgoingAbilityDamagePenaltyPercent_postfix" "%"
+		"OutgoingDamagePenaltyPercent_label"	"ダメージペナルティ"
+		"OutgoingDamagePenaltyPercent_postfix"	"%"
 
 		//Armor Piercing Rounds
 		//"upgrade_armor_reduction_debuff_desc"	"Your bullets reduce the target's <span class=\"highlight\">bullet resistance by {s:ResistReduction}%</span> of their current value for {s:AbilityDuration}s and deal bonus damage <span class=\"highlight\">against bullet shields</span>."
@@ -489,7 +491,7 @@
 		"BonusSpiritDuration_label" "ボーナススピリット持続時間"
 		"BonusSpiritDuration_postfix" "秒"
 		"modifier_shifting_veil_buff" "エーテリアルシフト"
-		//"shifting_veil_bonus_spirit"			"Bonus Spirit Power"
+		"shifting_veil_bonus_spirit"			"ボーナススピリットパワー"
 		"modifier_citadel_bubble" "エーテリアルシフト"
 
 		//Stasis Bomb
@@ -630,6 +632,11 @@
 		"MagicCarpetShieldDuration_label"		"シールドの持続時間"
 		"MagicCarpetShieldDuration_postfix"		"秒"
 
+		//
+		"upgrade_superacolytes_glove_desc"			"累計で <span class=\"highlight\">{s:StoredSpiritDamage}</span> のスピリットダメージを与えた後、次の <span class=\"highlight\">重近接攻撃</span> が追加で <span class=\"highlight\">{s:StoredSpiritDamage} のスピリットダメージ</span> を与えます。"
+		"StoredSpiritDamage_label"			"蓄積されたスピリットダメージ"
+		"upgrade_superacolytes_glove/modifier_superacoloytes_glove" "封印解除されたナックル！"
+
 		//-----------------------------------------------------------------------------
 		// Upgrades: Armor
 		//-----------------------------------------------------------------------------
@@ -746,6 +753,9 @@
 		"upgrade_personal_rejuvenator_desc" "ヒーローが死亡した場所で復活させます。"
 		//"RespawnDelay_label"							"Respawn Delay"
 		"RespawnDelay_postfix" "秒"
+		"SpawnTimePenalty_prefix"				"+"
+		"SpawnTimePenalty_label"				"リスポーン時間の増加"
+		"SpawnTimePenalty_postfix"				"秒"
 
 		//Phantom Strike
 		"upgrade_phantom_strike_desc" "敵のターゲットに<span class=\"highlight\">テレポート</span>し、<span class=\"highlight\">武器使用不可</span>、<span class=\"highlight\">スロウ</span>を付与し、<span class=\"highlight\">ダメージ</span>を与えます。"
@@ -909,8 +919,19 @@
 		"VexBarrierShieldDuration_label" "持続時間"
 		"VexBarrierShieldDuration_postfix" "秒"
 
+		//Spell Shield
+		"upgrade_spellshield_desc"		"次に受ける <span class=\"highlight\">スピリットダメージ</span> または <span class=\"highlight\">デバフ</span> をブロックし、その効果を無効にします。戦闘外でのみ再生します。"
+		"upgrade_spellshield_shield"	"アンチスピリットシジル"
+		"upgrade_spellshield/modifier_spellshield_buff"  "ヘクサフォイルウォード"
+		"upgrade_spellshield/modifier_spellshield_linger_buff"  "ヘクサフォイルウォードが破壊された！"
+		"SpellShieldFlavorText_label"	"ラベル！"
 
-
+		//Heal On Level
+		"upgrade_heal_on_level_desc"	"<span class=\"highlight\">恩恵</span> を受けた際、自動的に <span class=\"highlight\">回復</span> します。"
+		"upgrade_heal_on_level_buff"	"レベルアップ時に回復"
+		"HealOnlevelHealAmount_label"	"回復量"
+		"upgrade_heal_on_level/heal_on_level_buff"		"レベルアップ時に回復"
+			
 		//MISC
 		//"upgrade_explosive_bullets/modifier_explosive_bullets/modifier_citadel_base_buildup"	"Explosive Rounds"
 		//"ExplosiveDamage_label"							"Explosive Damage"
