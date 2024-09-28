@@ -2689,7 +2689,7 @@
 		"AbilityButtonHint_DropTarget"				"味方を降ろす"
 		"AbilityButtonHint_HatTrickFire"			"発射"
 		"AbilityButtonHint_HatTrickCancel"			"戻す"
-		"AbilityButtonHint_MeleeRejuvinator"		"リジュビネーターを獲得するために重攻撃"
+		"AbilityButtonHint_MeleeRejuvinator"		"リジュビネーターを獲得するために重近接攻撃"
 		"AbilityButtonHint_ClimbRope"				"ロープを登るためにホールド"
 
 		"AbilityButtonHint_HealTarget"			"ターゲットを回復"

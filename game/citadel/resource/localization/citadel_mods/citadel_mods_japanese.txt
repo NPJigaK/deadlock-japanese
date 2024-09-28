@@ -590,7 +590,7 @@
 		"upgrade_infuser_desc" "あなたは<span class=\"highlight\">スピリットパワー</span>と<span class=\"highlight\">スピリットライフスティール</span>を得ます。"
 
 		//Spirit Strike
-		"upgrade_acolytes_glove_desc" "ヒーローに対して<span class=\"highlight\">軽攻撃または重攻撃</span>を行うと、攻撃で追加の<span class=\"highlight\">スピリットダメージ</span>を与え、対象の<span class=\"highlight\">スピリット耐性</span>を減少させます。"
+		"upgrade_acolytes_glove_desc" "ヒーローに対して<span class=\"highlight\">軽近接攻撃または重近接攻撃</span>を行うと、攻撃で追加の<span class=\"highlight\">スピリットダメージ</span>を与え、対象の<span class=\"highlight\">スピリット耐性</span>を減少させます。"
 		"SpiritDamage_label" "スピリットダメージ"
 		"modifier_acolytes_glove_triggered" "スピリットストライク"
 
