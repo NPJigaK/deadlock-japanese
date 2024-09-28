@@ -662,8 +662,8 @@
 		"BuffDuration_postfix" "秒"
 
 		//Restorative Locket
-		"upgrade_restorative_locket_passive_desc" "敵があなたから{s:Radius}mの範囲内でアビリティを使用すると、<span class=\"highlight\">回復スタック</span>が1つ蓄積されます。"
-		"upgrade_restorative_locket_active_desc" "一時的に<span class=\"highlight\">ネガティブな状態異常</span>を抑え、<span class=\"highlight\">スタン、サイレンス、スリープ、ルート、武装解除</span>に対して<span class=\"highlight\">耐性</span>を得ます。<br><span class=\"highlight\>スタン</span>または<span class=\"highlight\>スリープ</span>状態中には使用できない。"
+		"upgrade_restorative_locket_passive_desc" "敵があなたから{s:Radius}mの範囲内でアビリティを使用したとき、<span class=\"highlight\">回復スタック</span>が1つ蓄積する。"
+		"upgrade_restorative_locket_active_desc" "一時的に<span class=\"highlight\">ネガティブな状態異常</span>を抑え、<span class=\"highlight\">スタン、サイレンス、スリープ、ルート、武装解除</span>に対して<span class=\"highlight\">耐性</span>を得る。<br><span class=\"highlight\">スタン</span>または<span class=\"highlight\">スリープ</span>状態中には使用できない。"
 		"modifier_restorative_locket_stacks" "回復のロケット"
 		"HealPerStack_label" "スタックごとの回復量"
 
