@@ -309,6 +309,11 @@
 		"Citadel_Hud_LoadingDeathReplay" "デスリプレイを読み込み中"
 		"Citadel_Hud_DebugStats" "マッチ: {s:match_id}\nクライアントFPS: {i:client_framerate}   ピング: {i:ping}ms\nサーバーCPU: {i:server_frametime_avg_pct}% (ピーク: {i:server_frametime_max_pct}%)"
 		"Citadel_Hud_DeathCam" "デスカム"
+		"Citadel_Hud_CheaterVoteCaption"							"{s:cheater_name}"
+		"Citadel_Hud_CheaterVoteAlert"								"ゲーム内で不正行為が発見されました..."
+		"Citadel_Hud_CheaterVoteAlert_Action"						"<span class=\"keybind\">[{s:show_scoreboard}]</span> を押して処遇を決めてください"
+		"Citadel_Hud_CheaterVote_Option_Play"						"カエルにする、後でBAN"
+		"Citadel_Hud_CheaterVote_Option_Ban"						"BANして試合を退出"
 
 		"Citadel_InvalidCast_NoFullClips" "リロードするフルクリップがありません"
 
@@ -318,7 +323,7 @@
 
 		//"Citadel_Shop_Upgrade_Locked_Label"							"Lvl <span class=\"blueAP\">{i:unlockLevelRequired}</span>"
 		//"Citadel_Shop_Player_Level_Label"							"Player Level: <span class=\"playerLevelNum\">{i:total_player_level}</span>"
-		"Citadel_Shop_SelectedBuildHeader" "{s:selected_build_name}"
+		"Citadel_Shop_SelectedBuildHeader"							"{s:selected_build_name}"
 		//"Citadel_Shop_TierBonus"									"Tier Bonus"
 		"Citadel_Shop_TierBonus_Weapon" "武器ダメージ"
 		"Citadel_Shop_TierBonus_Armor" "基本体力"
@@ -384,6 +389,7 @@
 		"Citadel_Shop_SellMaxItems_SellButton" "売却"
 
 		"Citadel_Shop_AbilityisImbued"		"アビリティが付与されています"
+
 		"Citadel_Spectate_Connecting_Title" "マッチに接続中"
 		"Citadel_Spectate_Connecting_Buffering" "マッチに接続しました。バッファリング中ですのでお待ちください"
 		"Citadel_Spectate_Connecting_Waiting" "マッチに接続中です。サーバーが放送を開始するまで最大で1分かかる場合があります。"
@@ -462,8 +468,8 @@
 		"BotMatchWarning_EarlyGame" "ボットは戦闘練習には最適ですが、集団行動や目標達成には苦労しています。"
 		"BotMatchWarning_LateGame" "ボットマッチは通常のゲームよりも長く続く傾向があります。パトロンを倒すためには、リーダーシップを発揮する必要があります！"
 
-
-
+		"Citadel_MatchmakingSchedule"							"更新情報:"
+		"Citadel_MatchmakingSchedule_Desc"							"マッチメイキングが24時間いつでも利用可能になりました！"
 
 		// Book
 		//"Citadel_Book_NotEnoughXP"							"This chatper requires {d:unlock_cost} to unlock, but you only have {d:available_unlocks} available. Play more matches to earn more unlocks."

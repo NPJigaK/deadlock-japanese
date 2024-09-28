@@ -1883,6 +1883,7 @@
 		"mirage_sand_phantom_passive_desc"	"パッシブ: あなたの射撃は、ターゲットに<span class=\"highlight\">増加するダメージ倍率</span>を付与する。 付与した倍率がターゲットに対して期限切れになるか、最大まで達すると、その倍率が消費され、ターゲットに<span class=\"highlight\">スピリットダメージ</span>を与え、短時間<span class=\"highlight\">マップ上で表示</span>される。 最終ダメージは基礎ダメージに倍率を掛けたものとなる。"
 		"mirage_sand_phantom_t1_desc"	"倍率を増加させるたびに、{s:SlowDuration}秒間{s:MovementSpeedSlow}%のスロウを与える"
 		"mirage_sand_phantom_t2_desc"	"倍率持続時間+{s:VictimStackDuration}秒、基礎ダメージ+{s:ProcDamageBase}"
+		"mirage_sand_phantom_t3_desc"	"倍率効果の発動間隔に{s:SandPhantomProcCooldown}秒のクールダウン、最大倍率+{s:MirageDjinnsMarkMaxStacks}"
 		"modifier_mirage_sand_phantom_passive_victim"	"ジンマーク倍率"
 		"ProcDamageBase_label"		"基礎ダメージ"
 		"VictimStackDuration_label"		"倍率持続時間"
