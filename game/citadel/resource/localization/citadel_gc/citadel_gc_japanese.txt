@@ -182,9 +182,9 @@
 		"Steam_Citadel_RP_FindingMatch"							"マッチを探しています"
 
 		// These Match Mode ("MM_") tokens are for the %param0% below.
-		"Steam_Citadel_RP_MM_Unranked"							"デッドロック"
-		"Steam_Citadel_RP_MM_Ranked"							"デッドロック"
-		"Steam_Citadel_RP_MM_PrivateLobby"						"プライベート"
+		"Steam_Citadel_RP_MM_Unranked"							"マッチ"
+		"Steam_Citadel_RP_MM_Ranked"							"マッチ"
+		"Steam_Citadel_RP_MM_PrivateLobby"						"プライベートマッチ"
 		"Steam_Citadel_RP_MM_SoloBot"							"ボット"
 		"Steam_Citadel_RP_MM_Tutorial"							"チュートリアル"
 		"Steam_Citadel_RP_MM_Sandbox"							"サンドボックス"

@@ -24,7 +24,7 @@
 		//"upgrade_clip_size_3_desc"			"Greatly Increases <span class=\"highlight\">ammo</span>."
 
 		//Ammo Scavenger
-		"upgrade_ammo_scavenger_desc" "ソウルを確保または否定するたびに、<span class=\"highlight\">弾薬を回収</span>し、<span class=\"highlight\">スピリットパワー</span>をスタックで獲得します。"
+		"upgrade_ammo_scavenger_desc" "エンティティからソウルを確保またはディナイするたびに、<span class=\"highlight\">弾薬を回収</span>し、スタックする<span class=\"highlight\">スピリットパワー</span>を獲得する。"
 		"AmmoPerSoul_prefix"				"+"
 		"AmmoPerSoul_label" "ソウルごとの弾薬"
 		"SpiritPowerPerSoul_prefix"			"+"
@@ -365,7 +365,7 @@
 		"CritDamagePercent_postfix" "%"
 
 		//Veil Walker
-		"upgrade_veil_walker_desc" "<span class=\"highlight\">コズミックベール</span>を通過すると、<span class=\"highlight\">ステルス</span>状態になり、<span class=\"highlight\">移動速度</span>が増加し、<span class=\"highlight\">弾丸シールドとスピリットシールド</span>が全回復し、次のマガジンに<span class=\"highlight\">発射速度</span>のボーナスが付与されます。"
+		"upgrade_veil_walker_desc" "<span class=\"highlight\">コズミックベール</span>を通過すると、<span class=\"highlight\">ステルス</span>状態になり、<span class=\"highlight\">移動速度</span>が増加し、<span class=\"highlight\">弾丸シールドとスピリットシールド</span>が全回復します。"
 		"VeilWalker_MoveSpeed_label" "インビジ移動速度"
 		"VeilWalker_MoveSpeed_postfix" "m/s"
 		
@@ -590,12 +590,12 @@
 		"upgrade_infuser_desc" "あなたは<span class=\"highlight\">スピリットパワー</span>と<span class=\"highlight\">スピリットライフスティール</span>を得ます。"
 
 		//Spirit Strike
-		"upgrade_acolytes_glove_desc" "ヒーローに対して<span class=\"highlight\">軽攻撃または重攻撃</span>を行うと、攻撃で追加の<span class=\"highlight\">スピリットダメージ</span>を与え、対象の<span class=\"highlight\">スピリット耐性</span>を減少させます。"
+		"upgrade_acolytes_glove_desc" "ヒーローに対して<span class=\"highlight\">軽近接攻撃または重近接攻撃</span>を行うと、攻撃で追加の<span class=\"highlight\">スピリットダメージ</span>を与え、対象の<span class=\"highlight\">スピリット耐性</span>を減少させます。"
 		"SpiritDamage_label" "スピリットダメージ"
 		"modifier_acolytes_glove_triggered" "スピリットストライク"
 
 		//Melee Charge
-		"upgrade_melee_charge_desc" "<span class=\"highlight\">重攻撃</span>のチャージ距離が増加します。敵に<span class=\"highlight\">重攻撃</span>を行うと、武器が<span class=\"highlight\">即座にリロード</span>されます。"
+		"upgrade_melee_charge_desc" "次の<span class=\"highlight\">重近接攻撃</span>は、<span class=\"highlight\">追加ダメージ</span>を与え、<span class=\"highlight\">武器を即座にリロード</span>するか、最大で<span class=\"highlight\">+100%のボーナス弾薬</span>を獲得する。<br>ボーナス弾薬がフルの時は発動しない。"
 		"MeleeDistanceScale_label"				"重近接距離"
 		"MeleeDistanceScale_postfix"			"%"
 		"BonusHeavyMeleeDamage_prefix"			"+"
@@ -619,7 +619,7 @@
 		"suppressor_debuff" "発射速度低下"
 
 		//Quicksilver Reload
-		"upgrade_quick_silver_desc" "アビリティに最初の一撃で<span class=\"highlight\">スピリットダメージ</span>のボーナスを付与します。そのアビリティを使用すると、武器が<span class=\"highlight\">リロード</span>され、そのマガジンに<span class=\"highlight\">発射速度</span>のボーナスが付与されます。"
+		"upgrade_quick_silver_desc" "アビリティにボーナスの<span class=\"highlight\">スピリットダメージ</span>を最初の一撃で付与します。そのアビリティを使用すると、武器が<span class=\"highlight\">リロード</span>され、そのマガジンに<span class=\"highlight\">発射速度</span>のボーナスが付与される。弾薬がフルの時は発動しない。"
 		//"modifier_quick_silver_buff"				"+Fire Rate"
 
 		// Magic carpet
@@ -662,8 +662,8 @@
 		"BuffDuration_postfix" "秒"
 
 		//Restorative Locket
-		"upgrade_restorative_locket_passive_desc" "敵があなたから{s:Radius}mの範囲内でアビリティを使用すると、<span class=\"highlight\">回復スタック</span>が1つ蓄積されます。"
-		"upgrade_restorative_locket_active_desc" "すべてのスタックを消費して<span class=\"highlight\">味方を回復</span>します。最大スタックで使用すると、対象の<span class=\"highlight\">スタミナポイント</span>が回復します。自己キャスト可能です。"
+		"upgrade_restorative_locket_passive_desc" "敵があなたから{s:Radius}mの範囲内でアビリティを使用したとき、<span class=\"highlight\">回復スタック</span>が1つ蓄積する。"
+		"upgrade_restorative_locket_active_desc" "一時的に<span class=\"highlight\">ネガティブな状態異常</span>を抑え、<span class=\"highlight\">スタン、サイレンス、スリープ、ルート、武装解除</span>に対して<span class=\"highlight\">耐性</span>を得る。<br><span class=\"highlight\">スタン</span>または<span class=\"highlight\">スリープ</span>状態中には使用できない。"
 		"modifier_restorative_locket_stacks" "回復のロケット"
 		"HealPerStack_label" "スタックごとの回復量"
 
