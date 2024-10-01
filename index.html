@@ -499,7 +499,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 <div class="paragraph">
-<p>その他の質問などは <a href="https://x.com/steinsgg">X(Twitter)</a> にて受け付けております。お気軽にご相談ください。<br>
+<p>その他の質問などは <a href="https://x.com/steinsgg">X(Twitter)</a> にて受け付けております。<a href="#section-qanda">Q&amp;A</a> を一度ご確認いただいた上で、解決しない問題がありましたらお気軽にご相談ください。<br>
 ご利用いただき、良いと感じていただけましたら、ツイートをリツイートしてご紹介いただけると大変励みになります！</p>
 </div>
 </div>
@@ -627,15 +627,17 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <dd>
 <p>必ず解凍してください。</p>
 </dd>
-<dt class="hdlist1">設定ファイルを別のフォルダに配置している</dt>
-<dd>
-<p><a href="https://x.com/steinsgg/status/1834252085107589196">正しい位置に game フォルダをドラッグ＆ドロップ</a>して、<strong><code>game</code> フォルダを 上書き</strong> してください。<br>
-よくある間違いとして、<code>game</code> フォルダの中に <code>game</code> フォルダを入れてしまっている人がいます。<br>
-<code>~\steamapps\common\Deadlock\game\game</code> のようなフォルダ構成に <strong>ならないように</strong> 注意してください。</p>
-</dd>
 <dt class="hdlist1">起動オプションの設定し忘れ</dt>
 <dd>
 <p>必ず設定してください。</p>
+</dd>
+<dt class="hdlist1">設定ファイルを別のフォルダに配置している</dt>
+<dd>
+<p><span class="red">日本語化できない・できなくなったという問い合わせの9割以上はこちらが原因です。</span><br>
+<a href="https://x.com/steinsgg/status/1834252085107589196">正しい位置に game フォルダをドラッグ＆ドロップ</a>して、<strong><code>game</code> フォルダを 上書き</strong> してください。<br>
+よくある間違いとして、<code>game</code> フォルダの中に <code>game</code> フォルダを入れてしまっている人がいます。<br>
+<code>~\steamapps\common\Deadlock\game\game</code> のようなフォルダ構成に <strong><span class="red">ならないように</span></strong> 注意してください。<br>
+<strong><code>game</code> フォルダの中に <code>game</code> フォルダを入れた状態で起動すると日本語化されません。</strong></p>
 </dd>
 <dt class="hdlist1">他サイトに書かれている日本語化設定をしている</dt>
 <dd>
@@ -646,9 +648,20 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </li>
 <li>
+<p><em>表示されている文章が他の人と違う</em></p>
+<p>日本語化設定ファイルは <strong>自動で更新されません</strong> 。最新の日本語化設定ファイルをダウンロードして更新してください。<br>
+更新の手順は<a href="#section-settings">通常の日本語化設定</a>と同じです。<br>
+日本語化設定ファイルの更新内容は <a href="#section-update">こちら</a> をご確認ください。</p>
+</li>
+<li>
 <p><em>解凍したらファイル・フォルダが文字化けしています</em></p>
 <p>UTF-8対応の解凍ソフトを使って下さい。日本語なのでUTF-8でエンコードされています。<br>
 例として <code>Windowsの標準機能</code>, <code>7z</code></p>
+</li>
+<li>
+<p><em>英語版に戻したい</em></p>
+<p>起動オプションの <code>-language japanese</code> を消せば英語版に戻ります。<br>
+また、整合性チェックや再起動をすると導入した日本語化設定ファイル自体が消えるため英語版に戻ります。</p>
 </li>
 </ol>
 </div>
@@ -674,6 +687,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <dd>
 <p>Match IDを入力することで、その試合の詳細な統計を確認できます。</p>
 </dd>
+<dt class="hdlist1"><a href="https://www.youtube.com/@ProDeadlockReplays" class="bare">https://www.youtube.com/@ProDeadlockReplays</a></dt>
+<dd>
+<p>高MMRプレイヤーのリプレイとその試合のビルドを確認出来ます。</p>
+</dd>
 <dt class="hdlist1"><a href="https://deadlocktracker.gg/items" class="bare">https://deadlocktracker.gg/items</a></dt>
 <dd>
 <p>アイテムの利用率/勝率を確認できます。ビルド作成時に役立ちます。メタ確認。</p>
@@ -685,10 +702,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <dt class="hdlist1"><a href="https://tracklock.gg/players" class="bare">https://tracklock.gg/players</a></dt>
 <dd>
 <p>プレイヤーランキングを確認できます。</p>
-</dd>
-<dt class="hdlist1"><a href="https://mobalytics.gg/deadlock/tier-list/heroes" class="bare">https://mobalytics.gg/deadlock/tier-list/heroes</a></dt>
-<dd>
-<p>ヒーローのティアリストを確認できます。</p>
 </dd>
 </dl>
 </div>
@@ -1017,7 +1030,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-09-28 19:08:20 +0900
+Last updated 2024-10-01 17:15:05 +0900
 </div>
 </div>
 </body>
