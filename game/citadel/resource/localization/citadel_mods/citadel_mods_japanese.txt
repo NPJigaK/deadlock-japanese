@@ -24,7 +24,7 @@
 		//"upgrade_clip_size_3_desc"			"Greatly Increases <span class=\"highlight\">ammo</span>."
 
 		//Ammo Scavenger
-		"upgrade_ammo_scavenger_desc" "エンティティからソウルを確保またはディナイするたびに、<span class=\"highlight\">弾薬を回収</span>し、スタックする<span class=\"highlight\">スピリットパワー</span>を獲得する。"
+		"upgrade_ammo_scavenger_desc" "浮いている状態のソウルを確保またはディナイするたびに、<span class=\"highlight\">弾薬を回収</span>し、スタックする<span class=\"highlight\">スピリットパワー</span>を獲得する。"
 		"AmmoPerSoul_prefix"				"+"
 		"AmmoPerSoul_label" "ソウルごとの弾薬"
 		"SpiritPowerPerSoul_prefix"			"+"
@@ -36,10 +36,10 @@
 		//"upgrade_stabilizer_desc"		"Removes the <span class=\"highlight\">movement speed penalty</span> while shooting, and increases <span class=\"highlight\">bullet speed</span>."
 
 		//Melee Lifesteal
-		"upgrade_lifestrike_gauntlets_desc" "<span class=\"highlight\">メレー</span>攻撃が与えた<span class=\"highlight\">ダメージの {s:LifestrikeHealPercent}%</span>と {s:LifestrikeHeal} の回復効果を得ます。この回復は非ヒーローに対しては<span class=\"highlight\">{s:NonHeroHealPct}%</span>の効果しかありません。"
+		"upgrade_lifestrike_gauntlets_desc" "<span class=\"highlight\">近接</span>攻撃が与えた<span class=\"highlight\">ダメージの {s:LifestrikeHealPercent}%</span>と {s:LifestrikeHeal} の回復効果を得ます。この回復は非ヒーローに対しては<span class=\"highlight\">{s:NonHeroHealPct}%</span>の効果しかありません。"
 
 		//Tesla Bullets
-		"upgrade_chain_lightning_desc" "弾丸がターゲットに<span class=\"highlight\">ショック</span>を与えるチャンスがあります。<span class=\"highlight\">ショック</span>は近くの敵に飛び移ります。"
+		"upgrade_chain_lightning_desc" "稀に弾丸がターゲットに<span class=\"highlight\">ショック</span>を与える。<span class=\"highlight\">ショック</span>は近くの敵にもジャンプしダメージを与える。"
 
 		//Galvanic Storm
 		//"upgrade_galvanic_storm_passive1"	"Your bullets have a chance to <span class=\"highlight\">shock</span> your target.  The shock will jump to a nearby enemy."
@@ -139,7 +139,7 @@
 		"MagicBurstDamage_label" "ボーナスダメージ"
 
 		//Improved Burst
-		"upgrade_magic_shock_desc" "アビリティが1回のヒットで {s:MinimumDamage} ダメージ以上を与えた場合、ボーナス<span class=\"highlight\">スピリットダメージ</span>を与えます。<br/>ターゲットは、この効果を受けた後、<span class=\"highlight\">{s:ReProcLockoutTime}秒間</span>、再適用に対して免疫を持ちます。"
+		"upgrade_magic_shock_desc" "アビリティが1回のヒットで {s:MinimumDamage} ダメージ以上を与えた場合、ボーナス<span class=\"highlight\">スピリットダメージ</span>を与える。<br/>この効果でダメージを受けたターゲットは、<span class=\"highlight\">{s:ReProcLockoutTime}秒間</span>、このアイテムの効果を受けない。"
 		"MagicShockDamage_label" "最大体力ボーナスダメージ"
 		"MagicShockDamage_postfix" "%"
 
@@ -298,7 +298,7 @@
 		"BaseBonusWeaponPower_prefix" "+"
 		
 		//Lifestrike
-		"upgrade_boxing_glove_desc" "あなたの<span class=\"highlight\">メレー攻撃</span>が<span class=\"highlight\">移動速度低下</span>を適用し、与えた<span class=\"highlight\">メレーダメージの {s:LifestealHealPercent}%</span>と {s:LifestealHeal} を回復します。この回復は非ヒーローに対しては<span class=\"highlight\">{s:NonHeroHealPct}%</span>の効果しかありません。"
+		"upgrade_boxing_glove_desc" "あなたの<span class=\"highlight\">近接攻撃</span>が<span class=\"highlight\">移動速度低下</span>を適用し、与えた<span class=\"highlight\">近接ダメージの {s:LifestealHealPercent}%</span>と {s:LifestealHeal} を回復します。この回復は非ヒーローに対しては<span class=\"highlight\">{s:NonHeroHealPct}%</span>の効果しかありません。"
 		//"BonusMeleeSpeed_label"							"Melee Speed"
 		"BonusMeleeSpeed_prefix" "+"
 		"BonusMeleeSpeed_postfix" "%"
@@ -366,7 +366,7 @@
 
 		//Veil Walker
 		"upgrade_veil_walker_desc" "<span class=\"highlight\">コズミックベール</span>を通過すると、<span class=\"highlight\">ステルス</span>状態になり、<span class=\"highlight\">移動速度</span>が増加し、<span class=\"highlight\">弾丸シールドとスピリットシールド</span>が全回復します。"
-		"VeilWalker_MoveSpeed_label" "インビジ移動速度"
+		"VeilWalker_MoveSpeed_label" "ステルス中の移動速度"
 		"VeilWalker_MoveSpeed_postfix" "m/s"
 		
 		
@@ -384,7 +384,7 @@
 		"upgrade_magic_vulnerability_desc" "対象が<span class=\"highlight\">スピリットダメージ</span>を受けると、<span class=\"highlight\">スピリット耐性</span>が減少します。"
 
 		//Healbane
-		"upgrade_healbane_desc" "あなたの<span class=\"highlight\">スピリットダメージ</span>が<span class=\"highlight\">回復阻害</span>を付与します。この効果下で敵ヒーローが死亡すると、大量の回復を受けます。"
+		"upgrade_healbane_desc" "あなたの<span class=\"highlight\">スピリットダメージ</span>が<span class=\"highlight\">回復阻害</span>を付与する。この効果が付与されている間に敵ヒーローが死亡すると、大きく回復する。"
 		"HealOnKill_label" "ヒーローキルでの回復"
 
 		//Mystic Slow
@@ -595,7 +595,7 @@
 		"modifier_acolytes_glove_triggered" "スピリットストライク"
 
 		//Melee Charge
-		"upgrade_melee_charge_desc" "次の<span class=\"highlight\">重近接攻撃</span>は、<span class=\"highlight\">追加ダメージ</span>を与え、<span class=\"highlight\">武器を即座にリロード</span>するか、最大で<span class=\"highlight\">+100%のボーナス弾薬</span>を獲得する。<br>ボーナス弾薬がフルの時は発動しない。"
+		"upgrade_melee_charge_desc" "次の<span class=\"highlight\">重近接攻撃</span>は、<span class=\"highlight\">追加ダメージ</span>を与え、<span class=\"highlight\">マガジンを即座にリロード</span>し、最大で<span class=\"highlight\">+100%のボーナス弾薬</span>を獲得する。<br>ボーナス弾薬がフルの時は発動しない。"
 		"MeleeDistanceScale_label"				"重近接距離"
 		"MeleeDistanceScale_postfix"			"%"
 		"BonusHeavyMeleeDamage_prefix"			"+"

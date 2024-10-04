@@ -484,8 +484,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 この設定ファイルは有志のユーザーによって作られています。<br>
 全ての権利は <code>Valve Corporation©</code> に帰属します。</p>
 </div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">💡</div>
+</td>
+<td class="content">
 <div class="paragraph">
-<p>翻訳の修正・改善提案は随時受け付けています。ご協力お願い致します。<br>
+<p><strong>翻訳の修正・改善提案は随時受け付けています。ご協力お願い致します。</strong><br>
 例：<code>ここの日本語訳が足りていない</code>, <code>ここの日本語訳を分かりやすくしてほしい</code>, <code>新しいbuildバージョンに対応して欲しい</code>, etc&#8230;&#8203;</p>
 </div>
 <div class="ulist">
@@ -497,6 +504,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p><a href="https://github.com/NPJigaK/deadlock-japanese/issues">Githubで直接提案する（Githubアカウントをお持ちの方）</a></p>
 </li>
 </ul>
+</div>
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
 <p>その他の質問などは <a href="https://x.com/steinsgg">X(Twitter)</a> にて受け付けております。<a href="#section-qanda">Q&amp;A</a> を一度ご確認いただいた上で、解決しない問題がありましたらお気軽にご相談ください。<br>
@@ -526,9 +537,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </tr>
 </table>
 </div>
-<div class="paragraph">
-<p><strong>ヒーロー名、ショップのアイテム名は英語のままにしています。</strong><br>
-ショップのアイテム名は日本語にすることも可能です。詳しくは<a href="#section-items-to-japanese">こちら</a>を参照ください。</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>ヒーロー名、ショップのアイテム名は英語のままにしています。</strong><br></p>
+</li>
+<li>
+<p>ショップのアイテム名は日本語にすることも可能です。詳しくは<a href="#section-items-to-japanese">こちら</a>を参照ください。</p>
+</li>
+</ul>
 </div>
 </div>
 </div>
@@ -608,7 +625,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="paragraph">
 <p>ショップのアイテム名を日本語にする場合は追加の作業が必要になります。<br>
 <strong><a href="#section-settings">通常の日本語化設定</a> を行った後</strong> に <code>ショップのアイテム名を日本語にしたい人向け</code> フォルダの中にある <code>game</code> フォルダでさらに上書きします。<br>
-必ず <strong>先に通常の日本語化設定を行う</strong> 必要がありますので順番にはお気を付けください。</p>
+必ず <strong>先に通常の日本語化設定を行う</strong> 必要がありますので順番にはお気を付けください。<br>
+更新する際も同様に、<strong>先に通常の日本語化設定を行う</strong> 必要があります。</p>
 </div>
 </div>
 </div>
@@ -733,6 +751,73 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sectionbody">
 <div class="dlist">
 <dl>
+<dt class="hdlist1">2024/10/05</dt>
+<dd>
+<div class="ulist">
+<ul>
+<li>
+<p>要望頂いた改善提案を一部対応しました。</p>
+</li>
+<li>
+<p><strong>基本方針として、固有名詞は原則としてカタカナ読みにしています。ただし、説明文中に出てくる単語のみ、前後の日本語と整合性を保つため、文脈に応じて和訳にすることがあります。</strong></p>
+</li>
+<li>
+<p><code>melee</code> の翻訳を <code>近接</code> に統一しました。</p>
+<div class="ulist">
+<ul>
+<li>
+<p><code>メレーライフスティール</code> など固有名詞は <code>メレー</code> に統一しました。</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><code>magazine</code> の翻訳を <code>マガジン</code> に統一しました。<code>弾倉</code> &#8594; <code>マガジン</code></p>
+</li>
+<li>
+<p><code>steal</code> の翻訳を <code>スティール</code> に統一しました。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>説明文中でのみ <code>吸収</code> に統一しました。</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><code>Melee Charge</code> の説明文を改善しました。</p>
+</li>
+<li>
+<p><code>Healbane</code> の説明文を改善しました。</p>
+</li>
+<li>
+<p><code>Ammo Scavenger</code> の説明文を改善しました。</p>
+</li>
+<li>
+<p><code>Tesla Bullets</code> の説明文を改善しました。</p>
+</li>
+<li>
+<p><code>Improved Burst</code> の説明文を改善しました。</p>
+</li>
+<li>
+<p><code>ジップライン速度ブースト</code> &#8594; <code>ジップラインスピードブースト</code> に変更しました。</p>
+</li>
+<li>
+<p>ヒーロー選択画面の <code>ヒーローサンドボックス</code> を <code>サンドボックス</code> に変更しました。</p>
+</li>
+</ul>
+</div>
+</dd>
+<dt class="hdlist1">2024/10/03</dt>
+<dd>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#section-qanda">Q&amp;A、よくある質問</a> を更新しました。</p>
+</li>
+</ul>
+</div>
+</dd>
 <dt class="hdlist1">2024/09/28</dt>
 <dd>
 <div class="ulist">
@@ -847,7 +932,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>最新版 <code>Build 5.127 2024/09/09 - 15:53:11</code> に対応しました。</p>
 </li>
 <li>
-<p>Q&amp;A を更新しました。</p>
+<p><a href="#section-qanda">Q&amp;A</a> を更新しました。</p>
 </li>
 </ul>
 </div>
@@ -1030,7 +1115,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-10-01 17:15:05 +0900
+Last updated 2024-10-05 02:03:20 +0900
 </div>
 </div>
 </body>

@@ -111,7 +111,7 @@
 		"StatDesc_HeavyMeleeDamage"						"重近接"
 		"StatDesc_MaxHealth"							"最大体力"
 		"StatDesc_ClipSizeBonus"						"弾薬ボーナス"
-		"StatDesc_ClipSizeIncrease"						"弾倉サイズ増加"
+		"StatDesc_ClipSizeIncrease"						"マガジンサイズ増加"
 		"StatDesc_ClipSizeIncrease_postfix"				"%"
 		//"StatDesc_BonusClips"							"Clips"
 		//"StatDesc_AmmoRegen"							"Ammo Regen"
@@ -216,14 +216,14 @@
 		//"StatDesc_DefensePower"							"Defense Power"
 
 		"StatDesc_TechLifesteal_prefix"					"{s:sign}"
-		"StatDesc_TechLifesteal"						"スピリット吸収"
+		"StatDesc_TechLifesteal"						"スピリットライフスティール"
 		"StatDesc_TechLifesteal_postfix"				"%"
 
 		"StatDesc_TechLifestealNonHero_prefix"			"{s:sign}"
-		"StatDesc_TechLifestealNonHero"					"非ヒーロー対象スピリット吸収"
+		"StatDesc_TechLifestealNonHero"					"非ヒーロー対象スピリットライフスティール"
 
 		"StatDesc_BulletLifesteal_prefix"					"{s:sign}"
-		"StatDesc_BulletLifesteal"						"弾丸吸収"
+		"StatDesc_BulletLifesteal"						"弾丸ライフスティール"
 		"StatDesc_BulletLifesteal_postfix"				"%"
 
 		"Attribute_EWeaponAttribute_RapidFire"			"連射"
@@ -473,18 +473,18 @@
 		"BonusCooldownReduction_label"					"弾丸ごとのクールダウン短縮"
 
 		"BonusClipSize_prefix"							"{s:sign}"
-		"BonusClipSize_label"							"弾倉サイズ"
+		"BonusClipSize_label"							"マガジンサイズ"
 
 		"BonusClipSizePercent_prefix"					"{s:sign}"
 		"BonusClipSizePercent_postfix"					"%"
-		"BonusClipSizePercent_label"					"弾倉サイズ"
+		"BonusClipSizePercent_label"					"マガジンサイズ"
 
 		"TemporaryBonusClipSize_prefix"				"{s:sign}"
-		"TemporaryBonusClipSize_label"					"一時的な弾倉サイズ"
+		"TemporaryBonusClipSize_label"					"一時的なマガジンサイズ"
 
 		"TemporaryBonusClipSizePercent_prefix"			"{s:sign}"
 		"TemporaryBonusClipSizePercent_postfix"			"%"
-		"TemporaryBonusClipSizePercent_label"			"一時的な弾倉サイズ"
+		"TemporaryBonusClipSizePercent_label"			"一時的なマガジンサイズ"
 
 		"BulletPenetrationPercent_postfix"				"%"
 		"BulletPenetrationPercent_label"				"弾丸貫通"
@@ -624,27 +624,27 @@
 		"BonusBulletSpeedPercent_label"					"弾速"
 
 		"LifeStealPercent_prefix"						"{s:sign}"
-		"LifeStealPercent_label"						"ライフ吸収"
+		"LifeStealPercent_label"						"ライフスティール"
 		"LifeStealPercent_postfix"						"%"
 
 		"LifestealPercentHero_prefix"					"{s:sign}"
-		"LifestealPercentHero_label"					"ライフ吸収"
+		"LifestealPercentHero_label"					"ライフスティール"
 		"LifestealPercentHero_postfix"					"%"
 
 		"LifestealPercentNonHero_prefix"				"{s:sign}"
-		"LifestealPercentNonHero_label"					"非ヒーロー対象ライフ吸収"
+		"LifestealPercentNonHero_label"					"非ヒーロー対象ライフスティール"
 		"LifestealPercentNonHero_postfix"				"%"
 
 		"BulletLifestealPercent_prefix"					"{s:sign}"
-		"BulletLifestealPercent_label"					"弾丸ライフ吸収"
+		"BulletLifestealPercent_label"					"弾丸ライフスティール"
 		"BulletLifestealPercent_postfix"				"%"
 
 		"TechLifestealPercent_prefix"					"{s:sign}"
-		"TechLifestealPercent_label"					"スピリット吸収"
+		"TechLifestealPercent_label"					"スピリットライフスティール"
 		"TechLifestealPercent_postfix"					"%"
 
 		"MeleeLifestealPercent_prefix"					"{s:sign}"
-		"MeleeLifestealPercent_label"					"近接ライフ吸収"
+		"MeleeLifestealPercent_label"					"近接ライフスティール"
 		"MeleeLifestealPercent_postfix"					"%"
 
 		"StunDuration_label"							"スタン時間"
@@ -787,15 +787,15 @@
 		"BulletDamagePercent_postfix"					"%"
 
 		"AbilityLifestealPercent_prefix"				"{s:sign}"
-		"AbilityLifestealPercent_label"					"スピリット吸収"
+		"AbilityLifestealPercent_label"					"スピリットライフスティール"
 		"AbilityLifestealPercent_postfix"				"%"
 		
 		"AbilityLifestealPercentHero_prefix"			"{s:sign}"
-		"AbilityLifestealPercentHero_label"				"スピリット吸収"
+		"AbilityLifestealPercentHero_label"				"スピリットライフスティール"
 		"AbilityLifestealPercentHero_postfix"			"%"
 
 		"AbilityLifestealPercentNonHero_prefix"			"{s:sign}"
-		"AbilityLifestealPercentNonHero_label"			"非ヒーロー対象スピリット吸収"
+		"AbilityLifestealPercentNonHero_label"			"非ヒーロー対象スピリットライフスティール"
 		"AbilityLifestealPercentNonHero_postfix"		"%"
 
 		"RegenDuration_label"							"回復持続時間"

@@ -337,7 +337,7 @@
 		"upgrade_rapid_rounds"					"ラピットラウンド"
 		//"upgrade_stabilizer"					"Stabilizer"
 		"upgrade_high_velocity_mag"				"高速マガジン"
-		"upgrade_lifestrike_gauntlets"			"近接ライフスティール"
+		"upgrade_lifestrike_gauntlets"			"メレーライフスティール"
 		"upgrade_chain_lightning"				"テスラ弾"
 		//"upgrade_galvanic_storm"				"Galvanic Storm"
 		//"upgrade_attack_speed_1"				"Fire Rate"
