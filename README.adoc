@@ -24,7 +24,7 @@ Valveの新作ゲーム `Deadlock` を日本語化する設定ファイルです
 ## 対応バージョン
 [source,Deadlock バージョン]
 ----
-Build 5.220 2024/09/27 - 21:14:13
+Build 5.251 2024/10/10 - 17:17:35
 ----
 
 [NOTE]
@@ -114,7 +114,7 @@ UTF-8対応の解凍ソフトを使って下さい。日本語なのでUTF-8で�
 例として `Windowsの標準機能`, `7z` 
 
 英語版に戻したい::
-起動オプションの `-language japanese` を消せば英語版に戻ります。 +
+起動オプションから `-language japanese` を消してから起動し、言語設定を英語にしてから再起動すると英語に戻ります。 +
 また、整合性チェックや再インストールをすると導入した日本語化設定ファイル自体が消えるため英語版に戻ります。
 
 [[section-tips]]
@@ -131,14 +131,14 @@ https://undeadlock.com/::
 Deadlockのナーフ/バフや変更を視覚的に分かりやすく表示しているサイトです。
 
 https://tracklock.gg/::
-[line-through]#https://deadlocktracker.gg/#::
+https://deadlocktracker.gg/::
 MMR（内部レート）を確認出来ます。Steamログイン連携が必要です。
 
 https://deadlock.op.gg/::
 OP.GGのDeadlockページです（近日公開）
 
-[line-through]#https://deadlocktracker.gg/#::
-Match IDを入力することで、その試合の詳細な統計を確認できます。（現在制限により利用不可）
+https://deadlocktracker.gg/::
+Match IDを入力することで、その試合の詳細な統計を確認できます。
 
 https://www.youtube.com/@ProDeadlockReplays::
 高MMRプレイヤーのリプレイとその試合のビルドを紹介しているyoutubeチャンネルです。
@@ -166,6 +166,10 @@ https://tracklock.gg/players::
 
 [[section-update]]
 == 更新履歴
+2024/10/10::
+* 最新版 `Build 5.251 2024/10/10 - 17:17:35` に対応しました。
+* アップデートに伴う効果や説明文の変更に対応しました。
+
 2024/10/06::
 * <<section-tips,Tips>> を更新しました。
 

@@ -202,6 +202,8 @@
 		"StatDesc_DebuffResist_postfix"					"%"
 		"StatDesc_HealingOutput"						"回復効果増加"
 		"StatDesc_HealingOutput_postfix"				"%"
+		"StatDesc_CritDamageBonusScale"					"クリティカルボーナス倍率"
+		"StatDesc_CritDamageBonusScale_postfix"			"%"
 
 		"StatDesc_BulletSpeed"							"弾速"
 		"StatDesc_BulletSpeed_postfix"					"m/s"
@@ -451,7 +453,8 @@
 		"BonusMoveSpeed_label"							"移動速度"
 		"BonusMoveSpeed_postfix"						" m/s"
 
-		"RunSpeed_postfix"								" m/s"
+		"TeleporterBonus"							"移動速度ボーナス！"
+		"RunSpeed_postfix"							" m/s"
 
 		"WeaponRange_label"								"武器射程"
 		"WeaponRange_postfix"							" m"

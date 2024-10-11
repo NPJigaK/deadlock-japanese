@@ -161,7 +161,7 @@
 		//"upgrade_attack_speed_2_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
 
 		//Spiritual Overflow
-		"upgrade_tech_overflow_desc" "敵ヒーローに弾丸をチャージすることで<span class=\"highlight\">スピリットパワー</span>のボーナスを得ます。"
+		"upgrade_tech_overflow_desc" "敵ヒーローに弾丸をチャージすることで、ボーナスの<span class=\"highlight\">発射速度</span>と<span class=\"highlight\">スピリットパワー</span>を獲得する。"
 		"modifier_tech_overflow" "スピリチュアルオーバーフロー"
 		"modifier_tech_overflow_building" "スピリチュアルオーバーフロー蓄積中..."
 
@@ -227,6 +227,8 @@
 		//Frenzy
 		"upgrade_fervor_passive" "<span class=\"highlight\">体力が {s:LowHealthThreshold}% 以下</span>の場合、ステータスボーナスを獲得します。"
 		"FervorTechResist_postfix" "%"
+		"modifier_fervor_aura_active"		"フレンジー状態"
+
 
 		//Old Frenzy
 		//"upgrade_frenzy_vampire_desc"	"Your <span class=\"highlight\">bullets heal you</span> for a percentage of the damage they deal to enemies.<br><br>When an enemy is below {s:LowHealthPercentThreshold}% health you gain an additional <span class=\"highlight\">{s:LowHealthLifeStealPercent}% Bullet Lifesteal</span> against them."
@@ -265,6 +267,7 @@
 		"upgrade_surging_power_active" "<span class=\"highlight\">ライフスティール</span>、<span class=\"highlight\">攻撃速度</span>、および<span class=\"highlight\">弾薬</span>を得ます。この追加の弾薬は、マガジンの最大容量に制限されません。"
 		"ActiveBonusLifesteal_label" "バレットライフスティール"
 		"ActiveBonusLifesteal_postfix" "%"
+		"modifier_surging_power"		 "サージングパワー"
 		//"upgrade_surging_power/surge/windup"					"Surging Power"
 		//"upgrade_surging_power/surge/active"					"Surging Power"
 		//"upgrade_surging_power/surge"					"Surging Power"
@@ -392,7 +395,7 @@
 
 		//Escalating Exposure
 		"upgrade_escalating_exposure_desc" "<span class=\"highlight\">スピリットダメージ</span>を与えると、対象への<span class=\"highlight\">スピリット増幅</span>を重ねて付与し、対象に対する<span class=\"highlight\">スピリットダメージ</span>が増加します。"
-		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff" "スピリットアーマー減少"
+		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"エスカレーティングエクスポージャー"
 		"EscalatingExposureProcCooldown_label" "対象ごとの最大頻度"
 		"EscalatingExposureProcCooldown_postfix" "秒"
 		"EscalatingExposureTechArmorDamageReduction_label" "スピリットダメージによる耐性減少"
@@ -485,7 +488,7 @@
 		"SpiritPower_prefix" "+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc" "虚空状態に入り、<span class=\"highlight\">対象不可かつ無敵</span>になります。この間、移動や行動はできません。その後、<span class=\"highlight\">即座にリロード</span>され、ボーナス<span class=\"highlight\">スピリットパワー</span>を得ます。<br>[{s:in_mantle}]を押して早期にキャンセルできます。"
+		"upgrade_self_bubble_desc" "虚空状態に入り、短時間<span class=\"highlight\">対象不可かつ無敵</span>になる。この間、移動や行動はできません。その後、<span class=\"highlight\">即座にリロード</span>され、ボーナス<span class=\"highlight\">スピリットパワー</span>を得ます。"
 		"ShiftingVeilDuration_label" "持続時間"
 		"ShiftingVeilDuration_postfix" "秒"
 		"BonusSpiritDuration_label" "ボーナススピリット持続時間"
@@ -588,6 +591,7 @@
 		
 		//Infuser
 		"upgrade_infuser_desc" "あなたは<span class=\"highlight\">スピリットパワー</span>と<span class=\"highlight\">スピリットライフスティール</span>を得ます。"
+		"modifier_infuser" "Infuser"
 
 		//Spirit Strike
 		"upgrade_acolytes_glove_desc" "ヒーローに対して<span class=\"highlight\">軽近接攻撃または重近接攻撃</span>を行うと、攻撃で追加の<span class=\"highlight\">スピリットダメージ</span>を与え、対象の<span class=\"highlight\">スピリット耐性</span>を減少させます。"
@@ -619,7 +623,7 @@
 		"suppressor_debuff" "発射速度低下"
 
 		//Quicksilver Reload
-		"upgrade_quick_silver_desc" "アビリティにボーナスの<span class=\"highlight\">スピリットダメージ</span>を最初の一撃で付与します。そのアビリティを使用すると、武器が<span class=\"highlight\">リロード</span>され、そのマガジンに<span class=\"highlight\">発射速度</span>のボーナスが付与される。弾薬がフルの時は発動しない。"
+		"upgrade_quick_silver_desc" "次に発動するアビリティの最初のヒットにボーナスの<span class=\"highlight\">スピリットダメージ</span>を付与する。そのアビリティを使用すると、武器が<span class=\"highlight\">リロード</span>され、そのマガジンに<span class=\"highlight\">発射速度</span>のボーナスが付与される。弾薬がフルの時は発動しない。"
 		//"modifier_quick_silver_buff"				"+Fire Rate"
 
 		// Magic carpet
@@ -635,7 +639,7 @@
 		//
 		"upgrade_superacolytes_glove_desc"			"累計で <span class=\"highlight\">{s:StoredSpiritDamage}</span> のスピリットダメージを与えた後、次の <span class=\"highlight\">重近接攻撃</span> が追加で <span class=\"highlight\">{s:StoredSpiritDamage} のスピリットダメージ</span> を与えます。"
 		"StoredSpiritDamage_label"			"蓄積されたスピリットダメージ"
-		"upgrade_superacolytes_glove/modifier_superacoloytes_glove" "封印解除されたナックル！"
+		"upgrade_superacolytes_glove/modifier_superacoloytes_glove" "ナックル解放！"
 
 		//-----------------------------------------------------------------------------
 		// Upgrades: Armor
@@ -653,7 +657,7 @@
 		//Healing Rite
 		"upgrade_health_stimpak_desc" "対象に<span class=\"highlight\">再生</span>と<span class=\"highlight\">スプリント速度</span>を付与します。敵プレイヤーや目標からダメージを受けると効果が消えます。自己キャスト可能です。"
 		"upgrade_health_stimpak/modifier_stimpak_regen" "ヒーリングライト"
-
+		"modifier_stimpak_regen" "ヒーリングライト"
 		//Divine Barrier
 		"upgrade_savior_desc" "対象に<span class=\"highlight\">弾丸シールド、スピリットシールド、移動速度</span>を付与します。自己キャスト可能です。"
 		"SaviorBulletShieldHealth_label" "弾丸シールド"
@@ -663,7 +667,7 @@
 
 		//Restorative Locket
 		"upgrade_restorative_locket_passive_desc" "敵があなたから{s:Radius}mの範囲内でアビリティを使用したとき、<span class=\"highlight\">回復スタック</span>が1つ蓄積する。"
-		"upgrade_restorative_locket_active_desc" "一時的に<span class=\"highlight\">ネガティブな状態異常</span>を抑え、<span class=\"highlight\">スタン、サイレンス、スリープ、ルート、武装解除</span>に対して<span class=\"highlight\">耐性</span>を得る。<br><span class=\"highlight\">スタン</span>または<span class=\"highlight\">スリープ</span>状態中には使用できない。"
+		"upgrade_restorative_locket_active_desc"		"全てのスタックを消費して<span class=\"highlight\">対象の味方を回復</span>し、<span class=\"highlight\">スタミナポイント</span>を回復する。自分に使用することも可能。"
 		"modifier_restorative_locket_stacks" "回復のロケット"
 		"HealPerStack_label" "スタックごとの回復量"
 
@@ -825,7 +829,7 @@
 		"modifier_slow_immunity" "アンストッパブル"
 
 		//Unstoppable
-		"upgrade_unstoppable_desc" "<span class=\"highlight\">デバフ</span>を取り除き、<span class=\"highlight\">スタン、サイレンス、睡眠、ルート、および武器使用不可</span>を<span class=\"highlight\">無効化</span>します。"
+		"upgrade_unstoppable_desc"				"一時的に<span class=\"highlight\">ネガティブな状態異常</span>を抑制し、<span class=\"highlight\">スタン、サイレンス、スリープ、ルート、武装解除</span>を<span class=\"highlight\">無効化</span>する。<br><span class=\"highlight\">スタン</span>または<span class=\"highlight\">スリープ</span>状態の間は使用できない。"
 		"modifier_unstoppable" "アンストッパブル"
 
 		//Colossus
@@ -850,7 +854,7 @@
 
 		//Health Nova
 		"upgrade_health_nova_desc" "<span class=\"highlight\">自分と近くの味方を回復</span>します。味方ごとに追加で{s:HeroTargetBonus}%回復します。"
-		"modifier_health_nova" "ヘルスノヴァ"
+		"modifier_health_nova" "ヒーリングノヴァ"
 
 		//Fast Reload
 		//"upgrade_reload_speed_desc"					"Increased <span class=\"highlight\">reload speed</span>."

@@ -323,6 +323,7 @@
 		"hero_slork"			"Fathom"
 		"hero_targetdummy"		"TargetDummy"
 		"hero_bomber"			"Bomber"
+		"hero_shieldguy"		"Shield Guy"
 		
 		//-----------------------------------------------------------------------------
 		// Upgrades: Weapon
