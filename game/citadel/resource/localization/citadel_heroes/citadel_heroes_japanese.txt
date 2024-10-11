@@ -181,7 +181,7 @@
 		"citadel_ability_shieldedsentry"		"ミニタレット"
 		"citadel_ability_shieldedsentry_quip"	"自動タレットを配置する"
 		"citadel_ability_shieldedsentry_desc"	"ミニタレットを配置し、<span class=\"highlight\">自動で敵を射撃</span>します。タレットは一定時間後に消滅します。<br>タレットは{s:hero_name}の最大ヘルスの{s:TurretHealthScaling}%を得て、{s:TechResist}%のスピリット耐性を持ちます。彼らはトルーパーやオブジェクティブに対して与えるダメージが減少します。<br>Mini Turret."
-		"citadel_ability_shieldedsentry_t1_desc"	"<span class=\"highlight\">+{s:AbilityCharges}</span> アビリティチャージと、タレットが<span class=\"highlight\">+{s:MoveSlowPercent}%</span>の移動速度低下を適用します。"
+		"citadel_ability_shieldedsentry_t1_desc"	"タレットは移動速度を<span class=\"highlight\">+{s:MoveSlowPercent}%</span>低下させる"
 		"citadel_ability_shieldedsentry_t2_desc"	"<span class=\"highlight\">+{s:TurretAttackRange}m</span> の攻撃範囲と<span class=\"highlight\">+{s:AttackSpeedMult}%</span>のタレット発射速度"
 
 		//"citadel_ability_shieldedsentry/modifier_bullet_resist_reduction_stack"		"Sentry Bullet Resist Debuff"
@@ -383,7 +383,7 @@
 		"citadel_ability_chrono_pulse_grenade"			"パルスグレネード"
 		"citadel_ability_chrono_pulse_grenade_quip"		"グレネードを投げ、ダメージとスロウ効果を与える"
 		"citadel_ability_chrono_pulse_grenade_desc"		"着地後にパルスを発生させるグレネードを投げる。各パルスは、敵に<span class=\"highlight\">ダメージ、移動速度低下、および{s:hero_name}から受けるスタックダメージ増幅</span>を付与する。<br>Pulse Grenade."
-		
+		"citadel_ability_chrono_pulse_grenade_t3_desc"		"パルスダメージが<span class=\"highlight\">+{s:PulseDamage}</span>増加し、パルスごとに範囲が<span class=\"highlight\">+{s:RadiusIncreasePerPulse}m</span>拡大。"		
 		"Pulses_label"                           			 "パルス"
 		"InitialDamage_label"									"初期ダメージ"
 		"PulseDamage_label"									"パルスダメージ"
@@ -705,11 +705,6 @@
 		//-----------------------------------------------------------------------------
 		// Haze
 		//-----------------------------------------------------------------------------
-		//"citadel_ability_poison_bullets"			"Tranquilizer Bullets"
-		//"citadel_ability_poison_bullets_desc"		"Apply tranquilizer to your victim until they fall asleep. Sleeping victims cannot act and take damage when they wake up."
-		//"modifier_citadel_posion_bullets_shot_watcher"	"Tranquilizer Bullets"
-		//"modifier_citadel_posion_bullets_poisoned"	"Asleep"
-		//"modifier_citadel_posion_bullets_poison_buildup"	"Sleepy"
 
 		"ability_sleep_dagger" "スリープダガー"
 		"ability_sleep_dagger_quip" "敵を眠らせる"
@@ -748,7 +743,7 @@
 		"ability_smoke_bomb_quip" "姿を消す"
 		"ability_smoke_bomb_desc" "姿を消し、<span class=\"highlight\">透明</span>になり、<span class=\"highlight\">スプリント速度</span>を得る。攻撃すると透明状態が解除される。近くの敵はあなたの透明状態を見破ることができる。<br>Smoke Bomb."
 		//"ability_smoke_bomb_t1_desc"	"<span class=\"highlight\">{s:AbilityCooldown}s</span> Ability Cooldown"
-		"ability_smoke_bomb_t2_desc" "<span class=\"highlight\">+{s:InvisMoveSpeedMod}m/s</span> 透明スプリント速度"
+		"ability_smoke_bomb_t2_desc"	"<span class=\"highlight\">+{s:InvisMoveSpeedMod}m/s</span> 透明スプリント速度"
 		"ability_smoke_bomb_t3_desc" "透明後に<span class=\"highlight\">+{s:BulletLifesteal}%の弾丸ライフスティール</span>を{s:PostInvisBuffDuration}秒の間得る"
 		//"modifier_citadel_smoke_bomb_in_smoke"	"In Smoke"
 		"modifier_citadel_smoke_bomb_invis" "透明"
@@ -756,10 +751,13 @@
 
 		"ability_bullet_flurry"			"バレットダンス"
 		"ability_bullet_flurry_quip" "周囲に弾丸の嵐を解き放つ"
-		"ability_bullet_flurry_desc" "バレットダンス状態に入り、近くの敵に<span class=\"highlight\">弾丸を発射</span>し、<span class=\"highlight\">完璧な精度</span>で攻撃する。バレットダンス中、{s:hero_name}は発射速度ボーナスを得て、一部の弾丸を回避する。<br>Bullet Dance."
+		"ability_bullet_flurry_desc" "周囲に向かって<span class=\"highlight\">乱射し、</span>近くの敵に対して<span class=\"highlight\">完璧な精度</span>で攻撃する。<br>Bullet Dance."
 		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
+		"ability_bullet_flurry_t3_desc"	"弾丸回避率が<span class=\"highlight\">+{s:EvasionPercent}%</span>、バレットダンス中の移動速度が<span class=\"highlight\">+{s:DanceMoveSpeed}m/s</span>増加"
+		"BonusWeaponDamage_prefix"				"+"
 		"BonusWeaponDamage_label" "弾丸ダメージ"
-
+		"DanceMoveSpeed_label"					"バレットダンス移動速度"
+		"DanceMoveSpeed_postfix"				"m/s"
 		//-----------------------------------------------------------------------------
 		// Sumo // dynamo
 		//-----------------------------------------------------------------------------
@@ -767,7 +765,7 @@
 		"citadel_ability_stomp_quip"				"地面のパルスを放ち、敵を空中に打ち上げる"
 		"citadel_ability_stomp_desc"				"敵を空中に打ち上げるエネルギーパルスを放ちます。<br>Kinetic Pulse."
 		"citadel_ability_stomp_t1_desc"			"ヒットした敵は<span class=\"highlight\">{s:SlowDuration}秒間</span>、<span class=\"highlight\">攻撃速度と移動速度が</span><span class=\"highlight\">{s:SlowPercent}%</span>低下する。"
-		"citadel_ability_stomp_t2_desc"			"{s:hero_name}は命中した敵に対して<span class=\"highlight\">{S:BulletArmorReductionDuration}秒間</span><span class=\"highlight\">武器ダメージが{S:BulletArmorReduction}%増加</span>する。"
+		"citadel_ability_stomp_t2_desc"			"{s:hero_name}は、命中した敵に対して<span class=\"highlight\">弾丸ダメージが{s:BulletArmorReduction}%増加</span>し、その効果は<span class=\"highlight\">{s:BulletArmorReductionDuration}秒</span>続く。"
 		"StompRange_label"						"スタンプ範囲"
 		"StompRange_postfix"						"m"
 		//"stomp_buff_modifier"						"+Fire Rate"
@@ -780,7 +778,7 @@
 		"citadel_ability_void_sphere"				"クアンタム・エンテングルメント"
 		"citadel_ability_void_sphere_quip"		"存在から消えて再出現する"
 		"citadel_ability_void_sphere_desc"		"{s:hero_name}は一時的に<span class=\"highlight\">虚空に消え</span>、短い距離を移動して再出現する。再出現時に武器が<span class=\"highlight\">リロードされ</span>、次のマガジンに対して<span class=\"highlight\">発射速度ボーナス</span>が付与される（最大{s:FireRateBonusDurationMax}秒）。[{s:key_alt_cast}]で発動すると、近くの味方も連れて行き、連れて行った味方にも半分の発射速度ボーナスを付与する。<br>Quantum Entanglement."
-		"citadel_ability_void_sphere_t3_desc"		"再出現時に<span class=\"highlight\">+{s:BonusClipSizePercent}%</span>の基本弾薬を獲得"
+		"citadel_ability_void_sphere_t3_desc"		"再出現時に<span class=\"highlight\">{s:AbilityCooldown}秒</span>のアビリティクールダウンと、基本弾薬が<span class=\"highlight\">+{s:BonusClipSizePercent}%</span>増加する。"
 		"modifier_void_sphere"					"クアンタム・エンテングルメント"
 		//"modifier_voidsphere_buff"				"Void Sphere +Fire Rate"
 		"AllyDistance_label"						"味方との距離"
@@ -1133,7 +1131,7 @@
 
 		"ability_ice_dome"				"フローズンシェルター"
 		"ability_ice_dome_quip"			"貫通不可能な癒しのドームを作成する"
-		"ability_ice_dome_desc"			"{s:hero_name}が周囲の空気を凍らせ、<span class=\"highlight\">貫通不可能なドーム</span>を自分の周りに作ります。ドーム内では、味方が急速に<span class=\"highlight\">HPを回復</span>し、敵は<span class=\"highlight\">スロウされます</span>。<br>Frozen Shelter."
+		"ability_ice_dome_desc"			"{s:hero_name}は周囲の空気を凍らせ、自身の周りに<span class=\"highlight\">突破不可能なドーム</span>を作り出す。ドーム内では、味方の回復速度が<span class=\"highlight\">上昇</span>し、敵は<span class=\"highlight\">減速</span>する。<br>リジュベネーターなどのオブジェクトはフローズンシェルターの中で無敵状態になり、凍結する。<br>Frozen Shelter."
 		"ability_ice_dome_t1_desc"		"<span class=\"highlight\">+{s:FireRateSlow}%</span> 攻撃速度低下"
 		"ability_ice_dome_t3_desc"		"<span class=\"highlight\">+{s:BonusHealthRegen}</span> HP再生し、スピリットパワーに応じてスケールします。"
 		"ability_ice_dome/modifier_ice_dome/modifier_debuff"						"フローズンシェルター"
@@ -1146,7 +1144,7 @@
 		//-----------------------------------------------------------------------------
 		"citadel_ability_uppercut"				"エクスプローディング・アッパーカット"
 		"citadel_ability_uppercut_quip"			"相手を遠くに吹き飛ばすパンチ"
-		"citadel_ability_uppercut_desc"			"近くの敵に<span class=\"highlight\">軽近接攻撃</span>ダメージを与え、<span class=\"highlight\">後方に吹き飛ばす</span>。着地点で<span class=\"highlight\">範囲ダメージ</span>を与える。味方にはダメージを与えない。<br>Exploding Uppercut."
+		"citadel_ability_uppercut_desc"			"近くのユニットに<span class=\"highlight\">軽近接ダメージ</span>を与え、<span class=\"highlight\">吹き飛ばす</span>。着地地点で<span class=\"highlight\">範囲ダメージ</span>と<span class=\"highlight\">発射速度低下</span>を発生させる。味方にはダメージを与えない。<br>Exploding Uppercut."
 		"citadel_ability_uppercut_t2_desc"		"敵ヒーローにアッパーカットを決めると、<span class=\"highlight\">素早いスピンアップ時間、2倍の範囲、および +{s:BuffBaseWeaponPct}%の武器ダメージ</span>を{s:UppercutBuffOnHit}秒間得る。"
 		"citadel_ability_uppercut_t3_desc"		"敵ヒーローにアッパーカットを決めると、<span class=\"highlight\">フックのクールダウンが0</span>になり、現在のマガジンに<span class=\"highlight\">+{s:ClipSizeBonus}%の弾丸</span>を即座に追加します。"
 		//"modifier_citadel_enemy_uppercutted"	"Uppercutted!"
@@ -1160,10 +1158,12 @@
 		"StunOnLand_postfix"					"s"
 		//"UppercutBuffOnHit_label"				"Boost Duration"
 		"UppercutBuffOnHit_postfix"				"s"
+		"ExplodeDebuffDuration_label"			"発射速度低下時間"
+		"ExplodeDebuffDuration_postfix"			"秒"
 
 		"citadel_ability_sticky_bomb"			"スティッキーボム"
 		"citadel_ability_sticky_bomb_quip"		"敵に爆弾を仕掛ける"
-		"citadel_ability_sticky_bomb_desc"		"近くのターゲットにスティッキーボムを取り付け、短い起爆時間後に<span class=\"highlight\">爆発ダメージ</span>を与える。<br>敵ヒーローに命中するごとに<span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}%のボムダメージ</span>を得ます。<br>[{s:key_alt_cast}]を押し続けると、自分にスティッキーボムを取り付けます。<br>Sticky Bomb."
+		"citadel_ability_sticky_bomb_desc"		"近くのターゲットにスティッキーボムを取り付け、短い起爆待機時間の後に<span class=\"highlight\">爆発ダメージ</span>を与える。<br>敵ヒーローに命中するごとに<span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}%の爆弾ダメージ</span>を増加させる爆弾スタックを獲得する（最大{s:BonusMaxStacks}スタック）。死亡時に{s:BonusLossPerDeath}スタックを失う。<br>[{s:key_alt_cast}]を押し続けることで、自分にスティッキーボムを使用できる。<br>Sticky Bomb."
 		"modifier_citadel_sticky_bomb_attached"	"ボムがあなたに取り付けられています"
 		"citadel_ability_sticky_bomb_t3_desc"	"取り付け時に、ターゲットを<span class=\"highlight\">{s:DebuffDuration}秒間</span> <span class=\"highlight\">無力化</span>します。"
 		"StunTargetOnExplode_label"				"持続時間"
@@ -1326,8 +1326,8 @@
 		// Hero Nano // Calico
 		//-----------------------------------------------------------------------------
 
-		"ability_perched_predator"				"止まり木の捕食者"
-		"ability_perched_predator_desc"			"前方にスピリットキャットを送り、道にいるターゲットをつかみます。ヒーローをつかむと、すぐに爆発します。<br> [{s:in_ability1}]を押して手動で爆発を作成します。"
+		"ability_perched_predator"				"Sekhmet's Spirit"
+		"ability_perched_predator_desc"			"Send a Spirit Cat forward that grab's targets in its way.  Grabbing a Hero will cause an explosion soon after. <br>Press [{s:in_ability1}] to manually create the explosion."
 		//"CatExplosionCount_label"				"Explosions"
 		//"CatMaxSpeed_label"						"Ghostcat Max Speed"
 		"CatMaxSpeed_postfix"						"m/s"
@@ -1336,11 +1336,11 @@
 
 
 		"ability_nano_pounce"						"Pounce"
-		"ability_nano_pounce_quip"				"Leap at a target"
-		"ability_nano_pounce_desc"				"<span class=\"highlight\">Leap</span> at a target to inflict <span class=\"highlight\">Light Melee damage.</span>  Targetting an enemy will cause <span class=\"highlight\">slow</span> on nearby enemies.  Targeting an ally will have reduced Cooldown and Recharge times."
+		"ability_nano_pounce_quip"				"Leap at your enemies"
+		"ability_nano_pounce_desc"				"<span class=\"highlight\">Leap</span> at a target to inflict <span class=\"highlight\">Light Melee damage</span> and <span class=\"highlight\">slow</span> on nearby enemies.  <br>You may use <span class=\"highlight\">Pounce on a second target</span> if used within <span class=\"highlight\">{s:DoublePounceTime}s</span>"
 		"ability_nano_pounce_t1_desc"			"<span class=\"highlight\">+{s:SlowDuration}s</span> Slow Duration"
-		"ability_nano_pounce_t2_desc"			"<span class=\"highlight\">+{s:FireRateSlow}%</span> Fire Rate Slow and <span class=\"highlight\">+{s:PounceDebuffRadius}m</span> Slow Radius"
-		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:AbilityCharges}</span> Ability Charge and reloads up to <span class=\"highlight\">{s:ActiveReloadPercent}%</span> of your ammo"
+		"ability_nano_pounce_t2_desc"			"Reloads up to <span class=\"highlight\">{s:ActiveReloadPercent}%</span> of your ammo and applies <span class=\"highlight\">+{s:FireRateSlow}%</span> Fire Rate Slow."
+		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:Damage}</span> Damage and <span class=\"highlight\">+{s:AbilityCharges}</span> Ability Charge."
 		"PounceDebuffRadius_label"					"Slow Radius"
 		"PounceDebuffRadius_postfix"					"m"
 
@@ -1348,10 +1348,11 @@
 		"PounceFriendlyRechargeTime_postfix"			"s"
 		"PounceFriendlyTargetCD_label"				"Ally Cooldown"
 		"PounceFriendlyTargetCD_postfix"			"s"
+		"pounce_double_notify"					"Double Pounce"
 
-		"ability_nano_proximity_ritual"			"Perched Predator"
+		"ability_nano_proximity_ritual"			"Ava"
 		"ability_nano_proximity_ritual_quip"	"Deploy your companion to attack enemies"
-		"ability_nano_proximity_ritual_desc"	"Deploy <span class=\"highlight\">Ava</span> to <span class=\"highlight\">focus</span> on a nearby enemy.  Targetted enemies have reduced healing and give health to {s:hero_name} when damaged by any ally.  Ava is only active when {s:hero_name} is nearby. <br>While nearby Press [3] to recall Ava, Ava regains health while recalled."
+		"ability_nano_proximity_ritual_desc"	"Deploy <span class=\"highlight\">Ava</span> to <span class=\"highlight\">focus</span> on a nearby enemy.  Targetted enemies have reduced healing and <span class=\"highlight\">heal Ava and {s:hero_name}</span> when damaged.  <span class=\"highlight\">Ava is only active when {s:hero_name} is nearby</span>. <br>Press <span class=\"highlight\">[3]</span> to recall Ava <br><span class=\"highlight\">[Alt-Cast]</span> to recall and warp to Ava <br>The further away from Ava the longer the recall/warp will take. Ava regains health while recalled."
 		"StatueLifetime_label"					"Auto Recall Time"
 		"StatueLifetime_postfix"				"s"
 		"StatueHeldRegen_label"						"Ava Recalled Regen"
@@ -1359,24 +1360,27 @@
 		"StatueLifesteal_postfix"				"%"
 		"StatueLifestealNonHero_label"			"Lifesteal Non-Hero"
 		"StatueLifestealNonHero_postfix"		"%"
-		"StatueActivateRange_label"				"Activate Range"
+		"StatueActivateRange_label"				"Active Range"
 		"StatueActivateRange_postfix"			"m"
 		"StatueHealth_label"					"Ava (Normalized)"
 		"StatueHealth_postfix"					"HP"
-		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueHealth}<\span> Health for Ava"
-		//"ability_nano_proximity_ritual_t2_desc"  "Victims receive <span class=\"highlight\">{s:FireRateSlow}%</span> Fire Rate Slow and <span class=\"highlight\">+{s:ActiveRadius}m</span> Active Radius"
-		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">+{s:DamageAmplification}%</span> Damage Amplification and {s:HealAmpReceivePenaltyPercent}% Heal Reduction on Victims."
+		"StatueVictimDamageReduction_label"					"Damage Reduction"
+		"StatueVictimDamageReduction_postfix"				"%"
+
+		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueLifesteal}%</span> Lifesteal"
+		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:DPS}</span> DPS and victims deal <span class=\"highlight\">{s:StatueVictimDamageReduction}%</span> less damage to {s:hero_name}."
+		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">+{s:DamageAmplification}%</span> Damage Amplification and {s:HealAmpReceivePenaltyPercent}% Heal Reduction on victims."
 		"ability_nano_proximity_ritual_trigger"		"Recall Ava"
 
 		"AvaRecallCooldown_label"				"Recall Cooldown"
 		"AvaRecallCooldown_postfix"				"s"
-		"AvaResummonCooldown_label"				"Recast Cooldown"
-		"AvaResummonCooldown_postfix"			"s"
 		"AbilityButtonHint_AvaRecall"			"Recall Ava"
+		"AbilityButtonHint_AvaWarp"			"Warp to Ava"
+		"CITADEL_ABILITY_NO_HEALTH_RESOURCE"	"Not Available"
 
-		"ability_nano_ult_shadow"				"Queen of Shadows"
-		"ability_nano_ult_shadow_desc"			"Cast yourself in shadow and go <span class=\"highlight\">Invisible</span>.  Attacks do not break invisibility but they will temporarily reveal you.  Hitting enemies with <span class=\"highlight\">Melee damage</span> will reduce their bullet resist (stacking)"
-		"modifier_nano_ult_shadow"			"Queen of Shadows"
+		"ability_nano_shadow_step"				"Shadow Step"
+		"ability_nano_shadow_step_desc"			"Bathe yourself in shadow, to strengthen your attacks and make your dashes <span class=\"highlight\">Invisible</span>.  Hitting enemies with <span class=\"highlight\">Melee damage</span> will reduce their bullet resist (stacking)"
+		"modifier_nano_shadow_step"			"Shadow Step"
 		"NanoShadowBulletArmorReductionLight_prefix"	"-"
 		"NanoShadowBulletArmorReductionLight_label"	"Bullet Resist (Light)"
 		"NanoShadowBulletArmorReductionHeavy_prefix"	"-"
@@ -1391,9 +1395,8 @@
 
 		"modifier_nano_shadow_debuff"		"-Bullet Resist"
 
-		"ability_nano_ult_shadow_t2_desc"	"On Cast, Remove all Debuffs"
-		"ability_nano_ult_shadow_t3_desc"	"Heavy Melee attacks cause <span class=\"highlight\">Silence</span> for {s:SilenceOnHeavyDuration}s"
-
+		"ability_nano_shadow_step_t2_desc"	"<span class=\"highlight\">+{s:SlowResistancePercent}%</span> Slow Resist while Active"
+		"ability_nano_shadow_step_t3_desc"	"Heavy Melee attacks cause <span class=\"highlight\">Silence</span> for {s:SilenceOnHeavyDuration}s"
 
 		//-----------------------------------------------------------------------------
 		// Grey Talon (previous names: Archer / Orion)
@@ -1450,7 +1453,7 @@
 
 		"ability_life_drain"				"ライフドレイン"
 		"ability_life_drain_quip"			"敵から徐々に体力を吸収する"
-		"ability_life_drain_desc"			"敵の体力を<span class=\"highlight\">時間をかけて吸収し</span>、<span class=\"highlight\">自分を回復する</span>テザーを作成する。ターゲットは視界内かつ最大範囲内にいる必要がある。吸収中でも射撃や他の能力を使用できるが、移動速度は半分になる。キャンセルするには[{s:in_ability2}]を押す。<br>Life Drain."
+		"ability_life_drain_desc"			"敵の体力を時間をかけて<span class=\"highlight\">吸収し</span>、<span class=\"highlight\">自分を回復</span>するテザーを作成する。吸収するためにはターゲットが視線内にあり、最大範囲内にいる必要がある。吸収中でも射撃や他のアビリティを使用できるが、移動速度が半分になる。<br><span class=\"highlight\">[Alt-Cast]で味方ヒーローに体力を与える</span>。<br><span class=\"highlight\">[{s:in_ability2}]を押して</span>キャンセルできる。<br>Life Drain."
 		"ability_life_drain/modifier_life_drain" "ライフドレイン"
 		"ability_life_drain/modifier_life_drain_caster" "ライフドレイン"
 		"modifier_life_drain_silence"		"サイレンス"
@@ -1637,12 +1640,6 @@
 		"DamageHealMultNonHero_postfix"	"x"
 		"modifier_intimidate_debuff"		"スコーン"
 
-		//"ability_pounce"				"Pounce"
-		//"ability_pounce_desc"			"{s:hero_name} leaps forward, creates an explosion on landing and damages enemies in an area."
-
-		//"ability_ooc_health_regen"			"Out of Combat Health Regen"
-		//"ability_ooc_health_regen_desc"		""
-
 		"ability_throw_sand"			"サンド・ブラスト"
 		"ability_throw_sand_quip"		"前方の敵を武器無効化する"
 		"ability_throw_sand_desc"		"前方の敵に<span class=\"highlight\">武器を無効化する</span>砂を撒き、<span class=\"highlight\">ダメージ</span>を与えます。<br>Sand Blast."
@@ -1650,19 +1647,17 @@
 
 		"ability_throw_sand_t3_desc"	"ターゲットを<span class=\"highlight\">-{s:SlowPercent}%</span>減速させます。"
 
-		//"citadel_ability_kineticcharge"			"Kinetic Charge"
-		//"citadel_ability_kineticcharge_desc"	"{s:hero_name} creates a shield which absorbs all incoming damage. After the duration expires or the shield is destroyed, explodes and returns the damage absorbed to all enemies around him."
-		//"modifier_citadel_kineticcharge"		"Absorbing Damage"
-
 		"ability_ult_combo"				"コンボ"
 		"ability_ult_combo_quip"		"敵ヒーローをその場に留めて攻撃する"
 		"ability_ult_combo_desc"		"ターゲットをその場に留め、<span class=\"highlight\">スタンさせ、ダメージを与えます</span>。コンボ中に倒されると、永久に最大体力を獲得します。<br>Combo."
+		"ability_ult_combo_t1_desc"		"コンボ中、弾丸耐性が<span class=\"highlight\">+{s:ComboBulletResist}%</span>増加"
 		"ability_ult_combo_t2_desc"		"コンボの持続時間<span class=\"highlight\">+{s:AbilityChannelTime}s</span>"
 		"ability_ult_combo_t3_desc"		"<span class=\"highlight\">+{s:DPS}</span> ダメージ毎秒と<span class=\"highlight\">{s:LifeStealPercentOnHit}%のライフスティール</span>"
 		"LifestealPercentOnHit_label"		"ライフスティール"
 		"LifestealPercentOnHit_postfix"	"%"
 		"BonusHealthOnKill_label"			"キルごとのボーナス最大体力"
-
+		"ComboBulletResist_label"		"コンボ中の弾丸耐性"
+		"ComboBulletResist_postfix"		"%"
 		//"GrabExtraTargetRange_label"		"Extra Target Range"
 		"GrabExtraTargetRange_postfix"	"m"
 
@@ -1767,7 +1762,7 @@
 		"MovementSlow_postfix"	"%"
 
 		//-----------------------------------------------------------------------------
-		// Hero: Pocket
+		// Pocket // synth
 		//-----------------------------------------------------------------------------
 		"synth_plasma_flux"			"フライングクローク"
 		"synth_plasma_flux_quip"		"ダメージを与えるクロークを発射する"
@@ -1810,7 +1805,7 @@
 		"synth_barrage"				"バラージ"
 		"synth_barrage_quip"			"空中滑空しながら複数の弾を撃つ"
 		"synth_barrage_desc"			"チャンネルして、発射点周辺に<span class=\"highlight\">ダメージを与える</span>プロジェクタイルを発射します。各ヒーローにヒットしたプロジェクタイルは、<span class=\"highlight\">すべてのダメージを増幅する</span>スタッキングバフを付与します。<br>空中で発動した場合、<span class=\"highlight\">浮く</span>ことができ、開始した水平方向の勢いを維持します。<br>Barrage."
-
+		"synth_barrage_t3_desc"			"スタックごとに<span class=\"highlight\">+{s:AmpPercentPerStack}%</span>のダメージ増幅効果と<span class=\"highlight\">{s:Radius}m</span>の範囲"
 		"DamagePerProjectile_label"	"弾あたりのダメージ"
 		"ProjectileAmount_label"		"弾の数"
 		"ProjectileInterval_label"	"弾の間隔"
@@ -1881,7 +1876,7 @@
 		"mirage_sand_phantom_quip"		"ダメージ倍率効果を与える"
 		"mirage_sand_phantom_desc"		"アクティブ: ジンマークの<span class=\"highlight\">ダメージ倍率を消費</span>して、即座にダメージを与える。"
 		"mirage_sand_phantom_passive_desc"	"パッシブ: あなたの射撃は、ターゲットに<span class=\"highlight\">増加するダメージ倍率</span>を付与する。 付与した倍率がターゲットに対して期限切れになるか、最大まで達すると、その倍率が消費され、ターゲットに<span class=\"highlight\">スピリットダメージ</span>を与え、短時間<span class=\"highlight\">マップ上で表示</span>される。 最終ダメージは基礎ダメージに倍率を掛けたものとなる。"
-		"mirage_sand_phantom_t1_desc"	"倍率を増加させるたびに、{s:SlowDuration}秒間{s:MovementSpeedSlow}%のスロウを与える"
+		"mirage_sand_phantom_t1_desc"	"2倍以上の倍率を適用するたびに、{s:SlowDuration}秒間、{s:MovementSpeedSlow}%のスロウを与える"
 		"mirage_sand_phantom_t2_desc"	"倍率持続時間+{s:VictimStackDuration}秒、基礎ダメージ+{s:ProcDamageBase}"
 		"mirage_sand_phantom_t3_desc"	"倍率効果の発動間隔に{s:SandPhantomProcCooldown}秒のクールダウン、最大倍率+{s:MirageDjinnsMarkMaxStacks}"
 		"modifier_mirage_sand_phantom_passive_victim"	"ジンマーク倍率"
@@ -2015,7 +2010,7 @@
 		"citadel_ability_tengu_airlift_t1_desc"		"<span class=\"highlight\">{s:AirDropBulletArmorReduction}%</span>がヒットした敵に適用され、<span class=\"highlight\">{s:AirDropDebuff02Duration}s</span>の間持続します。"
 		"citadel_ability_tengu_airlift_t2_desc"		"<span class=\"highlight\">+{s:AirDropBulletShield}</span>の弾薬シールドと、<span class=\"highlight\">+{s:AirDropExplodeRadius}m</span>の爆発半径を得ます。"
 		"citadel_ability_tengu_airlift_t3_desc"		"ヒットした敵に<span class=\"highlight\">沈黙</span>を適用し、<span class=\"highlight\">+{s:AirDropSilenceDuration}s</span>持続します。"
-		//"modifier_airlift_ally"						"Air Drop"
+		"modifier_airlift_ally"						"エアドロップ"
 
 		"AirDropDebuffDuration_label"		"減速持続時間"
 		"AirDropDebuffDuration_postfix"		"s"
@@ -2447,7 +2442,7 @@
 		"MediumChargeDamagePct_postfix"			"%"
 		"FullChargeDamage_label"				"フルチャージダメージ"
 		"citadel_ability_power_slash_t1_desc"	"チャージ中は<span class=\"highlight\">+{s:BulletResist}バレット抵抗</span>を獲得"
-		"citadel_ability_power_slash_t2_desc"	"ヒットした敵に<span class=\"highlight\">{s:SlowPercent}%の移動速度減少</span>を<span class=\"highlight\">{s:SlowDuration}s</span>与える"
+		"citadel_ability_power_slash_t2_desc"	"<span class=\"highlight\">{s:AbilityCooldown}秒</span>のアビリティクールダウンと、<span class=\"highlight\">{s:SlowDuration}秒間</span>、移動速度を<span class=\"highlight\">{s:SlowPercent}%</span>低下させる効果を適用する。"
 		//"StaminaToRemove_label"				"Stamina Drain"
 
 		"citadel_ability_flying_strike"			"フライングストライク"
@@ -2460,7 +2455,7 @@
 
 		"citadel_ability_infinity_slash"		"シャドウ・トランスフォーメーション"
 		"citadel_ability_infinity_slash_quip"	"無敵かつより強力になる"
-		"citadel_ability_infinity_slash_desc"	"ヤマトの影の魂を宿します。最初に<span class=\"highlight\">無敵の</span>変身を行い、その後<span class=\"highlight\">アビリティがリフレッシュされ、60%速くなる</span>。さらに、<span class=\"highlight\">ダメージ耐性</span>と<span class=\"highlight\">状態異常無効</span>を得る。このモード中は死亡できない。<br>Shadow Transformation."
+		"citadel_ability_infinity_slash_desc"	"ヤマトの影の魂に取り憑かれる。最初に<span class=\"highlight\">無敵の</span>変身を行い、その後<span class=\"highlight\">アビリティがリフレッシュされ、60%速くなる</span>。さらに、<span class=\"highlight\">ネガティブな状態異常は無効化</span>する。このモード中は死亡しない。<br>Shadow Transformation."
 		//"citadel_ability_infinity_slash_buff_header" "Per Hero Hit"	
 		"ShadowDuration_label"					"爆発遅延"
 		"ShadowDuration_postfix"				"s"
@@ -2934,7 +2929,7 @@
 		"hero_yamato_lore"				"犯罪組織のボスの家に生まれた花桜梨とその兄の\n大和にとって、父の死後に「セブンスムーン」の跡目を\n継ぐのは自明のことでもあった。 そして何年もの間、\nかれらは対等の立場で組織を率いて利益と成功を\nもたらし、やがてはアメリカへの進出をも目論むように\nなった。\n\n思い描いていた計画は単純で、 大和がアメリカに渡って\n花桜梨の国際的な存在感を高め、その間花桜梨は日本に\n残って国内を統制する、といったものだった。 兄妹に\nとって不運だったのは、花桜梨が日本で指揮をとると\nいう計画を快く思わない部下たちがいたことだった。\n\nそして迅速かつ暴力的な形で、反乱は発生した。\n大和は花桜梨を守るために命を落とし、花桜梨と数人の\n忠実な部下たちは、その大和の犠牲のおかげもあって、\n日本からアメリカへと逃げ延びることに成功した。\n\nアメリカに着いた花桜梨たちを出迎えたのは、\n本来であれば大和が会う予定となっていた男であった。\n彼は日本人の名前になじみがなかったため性別の\n区別がついておらず、花桜梨のことを「ヤマト」と\n呼んだ。花桜梨は男の間違いを正そうと思ったが、\n結局そのままにした。兄の記憶を残し続けるためにも、\nその名を名乗り、その夢を受け継ぐことが最善の\n道であろうと考えたからだ。"   
 		"hero_tengu_lore"				"ガーゴイルは、自身が生き返ったときに何が起こっているのか分からなかった...ただ、大きな人間と小さな人間が傷つけられていることを知っていました。そこでガーゴイルは行動に出て、攻撃者を恐怖に駆り立てました。小さな人間は感謝の言葉を述べ、ガーゴイルの名前を尋ねました。ガーゴイルには名前がありませんでした。そこで小さな人間は、「アイビーと呼ぶことにする」と言いました。ガーゴイルはその時アイビーで覆われていたため、それが少し明白すぎると思いましたが、小さな人間のためにそれに従うことにしました。\n\n人間たちはアイビーに自分たちの感謝を示すために家に来てくれるように頼み、アイビーは彼らと共に歩きました。その夜、彼女は多くのことを学びました。その家族はアローヨと呼ばれていました。小さな子供の名前はソフィア。モフォンゴとは、彼らが「美味しさの皿」と呼んでいたものでした。しかし最も重要なのは、彼女が攻撃していた者たちの名前が「メンドーザシンジケート」であり、彼らが人々を傷つけていることを知ったことです…アローヨのような素敵な人々を。\n\nアローヨがアイビーを家に連れ帰った日から18年が経過しました...その間、彼女はメンドーザシンジケートを解体し、スペイン・ハーレムからその支配を解放することを使命としてきました。しかし、ほぼ20年間、一つの追求に人生を捧げることの難しさは、達成した後に何をすべきか分からなくなることです。彼女は人生で初めて、スペイン・ハーレムの外に出て、義賊の正義を超えて世界が何を提供するかを見る準備ができています。"
 		"hero_synth_lore"				"アリン・フェアファックスは、フェアファックス・インダストリーズの長男として、18歳の誕生日に銃撃を受けて死んだふりをさせられてから5年間、隠れて生活しています。アリンは、誰が彼らを親の会社の支配から阻止しようとしているのか分かりません…しかし、貪欲に満ちたフェアファックス・インダストリーズの巣窟では、それが誰であっても不思議ではありません。\n\n「ポケット」という名前を名乗っているアリンは、自分の本当のアイデンティティを秘密に保ちたいと必死です…それは自分の保護のためだけではなく、親とは別の自分自身のアイデンティティを築きたいからです。"
-		"hero_mirage_lore"				"ジンは現代の世界で最も好奇心をそそるグループの一つです。制御された量で大きな力を持つジンは、器に休むことなく肉体の形を48分以上維持することができません。その結果、ほとんどのジンは移動、保護、そして仲間のために人間のボディガードを雇います。\n\nミラージュはそのようなボディガードの一人です。ジン大使ナシャラ・ディオンに雇われたミラージュは、外交任務でニューヨークにいます。ジンたちは、彼らのために主権国家を築くためにワイオミングの一部を売却するために、米国政府と交渉できることを望んでいます。"
+		"hero_mirage_lore"				"ジンは現代世界における非常に興味深い存在の一つです。ジンは強力な力を持っているものの、その力は制御された状態でしか発揮されず、48分以上実体を維持することができません。そのため、ジンは通常、移動、護衛、そして仲間として人間のボディガードを雇っています。\n\nミラージュはそのようなボディガードの一人です。ジンの大使ナシャラ・ディオンに雇われたミラージュは、外交任務のためニューヨークに滞在しています。ジンたちは、ワイオミング州の一部を購入し、彼らのための主権国家を建設できるよう、米国政府との交渉を目指しています。"
 
 
 
