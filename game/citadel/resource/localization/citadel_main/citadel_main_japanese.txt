@@ -1737,7 +1737,7 @@
 		"extra_stamina_pickup/extra_stamina"			"追加スタミナ"
 		"clip_size_pickup/clip_size"					"大容量クリップ3つ"
 
-		"small_gold_pickup_label:p"						"ソウル#|#ソウル"
+		"small_gold_pickup_label:p"					    "ソウル#|#ソウル"
 		"cooldown_reduction_pickup_label"				"クールダウン短縮"
 		"move_speed_pickup_label"						"移動速度増加"
 		"health_regen_pickup_label"						"ヒーリング"
