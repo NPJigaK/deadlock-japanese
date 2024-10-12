@@ -1163,7 +1163,7 @@
 
 		"citadel_ability_sticky_bomb"			"スティッキーボム"
 		"citadel_ability_sticky_bomb_quip"		"敵に爆弾を仕掛ける"
-		"citadel_ability_sticky_bomb_desc"		"近くのターゲットにスティッキーボムを取り付け、短い起爆待機時間の後に<span class=\"highlight\">爆発ダメージ</span>を与える。<br>敵ヒーローに命中するごとに<span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}%の爆弾ダメージ</span>を増加させる爆弾スタックを獲得する（最大{s:BonusMaxStacks}スタック）。死亡時に{s:BonusLossPerDeath}スタックを失う。<br>[{s:key_alt_cast}]を押し続けることで、自分にスティッキーボムを使用できる。<br>Sticky Bomb."
+		"citadel_ability_sticky_bomb_desc"		"近くのターゲットにスティッキーボムを取り付け、短い起爆時間の後に<span class=\"highlight\">爆発ダメージ</span>を与える。<br>敵ヒーローに命中するごとに<span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}%の爆弾ダメージ</span>を増加させる爆弾スタックを獲得する。死亡時に{s:BonusLossPerDeath}スタックを失う。<br>[{s:key_alt_cast}]を押し続けることで、自分にスティッキーボムを使用できる。<br>Sticky Bomb."
 		"modifier_citadel_sticky_bomb_attached"	"ボムがあなたに取り付けられています"
 		"citadel_ability_sticky_bomb_t3_desc"	"取り付け時に、ターゲットを<span class=\"highlight\">{s:DebuffDuration}秒間</span> <span class=\"highlight\">無力化</span>します。"
 		"StunTargetOnExplode_label"				"持続時間"

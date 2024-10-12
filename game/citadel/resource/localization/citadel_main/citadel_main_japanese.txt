@@ -1024,15 +1024,6 @@
 		"Citadel_Playtest_JoinedDiscord"							"Discord に参加しました"
 		"Citadel_Playtest_GoToForum"								"フォーラムへ移動"
 
-		"Citadel_RankedSchedule_1"									"米国西部"
-		"Citadel_RankedSchedule_2"									"米国東部"
-		"Citadel_RankedSchedule_10"									"欧州西部"
-		"Citadel_RankedSchedule_11"									"欧州東部"
-		"Citadel_RankedSchedule_13"									"ロシア中央"
-		"Citadel_RankedSchedule_20"									"中国"
-		"Citadel_RankedSchedule_21"									"日本/韓国"
-		"Citadel_RankedSchedule_22"									"東オーストラリア"
-
 		"Citadel_StartMatchmaking_ErrorTitle" "エラー"
 		"Citadel_StartMatchmaking_AlreadyFindingMatch" "マッチメイキングに入ることができません。すでにマッチを探しています。"
 		"Citadel_StartMatchmaking_PartyMemberInLobby" "マッチメイキングに入ることができません。すでにゲーム内にいます。まずそのゲームを離れてください。"
@@ -2330,7 +2321,7 @@
 		"hud_spectate_minimap_view_target_team"		"ターゲット"
 		"hud_spectate_minimap_view"				"ミニマップ表示"
 
-		"kill_hype_KillStreak:p{kills}"	"{i:kills} 連続#|#{i:kills} 連続キル"
+		"kill_hype_KillStreak:p{kills}"	"{i:kills} 連続キル#|#{i:kills} 連続キル"
 		"kill_hype_FirstBlood"	"ファーストブラッド"
 
 		"team_msg_Idol_Desc"	"ソウルアーン"
@@ -2471,6 +2462,7 @@
 		"Citadel_SetSchedule_AlreadySet"			"スケジュールはすでに設定されているため、変更できません。"
 		"Citadel_SetSchedule_Success"				"成功"
 		"Citadel_SetSchedule_LocalTimes"			"スケジュールは現地時間で表示されています"
+		"Citadel_SetSchedule_RegionWithIndex"		"{s:region_name} {d:region_index}"
 		"Citadel_SetSchedule_Selected"				"選択済み"
 		"Citadel_SetSchedule_SetSuccessfully"		"スケジュールが正常に設定されました"
 		"Citadel_ranked_scheduleModal_title"		"ランクマッチのスケジュール"
@@ -2780,7 +2772,9 @@
 		"AbilityButtonHint_AltCastRestorativeGoo"	"自身にキューブを使用"
 		"AbilityButtonHint_AltCastStickyBomb"	"自分に爆弾を使用"
 		"AbilityButtonHint_CastIceDome"				"凍結シェルターをキャスト"
-
+		"AbilityButtonHint_CastLifeDrain"			"敵から吸収"
+		"AbilityButtonHint_AlotCastLifeDrain"				"味方を回復"
+	
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match
 		//-----------------------------------------------------------------------------
