@@ -464,6 +464,18 @@
 		"Citadel_Play_MatchmakingOfflineTitle" "マッチメイキングが閉鎖されています"
 		"Citadel_Play_MatchmakingOfflineText" "現在、マッチメイキングは閉鎖されています。予定されたプレイテストの時間に戻ってきてください"
 
+		"Citadel_Play_RankedMatchmakingOfflineTitle"		"ランクマッチメイキングは閉鎖中"
+		"Citadel_Play_RankedMatchmakingOfflineText"			"現在、ランクマッチメイキングは閉鎖されています。選択したスケジュールのプレイテスト時間中に再度お越しください。"
+
+		"Citadel_Play_RankedNoSchedule"						"スケジュールが選択されていません"
+		"Citadel_Play_RankedNoScheduleDesc"					"ランクマッチをプレイする前にスケジュールを選択する必要があります。"
+
+		"Citadel_RankedGames_Played"						"{i:ranked_games_played} / {i:ranked_games_required} 試合プレイ済み"
+		"Citadel_RankedGame_Played_desc"					"ランク付けのために必要な試合数"
+		"Citadel_RankedGames_PlayedQualified"				"追加試合に基づいてランクが計算されます"
+		"Citadel_RankedGames_Qualified1"						"追加でプレイした試合が最終的なランクに影響します"
+		"Citadel_RankedGames_Qualified2"						"最終的なランクは {t:s:end_day} に決定します"
+
 		"Citadel_Play_BotsOfflineTitle" "ボットが一時的にオフラインです"
 		"Citadel_Play_BotsOfflineText" "ボットが一時的に無効になっています。後で再度確認してください。"
 
@@ -679,6 +691,7 @@
 		"Citadel_Party_InviteSent"									"招待を送信しました"
 
 		"Citadel_RosterMode_Party_Matchmaking" "デッドロックをプレイ"
+		"Citadel_RosterMode_Party_RankedMatchmaking"				"ランクマッチをプレイ"
 		"Citadel_RosterMode_Party_CoopBotMM" "ボットと対戦する"
 		"Citadel_RosterMode_Party_PrivateBotEasy" "パーティープライベートボットマッチ - イージー"
 		"Citadel_RosterMode_Party_PrivateBotMedium" "パーティープライベートボットマッチ - ミディアム"
@@ -689,6 +702,7 @@
 		"Citael_PrivateLobbyModal_JoinCode"							"コードで既存のマッチに参加"
 
 		"Citadel_RosterMode_Matchmaking" "デッドロックをプレイ"
+		"Citadel_RosterMode_RankedMatchmaking"						"ランクマッチをプレイ"
 		"Citadel_RosterMode_CoopBotMM" "ボットと対戦する"
 		"Citadel_RosterMode_PrivateBotEasy" "プライベートボット - イージー"
 		"Citadel_RosterMode_PrivateBotMedium" "プライベートボット - ミディアム"
@@ -1053,6 +1067,7 @@
 		"Citadel_StartMatchmaking_RankedNotUnlocked"				"ランクマッチメイキングはまだアンロックされていません"
 		"Citadel_StartMatchmaking_NoRankedWhileInLowPri"			"低優先度の状態ではランクマッチメイキングは許可されていません"
 		"Citadel_StartMatchmaking_NoRankedWhileCommsBanned"			"コミュニケーションの禁止中はランクマッチメイキングが許可されていません"
+		"Citadel_StartMatchmaking_NoRankedWhileReportBanned"		"通報による禁止期間中はランクマッチメイキングができません"
 		"Citadel_StartMatchmaking_TooManyPlayersOnTeam" "同じチームにプレイヤーが多すぎます"
 		"Citadel_StartMatchmaking_UnableToFillTeam" "現在のプレイヤーチームに基づいて有効なチームを作成できません"
 		"Citadel_StartMatchmaking_InvalidTeam" "このゲームモードに対してユーザーのチームが無効です"
@@ -1626,7 +1641,8 @@
 		"modifier_neutral_gold_pickup_aura/aura_target/timer"	"未保護のソウルを拾う"
 		"modifier_rejuv_pickup_aura/aura_target/timer"			"チームリジュベネーターを拾う"
 		"modifier_early_gold_pickup_aura/aura_target/timer"		"チームソウルを確保"
-		"modifier_citadel_holding_golden_idol"  				"敵に見つかっています！壺を祭壇に持っていけ！"
+		"modifier_citadel_holding_golden_idol"  				"壺を祭壇に持っていけ！"
+		"modifier_citadel_holding_golden_idol_revealed"			"敵に見つかっています！壺を祭壇に持っていけ！"
 		"modifier_citadel_returning_golden_idol"  				"壺を預ける"
 		"modifier_knocked_off_zipline_slow"						"ハイパーラインから落とされた"
 		"modifier_citadel_respawn_credit" 						"リジュベネーションクレジット"
@@ -2343,7 +2359,7 @@
 
 
 		"Citadel_FlexSlot_Title"						"フレックススロットがアンロックされました"
-		"Citadel_FlexSlotUnlockedAllTier1"				"全ての<span class=\"FlexSlotObjectiveName\">敵のガーディアン</span>を倒してフレックススロットをアンロックしました"
+		"Citadel_FlexSlotUnlockedAllTier1"				"3体の<span class=\"FlexSlotObjectiveName\">敵のガーディアン</span>を倒してフレックススロットをアンロックしました"
 		"Citadel_FlexSlotUnlockedGenerator"				"最初の<span class=\"FlexSlotObjectiveName\">聖堂</span>を倒してフレックススロットをアンロックしました"
 		"Citadel_FlexSlotUnlockedAllTier2"				"全ての<span class=\"FlexSlotObjectiveName\">敵のウォーカー</span>を倒してフレックススロットをアンロックしました"
 		"Citadel_FlexSlotUnlockedKill2Tier2"			"2体の<span class=\"FlexSlotObjectiveName\">敵のウォーカー</span>を倒してフレックススロットをアンロックしました"
@@ -2456,7 +2472,7 @@
 		"menu_ranked_select_schedule"				"スケジュールを選択"
 		"menu_ranked_view_schedules"				"全スケジュールを表示"
 		"menu_ranked_set_schedule"					"スケジュールを設定"
-		"menu_ranked_explainer_button"				"ランクとは？"
+		"menu_ranked_week_dates"					"{t:s:start_day} - {t:s:end_day}"
 		"Citadel_SetSchedule_Failed"				"スケジュール設定エラー"
 		"Citadel_SetSchedule_FailedToSetSchedule"	"スケジュールの設定に失敗しました。後でもう一度お試しください。"
 		"Citadel_SetSchedule_AlreadySet"			"スケジュールはすでに設定されているため、変更できません。"
@@ -2467,13 +2483,43 @@
 		"Citadel_SetSchedule_SetSuccessfully"		"スケジュールが正常に設定されました"
 		"Citadel_ranked_scheduleModal_title"		"ランクマッチのスケジュール"
 		"Citadel_ranked_scheduleModal_desc"			"プレイ時間に最も適したランクマッチの時間枠を選択してください。<br><br>選択した時間枠に関わらず、常に最も近いサーバーでプレイされます。"
-		"Citadel_ranked_scheduleModal_warning"		"注意: このランクセッションのスケジュールを選択した後、次のセッションまで変更することはできません。"
+		"Citadel_ranked_scheduleModal_warning"		"注意: 一度スケジュールを選択すると、別のスケジュールに変更するまでに7日間待つ必要があります。"
 		"Citadel_ranked_open"						"現在オープン"
-		"Citadel_ranked_closed"						"クローズ中"
+		"Citadel_ranked_closed"						"ランクマッチは閉鎖中"
 		"Citadel_ranked_comingsoon"					"最初のランクマッチはGMT10月15日火曜日、午後8時に開始されます。"
 		"Citadel_ranked_schedule_explainer"			"ランクマッチは特定の時間帯にのみ利用可能です。プレイする前に、自分のスケジュールに最も適した時間設定を選択する必要があります。"
+		
+		"Citadel_ranked_explainer_button"			"ランクとは？"
+		"Citadel_ranked_explainer_title"			"ランクマッチメイキング"
+		"Citadel_ranked_explainer_desc"				"ランクモードは、より競技性の高いデッドロック体験を提供し、同じスキルレベルのプレイヤーとマッチメイキングされ、世界中のプレイヤーの中であなたのスキルランクを決定します。<br><br>毎週、プレイヤーは自分の地域の選択した時間帯にランクマッチをプレイすることで、自分のスキルランクを示すことができます。"
+		"Citadel_ranked_howitworks_title"			"仕組みはどうなっているの？"
+		"Citadel_ranked_howitworks_desc"			"全てのプレイヤーは初めに暫定ランクの「Obscurus」から始まり、毎週7試合のランクマッチを完了することで、その週のランク付けに参加する資格を得ます。その週の終わりに、あなたのランクが決定され、プロフィールにバッジとして表示されます。<br><br>もし1週間で7試合のランクマッチをプレイしていない場合、表示されるランクは Obscurus に戻り、次の週以降で資格を得るまで隠されます。ただし、スキルの評価データは引き継がれ、次回以降のランクマッチで使用されます。<br><br>ランクは全部で11種類あり、それぞれのランク内でさらにIからVIまでのサブランクが割り当てられ、ランク内での位置をさらに区別します。"
+		"Citadel_ranked_rankedmedals"				"ランク："
 
-		"Citadel_ranks_rank0"						"未経験者"
+		"Citadel_ranked_explainer_note"				"バッジのデザインは、最初のランクが10月22日火曜日(GMT)に付与された時に公開されます。"
+
+
+		"Citadel_ranks_rank0"						"Obscurus"
+		"Citadel_ranks_rank1"						"Initiate"
+		"Citadel_ranks_rank2"						"Seeker"
+		"Citadel_ranks_rank3"						"Alchemist"
+		"Citadel_ranks_rank4"						"Arcanist"
+		"Citadel_ranks_rank5"						"Ritualist"
+		"Citadel_ranks_rank6"						"Emissary"
+		"Citadel_ranks_rank7"						"Oracle"
+		"Citadel_ranks_rank8"						"Archon"
+		"Citadel_ranks_rank9"						"Phantom"
+		"Citadel_ranks_rank10"						"Ascendant"
+		"Citadel_ranks_rank11"						"Eternus"
+
+		"Citadel_subranks_1"						"I"
+		"Citadel_subranks_2"						"II"
+		"Citadel_subranks_3"						"III"
+		"Citadel_subranks_4"						"IV"
+		"Citadel_subranks_5"						"V"
+		"Citadel_subranks_6"						"VI"
+
+		"Citadel_rank_phase_example"				"2024年10月15日 - 21日(GMT)"
 
 
 		"item_info_abilities"						"アビリティ"
@@ -2498,11 +2544,11 @@
 
 		"SafeToAbandon_Text"						"この試合はペナルティなしで放棄できます。"
 
-		"ModIconTooltip_UnlockTier2"				"チームが敵のウォーカーを破壊した後に解除されます"
-		"ModIconTooltip_UnlockGuardians"			"チームが敵のベースガーディアンを破壊した後に解除されます"	
+		"ModIconTooltip_UnlockTier2"				"チームが敵のウォーカーを2体破壊した後に解除されます"
+		"ModIconTooltip_UnlockGuardians"			"チームが敵の基地ガーディアンを破壊した後に解除されます"	
 		"ModIconTooltip_UnlockGenerators"			"チームが敵の聖堂を破壊した後に解除されます"	
 		//"ModIconTooltip_UnlockTier3"				"Unlocked after your team destroys the enemy Patron's first form"
-		"ModIconTooltip_UnlockAllTier1"				"チームがすべての敵ガーディアンを倒した後に解除されます"
+		"ModIconTooltip_UnlockAllTier1"				"チームが敵ガーディアンを3体倒した後に解除されます"
 		"ModIconTooltip_UnlockAllTier2"				"チームがすべての敵ウォーカーを破壊した後に解除されます"
 
 		"HeroesPageTitle"							"ヒーロー"
