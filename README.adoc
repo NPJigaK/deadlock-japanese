@@ -18,8 +18,8 @@ Valveの新作ゲーム `Deadlock` を日本語化する設定ファイルです
 * https://github.com/NPJigaK/deadlock-japanese/issues[Githubで直接提案する（Githubアカウントをお持ちの方）]
 ======
 
-その他の質問などは link:https://x.com/steinsgg[X(Twitter)] にて受け付けております。<<section-qanda,Q&A>> を一度ご確認いただいた上で、解決しない問題がありましたらお気軽にご相談ください。 +
-ご利用いただき、良いと感じていただけましたら、ツイートをリツイートしてご紹介いただけると大変励みになります！
+その他の質問などは link:https://x.com/steinsgg[X(Twitter)] にて受け付けております。<<section-qanda,Q&A>> を一度ご確認いただいた上で、解決しない問題がありましたらお気軽にご相談ください！ +
+ご利用いただき良いと感じていただけましたら、リツイートなどでご紹介いただけると大変励みになります！
 
 ## 対応バージョン
 [source,Deadlock バージョン]
@@ -123,7 +123,7 @@ UTF-8対応の解凍ソフトを使って下さい。日本語なのでUTF-8で�
 
 [qanda]
 === 設定を開く度に再起動ダイアログが表示される
-Deadlockの仕様です。こちらで抑制することは出来ませんでした。
+Deadlockの仕様です。こちらで抑制することは出来ません。どうにか出来ないか調査はしています。
 
 [[section-tips]]
 == Tips
@@ -135,8 +135,9 @@ XQQさんがまとめているDeadlockの情報ページです。日本語で解
 https://forums.playdeadlock.com/forums/changelog.10/::
 Deadlock公式のパッチノートを確認できます。
 
-https://undeadlock.com/ja-JP::
-Deadlockのナーフ/バフや変更を視覚的に分かりやすく表示しているサイトです。
+https://undeadlock.com/::
+Deadlockのナーフ/バフや変更を視覚的に分かりやすく表示しているサイトです。 +
+機械翻訳ですが一応 https://undeadlock.com/ja-JP[日本語表示にも対応] している。
 
 https://tracklock.gg/::
 https://deadlocktracker.gg/::
