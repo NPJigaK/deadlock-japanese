@@ -135,7 +135,7 @@ XQQさんがまとめているDeadlockの情報ページです。日本語で解
 https://forums.playdeadlock.com/forums/changelog.10/::
 Deadlock公式のパッチノートを確認できます。
 
-https://undeadlock.com/::
+https://undeadlock.com/en-US::
 Deadlockのナーフ/バフや変更を視覚的に分かりやすく表示しているサイトです。 +
 機械翻訳ですが一応 https://undeadlock.com/ja-JP[日本語表示にも対応] している。
 
