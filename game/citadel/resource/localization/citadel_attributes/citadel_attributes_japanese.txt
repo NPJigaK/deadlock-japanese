@@ -387,7 +387,7 @@
 		"BonusMeleeDamage_prefix"						"{s:sign}"
 		"BonusMeleeDamage_label"						"近接ダメージ"
 
-		"FuseTime_label"								"信管時間"
+		"FuseTime_label"								"起爆時間"
 		"FuseTime_postfix"								"秒"
 
 		"BonusAmmoRegen_prefix"							"{s:sign}"

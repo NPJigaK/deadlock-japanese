@@ -240,6 +240,12 @@
 		"Citadel_ReportPlayer_Reason_Comments"				"コメント:"
 		"Citadel_ReportPlayer_CommentPlaceholder"			"このプレイヤーとの問題を説明してください"
 
+		"Citadel_CommendPlayer_PopupTitle"					"プレイヤーを称賛"
+		"Citadel_CommendPlayer_PopupDesc"					"誰かのプレイを称賛し、今後の試合でも一緒にプレイしたいことをマッチメイキングに伝えましょう。"
+		"Citadel_CommendPlayer_Friendly"					"フレンドリーで楽しい"
+		"Citadel_CommendPlayer_Teamwork"					"チームワークが優れている"
+		"Citadel_CommendPlayer_Skilled"						"スキルが高い"
+
 		"Citadel_SkipTutorial_Title"						"チュートリアルをスキップ"
 		"Citadel_SkipTutorial_Body"							"チュートリアルをスキップしてもよろしいですか？本当にスキップするのは、すでにプレイ経験がある場合に限られるべきです。"
 
@@ -280,6 +286,7 @@
 		"Citadel_MatchDetails_ServerError" "サーバーエラー"
 
 		"Citadel_Hud_Paused" "ゲームが一時停止中"
+		"Citadel_Hud_Pauser"										" by {s:pauser}"
 		"Citadel_Hud_Unpausing" "ゲームの一時停止を解除中"
 		"Citadel_Notification_Paused_Title" "一時停止中"
 		"Citadel_Notification_Paused_Message" "ゲームが一時停止されました"
@@ -320,6 +327,10 @@
 
 		"Citadel_InvalidCast_NoFullClips" "リロードするフルクリップがありません"
 
+		"Citadel_MatchInfo_Mode_Ranked"								"ランク"
+		"Citadel_MatchInfo_Mode_Standard"							"スタンダード"
+		"Citadel_MatchInfo_Mode_CoopBot"							"Coop"
+		"Citadel_MatchInfo_Mode_Private"							"プライベート"
 
 		"Citadel_Reconnect_IncompatibleVersionTitle" "互換性のないバージョン"
 		"Citadel_Reconnect_IncompatibleVersionBody" "クライアントがこのサーバーに接続するための有効なバージョンではなくなりました"
@@ -1010,6 +1021,9 @@
 		"Citadel_Party_Report"										"報告する"
 		"Citadel_Party_Reported"									"報告済み"
 
+		"Citadel_Party_Commend"										"称賛"
+		"Citadel_Party_Commended"									"称賛済み"
+
 		"Citadel_PlayerList_Teammates"								"チームメイト"
 		"Citadel_PlayerList_Enemy"									"敵チーム"
 
@@ -1302,6 +1316,8 @@
 		"Citadel_Profile_Stats_Denies"							"ディナイ"
 		"Citadel_Profile_Stats_Healing"							"回復"
 		"Citadel_Profile_Stats_Networth"						"集めたソウル"
+		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
+		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth}k"
 
 		"Citadel_MatchPage_Prev"								"Prev"
 		"Citadel_MatchPage_Next"								"Next"
@@ -1319,8 +1335,9 @@
 
 		"Citadel_MatchDetails_ViewGraphs"						"グラフを見る"
 		"Citadel_MatchDetails_Report"							"R"
-		"Citadel_MatchDetails_ReportTooltip"					"プレイヤーを報告するにはクリック"
+		"Citadel_MatchDetails_ReportTooltip"					"クリックしてプレイヤーを報告"
 		"Citadel_MatchDetails_Reported"							"プレイヤーが報告されました！"
+		"Citadel_MatchDetails_CommendTooltip"					"クリックしてプレイヤーを称賛"
 		"Citadel_MatchDetails_Team1NetWorth"					"{i:team1_networth}k"
 		"Citadel_MatchDetails_Team2NetWorth"					"{i:team2_networth}k"
 		"Citadel_MatchDetails_Team1Name"						"{i:team2_networth}k"
@@ -2417,6 +2434,10 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"パーティーやマッチメイキング中ではないときにDiscordリンクを後で請求してください"
 		"Citadel_Dashboard_Recommended"				"おすすめ"
 
+		"Citadel_Commend_Toast_Friendly"			"{s:commender} ({s:commender_hero}) があなたをフレンドリーで楽しいプレイヤーとして称賛しました。"
+		"Citadel_Commend_Toast_Teamwork"			"{s:commender} ({s:commender_hero}) があなたをチームワークが優れているプレイヤーとして称賛しました。"
+		"Citadel_Commend_Toast_Skilled"				"{s:commender} ({s:commender_hero}) があなたをスキルが高いプレイヤーとして称賛しました。"
+
 		"menu_exit_db_page"							"戻る"
 		"menu_settings"								"設定"
 		"menu_profile"								"プロフィール"
@@ -2465,8 +2486,8 @@
 		"menu_ranked_schedule_title"				"利用可能な時間帯:"
 		"menu_ranked_unavailable"					"ロック中"
 		"menu_ranked_unavailable_desc"				"ランクマッチに参加するには、スタンダードゲームを50回プレイする必要があります。"
-		"menu_ranked_schedule_weekdays"				"月 - 木:"
-		"menu_ranked_schedule_weekends"				"金 - 日:"
+		"menu_ranked_schedule_weekdays"				"月 - 金:"
+		"menu_ranked_schedule_weekends"				"土 - 日:"
 		"menu_ranked_schedule_alldays"				"毎日スケジュール:"
 		"menu_ranked_schedule_timeplaceholder"		"{t:t:start_time} - {t:t:end_time}"
 		"menu_ranked_select_schedule"				"スケジュールを選択"
@@ -2498,6 +2519,12 @@
 
 		"Citadel_ranked_explainer_note"				"バッジのデザインは、最初のランクが10月22日火曜日(GMT)に付与された時に公開されます。"
 
+		"Citadel_ranked_result_title"				"ランクレポート"
+		"Citadel_ranked_result_rankup"				"ランクアップ！"
+		"Citadel_ranked_result_adjustment"			"ランク調整"
+		"Citadel_ranked_numGamesPlayed"				"{s:games_played} 試合プレイ済み"
+		"Citadel_ranked_match_history"				"試合履歴："
+		"Citadel_ClickToViewReport"					"クリックしてランクレポートの概要を表示"
 
 		"Citadel_ranks_rank0"						"Obscurus"
 		"Citadel_ranks_rank1"						"Initiate"
@@ -2506,8 +2533,8 @@
 		"Citadel_ranks_rank4"						"Arcanist"
 		"Citadel_ranks_rank5"						"Ritualist"
 		"Citadel_ranks_rank6"						"Emissary"
-		"Citadel_ranks_rank7"						"Oracle"
-		"Citadel_ranks_rank8"						"Archon"
+		"Citadel_ranks_rank7"						"Archon"
+		"Citadel_ranks_rank8"						"Oracle"
 		"Citadel_ranks_rank9"						"Phantom"
 		"Citadel_ranks_rank10"						"Ascendant"
 		"Citadel_ranks_rank11"						"Eternus"
@@ -2519,7 +2546,7 @@
 		"Citadel_subranks_5"						"V"
 		"Citadel_subranks_6"						"VI"
 
-		"Citadel_rank_phase_example"				"2024年10月15日 - 21日(GMT)"
+		"Citadel_rank_phase_example"				"{t:s:popup_start_day} - {t:s:popup_end_day}"
 
 
 		"item_info_abilities"						"アビリティ"
