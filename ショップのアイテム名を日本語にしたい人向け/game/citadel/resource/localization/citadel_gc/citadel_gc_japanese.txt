@@ -182,17 +182,18 @@
 		"Steam_Citadel_RP_FindingMatch"							"マッチを探しています"
 
 		// These Match Mode ("MM_") tokens are for the %param0% below.
-		"Steam_Citadel_RP_MM_Unranked"							"マッチ"
-		"Steam_Citadel_RP_MM_Ranked"							"マッチ"
-		"Steam_Citadel_RP_MM_PrivateLobby"						"プライベートマッチ"
-		"Steam_Citadel_RP_MM_SoloBot"							"ボット"
-		"Steam_Citadel_RP_MM_Tutorial"							"チュートリアル"
-		"Steam_Citadel_RP_MM_Sandbox"							"サンドボックス"
-
+		"Steam_Citadel_RP_MM_Unranked"							"デッドロック:"
+		"Steam_Citadel_RP_MM_Ranked"							"ランクマッチ:"
+		"Steam_Citadel_RP_MM_HeroLabs"							"ヒーローラボ:"
+		"Steam_Citadel_RP_MM_PrivateLobby"						"ロビー:"
+		"Steam_Citadel_RP_MM_CoopBot"							"ボット:"
+		"Steam_Citadel_RP_MM_Tutorial"							"チュートリアル:"
+		"Steam_Citadel_RP_MM_Sandbox"							"サンドボックス:"
+		
 		"Steam_Citadel_InGame_Sandbox"		"サンドボックスモードで {%param2%} をテスト中"
-		"Steam_Citadel_InGame_Hero"			"{%param1%} で {%param2%} としてプレイ中 %param0% 分経過"
-		"Steam_Citadel_InGame"				"{%param1%} でプレイ中 %param0% 分経過"
-		"Steam_Citadel_Spectating"			"{%param1%} を観戦中 %param0% 分経過"
+		"Steam_Citadel_InGame_Hero"			"{%param1%} {%param2%} (%param0% 分)"
+		"Steam_Citadel_InGame"				"{%param1%}  (%param0% 分)"
+		"Steam_Citadel_Spectating"			"試合を観戦中"
 		"Steam_Citadel_RP_Online"			"オンライン"
 		
 		"Steam_RP_hero_vampire"			"Vampire"
@@ -324,7 +325,10 @@
 		"hero_targetdummy"		"TargetDummy"
 		"hero_bomber"			"Bomber"
 		"hero_shieldguy"		"Shield Guy"
-		
+		"hero_viper"			"Viper"
+		"hero_vandal"			"Vandal"
+		"hero_magician"			"Magician"
+
 		//-----------------------------------------------------------------------------
 		// Upgrades: Weapon
 		//-----------------------------------------------------------------------------
@@ -370,7 +374,7 @@
 		"upgrade_close_range"					"クローズクオーター"
 		"upgrade_long_range"					"ロングレンジ"
 		"upgrade_crackshot"						"ミスティックショット"
-		"upgrade_medic_bullets"					"治療弾"
+		"upgrade_medic_bullets"					"リストラティブショット"
 		"upgrade_close_quarter_combat"			"ポイントブランク"
 		"upgrade_headshot_booster"				"ヘッドショットブースター"
 		"upgrade_sharpshooter"					"シャープシューター"
@@ -483,7 +487,7 @@
 		//"upgrade_health_regen_1"						"Health Regen"
 		"upgrade_health_stimpak"						"ヒーリングライト"
 		"upgrade_savior"								"ディバインバリア"
-		"upgrade_restorative_locket"					"回復ロケット"
+		"upgrade_restorative_locket"					"リストラティブロケット"
 		//"upgrade_health_bullet_deflector"				"Bullet Deflector"
 		//"upgrade_health_regenerative_armor"				"Regenerative Armor"
 		"upgrade_bullet_armor"							"バレットアーマー"

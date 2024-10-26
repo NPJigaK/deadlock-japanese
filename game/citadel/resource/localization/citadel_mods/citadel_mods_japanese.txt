@@ -144,7 +144,7 @@
 		"MagicShockDamage_postfix" "%"
 
 		//Mystic Reverb
-		"upgrade_tech_bleed_desc" "アビリティに範囲内の敵に<span class=\"highlight\">スロウ</span>を適用し、ターゲット周辺の敵に<span class=\"highlight\">与えたダメージの追加分</span>を短時間後に与える効果を追加します。"
+		"upgrade_tech_bleed_desc" "アビリティに命中した対象に<span class=\"highlight\">スロウ</span>を適用し、短い遅延の後、ターゲット周辺の敵に<span class=\"highlight\">与えたダメージの追加分</span>を与える。"
 		//"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"			"Spirit Echo"	
 
 		//Toxic Bullets
@@ -274,7 +274,7 @@
 
 		//Siphon Bullets
 		//"upgrade_siphon_bullets_desc_passive1"	"When in <span class=\"highlight\">close range</span> of your target, deal additional <span class=\"highlight\">Weapon Damage</span>."
-		"upgrade_siphon_bullets_desc_passive2" "あなたの弾丸は一時的に敵の<span class=\"highlight\">最大HPを吸収</span>します。デバフが終了すると敵は吸収された体力を取り戻します。吸収対象が死亡すると、体力を1スタック永久に吸収し、死亡した場合 {s:StackLostPerDeath} スタック失います。"
+		"upgrade_siphon_bullets_desc_passive2" "あなたの弾丸は一時的に敵の<span class=\"highlight\">最大HPを吸収</span>します。デバフが終了すると敵は吸収された体力を取り戻します。吸収対象が死亡すると、{s:StealPerKill}スタック分の体力を恒久的に吸収し、自分が死亡した場合 {s:StackLostPerDeath} スタック失います。"
 		"modifier_siphon_bullets_health_gain" "サイフォンバレット"
 		"modifier_siphon_bullets_health_loss" "サイフォンバレット"
 		"HealthSteal_label" "弾丸ごとの最大HP吸収"
@@ -488,13 +488,13 @@
 		"SpiritPower_prefix" "+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc" "虚空状態に入り、短時間<span class=\"highlight\">対象不可かつ無敵</span>になる。この間、移動や行動はできません。その後、<span class=\"highlight\">即座にリロード</span>され、ボーナス<span class=\"highlight\">スピリットパワー</span>を得ます。"
+		"upgrade_self_bubble_desc" "虚空状態に入り、短時間<span class=\"highlight\">対象不可かつ無敵</span>になる。この間、移動や行動はできません。その後、ボーナス<span class=\"highlight\">移動速度とスピリット耐性</span>を得ます。"
 		"ShiftingVeilDuration_label" "持続時間"
 		"ShiftingVeilDuration_postfix" "秒"
 		"BonusSpiritDuration_label" "ボーナススピリット持続時間"
 		"BonusSpiritDuration_postfix" "秒"
 		"modifier_shifting_veil_buff" "エーテリアルシフト"
-		"shifting_veil_bonus_spirit"			"ボーナススピリットパワー"
+		"shifting_veil_bonus"			"ボーナス移動速度とスピリット耐性"
 		"modifier_citadel_bubble" "エーテリアルシフト"
 
 		//Stasis Bomb
@@ -533,7 +533,7 @@
 		//"upgrade_aoe_tech_shield/modifier_duration" "Spirit Barrier Pulse"
 
 		//Cold Front
-		"upgrade_cold_front_desc" "拡大する氷の爆発を放ち、対象に<span class=\"highlight\">スピリットダメージ</span>と<span class=\"highlight\">スロウ</span>効果を与えます。"
+		"upgrade_cold_front_desc" "広がる氷の衝撃波を放ち、命中した対象に<span class=\"highlight\">スピリットダメージ</span>と<span class=\"highlight\">スロウ</span>効果を与えます。非ヒーローには{s:NPCDamageMult}倍のダメージを与えます。"
 
 		//Knockdown
 		"upgrade_target_stun_desc" "対象を<span class=\"highlight\">ノックダウン</span>し、<span class=\"highlight\">スタン</span>させます。<span class=\"highlight\">{s:StunDelay}秒の遅延</span>後に発動し、行動を一時的に阻止します。"
@@ -615,7 +615,7 @@
 		//"ClarityBonusSpirit_label"				"Next Ability Bonus Spirit Power"
 
 		//Surge of Power
-		"upgrade_magic_storm_desc" "アビリティに<span class=\"highlight\">永続的なスピリットパワー</span>を付与します。そのアビリティを使用すると、ボーナスの<span class=\"highlight\">移動速度</span>を得ます。"
+		"upgrade_magic_storm_desc" "アビリティに<span class=\"highlight\">永続的なスピリットパワー</span>を付与します。そのアビリティを使用すると、ボーナスの<span class=\"highlight\">移動速度</span>を得て、攻撃中もフルスピードを維持します。"
 		"modifier_upgrade_magic_storm" "パワーの激流"
 
 		//Suppressor
@@ -662,8 +662,6 @@
 		"upgrade_savior_desc" "対象に<span class=\"highlight\">弾丸シールド、スピリットシールド、移動速度</span>を付与します。自己キャスト可能です。"
 		"SaviorBulletShieldHealth_label" "弾丸シールド"
 		"SaviorMagicShieldHealth_label" "スピリットシールド"
-		"BuffDuration_label" "持続時間"
-		"BuffDuration_postfix" "秒"
 
 		//Restorative Locket
 		"upgrade_restorative_locket_passive_desc" "敵があなたから{s:Radius}mの範囲内でアビリティを使用したとき、<span class=\"highlight\">回復スタック</span>が1つ蓄積する。"

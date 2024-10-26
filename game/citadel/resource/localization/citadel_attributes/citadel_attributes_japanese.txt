@@ -43,6 +43,7 @@
 		"Citadel_StatusEffectImmobilize" 		"移動不能"
 		"Citadel_StatusEffectDisarmed"			"武装解除"
 		"Citadel_StatusEffectInvisible"			"不可視"
+		"Citadel_StatusEffectPetrify"				"石化"
 		//"Citadel_StatusEffectStacks"			"Stacks "
 		//"Citadel_StatusEffectInfiniteClip"		"Infinite Ammo"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
@@ -204,6 +205,8 @@
 		"StatDesc_HealingOutput_postfix"				"%"
 		"StatDesc_CritDamageBonusScale"					"クリティカルボーナス倍率"
 		"StatDesc_CritDamageBonusScale_postfix"			"%"
+		"StatDesc_MeleeResist"							"近接耐性"
+		"StatDesc_MeleeResist_postfix"					"%"
 
 		"StatDesc_BulletSpeed"							"弾速"
 		"StatDesc_BulletSpeed_postfix"					"m/s"
@@ -706,6 +709,9 @@
 
 		"HealAmpReceivePenaltyPercent_label"			"回復量減少"
 		"HealAmpReceivePenaltyPercent_postfix"			"%"
+
+		"HealAmpRegenPenaltyPercent_label"		"回復効果減少"
+		"HealAmpRegenPenaltyPercent_postfix"		"%"
 
 		"DegenResistance_label"							"回復量減少耐性"
 		"DegenResistance_postfix"						"%"
@@ -1824,6 +1830,13 @@
 
 		"StaminaRegenPercent_label"			"スタミナ回復"
 		"StaminaRegenPercent_postfix"		"%"
+
+		"MeleeResistPercent_prefix"			"{s:sign}"
+		"MeleeResistPercent_label"			"近接耐性"
+		"MeleeResistPercent_postfix"		"%"
+
+		"BuffDuration_label"				"バフ持続時間"
+		"BuffDuration_postfix"				"秒"
 
 		//-----------------------------------------------------------------------------
 		// END Ability Properties desc

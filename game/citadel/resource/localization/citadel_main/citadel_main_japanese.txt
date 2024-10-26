@@ -292,6 +292,8 @@
 		"Citadel_Notification_Paused_Message" "ゲームが一時停止されました"
 		"Citadel_Notification_Unpaused_Title" "一時停止解除"
 		"Citadel_Notification_Unpaused_Message" "ゲームの一時停止を解除中..."
+		"Citadel_Notification_About_To_Respawn_Title"				"リスポーン時間"
+		"Citadel_Notification_About_To_Respawn_Message"				"まもなくリスポーンします..."
 		"Citadel_Hud_PreGame_Countdown" "ゲーム開始中..."
 		"Citadel_Hud_CantPause" "あと{i:pause_cooldown}秒間、一時停止できません"
 		"Citadel_Hud_CantUnpause" "あと{i:pause_cooldown}秒間、一時停止を解除できません"
@@ -309,6 +311,7 @@
 		"Citadel_Hud_OutOfAmmo" "弾薬が不足しています"
 		"Citadel_Hud_LowAmmo" "弾薬が少ないです"
 		"Citadel_Hud_NotEnoughEnergy" "エネルギーが不足しています"
+		"Citadel_Hud_CastTimeRemaining"								"残り {s:time_remaining} 秒"
 		"Citadel_Hud_DPS" "DPS {i:dps}"
 		"Citadel_Hud_RespawnIn" "リスポーンまでの時間："
 		"Citadel_Hud_RideZipLine" "[ {s:in_zipline} ] を押してライドする"
@@ -327,8 +330,9 @@
 
 		"Citadel_InvalidCast_NoFullClips" "リロードするフルクリップがありません"
 
-		"Citadel_MatchInfo_Mode_Ranked"								"ランク"
+		"Citadel_MatchInfo_Mode_Ranked"								"ランクマッチ"
 		"Citadel_MatchInfo_Mode_Standard"							"スタンダード"
+		"Citadel_MatchInfo_Mode_HeroLabs"							"ヒーローラボ"
 		"Citadel_MatchInfo_Mode_CoopBot"							"Coop"
 		"Citadel_MatchInfo_Mode_Private"							"プライベート"
 
@@ -360,6 +364,7 @@
 		"Citadel_Player_Level_BaseHealth" "基本体力"
 		"Citadel_Player_Level_SpiritAmp" "スピリットダメージ増幅"
 		"Citadel_Player_Level_BulletResist" "弾丸耐性"
+		"Citadel_Player_Level_TechResist"							"スピリット耐性"
 		"Citadel_Player_Level_WeaponRange" "武器射程"
 		"Citadel_Hero_Stats_Tooltip_WeaponPower" "武器ツリーでアイテムを購入することで得られるガンと近接ダメージの合計ボーナス"
 		"Citadel_Hero_Stats_Tooltip_HealthMult" "バイタリティツリーでアイテムを購入することで得られる基本体力の合計ボーナス"
@@ -676,7 +681,7 @@
 		"Citadel_JoinParty_Title" "パーティーに参加"
 		"Citadel_JoinParty_Desc" "パーティーコードが送信されている場合は、以下にコードを入力してください。"
 		"Citadel_JoinParty_Prompt" "パーティーID"
-		"Citadel_Party_Invites" "パーティー招待"
+		"Citadel_Party_Invites:p{party_invites}"					"<span class=\"InviteCount\">{d:party_invites} </span><span class=\"InviteHeaderText\">パーティー招待</span>"
 		"Citadel_PartyStartMatch" "マッチを開始"
 		"Citadel_PartyFindMatch" "マッチを検索"
 		"Citadel_Party_CreateEasyBot" "簡単なボットと一緒に友達を招待してパーティーを作成"
@@ -703,6 +708,7 @@
 
 		"Citadel_RosterMode_Party_Matchmaking" "デッドロックをプレイ"
 		"Citadel_RosterMode_Party_RankedMatchmaking"				"ランクマッチをプレイ"
+		"Citadel_RosterMode_Party_HeroLabsMatchmake"					"ヒーローラボをプレイ"
 		"Citadel_RosterMode_Party_CoopBotMM" "ボットと対戦する"
 		"Citadel_RosterMode_Party_PrivateBotEasy" "パーティープライベートボットマッチ - イージー"
 		"Citadel_RosterMode_Party_PrivateBotMedium" "パーティープライベートボットマッチ - ミディアム"
@@ -714,6 +720,7 @@
 
 		"Citadel_RosterMode_Matchmaking" "デッドロックをプレイ"
 		"Citadel_RosterMode_RankedMatchmaking"						"ランクマッチをプレイ"
+		"Citadel_RosterMode_HeroLabsMatchmaking"					"ヒーローラボをプレイ"
 		"Citadel_RosterMode_CoopBotMM" "ボットと対戦する"
 		"Citadel_RosterMode_PrivateBotEasy" "プライベートボット - イージー"
 		"Citadel_RosterMode_PrivateBotMedium" "プライベートボット - ミディアム"
@@ -743,6 +750,9 @@
 		"Citadel_Roster_Instructions_Desc" "最低でも3人のヒーローを選択してください。マッチ開始時にこれらのヒーローのいずれかが自動的に割り当てられます。<br><br>ヒーローを<span class='selected'><b>選択済み</b></span>、<span class='priority'><b>優先</b></span>、または<span class='high_priority'><b>高優先</b></span>としてマークして、割り当てられるヒーローの確率を上げることができます。"
 		"Citadel_Roster_Instructions_Select" "<span class='keybind'>{s:iv_attack}</span>でヒーローを選択済みにマーク"
 		"Citadel_Roster_Instructions_Prefer" "<span class='keybind'>{s:iv_attack2}</span>で<b>優先</b>または<b>高優先</b>を切り替え"
+
+		"Citadel_Roster_Instructions_Title_HeroLabs"				"ヒーローラボ"
+		"Citadel_Roster_Instructions_Desc_HeroLabs"					"新しい実験的ヒーローをプレイするためにキューに参加します。<br><br>ヒーローを最低3人選択してください。<b>そのうち2人はテスト対象外の標準ヒーローである必要があります。</b> 実験的ヒーローの選択は、最後にプレイしてからの経過時間に応じて優先されます。"
 
 		"Citadel_ViewMatchID_Title" "マッチIDを見る"
 		"Citadel_ViewMatchID_Desc" "マッチIDを入力してマッチの詳細を確認します"
@@ -885,6 +895,8 @@
 
 		"Citadel_Team1_Name" "アンバーハンド"
 		"Citadel_Team2_Name" "サファイアフレイム"
+		"Citadel_Team1_Name_Uppercase:n"					"アンバーハンド"
+		"Citadel_Team2_Name_Uppercase:n"					"サファイアフレイム"
 
 		"Citadel_Mod_Tooltip_Passive" "パッシブ"
 		"Citadel_Mod_Tooltip_Active" "アクティブ"
@@ -904,6 +916,7 @@
 
 
 		"Citadel_HUD_Damage_TooFar" "遠すぎます"
+		"Citadel_HUD_Damage_TooLow"									"低すぎます"
 		"Citadel_HUD_Damage_Invulnerable" "シールド中"
 		"Citadel_HUD_Damage_NoTroopers" "トルーパーが必要です"
 		"Citadel_HUD_Damage_Resistant" "耐性あり"
@@ -1007,8 +1020,11 @@
 		"Citadel_PlayerContextMenu_ViewProfile" "プロフィールを見る"
 		"Citadel_PlayerContextMenu_AudioVolume"						"音量"
 		"Citadel_PlayerContextMenu_EmptyMenu"						"--"
-		
-		"Citadel_PlayerCard_FavoriteHero" "お気に入りのヒーロー"
+
+		"Citadel_PostGame_CopyMatchID"								"試合IDをコピー"
+		"Citadel_PostGame_CopyMatchIDSuccess"						"コピー完了"
+
+		"Citadel_PlayerCard_FavoriteHero"						"お気に入りのヒーロー"
 
 		"Citadel_Party_Context_Invite" "フレンドを招待"
 		"Citadel_Party_Context_Open" "パーティーを開く"
@@ -1091,6 +1107,9 @@
 		"Citadel_StartMatchmaking_InvalidHeroSelection" "マッチメイキングに入るための有効なヒーローを選択していません。"
 		"Citadel_StartMatchmaking_HeroRosterTooPopular" "選択したヒーローロスターにすでに使用されているヒーローが含まれています"
 		"Citadel_StartMatchmaking_NoRegionPings"					"いずれのSteam Datagram Relayとも通信できません。インターネットに接続されている場合、通常これはファイアウォール、MTU、またはインターネット接続の問題が原因です。"		
+		"Citadel_StartMatchmaking_HeroLabsMMNotOpen"				"ヒーローラボのマッチメイキングは現在利用できません。"
+		"Citadel_StartMatchmaking_HeroLabsNotUnlocked"				"ヒーローラボのマッチメイキングはまだアンロックされていません。"
+		"Citadel_StartMatchmaking_NoHeroLabsWhileInLowPri"			"低優先度の状態ではヒーローラボのマッチメイキングを利用できません。"
 		"Citadel_StopMatchMaking_FailedToGetResponse" "マッチメイキングが停止しました。GCからの応答が得られませんでした"
 		"Citadel_StopMatchMaking_GeneralError" "マッチメイキングに失敗しました。もう一度お試しください"
 		"Citadel_LeaveLobby_FailedToGetResponse" "マッチメイキングを停止できませんでした。もう一度お試しください。"
@@ -1136,6 +1155,14 @@
 		"Citadel_Dashboard_ShowAnnounceTooltip" "お知らせを表示"
 		"Citadel_Dashboard_CloseAnnounceTooltip" "お知らせを閉じる"
 		"Citadel_Dashboard_ViewLibrary" "ライブラリを見る"
+		"Citadel_Dashboard_ReloadPageTooltip"						"現在のページを再読み込み"
+		"Citadel_Dashboard_Status_Mode_Unranked"					"スタンダードマッチ"
+		"Citadel_Dashboard_Status_Mode_Ranked"						"ランクマッチ"
+		"Citadel_Dashboard_Status_Mode_HeroLabs"					"ヒーローラボマッチ"
+		"Citadel_Dashboard_Status_Mode_Private"						"プライベートマッチ"
+		"Citadel_Dashboard_Status_Mode_Coop"						"協力ボットマッチ"
+
+		"Citadel_Dashboard_ShowHeroLabHeroes"						"実験的ヒーローを表示"
 
 		"Citadel_Watch_Title" "マッチを見る"
 		"Citadel_Watch_Featured" "注目のマッチ"
@@ -1243,6 +1270,10 @@
 		"Citadel_PartySetMode_PlayerPermaBanned"				"パーティのメンバー{g:citadel_persona:nl:account_id}は、このモードでのプレイを永久に禁止されています。"
 		"Citadel_PartySetMode_CannotLeavePrivate"				"現在、プライベートロビーではモードを変更できません。"
 		"Citadel_PartySetMode_FiveStacksNotAllowed"				"現在、5人パーティーはマッチメイキングで許可されていません。人数を増やすか減らして再試行してください。"
+		"Citadel_PartySetMode_HeroLabsMMNotOpen"				"ヒーローラボのマッチメイキングは現在利用できません。"
+		"Citadel_PartySetMode_HeroLabsNotUnlocked"				"パーティーメンバーの一人 {g:citadel_persona:nl:account_id} は、ヒーローラボのマッチメイキングの資格をまだ満たしていません。"
+		"Citadel_PartySetMode_NoHeroLabsWhileInLowPri"			"パーティーメンバーの一人 {g:citadel_persona:nl:account_id} が低優先度に設定されているため、現在ヒーローラボのマッチメイキングに参加できません。"
+		"Citadel_PartySetMode_NoHighRangeFiveStack"				"パーティーのスキル範囲が広く、5人構成です。メンバー間のスキル差が通常の範囲を超えている場合、同様のスキル幅を持つパーティーとマッチされます。現在のパーティーが5人構成であるため、適切なマッチング先がありません。パーティーの構成や人数を調整してください。"
 
 		"Citadel_PartyInvite_ErrorTitle"						"招待の送信に失敗しました"
 		"Citadel_PartyInvite_FailedToGetResponse"				"現在、Deadlockネットワークと通信できず、指定されたユーザーを招待できません。数分後にもう一度お試しください。"
@@ -1304,6 +1335,7 @@
 		"Citadel_Profile_Win_Short"								"勝"
 		"Citadel_Profile_Loss_Short"							"敗"
 		"Citadel_Profile_Statistics"							"統計"
+		"Citadel_Profile_RankHistory"							"ランク履歴"
 		"Citadel_Profile_Stats_All"								"すべてのヒーロー"
 		"Citadel_Profile_Stats_TitleSection"					"全期間の統計"
 		"Citadel_Profile_Stats_GamesPlayed"						"プレイした試合数"
@@ -1315,6 +1347,7 @@
 		"Citadel_Profile_Stats_LastHits"						"ラストヒット"
 		"Citadel_Profile_Stats_Denies"							"ディナイ"
 		"Citadel_Profile_Stats_Healing"							"回復"
+		"Citadel_Profile_Stats_Commends"						"称賛"
 		"Citadel_Profile_Stats_Networth"						"集めたソウル"
 		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
 		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth}k"
@@ -1661,6 +1694,7 @@
 		"modifier_citadel_holding_golden_idol"  				"壺を祭壇に持っていけ！"
 		"modifier_citadel_holding_golden_idol_revealed"			"敵に見つかっています！壺を祭壇に持っていけ！"
 		"modifier_citadel_returning_golden_idol"  				"壺を預ける"
+		"modifier_citadel_idol_pickup_disabled"					"ソウル壺の取得が無効"
 		"modifier_knocked_off_zipline_slow"						"ハイパーラインから落とされた"
 		"modifier_citadel_respawn_credit" 						"リジュベネーションクレジット"
 
@@ -1933,6 +1967,7 @@
 		"citadel_settings_streamlined_mic"				"スリムマイク"
 		"citadel_settings_chat_invert_ping"				"ピンを反転"
 		"citadel_settings_mousesensitivity"				"マウス感度"
+		"citadel_settings_mousesensitivity_y_scale"		"マウス感度: 垂直スケーリング"
 		"citadel_settings_mousezoomsensitivity"			"ズーム感度比"
 		"citadel_settings_keybinddefaults"				"すべてのキー割り当てをデフォルトにリセット"
 		"citadel_settings_pingwheeldefaults"			"ピンホイールをデフォルトにリセット"
@@ -2130,9 +2165,12 @@
 		"citadel_keybind_backwards"						"後退"
 		"citadel_keybind_left"							"左へ移動 (ストレイフ)"
 		"citadel_keybind_right"							"右へ移動 (ストレイフ)"
+		"citadel_keybind_up"							"上昇"
+		"citadel_keybind_down"							"下降"
 		"citadel_keybind_mantle"						"ジャンプ/マントル"
 		"citadel_keybind_attack"						"射撃"
 		"citadel_keybind_ads"							"ズーム"
+		"citadel_keybind_reset_camera"					"カメラリセット"
 		"citadel_keybind_ping"							"ピン"
 		"citadel_keybind_quick_response"				"クイックレスポンス"
 		"citadel_keybind_extra_info"					"追加情報"
@@ -2212,6 +2250,7 @@
 		"Citadel_ConflictingWithPrimaryModifier"		"この修飾キーは {s:key_name} と競合しています"
 
 		"citadel_clientversion"							"ビルド {d:client_version_number}"
+		"Citadel_ClientVersion_Connary"					""
 		"OS_Default_Device"								"デフォルトデバイス"
 
 		//-----------------------------------------------------------------------------
@@ -2358,26 +2397,25 @@
 		"kill_hype_FirstBlood"	"ファーストブラッド"
 
 		"team_msg_Idol_Desc"	"ソウルアーン"
-
-		//"team_msg_Winner_SubText"	"The Patrons favor you"
-		"Citadel_GameOver_Victory"	"勝利"
-		"Citadel_GameOver_Defeat"	"敗北"
+		
+		"Citadel_GameOver_Victory:g"	"勝利"
+		"Citadel_GameOver_Defeat:g"	"敗北"
 
 
 		"Citadel_LaneColorPurple"						"パープル"
 		"Citadel_LaneColorBlue"							"ブルー"
 		"Citadel_LaneColorYellow"						"イエロー"
 		"Citadel_LaneColorGreen"						"グリーン"
+		"Citadel_LaneColorUnassigned"					"未割り当て"
 		"Citadel_TeamMsg_EnemyBossKilledTitle"			"敵の {s:lane_color} ティア {i:boss_tier}"
 		"Citadel_TeamMsg_BossKilledTitle"				"あなたの {s:lane_color} ティア {i:boss_tier}"
 		"Citadel_TeamMsg_BossKilledMessage"				"破壊されました"
 		"Citadel_TeamMsg_EnemyTitanKilledTitle"			"敵のパトロン"
 		"Citadel_TeamMsg_TitanKilledTitle"				"あなたのパトロン"
 
-
 		"Citadel_FlexSlot_Title"						"フレックススロットがアンロックされました"
 		"Citadel_FlexSlotUnlockedAllTier1"				"3体の<span class=\"FlexSlotObjectiveName\">敵のガーディアン</span>を倒してフレックススロットをアンロックしました"
-		"Citadel_FlexSlotUnlockedGenerator"				"最初の<span class=\"FlexSlotObjectiveName\">聖堂</span>を倒してフレックススロットをアンロックしました"
+		"Citadel_FlexSlotUnlockedGenerator"				"両方の<span class=\"FlexSlotObjectiveName\">聖堂</span>を倒してフレックススロットをアンロックしました"
 		"Citadel_FlexSlotUnlockedAllTier2"				"全ての<span class=\"FlexSlotObjectiveName\">敵のウォーカー</span>を倒してフレックススロットをアンロックしました"
 		"Citadel_FlexSlotUnlockedKill2Tier2"			"2体の<span class=\"FlexSlotObjectiveName\">敵のウォーカー</span>を倒してフレックススロットをアンロックしました"
 
@@ -2419,6 +2457,7 @@
 		"menu_getstarted"							"開始ガイド"
 		"menu_bot_practice"							"プライベートボット"
 		"menu_bot_custom"							"カスタムマッチ"
+		"menu_bot_hero_labs"						"ヒーローラボ"
 		"menu_learn"								"プレイを学ぶ"
 		"menu_resources"							"リソース"
 		"menu_training"								"トレーニング"
@@ -2434,7 +2473,9 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"パーティーやマッチメイキング中ではないときにDiscordリンクを後で請求してください"
 		"Citadel_Dashboard_Recommended"				"おすすめ"
 
-		"Citadel_Commend_Toast_Friendly"			"{s:commender} ({s:commender_hero}) があなたをフレンドリーで楽しいプレイヤーとして称賛しました。"
+		"Citadel_Commend_Toast_NoHero_Generic"		"{s:commender} があなたを称賛しました"
+		"Citadel_Commend_Toast_Generic"				"{s:commender} ({s:commender_hero}) があなたを称賛しました"
+		"Citadel_Commend_Toast_Friendly"			"{s:commender} ({s:commender_hero}) があなたをフレンドリーで一緒にプレイして楽しいプレイヤーとして称賛しました。"
 		"Citadel_Commend_Toast_Teamwork"			"{s:commender} ({s:commender_hero}) があなたをチームワークが優れているプレイヤーとして称賛しました。"
 		"Citadel_Commend_Toast_Skilled"				"{s:commender} ({s:commender_hero}) があなたをスキルが高いプレイヤーとして称賛しました。"
 
@@ -2464,6 +2505,8 @@
 		"menu_play_lane_training_desc"				"フレンドリーヒーローと一緒に序盤戦を学ぶ"
 		"menu_play_bots_easy_desc"					"ボットとプライベートマッチをプレイする"
 		"menu_play_custom_game_desc"				"最大12人でカスタムマッチを作成または参加"
+		"menu_play_hero_labs_desc"					"新しい実験的ヒーローのテストに協力しよう"
+		"menu_play_hero_labs_locked_desc"			"新しい実験的ヒーローのテストに協力しよう。50試合プレイ後にアンロックされます"
 
 		"menu_play_get_started_time_est"			"約4分"
 		"menu_play_sandbox_time_est"				"約5分"
@@ -2480,14 +2523,17 @@
 		"menu_learn_incomplete"						"未完了"
 		"menu_learn_completed"						"完了""menu_play_ranked"							"ランクマッチをプレイ"
 	
+		"menu_hero_labs_unavailable"				"ロック中"
+		"menu_hero_labs_schedule_title"				"利用可能時間:"
+		"menu_hero_labs_schedule_times"				"{t:t:start_time} - {t:t:end_time}"
 		"menu_play_ranked"							"ランクマッチをプレイ"
 		"menu_play_ranked_desc"						"同じスキルレベルのプレイヤーと競技性の高い試合をプレイします。"
 		"menu_ranked_title"							"ランク:"
 		"menu_ranked_schedule_title"				"利用可能な時間帯:"
 		"menu_ranked_unavailable"					"ロック中"
 		"menu_ranked_unavailable_desc"				"ランクマッチに参加するには、スタンダードゲームを50回プレイする必要があります。"
-		"menu_ranked_schedule_weekdays"				"月 - 金:"
-		"menu_ranked_schedule_weekends"				"土 - 日:"
+		"menu_ranked_schedule_weekdays_monfri"		"月 - 金:"
+		"menu_ranked_schedule_weekends_satsun"		"土 - 日:"
 		"menu_ranked_schedule_alldays"				"毎日スケジュール:"
 		"menu_ranked_schedule_timeplaceholder"		"{t:t:start_time} - {t:t:end_time}"
 		"menu_ranked_select_schedule"				"スケジュールを選択"
@@ -2514,8 +2560,9 @@
 		"Citadel_ranked_explainer_title"			"ランクマッチメイキング"
 		"Citadel_ranked_explainer_desc"				"ランクモードは、より競技性の高いデッドロック体験を提供し、同じスキルレベルのプレイヤーとマッチメイキングされ、世界中のプレイヤーの中であなたのスキルランクを決定します。<br><br>毎週、プレイヤーは自分の地域の選択した時間帯にランクマッチをプレイすることで、自分のスキルランクを示すことができます。"
 		"Citadel_ranked_howitworks_title"			"仕組みはどうなっているの？"
-		"Citadel_ranked_howitworks_desc"			"全てのプレイヤーは初めに暫定ランクの「Obscurus」から始まり、毎週7試合のランクマッチを完了することで、その週のランク付けに参加する資格を得ます。その週の終わりに、あなたのランクが決定され、プロフィールにバッジとして表示されます。<br><br>もし1週間で7試合のランクマッチをプレイしていない場合、表示されるランクは Obscurus に戻り、次の週以降で資格を得るまで隠されます。ただし、スキルの評価データは引き継がれ、次回以降のランクマッチで使用されます。<br><br>ランクは全部で11種類あり、それぞれのランク内でさらにIからVIまでのサブランクが割り当てられ、ランク内での位置をさらに区別します。"
+		"Citadel_ranked_howitworks_desc"			"全てのプレイヤーは初めに暫定ランクの「Obscurus」から始まり、毎週7試合のランクマッチを完了することで、その週のランク付けに参加する資格を得ます。その週の終わりに、あなたのランクが決定され、プロフィールにバッジとして表示されます。<br><br>もし1週間で7試合のランクマッチをプレイしていない場合、表示されるランクは Obscurus に戻り、次の週以降で資格を得るまでバッジは隠れたままになります。ただし、スキルの評価データは引き継がれ、次回以降のランクマッチで使用されます。<br><br>ランクは全部で11種類あり、それぞれのランク内でさらにIからVIまでのサブランクが割り当てられ、ランク内での位置をさらに区別します。"
 		"Citadel_ranked_rankedmedals"				"ランク："
+		"Citadel_ranked_subranks_explainer"			"サブランク: I, II, III, IV, V, <Panel class=\"starIcon\"></Panel>"
 
 		"Citadel_ranked_explainer_note"				"バッジのデザインは、最初のランクが10月22日火曜日(GMT)に付与された時に公開されます。"
 
@@ -2524,8 +2571,7 @@
 		"Citadel_ranked_result_adjustment"			"ランク調整"
 		"Citadel_ranked_numGamesPlayed"				"{s:games_played} 試合プレイ済み"
 		"Citadel_ranked_match_history"				"試合履歴："
-		"Citadel_ClickToViewReport"					"クリックしてランクレポートの概要を表示"
-
+		
 		"Citadel_ranks_rank0"						"Obscurus"
 		"Citadel_ranks_rank1"						"Initiate"
 		"Citadel_ranks_rank2"						"Seeker"
@@ -2573,7 +2619,7 @@
 
 		"ModIconTooltip_UnlockTier2"				"チームが敵のウォーカーを2体破壊した後に解除されます"
 		"ModIconTooltip_UnlockGuardians"			"チームが敵の基地ガーディアンを破壊した後に解除されます"	
-		"ModIconTooltip_UnlockGenerators"			"チームが敵の聖堂を破壊した後に解除されます"	
+		"ModIconTooltip_UnlockGenerators"			"チームが敵の聖堂を両方破壊した後に解除されます"	
 		//"ModIconTooltip_UnlockTier3"				"Unlocked after your team destroys the enemy Patron's first form"
 		"ModIconTooltip_UnlockAllTier1"				"チームが敵ガーディアンを3体倒した後に解除されます"
 		"ModIconTooltip_UnlockAllTier2"				"チームがすべての敵ウォーカーを破壊した後に解除されます"
@@ -2602,6 +2648,7 @@
 		"MyRosterNumHeroesInRoster"					"{i:num_heroes_in_roster}人のヒーローがロースターにいます"
 		"MyRosterNumHeroesInRosterSingular"			"{i:num_heroes_in_roster}人のヒーローがロースターにいます"
 		"MyRosterGreatForNewPlayers"				"初心者に最適"
+		"MyRosterHeroLabsHero"						"ヒーローラボ"
 		"MyRosterAssignedTesting"					"テスト用に割り当てられました"
 		"MyRosterAssignedOpenTesting"				"オープンテスト"
 		"MyRosterChangeHero"						"ヒーローを変更"
@@ -2611,11 +2658,13 @@
 		"MyRosterWaitForParty"						"パーティーメンバーを待っています..."
 		"MyRosterExit"								"ロースターを終了"
 		"MyRosterExitRosterConfirm"					"ロースターを終了してもよろしいですか？これにより、パーティー全体のロースターが終了します。"
-		"MyRosterPartyHighSkillRange"				"あなたのパーティーには幅広いスキルレベルのプレイヤーが含まれています。これにより、パーティーにとってより難しい試合になる可能性があります。"
+		"MyRosterPartyHighSkillRangeTitle"			"スキル範囲が広いパーティー"	
+		"MyRosterPartyHighSkillRange"				"あなたのパーティーには幅広いスキルレベルのプレイヤーが含まれています。これにより、スキルが低めのプレイヤーはより難しい試合になる可能性があります。"
 
 		"MyRosterPartyReadyCount"					"{d:party_ready_count}/{d:party_player_count} 準備完了"
 		"MyRosterPartyMemberRoster"					"すでにロスターに含まれているヒーロー:"
 
+		"MyRosterRosterDesc_HeroLabs"				"ロスターには少なくとも3人のヒーローが必要で、そのうち2人は非テスト用の標準ヒーローでなければなりません"
 
 		//-----------------------------------------------------------------------------
 		// SANDBOX - DEMO CONTROLS
@@ -2974,6 +3023,9 @@
 		//"citadel_quick_response_respond_onmyway"					"Respond 'On my Way'"
 
 		// These are loc strings for ping response rules. Good for if we don't have VO for a response rule to show what the player would've said.
+		"ping_message"											"{s:pre_punctuation}{s:ping}{s:post_punctuation}"
+		"ping_pre_exclamation"									""
+		"ping_post_exclamation"									"!"
 		"ping_headed_yellow"									"イエローに向かっています"
 		"ping_headed_blue"										"ブルーに向かっています"
 		"ping_headed_green"									"グリーンに向かっています"
