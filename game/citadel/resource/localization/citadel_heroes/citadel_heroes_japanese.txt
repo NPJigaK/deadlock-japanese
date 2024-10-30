@@ -2933,7 +2933,7 @@
 		//"citadel_weapon_hero_rutger_set"			"Rutger Gun"
 		//"citadel_weapon_hero_tokamak_set"			"Curie-ous Times"
 		//"citadel_weapon_hero_tempest_set"			"Tempest Gun"
-		"citadel_weapon_hero_wrecker_set"                "デモリション賛歌"
+		"citadel_weapon_hero_wrecker_set"			"The Butcher's Hand"
 
 		// Melee names
 		"ability_melee_ghost"                             "近接"
