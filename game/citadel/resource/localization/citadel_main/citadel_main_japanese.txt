@@ -8,6 +8,7 @@
 		"OK" "OK"
 		"Cancel" "キャンセル"
 		"Close" "閉じる"
+		"Ignore"						"無視"
 		"DontShowAgain" "今後表示しない"
 
 		"Citadel_GameName"										"Deadlock"
@@ -144,6 +145,7 @@
 		"Citadel_Scoreboard_KDA_Kills" "K"
 		"Citadel_Scoreboard_KDA_Deaths" "D"
 		"Citadel_Scoreboard_KDA_Assists" "A"
+		"Citadel_Scoreboard_Obj_Damage"						"Obj Dmg:"
 
 		//Match Info
 		"Citadel_ViewMatchID_Loading_Title"					"試合を読み込み中"
@@ -327,6 +329,21 @@
 		"Citadel_Hud_CheaterVoteAlert_Action"						"<span class=\"keybind\">[{s:show_scoreboard}]</span> を押して処遇を決めてください"
 		"Citadel_Hud_CheaterVote_Option_Play"						"カエルにする、<br>後でBAN"
 		"Citadel_Hud_CheaterVote_Option_Ban"						"BANして<br>試合を退出"
+		"Citadel_Hud_RecentPurchases"								"最近の購入:"
+
+		"Citadel_Hud_Quickbuy"										"クイックバイ"
+		"Citadel_Hud_Quickbuy_Short"								"クイック<br>バイ"
+		"Citadel_Hud_Quickbuy_ModName"								"{s:mod_name}"
+		"Citadel_Hud_Quickbuy_ModCost"								"{i:mod_cost}"
+		"Citadel_Hud_Quickbuy_Empty"								"<Panel class=\"rightClick\"></Panel>を押してクイックバイに追加"
+		"Citadel_Hud_Quickbuy_Instructional"						"<Panel class=\"rightClick\"></Panel>を押してクイックバイに追加/削除"
+		"Citadel_Hud_Quickbuy_Instructional_Ready"					"[{s:key_purchase_quickbuy}]を押して購入"
+		"Citadel_Hud_Quickbuy_QueueSize"							"{i:queue_size}"
+		"Citadel_Hud_Quickbuy_ItemsReady"							"{i:items_ready}"
+		"Citadel_Hud_Quickbuy_ToastLabel"							"アイテム購入済み"
+		"Citadel_Hud_Quickbuy_Tooltip"								"アイテムをクリックして購入するか、ショップの範囲内で [{s:key_purchase_quickbuy}] を押して次のクイック購入アイテムを購入します。"
+		"Citadel_Hud_Quickbuy_Tooltip_Autobuy"						"ショップの範囲内にいて、このアイテムを購入できる場合、自動的に購入されます（サンドボックスモードなどで自由購入が有効な場合、この設定は無視されます）。"
+		"Citadel_Hud_Quickbuy_Tooltip_Empty"						"[M2]を使用してクイックバイキューにアイテムを追加または削除し、[Ctrl] + [M2]で全てのアイテムを削除して新しい選択を開始します。"
 
 		"Citadel_InvalidCast_NoFullClips" "リロードするフルクリップがありません"
 
@@ -573,6 +590,8 @@
 		"Citadel_PrivateLobby_PubliclyVisible_On"					"全員に表示"
 		"Citadel_PrivateLobby_Duplicate_Heroes_Off"					"重複ヒーロー無効"
 		"Citadel_PrivateLobby_Duplicate_Heroes_On"					"重複ヒーロー有効"
+		"Citadel_PrivateLobby_Experimental_Heroes_Off"				"試験的ヒーロー無効"
+		"Citadel_PrivateLobby_Experimental_Heroes_On"				"試験的ヒーロー有効"
 		"Citadel_PrivateLobby_Cheats_Off"							"チート無効"
 		"Citadel_PrivateLobby_Cheats_On"							"チート有効"
 		"Citadel_PrivateLobby_SwapTeams"							"チームを入れ替える"
@@ -992,7 +1011,7 @@
 		"Citadel_PrivilegedFeatures_ReportingDisabled_Title"		"報告機能が無効"
 		"Citadel_PrivilegedFeatures_ReportingDisabled_InactiveTitle"	"報告"
 		"Citadel_PrivilegedFeatures_ReportingDisabled_Active"		"ゲーム内のプレイヤー報告機能は、{t:l:t:m:report_ban_end_time}まであなたのアカウントで無効化されています。"
-		"Citadel_PrivilegedFeatures_ReportingDisabled_Inactive"		"不正確なプレイヤー報告が続くと、報告機能がアカウントで無効化され、問題が解決しない場合は、アカウントが永久に停止される可能性があります。"
+		"Citadel_PrivilegedFeatures_ReportingDisabled_Inactive"		"不正確または過剰なプレイヤー報告は、アカウントでの報告機能の無効化につながり、問題が継続する場合はアカウントが永久に禁止されます。"
 
 		"Citadel_PrivilegedFeatures_PausingDisabled_Title"			"一時停止機能が無効"
 		"Citadel_PrivilegedFeatures_PausingDisabled_InactiveTitle"	"一時停止"
@@ -1127,6 +1146,10 @@
 		"Citadel_IdleMatchmaking_Dialog_Title"						"放置状態のマッチメイキング"
 		"Citadel_IdleMatchmaking_Dialog_Body"						"現在マッチメイキング中ですが、コンピュータの前にいないようです。マウスを動かしてください。このままではマッチメイキングから除外されます。"
 
+		"Citadel_Dashboard_CompilingShaders"						"マップのプリロードとシェーダーのコンパイル中 {d:prewarm_progress}/{d:prewarm_progress_total}"
+		"Citadel_Dashboard_CompilingShaders_Title"					"マップとシェーダーのプリロード"
+		"Citadel_Dashboard_CompilingShaders_Desc"					"{d:prewarm_progress}/{d:prewarm_progress_total} 完了"
+		"Citadel_Dashboard_CompilingShaders_Play_Tooltip"			"マップのプリロードとシェーダーのコンパイルが完了するのを待機中。"
 		"Citadel_Dashboard_EnterMatchmaking" "マッチメイキングに\n入る"
 		"Citadel_Dashboard_Roster_HeroTooPopular" "すべての選択されたヒーローがすでにキューにいます"
 		"Citadel_Dashboard_Roster_MissingHeroes" "<span class=\"rosterErrorText\">マッチメイキングに入るためにロスターに3人のヒーローを選択する必要があります</span>"
@@ -1253,6 +1276,12 @@
 		"Citadel_PartyAction_RateLimited"						"短期間に多くの操作を行いました。少し時間をおいてから再試行してください。"
 		"Citadel_PartyAction_AlreadyDrafting"					"パーティはすでに試合を開始しています。新しい試合を開始する前に、現在の試合を終了する必要があります。"
 
+		"Citadel_MatchmakingStopped_Header"						"マッチメイキングから除外されました"
+		"Citadel_MatchmakingStopped_Reason_Unspecified"			"マッチメイキングから除外されました"
+		"Citadel_MatchmakingStopped_Reason_VersionUpdated"		"クライアントバージョンが互換性を失ったため、マッチメイキングから除外されました。ゲームを再起動してクライアントを更新してください。"
+		"Citadel_MatchmakingStopped_Reason_RankedClosed"		"ランクマッチのマッチメイキングは現在終了しています。"
+		"Citadel_MatchmakingStopped_Reason_HeroLabsClosed"		"ヒーローラボのマッチメイキングは現在終了しています。"
+
 		"Citadel_PartySetMode_ErrorTitle"						"エラー"
 		"Citadel_PartySetMode_FailedToGetResponse"				"現在、Deadlockネットワークと通信できません。数分後にもう一度お試しください。"
 		"Citadel_PartySetMode_InternalError"					"予期しない内部エラーが発生しました。数分後にもう一度お試しください。"
@@ -1366,6 +1395,9 @@
 		"Citadel_HeroPage_EditBuild"							"ビルドを作成/編集"
 		"Citadel_HeroPage_Complexity"							"複雑さ"
 
+		"Citadel_HeroPage_HeroLabs_Title"						"この試験的ヒーローは頻繁に変更される予定です。"
+		"Citadel_HeroPage_HeroLabs_Button"						"変更を見る"
+
 		"Citadel_MatchDetails_ViewGraphs"						"グラフを見る"
 		"Citadel_MatchDetails_Report"							"R"
 		"Citadel_MatchDetails_ReportTooltip"					"クリックしてプレイヤーを報告"
@@ -1384,6 +1416,10 @@
 		"Citadel_MatchDetails_Healing"							"ヒーリング"
 		"Citadel_MatchDetails_Victory"							"勝利"
 		"Citadel_MatchDetails_Defeat"							"敗北"
+		//The top row of the match results, either team name or outcome as appropriate for each language
+		"Citadel_MatchDetails_Team_Results_Top"					"<span class=\"TeamName h2 display\">{s:team_name}</span>"
+		//The bottom row of the match results, either team name or outcome as appropriate for each language
+		"Citadel_MatchDetails_Team_Results_Bottom"				"<span class=\"OutcomeLabel h1 display\">{s:outcome_label}</span>"
 		"Citadel_MatchDetails_Loading"							"試合詳細を読み込み中"
 		"Citadel_MatchDetails_MatchID"							"試合 {s:match_id}"
 		"Citadel_MatchDetails_ViewScoreboard"					"スコアボードを見る"
@@ -1416,6 +1452,7 @@
 		"Citadel_ProfileCard_StatTitle_Wins"					"勝利"
 		"Citadel_ProfileCard_StatTitle_Kills"					"キル"
 		"Citadel_ProfileCard_StatTitle_GamesPlayed"				"試合数"
+		"Citadel_ProfileCard_StatTitle_Commends"				"称賛"
 
 		"Citadel_ProfileCard_StatValue_Int"						"{d:stat_value}"
 		"Citadel_ProfileCard_StatValue_Date"					"{t:s:stat_value}"
@@ -1612,6 +1649,24 @@
 		"Citadel_HeroBuilds_EditingBuildSubheader"		"{s:selected_hero_build_name}"
 
 		"Citadel_HeroBuilds_AP_Next_Indicator"			"推奨"
+		
+		"Citadel_HeroLabsPatchNotes_PopupTitle"			"{s:hero_name}の最近の変更"
+
+
+		// SteamShare
+		"Citadel_Steamshare_Title_Kill_Player"			"キル"
+		"Citadel_Steamshare_Desc_Kill_Player"			"%victim_name% をキルしました"
+
+		"Citadel_Steamshare_Title_Death_Player"			"死亡"
+		"Citadel_Steamshare_Desc_Death_Player"			"%killer_name% に倒されました"
+
+
+		"Citadel_Steamshare_Title_Allied_ObjectiveDestroyed"	"味方の %victim_name%"
+		"Citadel_Steamshare_Desc_Allied_ObjectiveDestroyed"	"あなたの %victim_name% が破壊されました"
+
+		"Citadel_Steamshare_Title_Enemy_ObjectiveDestroyed"	"敵の %victim_name%"
+		"Citadel_Steamshare_Desc_Enemy_ObjectiveDestroyed"	"敵の %victim_name% が破壊されました"
+
 
 		// Unit names
 		"guardian_unit"							"ガーディアン"
@@ -1855,7 +1910,9 @@
 		"citadel_settings_video"						"ビデオ"
 		"citadel_settings_audio"						"オーディオ"
 		"citadel_settings_about"						"情報"
+		"citadel_settings_social"						"ソーシャル"
 		"citadel_settings_hotkeys"						"ホットキー"
+		"citadel_settings_steaminput"					"コントローラー"
 		"citadel_ability_upgrade_tab_desc"				"{s:show_scoreboard}+[アビリティキー] でアビリティをアップグレードできます。 これらは追加のキー設定です。"
 		"citadel_settings_per_unit_hotkeys"				"ヒーロー専用ホットキー"
 		"citadel_Hotkeys_Tooltip_PerUnitHotkeys"		"ヒーロー固有のキー設定を有効/無効にする"
@@ -1930,8 +1987,12 @@
 		"citadel_settings_quickcast_enabled_tooltip"		"アビリティボタンを押したときにアビリティを発動します。"
 		"citadel_settings_quickcast_disabled_tooltip"		"アビリティボタンを押してアビリティを選択し、ボタンを離したときに発動します。"
 		"citadel_settings_quickcast_confirm_cast"		"キャストを確認"
+		"citadel_quickbuy_auto_buy_enable"				"クイックバイの自動購入"
+		"citadel_quickbuy_auto_buy_enable_tooltip"		"有効にすると、クイックバイキュー内の次のアイテムが購入可能かどうかを継続的に確認し、ショップの範囲内にいる場合は自動的に購入します。"
 		"citadel_settings_streamer_mode"				"ストリーマーモード"
 		"citadel_settings_streamer_mode_tooltip"		"これをオンにすると、ゲーム内やダッシュボードでプレイヤー名が非表示になります。ただし、プロフィールカードのプレイヤー名は非表示になりません。"
+		"citadel_settings_active_window_unpause"		"ゲームの一時停止解除時にウィンドウを強制的にフォーカス"
+		"citadel_settings_active_window_unpause_tooltip"	"これをオンにすると、ゲームが一時停止を解除する際にゲームウィンドウが自動的にフォーカスされます。"
 		"citadel_camera_pitch_inverted"					"マウスを反転"
 		"citadel_camera_zoom_is_toggle"					"ズームをトグル"
 		"citadel_enable_ping_indicator"					"HUDピンインジケーターを有効にする"
@@ -1983,12 +2044,13 @@
 		"citadel_settings_ui_language"					"言語:"
 		"citadel_settings_language_change_title"		"再起動が必要"
 		"citadel_settings_language_change_body"			"言語変更を適用するにはDeadlockクライアントを再起動してください。"
-				
-		"citadel_settings_chat_filter_onlyfriends"		"フレンド、パーティー、ギルドメンバーのみのチャットを表示"
+
+		"citadel_settings_chat"							"Chat"		
+		"citadel_settings_chat_filter_onlyfriends"		"フレンド、パーティーのみのチャットを表示"
 		"citadel_settings_text_filter_filtered"		"テキストフィルタリングを有効にする"
 		"citadel_settings_chat_filter"					"許可されたチャット"
 		"citadel_settings_chat_filter_allow_none"		"チャットを受信しない"
-		"citadel_settings_chat_filter_allow_friendly"	"フレンドリーなプレイヤー（フレンド、パーティーメンバー、ギルドメンバー）"
+		"citadel_settings_chat_filter_allow_friendly"	"フレンドリーなプレイヤー（フレンド、パーティーメンバー）"
 		"citadel_settings_chat_filter_allow_teams"		"フレンドリーなプレイヤーとチームメンバー"
 		"citadel_settings_chat_filter_allow_all"		"すべてのプレイヤー"
 		"citadel_settings_chat_filter_settings_apply_to_spectating"		"観戦中にも許可されたチャットフィルター設定を適用"
@@ -1997,7 +2059,7 @@
 		"citadel_settings_chat_allow_global"			"他のチャンネルタブにメッセージを表示"
 		"citadel_settings_chat_mute_everyone"			"すべての受信チャットをミュート"
 		"citadel_settings_chat_mute_enemies"			"敵からのチャットをミュート"
-
+		"citadel_settings_steam_text_filter"			"Steamテキストフィルター設定"
 
 		"citadel_confirm_reset_crosshair"					"クロスヘアをデフォルトにリセットしてもよろしいですか？"
 		"citadel_settings_crosshair"						"レティクル設定"
@@ -2006,7 +2068,7 @@
 		"citadel_settings_crosshair_pip_width"				"幅"
 		"citadel_settings_crosshair_pip_height"				"高さ"
 		"citadel_settings_crosshair_pip_border"				"ピップボーダーを表示"
-
+		"citadel_settings_crosshair_static_pip_gap"			"固定ピップギャップ"
 		"citadel_settings_crosshair_color"					"色"
 		"citadel_settings_crosshair_color_r"				"赤"
 		"citadel_settings_crosshair_color_g"				"緑"
@@ -2040,10 +2102,6 @@
 		"citadel_settings_fxaa_desc"					"画像のサンプリング不足による階段状のアーティファクトを減らします。アンチエイリアスはWIP - 現在FXAAをサポートしています。<br><br>パフォーマンスコスト: 小/一貫性あり"
 		"citadel_settings_fsr2"							"FSR2"
 		"citadel_settings_fsr2_desc"					"AMD FidelityFX Super Resolution 2 Temporal AA/アップスケーリングのWIP統合"
-		"citadel_settings_distancefield_shadows"		"ディスタンスフィールドシャドウ"
-		"citadel_settings_distancefield_shadows_desc"	"動的オブジェクトが、シャドウマップされていないライトで影を投影します。画面に表示されるキャラクターが増えるとパフォーマンスが低下しますが、今後のアップデートで改善される予定です。<br><br>パフォーマンスコスト: 中程度/変動あり"
-		"citadel_settings_distancefield_reflections"	"ディスタンスフィールドリフレクション"
-		"citadel_settings_distancefield_reflections_desc" "スペキュラーオクルージョンにディスタンスフィールドを使用するWIP機能。画面に表示されるキャラクターが増えるとパフォーマンスが低下しますが、今後のアップデートで改善される予定です。<br><br>パフォーマンスコスト: 大/変動あり"
 		"citadel_settings_area_lights"					"エリアライト"
 		"citadel_settings_area_lights_desc"				"大きなまたは不規則な形状の光源（ビームエフェクトなど）を正確にレンダリングできるようにします。低エンドシステムではパフォーマンスコストが高くなる可能性があります。<br><br>パフォーマンスコスト: 小/一貫性あり"
 		"citadel_settings_depth_of_field"				"被写界深度"
@@ -2068,13 +2126,17 @@
 		"citadel_settings_fog_quality_low"				"低"
 		"citadel_settings_fog_quality_med"				"中"
 		"citadel_settings_fog_quality_high"				"高"
-		"citadel_settings_dfao"							"ディスタンスフィールドAO"
+		"citadel_settings_dfao"							"ディスタンスフィールドシャドウ"
 		"citadel_settings_dfao_desc"					"ディスタンスフィールドデータを使用して、キャラクターや動的オブジェクトのソフトコンタクトシャドウを近似します。画面に表示されるキャラクターが増えるとパフォーマンスが低下しますが、今後のアップデートで改善される予定です。<br><br>パフォーマンスコスト: 大/変動あり"
 		"citadel_settings_dfao_quality_off"				"オフ"
 		"citadel_settings_dfao_quality_low"				"低"
 		"citadel_settings_dfao_quality_med"				"中"
 		"citadel_settings_dfao_quality_high"			"高"
 		"citadel_settings_dfao_quality_ultra"			"ウルトラ"
+		"citadel_settings_fogquality"					"フォグ品質"
+		"citadel_settings_fogquality_desc"				"低い設定にすると、ボリューメトリックフォグの解像度が下がり、低スペックのシステムでのパフォーマンスが向上します。"
+		"citadel_settings_fogquality_low"				"Low"
+		"citadel_settings_fogquality_high"				"High"
 		"citadel_settings_texturequality"				"テクスチャの品質"
 		"citadel_settings_texturequality_desc"			"低い設定にするとテクスチャの解像度が下がり、低エンドシステムでのパフォーマンスが向上する可能性があります。"
 		"citadel_settings_texturequality_low"			"低"
@@ -2117,7 +2179,7 @@
 		"citadel_settings_fps_max"						"ゲーム内の最大フレームレート"
 		"citadel_settings_fps_max_tip"					"スライダーの範囲外の値を入力すると、スライダーが無効になります。"
 		"citadel_settings_fps_max_ui"					"ダッシュボードの最大フレームレート"
-		"citadel_settings_fps_max_ui_tip"				"+ui_fps_max 起動オプションを使用して、拡張値を設定できます。\nスライダーの範囲外の値を設定すると、スライダーが無効になります。"
+		"citadel_settings_fps_max_ui_tip"				"+fps_max_ui 起動オプションを使用して、拡張値を設定できます。\nスライダーの範囲外の値を設定すると、スライダーが無効になります。"
 
 		"citadel_settings_fsr"							"FidelityFX Super Resolution"
 		"citadel_settings_fsr_tooltip"					"ゲームレンダースクリーンの品質が100%未満の場合の高品質なアップスケーリング。\nアンチエイリアスを有効にする必要があります。"
@@ -2136,11 +2198,36 @@
 
 		"citadel_settings_contextual_slot"				"[コンテキストスロット]"
 		"citadel_settings_contextual_slot_label"		"コンテキストピンホイールスロット"
+		"citadel_settings_contextual_slot_invalid"		"No Context Pings"
 		"citadel_settings_chat_wheel_all"				"[ALL]"
+
+		"citadel_settings_steam_input"						"Controller Settings"
+		"citadel_settings_steam_input_no_controller"		"Controller(s) not detected"
+		"citadel_settings_steam_input_open_configurator"	"Open Steam Input Configurator"
+
+		"citadel_settings_glyph_lock_mode"			"Glyph Mode"
+
+		"citadel_settings_glyph_lock_mode_off"			"Automatic"
+		"citadel_settings_glyph_lock_mode_kbm"			"Keyboard & Mouse only"
+		"citadel_settings_glyph_lock_mode_gamepad"		"GamePad only"
+
+		"citadel_settings_glyph_lock_mode_tooltip_off"		"Binding Glyphs Automatically change based on the source of the last button pressed."
+		"citadel_settings_glyph_lock_mode_tooltip_kbm"		"Only Keyboard and Mouse Glyphs will be displayed."
+		"citadel_settings_glyph_lock_mode_tooltip_gamepad"	"Only GamePad glyphs will be displayed (note: a controller must be connected)"
 
 		"Citadel_GraphicsDriverWarning_Title"				"警告: グラフィックドライバーが古いです"
 		"Citadel_GraphicsDriverOutOfDateWarning_AMD"		"最適なゲームプレイ体験を得るために、AMDサポートサイトから最新のドライバーをダウンロードしてください。"
 		"Citadel_GraphicsDriverOutOfDateWarning_Nvidia"		"最適なゲームプレイ体験を得るために、Nvidiaサポートサイトから最新のドライバーをダウンロードしてください。"
+
+		"Citadel_GraphicsSettingsWarning_Title"			"グラフィック設定の推奨"
+		"Citadel_VariableRefreshRateRecommendation_Nvidia"	"お使いのディスプレイはNVIDIA G-Syncをサポートしていますが、現在は有効になっていないようです。最適なゲーム体験のためにG-Syncを有効にすることをお勧めします。NVIDIAコントロールパネルからゲーム外で有効化できます。変更を反映するにはゲームを再起動する必要がある場合があります。"
+		"Citadel_RefreshRateRecommendation"					"お使いのディスプレイには{d:max_refresh_rate} Hzのモードがあるようですが、現在は{d:curr_refresh_rate} Hzで動作しています。最適なゲーム体験のためには、ディスプレイがサポートする最高リフレッシュレートを使用することをお勧めします。"
+		"Citadel_LowLatencyVSyncRecommendation_Nvidia"		"NVIDIA G-Syncは有効ですが、V-SyncとNVIDIA Reflexが両方とも有効ではないようです。最適なゲーム体験のために、これら3つの設定をすべて有効にすることをお勧めします。"
+
+		"citadel_settings_gsync"						"NVIDIA G-Sync: "
+		"citadel_settings_gsync_info"					"NVIDIA G-Syncは、ディスプレイがゲームのフレームレートに合わせてリフレッシュレートを動的に変更できる機能で、よりスムーズな視覚体験を提供します。この機能は特定のディスプレイでのみ利用可能で、ゲームのフレームレートがディスプレイモードの最大リフレッシュレートを下回る場合に最も効果的です。NVIDIAコントロールパネルでゲーム外から有効化できます。変更を反映するにはゲームを再起動する必要がある場合があります。"
+		"citadel_settings_gsync_enabled"				"有効"
+		"citadel_settings_gsync_disabled"				"無効"
 
 		"citadel_keybind_alt"							"ALT"
 		"citadel_keybind_shift"							"SHIFT"
@@ -2169,7 +2256,7 @@
 		"citadel_keybind_down"							"下降"
 		"citadel_keybind_mantle"						"ジャンプ/マントル"
 		"citadel_keybind_attack"						"射撃"
-		"citadel_keybind_ads"							"ズーム"
+		"citadel_keybind_ads"							"Alt-Fire"
 		"citadel_keybind_reset_camera"					"カメラリセット"
 		"citadel_keybind_ping"							"ピン"
 		"citadel_keybind_quick_response"				"クイックレスポンス"
@@ -2182,7 +2269,7 @@
 		"citadel_keybind_upgrade_ability_4"				"アビリティ 4 をアップグレード"
 		"citadel_keybind_chat_all"						"全体チャット"
 		"citadel_keybind_chat_team"						"チームチャット"
-		"citadel_keybind_mouse_wheel"					"マウスホイール"
+		"citadel_keybind_mouse_wheel"					"Chat Wheel"
 		"citadel_keybind_held_item"						"近接パリィ/保持アイテムを投げる"
 		"citadel_keybind_teleport_to_objective"			"テレポート"
 		"citadel_keybind_spec_next_target"				"次のターゲットを観戦"
@@ -2205,6 +2292,7 @@
 		"citadel_keybind_decrease_replay_speed"				"リプレイ速度を下げる"
 		"citadel_keybind_toggle_replay_pause"				"リプレイを一時停止/再開"
 
+		"citadel_keybind_purchase_quickbuy"				"クイックバイを購入"
 		"citadel_keybind_dev_console"					"開発者コンソール"
 		"citadel_keybind_alt_modifier"					"Alt 修飾キー"
 		"citadel_keybind_open_hero_sheet"				"ショップを開く"
@@ -2497,7 +2585,6 @@
 		"citadel_bot_name"							"ボット"
 		"menu_watch_live_games"						"{d:live_matches} 現在ライブ中"
 		"menu_botmatchmaking"						"ボットと対戦する"
-		"menu_botmatchmaking_count"					"待機中: {s:mm_coopbot_count}"
 		"menu_changehero"							"ヒーローを変更"
 
 		"menu_bots_lane_training"					"レーントレーニング"
@@ -2659,7 +2746,9 @@
 		"MyRosterExit"								"ロースターを終了"
 		"MyRosterExitRosterConfirm"					"ロースターを終了してもよろしいですか？これにより、パーティー全体のロースターが終了します。"
 		"MyRosterPartyHighSkillRangeTitle"			"スキル範囲が広いパーティー"	
-		"MyRosterPartyHighSkillRange"				"あなたのパーティーには幅広いスキルレベルのプレイヤーが含まれています。これにより、スキルが低めのプレイヤーはより難しい試合になる可能性があります。"
+		"MyRosterPartyHighSkillRangeNew"			"パーティーメンバーのスキル範囲が広いです。<br><br>そのため、マッチ内のスキルが低いプレイヤーは通常よりも苦戦する可能性があります。"
+		"PartyWarningPostGame"						"スキル範囲の広いパーティーマッチ"
+
 
 		"MyRosterPartyReadyCount"					"{d:party_ready_count}/{d:party_player_count} 準備完了"
 		"MyRosterPartyMemberRoster"					"すでにロスターに含まれているヒーロー:"
@@ -2915,7 +3004,7 @@
 		"citadel_chat_spectators"				"[SPECTATORS ONLY]"
 		"citadel_chat_allies"					"[ALLIES]"
 		"citadel_bot_name_prefix"				"[Bot]"
-		"citadel_purchasemessage"				"<span class=\"ChatTarget\">{s:target} <span class=\"ChatPersona\"><span class=\"{s:player_color_class}\">{s:persona}</span></span></span> <span class=\"{s:purchaseText}\">{s:soldOrPurchasedText}</span> <span class=\"{s:message_color_class}\">{s:message}</span>"
+		"citadel_purchasemessage"				"{s:param_1}"
 		"citadel_ping_wheel_message"			"{s:message}"
 
 		"citadel_ping_wheel_disabled_while_dead"				"死亡中は無効"

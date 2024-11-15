@@ -260,6 +260,8 @@
 		//-----------------------------------------------------------------------------
 		// Ability Properties desc
 		//-----------------------------------------------------------------------------
+		"AffectedProperty_new_value"				"<span class=\"AffectedValNew\">{s:valNew}</span><span class=\"AffectedValPostfix\">{s:valPostfix}</span>"
+
 		"EMultiplyBase_postfix"						"%"
 
 		"HealAmount_label"							"回復量"
@@ -1838,11 +1840,26 @@
 		"BuffDuration_label"				"バフ持続時間"
 		"BuffDuration_postfix"				"秒"
 
+		"GroundDashReductionPercent_label"	"ダッシュ距離"
+		"GroundDashReductionPercent_postfix"	"%"
 		//-----------------------------------------------------------------------------
 		// END Ability Properties desc
 		//-----------------------------------------------------------------------------
 
+		//-----------------------------------------------------------------------------
+		// Stat Descriptions - Used in Tooltips/Resources
+		//-----------------------------------------------------------------------------
 
-
+		"StatDesc_SpiritPowerDesc"				"<b>Spirit Power</b> - アビリティとアイテムの効果を増加させます"
+		"StatDesc_WeaponDamageDesc"				"<b>Weapon Damage</b> - 銃や近接攻撃のダメージに対する割合"
+		"StatDesc_MoveSpeedDesc"				"<b>Move Speed</b> - 現在の移動速度"
+		"StatDesc_SpiritResistDesc"				"<b>Spirit Armor</b> - 受けるスピリットダメージへの耐性"
+		"StatDesc_WeaponResistDesc"				"<b>Bullet Armor</b> - 受ける弾丸ダメージへの耐性"
+		"StatDesc_HealingBoostDesc"				"<b>Healing Effectiveness</b> - 回復アビリティの効果に対する割合"
+		"StatDesc_AmmoDesc"						"<b>Ammo</b> - リロードが必要になるまでの銃の装填数"
+		"StatDesc_FireRateDesc"					"<b>Fire Rate</b> - 銃の発射速度に対する割合"
+		"StatDesc_SpiritLifestealDesc"			"<b>Spirit Lifesteal</b> - スピリットダメージによって回復する体力量"
+		"StatDesc_WeaponLifestealDesc"			"<b>Weapon Lifesteal</b> - 武器ダメージによって回復する体力量"
+		"StatDesc_BulletEvationDesc"			"<b>Bullet Evasion</b> - 弾丸を回避する確率の割合"
 	}
 }

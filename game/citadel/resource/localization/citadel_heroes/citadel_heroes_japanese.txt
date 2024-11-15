@@ -354,7 +354,7 @@
 		//-----------------------------------------------------------------------------
 		"citadel_ability_chrono_time_wall"		"タイムウォール"
 		"citadel_ability_chrono_time_wall_quip"	"弾丸を大幅に減速させる壁を作る"
-		"citadel_ability_chrono_time_wall_desc"	"時間を歪める壁を作り、それに触れたすべての<span class=\"highlight\">敵の弾丸や飛び道具</span>の時間を<span class=\"highlight\">停止させる</span>。壁に触れた敵は<span class=\"highlight\">最大体力の割合に応じたダメージ</span>を受け、一時的にスロウ状態になる。<br>Time Wall."
+		"citadel_ability_chrono_time_wall_desc"	"時間を歪める壁を作り、それに触れたすべての<span class=\"highlight\">敵の弾丸や飛び道具</span>の時間を<span class=\"highlight\">停止させる</span>。壁に触れた敵は短い時間<span class=\"highlight\">スロウ効果</span>を受ける。<br>Time Wall."
 		//"TargetGameplayTimeScale_label"			"Time Scale"
 		"TargetGameplayTimeScale_postfix"			"%"
 		"TimeWallWidth_label"						"壁の幅"
@@ -370,6 +370,7 @@
 		"modifier_citadel_chrono_time_wall_effect"  "タイムウォール"
 		//"citadel_ability_chrono_time_wall_t1_desc"		"The wall speeds up <span class=\"highlight\">Paradox's movement.</span>"
 		"citadel_ability_chrono_time_wall_t1_desc"		"<span class=\"highlight\">幅+{s:TimeWallWidth}m、高さ+{s:TimeWallHeight}m</span>"
+		"citadel_ability_chrono_time_wall_t2_desc"	"タイムウォールが相手の最大体力の<span class=\"highlight\">{s:DamagePctPerWallHit}%</span>のダメージを与える"
 		"citadel_ability_chrono_time_wall_t3_desc"		"タイムウォールに触れた敵は<span class=\"highlight\">{s:DebuffDuration}秒間サイレンス状態</span>になります"
 		//"modifier_timewall_damageamp"				"Damage Vulnerability"
 
@@ -460,7 +461,7 @@
 
 		"citadel_ability_chrono_kinetic_carbine"			"キネティックカービン"
 		"citadel_ability_chrono_kinetic_carbine_quip"		"武器をチャージして高ダメージを与え、時間を停止させる"
-		"citadel_ability_chrono_kinetic_carbine_desc"		"武器をチャージし、フルチャージされると<span class=\"highlight\">移動速度が上昇</span>する。次のショットでエネルギーを放出し、<span class=\"highlight\">スピリットダメージ</span>を与え、命中した敵に<span class=\"highlight\">時間停止</span>を付与する。与えるダメージは現在の武器ダメージを強化したものです。<br><br>エンパワードショットが使用可能な状態で[{s:iv_attack2}]を押すと、自分自身の時間を遅くできます。<br>Kinetic Carbine."
+		"citadel_ability_chrono_kinetic_carbine_desc"		"武器をチャージし、フルチャージされると<span class=\"highlight\">移動速度が上昇</span>する。次のショットでエネルギーを放出し、<span class=\"highlight\">スピリットダメージ</span>を与え、命中した敵に<span class=\"highlight\">時間停止</span>を付与する。与えるダメージは現在の武器ダメージに基づいて増幅します。<br><br>エンパワードショットが使用可能な状態で[{s:iv_attack2}]を押すと、自分自身の時間を遅くできます。<br>Kinetic Carbine."
 		"citadel_ability_chrono_kinetic_carbine_t2_desc"	"クールダウン{s:AbilityCooldown}秒、速度ブースト持続時間+{s:SpeedBoostDuration}秒"
 		"citadel_ability_chrono_kinetic_carbine_charged"	"チャージ完了！"
 		"citadel_ability_chrono_kinetic_carbine_expiring"	"時間切れ間近"
@@ -713,7 +714,7 @@
 		"ability_sleep_dagger_desc" "ダガーを投げて、対象に<span class=\"highlight\">ダメージ</span>を与え、<span class=\"highlight\">スリープ状態</span>にする。スリープ状態の対象は、ダメージを受けるとすぐに目を覚ます。ダガーを投げても自分の透明状態は解除されない。スリープダガーは敵のチャネリングアビリティを中断しない。<br>Sleep Dagger."
 		"ability_sleep_dagger/modifier_citadel_sleep_bomb/modifier_citadel_sleep_dagger_asleep" "眠っている"
 		"ability_sleep_dagger_t1_desc" "<span class=\"highlight\">スタミナを{s:StaminaReduction}除去</span>"
-		"ability_sleep_dagger_t3_desc" "目覚めたときに<span class=\"highlight\">{s:BulletResistReduction}%の弾丸耐性低下を</span>{s:BulletResistReductionDuration}秒間付与する。"
+		"ability_sleep_dagger_t3_desc" "目覚めたときに<span class=\"highlight\">{s:BulletResistReduction}%の弾丸耐性低下と<span class=\"highlight\">{s:FireRateSlow}%</span>の発射速度低下を</span>{s:BulletResistReductionDuration}秒間付与する。"
 
 		"modifier_citadel_sleep_dagger_asleep" "眠っている"
 		//"HazeDaggerRadius_label"			"Hit Radius"
@@ -779,7 +780,7 @@
 
 		"citadel_ability_void_sphere"				"クアンタム・エンテングルメント"
 		"citadel_ability_void_sphere_quip"		"存在から消えて再出現する"
-		"citadel_ability_void_sphere_desc"		"{s:hero_name}は一時的に<span class=\"highlight\">虚空に消え</span>、短い距離を移動して再出現する。再出現時に武器が<span class=\"highlight\">リロードされ</span>、次のマガジンに対して<span class=\"highlight\">発射速度ボーナス</span>が付与される（最大{s:FireRateBonusDurationMax}秒）。[{s:key_alt_cast}]で発動すると、近くの味方も連れて行き、連れて行った味方にも半分の発射速度ボーナスを付与する。<br>Quantum Entanglement."
+		"citadel_ability_void_sphere_desc"		"{s:hero_name}は一時的に<span class=\"highlight\">虚空に消え</span>、短い距離を移動して再出現する。再出現時に武器が<span class=\"highlight\">リロードされ</span>、次のマガジンに対して<span class=\"highlight\">発射速度ボーナス</span>が付与される（最大{s:FireRateBonusDurationMax}秒）。Alt-Cast で発動すると、近くの味方も連れて行き、連れて行った味方にも半分の発射速度ボーナスを付与する。<br>Quantum Entanglement."
 		"citadel_ability_void_sphere_t3_desc"		"再出現時に<span class=\"highlight\">{s:AbilityCooldown}秒</span>のアビリティクールダウンと、基本弾薬が<span class=\"highlight\">+{s:BonusClipSizePercent}%</span>増加する。"
 		"modifier_void_sphere"					"クアンタム・エンテングルメント"
 		//"modifier_voidsphere_buff"				"Void Sphere +Fire Rate"
@@ -934,8 +935,7 @@
 
 		"ability_warden_riot_protocol"			"ラストスタンド"
 		"ability_warden_riot_protocol_quip"		"敵からHPを奪うパルスを放つ"
-		"ability_warden_riot_protocol_desc"		"{s:AbilityCastDelay}秒間チャージした後、<span class=\"highlight\">敵にダメージを与えつつ、そのダメージに応じて自分を回復するパルスを放つ</span>。<br>チャネリング中は、<span class=\"highlight\">弾丸耐性</span>が大幅に増加する。<br>Last Stand."
-		"ability_warden_riot_protocol_t3_desc"	"<span class=\"highlight\">{s:AbilityCooldown}秒</span>のクールダウン、チャネリング中は<span class=\"highlight\">アンストッパブル状態</span>を得る。"
+		"ability_warden_riot_protocol_desc"		"{s:AbilityCastDelay}秒間チャージした後、<span class=\"highlight\">敵にダメージを与えつつ、そのダメージに応じて自分を回復するパルスを放つ</span>。<br>チャネリング中は、<span class=\"highlight\">弾丸耐性とスピリット耐性</span>が大幅に増加する。<br>Last Stand."
 		"modifier_warden_riot_protocol"			"ラストスタンド"
 		"modifier_warden_riot_protocol_enemy_debuff"	"スロウ"
 		
@@ -962,7 +962,7 @@
 		//-----------------------------------------------------------------------------
 		"ability_wrecking_ball"				"Wrecking Ball"
 		"ability_wrecking_ball_quip"			"Throw a ball of scrap that stuns enemies"
-		"ability_wrecking_ball_desc"			"Create a large ball of scrap that can be thrown, <span class=\"highlight\">damaging and stunning</span> anything it hits. The ball takes time to create and you move slower while carrying it."
+		"ability_wrecking_ball_desc"			"Create a large ball of scrap that can be thrown, <span class=\"highlight\">damaging and stunning</span> the first enemy hit. The ball takes time to create and you move slower while carrying it."
 		"WreckingBallDamage_label"			"Damage"
 		"WreckingBallPickupTime_label"		"Create Time"
 		"WreckingBallPickupTime_postfix"		"s"
@@ -971,16 +971,19 @@
 		"modifier_wrecking_ball_auto_throw"	"Wrecking Ball"
 		"hint_throw_wrecking_ball"			"Throw Ball"
 
-		"ability_wrecker_salvage"				"Consume"
-		"ability_wrecker_salvage_desc"		"<span class=\"highlight\">Stuns</span> an enemy trooper or NPC, <span class=\"highlight\">damaging</span> them while held. A successful kill provides a <span class=\"highlight\">fire rate</span> bonus, and restores a <span class=\"highlight\">Bio Blast</span> charge.  This bonus stacks independently"
+		"ability_wrecker_salvage"			"Consume"
+		"ability_wrecker_salvage_desc"		"Latches onto an Enemy, <span class=\"highlight\">damaging</span> them while attached. A successful kill provides a <span class=\"highlight\">fire rate</span> bonus, and restores a <span class=\"highlight\">Bio Blast</span> charge.  This bonus stacks independently."
 		"ability_wrecker_salvage_quip"		"Consume an enemy trooper or neutral"
 		"FireRateBuffDuration_label"			"Bonus Duration"
 		"FireRateBuffDuration_postfix"		"s"
 		"SalvageBonus_FireRate_label"			"Fire Rate per bonus"
 		"SalvageBonus_Health_label"			"Healing"
-		"ability_wrecker_salvage_t1_desc"		"<span class=\"highlight\">{s:SalvageBonus_Health} health</span> restored per kill."
 		"SalvageDuration_label"				"Max Duration"
 		"SalvageDuration_postfix"				"s"
+		"ability_wrecker_salvage_t3_desc"		"<span class=\"highlight\">+{s:AbilityUnitTargetLimit}</span> additional targets"
+		"ability_wrecker_salvage/modifier_wrecker_salvage"	 "Tethered"
+		"ConsumeHealPercentage_label"			"Consume Heal Percentage"
+		"ConsumeHealPercentage_postfix"			"%"
 
 		"modifier_wrecker_salvage_buff"		"Fire Rate Increased"
 
@@ -1104,7 +1107,7 @@
 
 		"ability_icebeam"					"アークティックビーム"
 		"ability_icebeam_quip"				"解除できるスロウを適用する"
-		"ability_icebeam_desc"				"前方に凍る冷気を放ち、<span class=\"highlight\">ターゲットにダメージを与え、</span><span class=\"highlight\">移動速度と攻撃速度のスロウを蓄積</span>します。ビームを維持している間は移動速度が減少します。<br>Arctic Beam."
+		"ability_icebeam_desc"				"前方に凍る冷気を放ち、<span class=\"highlight\">ターゲットにダメージを与え、</span><span class=\"highlight\">移動速度と攻撃速度のスロウを蓄積</span>させる。ビーム使用中は移動速度が低下する。また、ビームはソウルを回収することができる。<br>Arctic Beam."
 		"ability_icebeam_t3_desc"			"<span class=\"highlight\">{s:BeamSplitCount}本の追加アークティックビームを</span>最後にヒットしたターゲットの{s:BeamSplit}m以内の敵に放ちます。"
 		"modifier_citadel_kelvin_frozen"	"凍結中"
 		"ability_icebeam/modifier_slow"		"アークティックビーム スロウ"
@@ -1136,6 +1139,9 @@
 		"BonusTechDamagePercent_postfix"		"%"
 		"ability_icepath/modifier_icepath/modifier_icepath_friendly_aura/modifier_icepath_buff"			"アイスパス"
 		"AbilityButtonHint_CancelIcePath"	"アイスパスをキャンセル"
+		"AbilityButtonHint_IcePathUp"	"ピッチアップ"
+		"AbilityButtonHint_IcePathDown"	"ピッチダウン"
+
 
 		"ability_ice_dome"				"フローズンシェルター"
 		"ability_ice_dome_quip"			"貫通不可能な癒しのドームを作成する"
@@ -1171,9 +1177,9 @@
 
 		"citadel_ability_sticky_bomb"			"スティッキーボム"
 		"citadel_ability_sticky_bomb_quip"		"敵に爆弾を仕掛ける"
-		"citadel_ability_sticky_bomb_desc"		"近くのターゲットにスティッキーボムを取り付け、短い起爆時間の後に<span class=\"highlight\">爆発ダメージ</span>を与える。<br>敵ヒーローに命中するごとに<span class=\"highlight\">爆弾ダメージ+{s:BonusDamagePctPerPlayerHit}%</span>のスタックを獲得。死亡時にスタックの{s:BonusLossPerDeath}%を失う（端数は切り上げ）。<br>[{s:key_alt_cast}]を押し続けることで、自分にスティッキーボムをキャストできる。<br>Sticky Bomb."
+		"citadel_ability_sticky_bomb_desc"		"近くのターゲットにスティッキーボムを取り付け、短い起爆時間の後に<span class=\"highlight\">爆発ダメージ</span>を与える。<br>敵ヒーローに命中するごとに<span class=\"highlight\">爆弾ダメージ+{s:BonusDamagePctPerPlayerHit}%</span>のスタックを獲得。<br>爆弾ダメージを受けた敵ヒーローが{s:KillCheckWindow}秒以内に倒されると<span class=\"highlight\">+{s:BonusDamagePctPerPlayerKilled}%の爆弾ダメージ</span>を獲得する。<br><br>[{s:key_alt_cast}]を押し続けることで、自分にスティッキーボムをキャストできる。<br>Sticky Bomb."
 		"modifier_citadel_sticky_bomb_attached"	"ボムがあなたに取り付けられています"
-		"citadel_ability_sticky_bomb_t3_desc"	"取り付け時に、ターゲットを<span class=\"highlight\">{s:DebuffDuration}秒間</span> <span class=\"highlight\">無力化</span>します。"
+		"citadel_ability_sticky_bomb_t3_desc"	"爆弾を取り付けられたターゲットは<span class=\"highlight\">{s:DebuffDuration}秒間</span> 、与えるダメージが<span class=\"highlight\">{s:OutgoingDamagePenaltyPercent}%</span>減少する。"
 		"StunTargetOnExplode_label"				"持続時間"
 		"StunTargetOnExplode_postfix"				"s"
 
@@ -1251,8 +1257,8 @@
 
 		"ability_bounce_pad"					"Bounce Pad"
 		"ability_bounce_pad_quip"				"Send yourself and others flying"
-		"ability_bounce_pad_desc"				"Drop a bounce pad in the world that <span class=\"highlight\">sends you and other heroes flying</span>. You will stomp down on landing, <span class=\"highlight\">dealing damage</span> to any nearby enemies."
-		"ability_bounce_pad_t1_desc"			"You and allies gain a +{s:SpeedOnLand}m/s movement speed bonus for {s:SpeedOnLandDuration}s on landing"
+		"ability_bounce_pad_desc"				"Drop a bounce pad in the world that <span class=\"highlight\">sends you and other heroes flying</span>. You will Stomp on landing, <span class=\"highlight\">dealing damage</span> to any nearby enemies.<br><br><span class=\"diminish\">The Stomp can only occur once per Bounce Pad.	</span> "
+		"ability_bounce_pad_t1_desc"			"You and allies gain a +{s:SpeedOnLand}m/s move speed bonus for {s:SpeedOnLandDuration}s on landing"
 		"ability_bounce_pad_t2_desc"			"<span class=\"highlight\">+{s:StompDamage}</span> Stomp Damage with improved scaling"
 		"ability_bounce_pad_t3_desc"			"<span class=\"highlight\">+{s:StompStunDuration}s Stun</span> on Stomp"
 		"StompDamage_label"			"Stomp Damage"
@@ -1337,6 +1343,7 @@
 		//"modifier_lasso_enemy"					"Being dragged"
 		//"modifier_lasso_self"					"Dragging someone"
 
+
 		//-----------------------------------------------------------------------------
 		// Hero Nano // Calico
 		//-----------------------------------------------------------------------------
@@ -1376,15 +1383,17 @@
 		"StatueLifesteal_postfix"				"%"
 		"StatueLifestealNonHero_label"			"Lifesteal Non-Hero"
 		"StatueLifestealNonHero_postfix"		"%"
-		"StatueActivateRange_label"				"Reveal Range"
+		"StatueActivateRange_label"				"Enemy Reveal"
 		"StatueActivateRange_postfix"			"m"
-		"StatueHealth_label"					"Ava (Normalized)"
+		"StatueAttackRadius_label"				"Attack Range"
+		"StatueAttackRadius_postfix"				"m"
+		"StatueHealth_label"					"(Normalized)"
 		"StatueHealth_postfix"					"HP"
 		"StatueVictimDamageReduction_label"					"Damage Reduction"
 		"StatueVictimDamageReduction_postfix"				"%"
 
 		"ability_nano_proximity_ritual_t1_desc"  "Statues gain <span class=\"highlight\">Invisibility</span> when not attacking."
-		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:AbilityCharges}</span> Ability Charge and <span class=\"highlight\">+{s:DPS}</span> DPS."
+		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:AbilityDuration}s</span> Duration and <span class=\"highlight\">+{s:DPS}</span> DPS."
 		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">{s:StatueVictimDamageReduction}%</span> Damage Reduction and {s:HealAmpReceivePenaltyPercent}% Heal Reduction on targets."
 		"ability_nano_proximity_ritual_trigger"		"Recall Ava"
 
@@ -1615,9 +1624,9 @@
 
 		"citadel_ability_hornet_snipe"			"アサシネイト"
 		"citadel_ability_hornet_snipe_quip"		"負傷したターゲットを狙撃して大ダメージを与える"
-		"citadel_ability_hornet_snipe_desc"		"スコープ付きライフルを使用して、長距離から強力な一撃を放ちます。スコープをかけた状態で1秒後に完全に充電されるまで部分的なダメージしか与えません。<span class=\"highlight\">残り体力が{s:LowHealthEnemyThresholdPct}%未満の敵にボーナスダメージ</span>を与えます。アサシネイトでプレイヤーを倒すと、<span class=\"highlight\">ボーナスソウル</span>を得ます。<br>Assassinate."
+		"citadel_ability_hornet_snipe_desc"		"スコープ付きライフルを使用して、長距離から強力な一撃を放ちます。スコープをかけた状態で{s:TimeToFullCharge}秒後に完全に充電されるまで部分的なダメージしか与えません。<span class=\"highlight\">残り体力が{s:LowHealthEnemyThresholdPct}%未満の敵にボーナスダメージ</span>を与えます。アサシネイトでプレイヤーを倒すと、<span class=\"highlight\">ボーナスソウル</span>を得ます。<br>Assassinate."
 		//"citadel_ability_hornet_snipe_t3_desc"	"Assassinate kills grant +{s:BonusGoldOnKill} souls"
-		"LowHealthEnemyDamageBonus_label"		"ボーナスダメージ"
+		"LowHealthEnemyDamageBonus_label"		"マックスボーナスダメージ"
 		"LowHealthEnemyThresholdPct_label"		"低体力閾値"
 		"LowHealthEnemyThresholdPct_postfix"	"%"
 		"BonusGoldOnKill_label"					"アサシネーションごとのボーナスソウル"
@@ -1625,7 +1634,11 @@
 		//"modifier_citadel_assassinate_target"	"Assassination Target - Find Cover!"
 		"HeadshotBonus_prefix"					"+"
 		"HeadshotBonus_label"					"ヘッドショットダメージ"
-		"HeadshotBonus_postfix"					"%"
+		"HeadshotBonus_postfix"	
+		"TimeToFullCharge_label"				"フルチャージタイム"
+		"TimeToFullCharge_postfix"				"s"
+		"MinChargeDamagePercent_label"			"非チャージ時のダメージ"
+		"MinChargeDamagePercent_postfix"		"%"				"%"
 		"AbilityButtonHint_AssassinateFoVCycle"	"ズーム切り替え"
 
 		//-----------------------------------------------------------------------------
@@ -2169,18 +2182,25 @@
 		"fathom_breach_quip"		"Launch forward into enemies"
 		"fathom_breach_desc"		"Launch forward, damaging all enemies near where you land and knocking them into the air."
 
-		"fathom_defer_damage"		"Bloodletting"
-		"fathom_defer_damage_quip"	"Defer a portion of damage taken"
-
 		"fathom_reefdweller_harpoon"		"Reefdweller Harpoon"
 		"fathom_reefdweller_harpoon_quip"	"Throw a harpoon to pull yourself towards a surface."
-		"fathom_reefdweller_harpoon_desc"	"Throw a harpoon that latches to a surface and pulls you in. While hanging attached to the harpoon surface, you are <span class=\"highlight\">invisible and invulnerable</span>. Enemies that look directly at Fathom reveal the invisibility."
+		"fathom_reefdweller_harpoon_desc"	"Throw a harpoon that latches to a wall or ceiling, and <span class=\"highlight\">pulls you in</span>. Activates <span class=\"highlight\">Lurker's Ambush's invisibility</span> while being pulled in. Once hanging attached to the harpoon surface, <span class=\"highlight\">gain additional charges</span>.<br><br><span class=\"diminish\">Casting Reefdweller Harpoon does not break invisibility.</span>"
 		"fathom_reefdweller_harpoon_passive_desc" "Passive: While out of combat and hidden on the minimap, <span class=\"highlight\">heal a portion of your max health</span> every second."
-		"modifier_fathom_reefdweller_harpoon_latched"	"Reefdweller Harpoon"
-		"fathom_reefdweller_harpoon/regen"	"Out of Combat Regen"
-		"fathom_reefdweller_harpoon/latched"	"Attached to Wall"
-		"OutOfCombatRegen_label"			"Max Health Regen"
-		"OutOfCombatRegen_postfix"			"%"
+		"fathom_reefdweller_harpoon_t3_desc" "After detaching, gain {s:BonusFireRate}% Fire Rate for {s:DetachBuffDuration}s or until you reload"
+		"fathom_reefdweller_harpoon/regen"	"Reefdweller Harpoon Regen"
+		"fathom_reefdweller_harpoon/detach_buff"	"Fire Rate"
+
+		"fathom_lurkers_ambush"		"Lurker's Ambush"
+		"fathom_lurkers_ambush_passive_desc"	"Passive: While out of combat and not seen by enemies, <span class=\"highlight\">heal a portion of your max health</span> every second. <span class=\"highlight\">If you stand still, you also become  invisible</span>, so long as you stay still or crouched and don't perform any actions.  While completely invisible, you are <span class=\"highlight\">invulnerable</span>."
+		"fathom_lurkers_ambush_active_desc"		"<span class=\"highlight\">Charge up a mouthful of sticky spit</span> that damages and immobilizes enemies. Hold [{s:ability_key}] to hold the spit.  Damage and immobilization duration increase the longer you hold the spit."
+		"fathom_lurkers_ambush/invis"	"Invisible"
+		"fathom_lurkers_ambush/regen"	"Health Regen"
+		"fathom_lurkers_ambush/immobilize"	"Immobilized"
+		"ImmobilizeMaxDuration_label"	"Max Immobilize Duration"
+		"ImmobilizeMaxDuration_postfix"	"s"
+		"NotSeenByEnemiesRegen_label"		"Max Health Regen"
+		"NotSeenByEnemiesRegen_postfix"		"%"
+		"MaxDamage_label"				"Max Damage"
 
 
 		//"slork_ability_4"		"Torrent"
@@ -2190,7 +2210,7 @@
 		//"slork_ability_invis_desc"		"<span class=\"highlight\">Fade from view</span> when not shooting or using abilities. When fully invisible, can be cast to deal <span class=\"highlight_tech\">{s:AmbushDamage}</span> damage and <span class=\"highlight\">+{s:StaminaDamage}</span> stamina damage to enemies in front of Slork."
 		//"InvisReapplyDelay_Label"		"Delay before fading"
 		//"InvisRegen_Label"				"Invis Max Health Regen"
-		"InvisRegen_postfix" "%"
+		"InvisRegen_postfix"			"%"
 		//"AmbushDamage_Label"			"Ambush Damage"
 		//"StaminaDamage_Label"			"Stamina Damage"
 //		"slork_ability_invis_t2_desc"	"-{s:InvisReapplyDelay}s Delay before fading"
@@ -2219,7 +2239,7 @@
 
 		//"CooldownReductionOnCatch_label"				"Cooldown on Catch"
 		//"CooldownReductionOnCatch_postfix"				"s"
-		"CooldownReductionOnHit_label"					"ヒット時のクールダウン減少"
+		"CooldownReductionOnHit_label"					"Cooldown Reduced on Hit"
 		"CooldownReductionOnHit_postfix"					"s"
 
 		//"ability_kali_dust_storm"							"Dust Storm"
@@ -2254,7 +2274,7 @@
 		//"BoloHitDamage_label"						"Damage on Hit"
 
 		//"modifier_citadel_bolo"					"Immobilizing..."
-		"modifier_bolo_immobilized"				"固定された"
+		"modifier_bolo_immobilized"				"Immobilized"
 		//"modifier_bolo_leech"					"Leeching..."
 
 		//-----------------------------------------------------------------------------
@@ -2497,7 +2517,7 @@
 
 		"citadel_ability_infinity_slash"		"シャドウ・トランスフォーメーション"
 		"citadel_ability_infinity_slash_quip"	"無敵かつより強力になる"
-		"citadel_ability_infinity_slash_desc"	"ヤマトの影の魂に取り憑かれる。最初に<span class=\"highlight\">無敵の</span>変身を行い、その後<span class=\"highlight\">アビリティがリフレッシュされ、60%速くなる</span>。さらに、<span class=\"highlight\">ネガティブな状態異常は無効化</span>する。このモード中は死亡しない。<br>Shadow Transformation."
+		"citadel_ability_infinity_slash_desc"	"{s:hero_name}の影の魂に取り憑かれる。最初に<span class=\"highlight\">無敵の</span>変身を行い、その後<span class=\"highlight\">アビリティがリフレッシュされ、60%速くなる</span>。さらに、<span class=\"highlight\">ネガティブな状態異常は無効化、ダメージ耐性の付与、体力の回復を</span>得る。<br>{s:hero_name}が敵ヒーローを倒すと持続時間が延長される。<br>Shadow Transformation."
 		//"citadel_ability_infinity_slash_buff_header" "Per Hero Hit"	
 		"ShadowDuration_label"					"爆発遅延"
 		"ShadowDuration_postfix"				"s"
@@ -2506,6 +2526,9 @@
 		"AbilitySpeedPct_label"					"能力速度"
 		"AbilitySpeedPct_prefix"				"+"
 		"AbilitySpeedPct_postfix"				"%"
+		"ShadowFormDurationOnKill_label"		"Time on Kill"
+		"ShadowFormDurationOnKill_prefix"		"+"
+		"ShadowFormDurationOnKill_postfix"		"s"
 
 		"citadel_ability_infinity_slash/timer"	"シャドーフォーム"
 
@@ -2603,7 +2626,8 @@
 		"viscous_goo_bowling_ball_desc"                   "大きな粘液ボールに変身し、<span class=\"highlight\">ダメージを与え</span>、敵を<span class=\"highlight\">スタンさせる</span>。ボールは大量の<span class=\"highlight\">弾薬</span>と<span class=\"highlight\">霊</span>に対する耐性を与え、壁に跳ね返り、<span class=\"highlight\">ダブルジャンプ</span>が可能です。<br>Goo Ball."
 		"viscous_goo_bowling_ball_quip"                   "転がって混乱を引き起こす"
 		"viscous_goo_bowling_ball_t3_desc"                "転がりながらアビリティを発動し、アイテムを使用できます"
-
+		"BallRadius_label"								"ボールの半径"
+		"BallRadius_postfix"								"m"
 		"viscous_telepunch"                               "パドルパンチ"
 		"viscous_telepunch_desc"                          "世界に拳を具現化し、そのエリア内のユニットを<span class=\"highlight\">パンチ</span>して吹き飛ばします。敵には<span class=\"highlight\">ダメージ</span>が与えられ、一時的にダッシュ距離が減少し、<span class=\"highlight\">移動速度が遅くなる</span>。これは<span class=\"highlight\">軽い近接攻撃</span>と見なされます。<br>Puddle Punch."
 		"viscous_telepunch_quip"                          "巨大な拳で敵をパンチ"
@@ -2625,6 +2649,8 @@
 		"RollingTime_postfix"                             "s"
 		"CubeHealth_label"                                "キューブのHP"
 		//"viscous_gootapult_hint"						"Launch!"
+
+
 		//-----------------------------------------------------------------------------
 		// Hero Sky Monk
 		//-----------------------------------------------------------------------------
@@ -2793,7 +2819,7 @@
 
 		"ability_viper_snakedash" "Slither"
 		"ability_viper_snakedash_desc" "You have increased Slide Distance, can Slide up hills, and can turn faster while Sliding.</span>"
-		"ability_viper_snakedash_t3_desc"	"<span class=\"highlight\">+{s:SlideBulletEvasion}% Bullet Evasion</span> while Sliding"
+		"ability_viper_snakedash_t3_desc"	"<span class=\"highlight\">+{s:SlideResist}% Spirit & Bullet Resist</span> while Sliding"
 		"ability_viper_snakedash_quip" "Increase the agility of your Slide"
 
 		"modifier_snakedash" "Snakeform"
@@ -2803,7 +2829,7 @@
 		"OutgoingProjectileLifetime_postfix" "s"
 
 		"ability_viper_venom" "Lethal Venom"
-		"ability_viper_venom_desc" "Inject a target with lethal venom. After a delay the venom triggers, dealing <span class=\"highlight_spirit\">Spirit Damage</span>. The damage is increased by the target's missing health.<br><br><span class=\"diminish\">Reapplying Venom refreshes the duration.</span>"
+		"ability_viper_venom_desc" "Inject a target with lethal venom. After a delay the venom triggers, dealing <span class=\"highlight_spirit\">Spirit Damage</span>. The damage is increased by the target's missing health.<br><br><span class=\"diminish\">Reapplying Venom refreshes the duration.<br>Venom breaks Petrify before detonating.</span>"
 		"VenomMinDamage_label"			"Minimum Venom Damage"
 		"VenomMaxDamage_label"			"Max Venom Damage"
 		"VenomDuration_label"			"Venom Buildup Duration"
@@ -2820,20 +2846,26 @@
 		"ability_viper_ult_desc" "Create a hexed area on the ground. After a delay, ALL units in the cylindrical area are <span id=\"TestID\"/></span><span class=\"highlight\">Petrified</span>. Enemies also suffer <span class=\"highlight_spirit\">Spirit Damage</span>.<br><br><span class=\"diminish\">Petrified units block all damage, but cannot take actions.<br>Petrified units break free after blocking enough damage.</span>"
 		"PetrifyDuration_label"			"Petrify Duration"
 		"PetrifyDuration_postfix"		"s"
-		"PetrifyDamageBreakThreshold_label"	"Petrify Max Block"
+		"PetrifyDamageBreakThreshold_label"	"Petrify Damage Block"
 		"ability_viper_ult/viper_ult_petrify" "Petrified"
 		"ability_viper_ult_quip" "Turn both allies and enemies into stone"
 		"HalfHeight_postfix"	"m"
+
+		"ability_viper_debuffdagger" "Screwjab Dagger"
+		"ability_viper_debuffdagger_desc" "Throw a dagger, dealing <span class=\"highlight_spirit\">Spirit Damage</span> and applying a <span class=\"highlight\">Fading Slow</span>."
+		"ability_viper_debuffdagger_t3_desc"	"+<span class=\"highlight\">{s:SlowDuration}s</span> Slow Duration and remove <span class=\"highlight\">{s:StaminaReduction} Stamina</span>"
+
 
 		//-----------------------------------------------------------------------------
 		// Hero Magician
 		//-----------------------------------------------------------------------------
 		
 		"ability_magician_magicbolt" "Vexing Bolt"
-		"ability_magician_magicbolt_desc" "Fire a bolt of magic that deals <span class=\"highlight_spirit\">Spirit Damage</span> and applies a <span class=\"highlight\">Fading Slow</span>. <br><br>Press <span class=\"highlight\">[{s:in_ability1}]</span> to <span class=\"highlight\">redirect</span> the bolt towards your crosshairs."
+		"ability_magician_magicbolt_desc" "Fire a bolt of magic that deals <span class=\"highlight_spirit\">Spirit Damage</span> and applies a <span class=\"highlight\">Fire Rate Slow</span>. <br><br>Press <span class=\"highlight\">[{s:in_ability1}]</span> to <span class=\"highlight\">redirect</span> the bolt towards your crosshairs."
 		"ProjectileRedirectCount_label" "Max Redirects"
-		"ability_magician_magicbolt_t3_desc" "+{s:ProjectileRedirectCount} Max Redirects and +{s:Damage} Damage"
+		"ability_magician_magicbolt_t3_desc" "Increased Bolt Velocity and +{s:Damage} Damage"
 		"ability_magician_magicbolt_quip" "Launch a guided bolt of magic"
+		"AbilityButtonHint_MagicBoltRedirect" "Redirect Bolt"
 
 		"citadel_ability_magewalk" "Misdirection"
 		"citadel_ability_magewalkk_desc" "Briefly become <span class=\"highlight\">Untargetable</span> before appearing at your destination. Your first <span class=\"highlight\">{s:EmpoweredAttackCount} attacks</span> deal bonus <span class=\"highlight_spirit\">Spirit Damage</span>. <br><br><span class=\"highlight\">[Cast]</span> Appear at the target location.<br><span class=\"highlight\">[Alt-Cast]</span> Appear in place.</span><br><span class=\"diminish\">Enemies will not know which cast you performed.</span>"
@@ -2842,7 +2874,7 @@
 		"modifier_magewalk_empoweredattacks" "Lucky Card"
 
 		"ability_magician_cloneturret" "Spectral Assistant"
-		"ability_magician_cloneturret_desc" "Summon an <span class=\"highlight\">Assistant</span> at the target location. They mimic your attacks, throwing cards that deal <span class=\"highlight_spirit\">Spirit Damage</span>. <br><br>Press <span class=\"highlight\">[{s:in_ability2}]</span> to swap positions with your Assistant."
+		"ability_magician_cloneturret_desc" "Summon an <span class=\"highlight\">Assistant</span> at the targeted location. The <span class=\"highlight\">Assistant</span> attacks whenever you fire your weapon, dealing  <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span>. <br><br>While the <span class=\"highlight\">Assistant</span> is out, you can press <span class=\"highlight\">[{s:in_ability2}]</span> to swap positions with your <span class=\"highlight\">Assistant</span>. This effect can only happen once. <br><br><span class=\"diminish\">Casting Spectral Assistant also reloads your weapon.</span>"
 		"ability_magician_cloneturret_t3_desc" "The Assistant also mimics Vexing Bolt"
 		"ability_magician_cloneturret_quip" "Summon your faithful assistant"
 
@@ -2867,6 +2899,64 @@
 		"CloneLifetime_label" "Copy Duration"
 		"CloneLifetime_postfix" "s" 
 		"ability_magician_shadowclone_t3_desc"	"Copy can cast their <span class=\"highlight\">Ultimate Ability</span>."
+
+		"ability_magician_bigbolt" "Grand Finale!"
+		"ability_magician_bigbolt_desc" "Prepare three AMAZING bolts of magic. Each bolt applies a <span class=\"highlight\">Fading Slow</span> and deals <span class=\"highlight_spirit\">Spirit Damage</span>, increased for <span class=\"highlight\">every bolt fired</span>."
+		"TotalBolts_label" "Magic Bolts"
+		"DamagePerShot_label" "Damage Gain per Bolt"
+		"ability_magician_bigbolt_t3_desc" "<span class=\"highlight\">+{s:DamagePerShot}</span> Damage Per Bolt. Refund <span class=\"highlight\">{s:BoltRefundPerKill}</span> Bolt per Kill"
+		"AbilityButtonHint_MagicianBigBoltFire" "Fire Bolt"
+
+		//-----------------------------------------------------------------------------
+		// Hero Trapper
+		//-----------------------------------------------------------------------------
+		"ability_trapper_spiderjar" "Jar of Terror"
+		"ability_trapper_spiderjar_desc" "Throw a jar that detonates on impact, dealing <span class=\"highlight_spirit\">Spirit Damage</span>. The jar releases Spiders that chase nearby enemies, dealing additional <span class=\"highlight_spirit\">Spirit Damage</span>.<br><br> <span class=\"diminish\">Spiders can be shot and destroyed by enemies.</span>"
+		"JarDamage_label" "Jar Damage"
+		
+		"ability_trapper_spiderjar_t3_desc" "Spiders <span class=\"highlight\">steal +{s:SpiritResStolenPerStack}% Spirit Resist</span> for {s:SpiritStealDuration}s"
+
+		"ability_trapper_spidershield" "Pest Barrier"
+		"ability_trapper_spidershield_desc" "Apply a barrier to a target ally, granting <Panel class=\"AbilityPropertyIcon prop_tech_armor_up\"> <span class=\"highlight_spirit\">Spirit Shield</span>. As long as the shield holds, it periodically deals <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Spirit Damage</span> and <Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">Slows</span>."
+		"ShieldTechArmor_label" "Shield Spirit Resist"
+		"ShieldTechArmor_postfix" "%"
+
+		"ability_trapper_fear" "Spectral Silk"
+		"ability_trapper_fear_desc" "Dealing Spirit Damage builds an increasing <span class=\"highlight\">Slow</span>. Once full, the buildup is consumed to apply an <span class=\"highlight\">Immobilize</span> and a burst of <span class=\"highlight_spirit\">Spirit Damage</span>.<br><br>This effect has a cooldown per target."
+		"ability_trapper_fear/trapper_fear_modifier" "Fear"
+		"BuildupSpiritDamageThreshold_label" "Spirit Damage Threshold"
+		"BuildUpProcDamage_label" "Proc Damage"
+
+		"ability_trapper_webwall" "Silktrap"
+		"ability_trapper_webwall_desc" "Create a thread of web between two surfaces. Enemies who touch the web take <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span> and are <Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">Slowed</span>."
+		"WallToWallDistance_label" "Max Web Distance"
+		"WallToWallDistance_postfix" "m"
+		"WebDuration_label" "Web Duration"
+		"WebDuration_postfix" "s"
+		"ability_trapper_webwall/modifier_webwall_debuff" "Webbed"
+		"ability_trapper_webwall_t3_desc" "The Web also <span class=\"highlight\">Disarms</span> for <span class=\"highlight\">{s:DisarmDuration}</span>s"
+
+		"ability_trapper_poisonjar" "Bottled Phantasmicide"
+		"ability_trapper_poisonjar_desc" "Throw a jar that leaves a pool of poison, dealing <Panel class=\"AbilityPropertyIcon prop_tech_damage\"></Panel><span class=\"highlight_spirit\">Damage</span> and <span class=\"highlight\">Slowing</span>. The pool spreads over time, growing in size."
+
+
+		"ability_trapper_spiderwave" "Crawling Plague"
+		"ability_trapper_spiderwave_desc" "Release a wave of spectral spiders that <span class=\"highlight\">chase enemies</span> and explode, dealing <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Spirit Damage</span>. <br><br>Hit enemies are <span class=\"highlight\">poisoned</span>, temporarily losing <Panel class=\"AbilityPropertyIcon StatDesc_TechPower\"> <span class=\"highlight_spirit\">Spirit</span> and <Panel class=\"AbilityPropertyIcon prop_tech_armor_up\"> <span class=\"highlight_spirit\">Spirit Resist</span>. This effect can stack multiple times."
+		"SpiderCount_label" "Spiders Released"
+		"SpiderLifetime_label" "Spider Life Time"
+		"SpiderLifetime_postfix" "s"
+		"SpiderDamage_label" "Spider Damage"
+		"SpiderSearchRadius_label" "Spider Chase Distance"
+		"SpiderSearchRadius_postfix" "m"
+		"SpiritStealDuration_label" "Spirit Debuff Duration"
+		"SpiritReducedPerStack_label" "Spirit Reduction"
+		"SpiritResReducedPerStack_label" "Spirit Resist Reduction"
+		"SpiritResReducedPerStack_postfix" "%"
+		"ability_trapper_spiderwave/trapper_stealspirit_buff" "Spidertide"
+		"ability_trapper_spiderwave/trapper_stealspirit_debuff" "Spidertide"
+		"ability_trapper_spiderwave_t2_desc" "Additional <span class=\"highlight\">-{s:SpiritReducedPerStack} Spirit</span> and <span class=\"highlight\">-{s:SpiritReducedPerStack}% Spirit Resistance</span>"
+		"ability_trapper_spiderwave_t3_desc" "Summon <span class=\"highlight\">+{s:SpiderCount} Spiders</span>"
+
 
 		//-----------------------------------------------------------------------------
 		// END HERO ABILITIES
@@ -2911,6 +3001,7 @@
 		"citadel_weapon_hero_viper_set"				"The Rattler"
 		"citadel_weapon_hero_magician_set"			"Legerdemain"
 		"citadel_weapon_hero_slork_set"				"Riptide"
+		"citadel_weapon_hero_trapper_set"			"Civil Servant"
 
 
 		//"citadel_weapon_hero_duo_set"				"Duo Gun"
@@ -2998,7 +3089,11 @@
 		"hero_yamato_role"                                "洗練されたチャージ攻撃を繰り出す"
 		"hero_tengu_role"                                 "運の良い味方とパワーデュオを組む"
 		"hero_mirage_role"				"射撃のタイミングを合わせ、逃げる敵を捕らえる"
-		"hero_synth_role"                                 "背後を侵入し、混乱を引き起こす"
+		"hero_slork_role"				"Slips into combat and then hides to recover"
+		"hero_synth_role"				"Infiltrates and disrupts the backline"
+		"hero_viper_role"				"Slither in and assassinate enemies"
+		"hero_magician_role"			"Misdirect and hex enemies"
+		"hero_trapper_role"				"Entrap enemies and control space"
 
         //"hero_akimbo_playstyle"         "Akimbo excels at close range combat, where he relies on speed, cone attacks, and a whole lot of bullets to hit as many targets as possible." 
         "hero_astro_playstyle"          "Astro depends on her skills as a crack shot, shooting things she's bounced into the air. With good aim she can lay out heavy damage. Her movement skills let her isolate her enemies or beat a hasty retreat."
@@ -3018,7 +3113,7 @@
 		"hero_kelvin_playstyle"         "適切なタイミングで回復と敵チームを分断することが、勝利と悲惨な敗北の分かれ目だ。ケルヴィンは滑らかに移動しながら敵の動きを鈍らせることで、それを実現する。"
 		"hero_lash_playstyle"           "ラッシュは遠い距離から飛び込んで不意を突き、逃げようとする敵を執拗に追いかけ回し、相手に息のつく間も与えない。"
 		"hero_krill_playstyle"          "モー＆クリルは地中を潜り抜けることでどんな敵にでも近づくことができる。一度近距離に持ち込めば、その結果は破滅的だ。"
-        //"hero_nano_playstyle"           "(in flux) Like any good politician, Nano turns people against each other and lets them do her dirty work before swooping in and claiming credit for everything."
+        "hero_nano_playstyle"           "(in flux) Like any good politician, Nano turns people against each other and lets them do her dirty work before swooping in and claiming credit for everything."
  		"hero_orion_playstyle"          "狡猾な捕食者であるグレイタロンは、圧倒的な精密射撃、トラップ、そして巧妙なポジショニングを駆使して、どんなに手強い敵も倒す。"
 		"hero_shiv_playstyle"           "シヴはフェアプレイには全く興味がない。だからこそ、ヒット＆ラン戦術を駆使して敵を弱らせ、仕留めるタイミングで一気に突撃するのだ。"
         //"hero_tempest_playstyle"        "Much like how a child has no idea how a TV works, no one knows exactly HOW Tempest kills you.  Was it a tesla coil?  You didn't see a tesla coil.  Either way, you're dead and Tempest is laughing."
@@ -3031,9 +3126,11 @@
 		//"hero_rutger_playstyle"		"Rocket Launcher gives him some rocket-jumping capabilities, Force Field allows him to close off movement options, Cheat Death lets him turn bad fights around, and a Pulse released in the middle of a teamfight can dictate the outcome."
 		"hero_synth_playstyle"          "強力なショットガンと細身の体を持つポケットは、近接戦闘から生き延びるために、一瞬だけ不思議なスーツケースに逃げ込んだり、飛行するマントでテレポートする能力に頼っている。"
 		"hero_mirage_playstyle"		"ミラージュは暴風の竜巻を身にまとい、敵に追いつき宙に放り上げる。彼のスカラベは複数の敵との戦闘で大きな力を発揮し、いつでも味方を助け、どこにいても敵を制裁する準備ができている。"
-		//"hero_slork_playstyle"		"Slork's weapon poisons all it hits. Primary fire hits all in a cone, and aimed fire shoots a dart which crits when hitting a poisoned target."
+		"hero_slork_playstyle"		"Slork's weapon poisons all it hits. Primary fire hits all in a cone, and aimed fire shoots a dart which crits when hitting a poisoned target."
 		"hero_tengu_playstyle"          "アイビーは敵を遅延させたり、スタンさせる強力な戦術を持っている。仲間と連携することで真価を発揮し、互いの武器を強化しつつ、回復を分け与えることができる。"
-
+		"hero_viper_playstyle"		"With a powerful weapon (and deadly venom to match), Viper can slither into the back of teams and assassinate high-priority targets in a storm of bullets."
+		"hero_magician_playstyle"	"With the help of their unwilling assistant, the Magician can confuse enemies with curving hexes and rapid cards."
+		"hero_trapper_playstyle"	"The Trapper can infest the battlefield with their haunted spiders, leaving latent curses in key areas. If you let the Trapper have their way, you won't be able to navigate the map without springing some sort of trap."
 	
 		//"hero_akimbo_lore"				"Though he was built by a lonely gunslinger, Akimbo was taught that he couldn't use a gun to solve all his problems.  This frustrated the robot outlaw immensely, but as time passed Akimbo realized that his human father was right.  A gun only solved about 75% of his problems.  To solve ALL his problems, he would need at least 2 guns." 
 		"hero_astro_lore"				"ニューヨークに移住することを夢見て生涯を過ごす人々がいる。しかし、ホリデイはそのような人ではない。小さな町の保安官であることに満足し、ホリデイはカウンティフェアでのトリックシューティングの時にしか銃を使う必要がなかった… だが、殺人事件が始まった。\n\n残虐で非人道的なその事件では、遺体が肋骨を裂かれ、中身が鳥に突かれたかのように引き裂かれて見つかった…ホリデイは殺人犯を追跡した。メディアが「トルバドール」と名付けた移動民謡音楽家であったが、彼に対峙した時、彼はカラスの群れに爆発して逃げてしまった。\n\nそれが6ヶ月前のことであり、セントラルイリノイでの殺人事件は止まったが、ホリデイの捜査は続いている。彼女はトルバドールがニューヨークに向かっていると信じており、彼を見つけた時にはその悪党を殺すつもりだ。"
@@ -3061,9 +3158,10 @@
 		"hero_tengu_lore"				"ガーゴイルは、自身が生き返ったときに何が起こっているのか分からなかった...ただ、大きな人間と小さな人間が傷つけられていることを知っていました。そこでガーゴイルは行動に出て、攻撃者を恐怖に駆り立てました。小さな人間は感謝の言葉を述べ、ガーゴイルの名前を尋ねました。ガーゴイルには名前がありませんでした。そこで小さな人間は、「アイビーと呼ぶことにする」と言いました。ガーゴイルはその時アイビーで覆われていたため、それが少し明白すぎると思いましたが、小さな人間のためにそれに従うことにしました。\n\n人間たちはアイビーに自分たちの感謝を示すために家に来てくれるように頼み、アイビーは彼らと共に歩きました。その夜、彼女は多くのことを学びました。その家族はアローヨと呼ばれていました。小さな子供の名前はソフィア。モフォンゴとは、彼らが「美味しさの皿」と呼んでいたものでした。しかし最も重要なのは、彼女が攻撃していた者たちの名前が「メンドーザシンジケート」であり、彼らが人々を傷つけていることを知ったことです…アローヨのような素敵な人々を。\n\nアローヨがアイビーを家に連れ帰った日から18年が経過しました...その間、彼女はメンドーザシンジケートを解体し、スペイン・ハーレムからその支配を解放することを使命としてきました。しかし、ほぼ20年間、一つの追求に人生を捧げることの難しさは、達成した後に何をすべきか分からなくなることです。彼女は人生で初めて、スペイン・ハーレムの外に出て、義賊の正義を超えて世界が何を提供するかを見る準備ができています。"
 		"hero_synth_lore"				"アリン・フェアファックスは、フェアファックス・インダストリーズの長男として、18歳の誕生日に銃撃を受けて死んだふりをさせられてから5年間、隠れて生活しています。アリンは、誰が彼らを親の会社の支配から阻止しようとしているのか分かりません…しかし、貪欲に満ちたフェアファックス・インダストリーズの巣窟では、それが誰であっても不思議ではありません。\n\n「ポケット」という名前を名乗っているアリンは、自分の本当のアイデンティティを秘密に保ちたいと必死です…それは自分の保護のためだけではなく、親とは別の自分自身のアイデンティティを築きたいからです。"
 		"hero_mirage_lore"				"ジンは現代世界における非常に興味深い存在の一つです。ジンは強力な力を持っているものの、その力は制御された状態でしか発揮されず、48分以上実体を維持することができません。そのため、ジンは通常、移動、護衛、そして仲間として人間のボディガードを雇っています。\n\nミラージュはそのようなボディガードの一人です。ジンの大使ナシャラ・ディオンに雇われたミラージュは、外交任務のためニューヨークに滞在しています。ジンたちは、ワイオミング州の一部を購入し、彼らのための主権国家を建設できるよう、米国政府との交渉を目指しています。"
-
-
-
+		"hero_slork_lore"				"A notorious monster of The Deep, Fathom enjoyed cultivating an aura of mystery and fear around him.  He was content feasting on wayward sailors and demanding tithes from selkies, but then The Adversary came and ruined everything.  After all, when it came to sowing terror, how could he compete with a genocidal force of nature?  It wasn't fair.  Something had to be done to save himself from fading into obscurity...and so he seeks to summon the Patrons to ensure that he will always be the apex predator of The Deep."
+		"hero_viper_lore"				"When it comes to breaking the law, not getting caught is a pretty important part of the job.  Viper never got that memo.  Luckily for her, if there’s one thing she’s better at than being arrested, it’s escaping out of jail.\n\nHaving done time in every major prison in the tri-state area, Viper has built an impressive network of street level lowlifes that owe her one.  She’s also built an impressive network of street level lowlifes that want her dead, but she tries to focus on the positive."
+		"hero_magician_lore"			"Henry's parents told him he was too young and impulsive to mess with real magic, and so they gave him a deck of cards to play with.  He took to sleight of hand naturally and soon was dazzling his classmates with fantastic feats of illusions that were done without mystic artifacts or incantation.\n\nWhen he was in high school he met Savannah, and their mutual love of stage magic sparked a whirlwind romance.  Soon they fell in love and created an act together.  Obviously they were meant to be; and so at prom, Henry proposed to Savannah and they married soon after graduation.\n\nUnsurprisingly both sets of parents were not thrilled at this prospect, but Henry and Savannah knew they were soulmates.  And so they cemented their love for one another by having a blood mystic bind their souls for eternity.\n\nWhen an on-stage accident claimed both their lives, no one was sure who to blame.  Henry claims Savannah was out of position.  Savannah says Henry didn't wait for his cue.  But one thing's for sure, since their souls are tied to each other neither one of them have been able to move on.  Now a bickering pair of ghosts, Henry and Savannah need to work together if they want to have any chance of undoing their eternal union."
+		"hero_trapper_lore"				"An employee of the New York Municipal Coven; Trapper spends his days building Spirit Urns, luring giant rats, and capturing various invasive species from The Outer Planes.  It's not a particularly glamorous job, and he really hates working with spiders, but those Knickerbocker season tickets don't pay for themselves."
 	}	
 }		
 		

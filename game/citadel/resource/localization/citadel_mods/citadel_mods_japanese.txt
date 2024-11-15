@@ -148,7 +148,7 @@
 		//"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"			"Spirit Echo"	
 
 		//Toxic Bullets
-		"upgrade_toxic_bullets_desc" "あなたの弾丸は敵に<span class=\"highlight\">出血</span>を引き起こし、現在の体力の<span class=\"highlight\">一部</span>を時間経過とともに失わせます。また、出血中のターゲットに<span class=\"highlight\">治癒効果減少</span>を適用します。"
+		"upgrade_toxic_bullets_desc" "あなたの弾丸は敵に<span class=\"highlight\">出血</span>を引き起こし、最大体力の<span class=\"highlight\">一部</span>を時間経過とともに失わせます。また、出血中のターゲットに<span class=\"highlight\">治癒効果減少</span>を適用します。"
 		"upgrade_toxic_bullets_buildup" "毒の蓄積中..."
 		"upgrade_bleeding_bullets_buildup" "鋸歯状の蓄積中..."
 		//"upgrade_hemorrhage_buildup"					"Eviscerator building..."
@@ -198,7 +198,7 @@
 		//Restorative Shot
 		"upgrade_medic_bullets_desc" "次の弾丸がヒットしたターゲットに基づいて<span class=\"highlight\">回復</span>します。"
 		"HealFromHero_label" "ヒーローからの回復"
-		"HealFromNPC_label" "NPCからの回復"
+		"HealFromNPC_label" "NPC/オーブからの回復"
 
 		//Point Blank
 		"upgrade_close_quarter_combat_desc" "ターゲットに<span class=\"highlight\">近距離</span>で攻撃すると、<span class=\"highlight\">武器ダメージ</span>を得て、弾丸が<span class=\"highlight\">移動速度低下</span>を適用します。"
@@ -363,8 +363,9 @@
 		"BulletResistDuration_postfix" "秒"
 
 		//Lucky Shot
-		"upgrade_critshot_desc" "弾丸が強化されるチャンスがあり、<span class=\"highlight\">ボーナスダメージ</span>を与え、命中時に<span class=\"highlight\">スロウ</span>効果を発生させます。"
-		"CritDamagePercent_label" "ボーナスダメージ"
+		"upgrade_critshot_desc" "弾丸が強化されるチャンスがあり、命中時に<span class=\"highlight\">ボーナス武器ダメージ</span>を与える。<br><span class=\"diminish\">ボーナス武器ダメージはクリティカルにならない。"
+		"CritDamagePercent_prefix"			"+"
+		"CritDamagePercent_label" "ボーナス武器ダメージ"
 		"CritDamagePercent_postfix" "%"
 
 		//Veil Walker
@@ -760,7 +761,7 @@
 		"SpawnTimePenalty_postfix"				"秒"
 
 		//Phantom Strike
-		"upgrade_phantom_strike_desc" "敵のターゲットに<span class=\"highlight\">テレポート</span>し、<span class=\"highlight\">武器使用不可</span>、<span class=\"highlight\">スロウ</span>を付与し、<span class=\"highlight\">ダメージ</span>を与えます。"
+		"upgrade_phantom_strike_desc" "敵のターゲットに<span class=\"highlight\">テレポート</span>し、<span class=\"highlight\">武装解除</span>、<span class=\"highlight\">スロウ</span>を付与し、<span class=\"highlight\">ダメージ</span>を与え、浮いている敵を地面に落とす。"
 		//"BarrierDuration_label"					"Shield Duration"
 		"BarrierDuration_postfix" "秒"
 		"PhantomStrikeDebuffDuration_label" "武器使用不可 & スロウの持続時間"
@@ -788,7 +789,7 @@
 		//"modifier_citadel_basicdamagereflect" 	"Reflecting Damage"
 
 		//Metal Skin
-		"upgrade_metal_skin_desc" "<span class=\"highlight\">弾丸と近接攻撃に対して無敵</span>になります。"
+		"upgrade_metal_skin_desc" "<span class=\"highlight\">弾丸に対して無敵</span>になります。"
 		//"AbilityApplyDelay_label"						"Application Time"
 		"AbilityApplyDelay_postfix" "秒"
 		"modifier_citadel_metal_skin" "メタルスキン"
@@ -914,7 +915,7 @@
 		//"modifier_citadel_active_disarm_spirit_steal"	"Drain Will"
 
 		//Reactive Barrier
-		"upgrade_vex_barrier_desc" "<span class=\"highlight\">移動制限、スタン、チェイン、拘束、または睡眠</span>時に自動的に一時的な<span class=\"highlight\">弾丸とスピリットシールド</span>を展開します。"
+		"upgrade_vex_barrier_desc" "自動的に<span class=\"highlight\">スタミナを1回復</span>し、<span class=\"highlight\">弾丸とスピリットのシールド</span>を一時的に展開する。これは、<span class=\"highlight\">移動制限、スタン、チェイン、拘束、または睡眠</span>のときに発動する。"
 		"upgrade_vex_barrier_shield" "リアクティブバリア"
 		"VexBarrierBulletMaxHealth_label" "弾丸シールド体力"
 		"VexBarrierTechMaxHealth_label" "スピリットシールド体力"
