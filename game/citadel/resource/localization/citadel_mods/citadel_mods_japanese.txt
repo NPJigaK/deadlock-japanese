@@ -24,7 +24,7 @@
 		//"upgrade_clip_size_3_desc"			"Greatly Increases <span class=\"highlight\">ammo</span>."
 
 		//Ammo Scavenger
-		"upgrade_ammo_scavenger_desc" "浮いている状態のソウルを確保またはディナイするたびに、<span class=\"highlight\">弾薬を回収</span>し、スタックする<span class=\"highlight\">スピリットパワー</span>を獲得する。"
+		"upgrade_ammo_scavenger_desc" "浮いている状態のソウルを確保またはディナイするたびに、<span class=\"highlight\">弾薬を回収</span>し、スタックする<span class=\"highlight\">スピリットパワー</span>を獲得する。<br>スタックが最大になると、スプリント速度のボーナスを得る。"
 		"AmmoPerSoul_prefix"				"+"
 		"AmmoPerSoul_label" "ソウルごとの弾薬"
 		"SpiritPowerPerSoul_prefix"			"+"
@@ -59,16 +59,17 @@
 		"upgrade_targeted_silence_desc" "ターゲットに<span class=\"highlight\">サイレンスとダメージ</span>を与える投射物を発射します。サイレンスはチャネリング中のアビリティを中断しません。"
 
 		//EMP Bullets
-		//"upgrade_proc_silence_desc"		"Your bullets charge up an <span class=\"highlight\">EMP</span> on enemy heroes that will <span class=\"highlight\">prevent targets from using abilities</span>. Victims are immune to emp bullets for <span class=\"highlight\">{s:ImmunityDuration}s</span> after application expires."
-		//"upgrade_proc_silence/modifier_citadel_silence_proc_watcher/modifier_citadel_base_buildup"	"Silence Building..."
+		"upgrade_proc_silence_desc"		"弾丸がサイレンスデバフを蓄積し、一時的に<span class=\"highlight\">サイレンス</span>状態にし、<span class=\"highlight\">スピリットダメージ</span>を減少させる。デバフが終了した後、対象者は<span class=\"highlight\">{s:ImmunityDuration}秒間</span>、サイレンスデバフの蓄積に対して免疫を持つ。"
+		"proc_silence_buildup"			"サイレンス蓄積中..."
+		"modifier_citadel_silence_proc_debuff"	"-スピリットダメージ"
 
 		//Silencer
 		"upgrade_silencer_active" "次の {s:AbilityDuration}秒間、<span class=\"highlight\">すべての弾丸が即座にサイレンスを適用</span>します。サイレンスはターゲットがアビリティを使用できないようにします。"
 		//"upgrade_silencer_passive1"		"Your bullets deal <span class=\"highlight\">+{s:BonusBulletDamageToEMPTargets}% damage to Silenced targets</span>."
 		//"upgrade_silencer_passive2"		"Your bullets build up an <span class=\"highlight\">EMP</span> on enemy heroes, preventing them from using abilities."
-		"SilencerSlowPercent_label" "弾丸のスロウ効果"
-		"SilencerSlowPercent_postfix" "%"
-		"SilencerSlowPercent_prefix" "+"
+		//"SilencerSlowPercent_label"		"Bullet Slow Proc"
+		//"SilencerSlowPercent_postfix"	"%"
+		//"SilencerSlowPercent_prefix"	"+"
 
 		//Magitech Rounds
 		//"upgrade_proc_tech_damage_desc"	"Your bullets also deal your <span class=\"highlight\">base bullet damage [{s:BaseDamagePerShot}] </span> as spirit damage.  Magitech Rounds receives <span class=\"highlight\">{s:SpellAmplificationMultiplier}x</span> amplification from <span class=\"highlight\">Spirit Power</span>. Shotguns split the damage between each pellet. This effect can only happen once every {s:ProcCooldown}s."
@@ -210,9 +211,21 @@
 		"upgrade_sharpshooter_desc" "ターゲットから<span class=\"highlight\">一定距離以上</span>離れている場合、追加の<span class=\"highlight\">武器ダメージ</span>を与えます。"
 
 		//Headhunter
-		"upgrade_headhunter_desc"	"ヘッドショットを成功させると、ボーナスダメージを与え、最大HPの一部を回復し、短時間の移動速度ボーナスを得る。"
+		"upgrade_headhunter_desc"	"ヘッドショットを成功させると、ボーナスダメージを与え、最大HPの一部を回復し、一時的に移動速度ボーナスを得る。"
 		"HealPercentPerHeadshot_label"		"ヘッドショットごとの回復量"
 		"HealPercentPerHeadshot_postfix"	"%"
+
+		//Spellslinger Headshots
+		"upgrade_spellslinger_headshots_desc"	"敵ヒーローへの<span class=\"highlight\">ヘッドショット</span>を成功させると、合計<span class=\"highlight\">スピリットパワー</span>が増加する。"
+		//"upgrade_spellslinger_headshots_component_passive_desc"	"<span class=\"highlight\">Soul Shredder Bullets</span> Effect"
+		"SpiritPowerGainPct_label"				"Spirit Power"
+		"SpiritPowerGainPct_postfix"			"%"
+		"SpellSlingerHeadshots_ShreddersTechAmp_prefix"		"+"
+		"SpellSlingerHeadshots_ShreddersTechAmp_label"		"スピリット増幅"
+		"SpellSlingerHeadshots_ShreddersTechAmp_postfix"	"%"
+		"SpellSlingerHeadshots_AbilityLifestealPercentHero_prefix"	"+"
+		"SpellSlingerHeadshots_AbilityLifestealPercentHero_label"	"スピリットライフスティール発動"
+		"SpellSlingerHeadshots_AbilityLifestealPercentHero_postfix"	"%"
 
 		//Crippling Headshot
 		"upgrade_banshee_slugs_headshots_desc" "<span class=\"highlight\">ヘッドショット</span>がターゲットの<span class=\"highlight\">弾丸耐性とスピリット耐性</span>を減少させます。"
@@ -262,6 +275,9 @@
 
 		//Glass Cannon
 		"upgrade_glass_cannon_desc" "ヒーローを倒すたびに<span class=\"highlight\">武器ダメージが永続的に増加</span>します（最大 {s:MaxStacks} 回まで）。死亡すると1スタック失います。"
+		"GlassCannon_SlowPercent_label"		"Bullet Slow Proc"
+		"GlassCannon_SlowPercent_postfix"	"%"
+		"GlassCannon_SlowPercent_prefix"	"+"
 
 		//Vampiric Burst
 		"upgrade_surging_power_active" "<span class=\"highlight\">ライフスティール</span>、<span class=\"highlight\">攻撃速度</span>、および<span class=\"highlight\">弾薬</span>を得ます。この追加の弾薬は、マガジンの最大容量に制限されません。"
@@ -457,6 +473,10 @@
 		//Kinetic Dash
 		"upgrade_kinetic_sash_desc" "次の<span class=\"highlight\">ダッシュジャンプ</span>が追加スタミナを消費せず、次のリロードまで<span class=\"highlight\">発射速度</span>と<span class=\"highlight\">弾薬</span>が増加します。持続時間は最大{s:AbilityDuration}秒です。"
 		"modifier_kinetic_sash_triggered" "キネティックダッシュ"
+	
+		//Arcane Surge
+		"upgrade_arcane_surge_desc"			"次の<span class=\"highlight\">ダッシュジャンプ</span>は追加のスタミナを消費せず、<span class=\"highlight\">次に使用するアビリティ</span>に<span class=\"highlight\">射程、持続時間</span>、および<span class=\"highlight\">スピリットパワー</span>のボーナスが付与される。さらに、次のリロードまで<span class=\"highlight\">発射レート</span>と<span class=\"highlight\">弾薬</span>のボーナスを得る。この効果は最大{s:AbilityDuration}秒間持続する。"
+		"modifier_arcane_surge_triggered"	"Arcane Surge"
 
 		//Active Reload
 		"upgrade_active_reload_desc" "リロード中に、ハイライト部分で[{s:key_reload}]を押すと<span class=\"highlight\">即座にリロードを完了</span>し、<span class=\"highlight\">発射速度</span>と<span class=\"highlight\">弾丸ライフスティール</span>が付与されます。"
@@ -489,13 +509,15 @@
 		"SpiritPower_prefix" "+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc" "虚空状態に入り、短時間<span class=\"highlight\">対象不可かつ無敵</span>になる。この間、移動や行動はできません。その後、ボーナス<span class=\"highlight\">移動速度とスピリット耐性</span>を得ます。"
+		"upgrade_self_bubble_desc" "虚空状態に入り、短時間<span class=\"highlight\">対象不可かつ無敵</span>になる。この間、移動や行動はできません。その後、ボーナス<span class=\"highlight\">移動速度とボーナススピリット、スピリット耐性</span>を得ます。"
 		"ShiftingVeilDuration_label" "持続時間"
 		"ShiftingVeilDuration_postfix" "秒"
 		"BonusSpiritDuration_label" "ボーナススピリット持続時間"
 		"BonusSpiritDuration_postfix" "秒"
+		"BonusTechPower_prefix"				"{s:sign}"
+		"BonusTechPower_label"				"スピリットパワー"
 		"modifier_shifting_veil_buff" "エーテリアルシフト"
-		"shifting_veil_bonus"			"ボーナス移動速度とスピリット耐性"
+		"shifting_veil_bonus"			"Speed, Spirit and Resist"
 		"modifier_citadel_bubble" "エーテリアルシフト"
 
 		//Stasis Bomb
@@ -598,6 +620,11 @@
 		"upgrade_acolytes_glove_desc" "ヒーローに対して<span class=\"highlight\">軽近接攻撃または重近接攻撃</span>を行うと、攻撃で追加の<span class=\"highlight\">スピリットダメージ</span>を与え、対象の<span class=\"highlight\">スピリット耐性</span>を減少させます。"
 		"SpiritDamage_label" "スピリットダメージ"
 		"modifier_acolytes_glove_triggered" "スピリットストライク"
+	
+		//Spirit Snatch
+		"upgrade_spirit_snatch_desc"			"ヒーローに対して<span class=\"highlight\">軽近接攻撃または重近接攻撃</span>を行うと、その攻撃は追加の<span class=\"highlight\">スピリットダメージ</span>を与え、<span class=\"highlight\">スピリット耐性</span>と<span class=\"highlight\">スピリットパワー</span>を奪う。"
+		"SpiritSnatch_TechArmorSteal_label"		"Spirit Resist Steal"
+		"SpiritSnatch_TechPowerSteal_label"		"Spirit Power Steal"
 
 		//Melee Charge
 		"upgrade_melee_charge_desc" "次の<span class=\"highlight\">重近接攻撃</span>は、<span class=\"highlight\">追加ダメージ</span>を与え、<span class=\"highlight\">マガジンを即座にリロード</span>し、最大で<span class=\"highlight\">+100%のボーナス弾薬</span>を獲得する。<br>ボーナス弾薬がフルの時は発動しない。"
@@ -713,7 +740,7 @@
 
 		//Debuff Remover
 		"upgrade_reduce_debuff_duration_desc" "すべてのネガティブ効果の<span class=\"highlight\">持続時間</span>を減少させます。"
-		"upgrade_reduce_debuff_duration_active_desc" "現在適用されている<span class=\"highlight\">すべてのネガティブ効果を除去</span>します。効果が除去された場合、<span class=\"highlight\">移動速度ボーナス</span>を得ます。<br><span class=\"highlight\">スタン</span>または<span class=\"highlight\">睡眠</span>中には使用できません。"
+		"upgrade_reduce_debuff_duration_active_desc" "現在適用されている<span class=\"highlight\">すべてのネガティブ効果を除去</span>します。効果が除去された場合、<span class=\"highlight\">自身を回復</span>し、<span class=\"highlight\">移動速度ボーナス</span>を得ます。<br><span class=\"highlight\">スタン</span>または<span class=\"highlight\">睡眠</span>中には使用できません。"
 
 		//High Impact Armor
 		//"upgrade_high_impact_armor_desc"				"Provides protection against high-damage bullets. Any <span class=\"highlight\">bullet damage</span> portion above the threshold is reduced by {s:DamageReduction}%."
@@ -846,7 +873,7 @@
 		//"upgrade_sprint_booster_desc"				"Increases your <span class=\"highlight\">forward movement speed</span> over time. Taking damage resets the effect for <span class=\"highlight\">1.5s</span>"
 
 		//Superior Stamina
-		"upgrade_superior_stamina_passive" "<span class=\"highlight\">エアダッシュ</span>と<span class=\"highlight\">エアジャンプ</span>の回数が、着地前に<span class=\"highlight\">1回から2回</span>に増加します。"
+		"upgrade_superior_stamina_passive" "<span class=\"highlight\">エアダッシュ</span>と<span class=\"highlight\">エアジャンプ、壁ジャンプ</span>の回数が、着地前に<span class=\"highlight\">1回から2回</span>に増加します。"
 
 		//Enduring Speed
 		"upgrade_cardio_calibrator_desc" "敵の<span class=\"highlight\">移動速度低下</span>の効果を軽減します。"
