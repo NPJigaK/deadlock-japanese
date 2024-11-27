@@ -1478,7 +1478,7 @@
 
 		"ability_immobilize_trap"			"イモービライズ・トラップ"
 		"ability_immobilize_trap_quip"		"敵の移動を制限する罠を設置する"
-		"ability_immobilize_trap_desc"		"<span class=\"highlight\">トラップを設置する</span>。設置が完了すると、罠は敵がその範囲に入ったときに作動し、敵がその半径に入ると発動し、<span class=\"highlight\">移動を制限</span>し、<span class=\"highlight\">スロウ効果</span>を与える。<br>Immobilizing Trap."
+		"ability_immobilize_trap_desc"		"<span class=\"highlight\">トラップを設置する</span>。設置が完了後、トラップは敵がその範囲に入ったときに作動し、<span class=\"highlight\">移動を制限</span>し、<span class=\"highlight\">スロウ効果</span>を与える。<br>Immobilizing Trap."
 		"modifier_citadel_immobilize_trap_immobilize"	"移動不可能トラップ"
 		"modifier_citadel_immobilize_trap_immobilize_debuff" "移動不可能トラップデバフ"
 		"ability_immobilize_trap_t2_desc"	"<span class=\"highlight\">+{s:TetherDuration}秒</span>のテザー持続時間と<span class=\"highlight\">{s:SlowDuration}秒</span>のスロー持続時間"
