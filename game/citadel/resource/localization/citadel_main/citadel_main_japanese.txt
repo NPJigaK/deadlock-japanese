@@ -146,6 +146,11 @@
 		"Citadel_Scoreboard_KDA_Deaths" "D"
 		"Citadel_Scoreboard_KDA_Assists" "A"
 		"Citadel_Scoreboard_Obj_Damage"						"Obj Dmg:"
+		"Citadel_Scoreboard_LaneSwapAvailable_Tooltip"		"クリックしてレーンの変更をリクエストします。"
+		"Citadel_Scoreboard_LaneSwapRequesting_Tooltip"		"クリックしてこのリクエストをキャンセルします。"
+		"Citadel_Scoreboard_LaneSwapReceiving_Tooltip"		"クリックしてレーンを変更します。<br>右クリックして拒否します。"
+		"Citadel_Scoreboard_LaneSwapRejecting_Tooltip"		"拒否しました。"
+		"Citadel_Scoreboard_LaneSwapRejected_Tooltip"		"拒否されました。"
 
 		//Match Info
 		"Citadel_ViewMatchID_Loading_Title"					"試合を読み込み中"
@@ -247,6 +252,7 @@
 		"Citadel_CommendPlayer_Friendly"					"フレンドリーで楽しい"
 		"Citadel_CommendPlayer_Teamwork"					"チームワークが優れている"
 		"Citadel_CommendPlayer_Skilled"						"スキルが高い"
+		"Citadel_CommendToast_ReturnCommendTooltip"			"クリックして称賛を返します"
 
 		"Citadel_SkipTutorial_Title"						"チュートリアルをスキップ"
 		"Citadel_SkipTutorial_Body"							"チュートリアルをスキップしてもよろしいですか？本当にスキップするのは、すでにプレイ経験がある場合に限られるべきです。"
@@ -256,6 +262,7 @@
 		"Citadel_Region_SEA" "アジア"
 		"Citadel_Region_SAmerica" "南アメリカ"
 		"Citadel_Region_Oceania" "オセアニア"
+		"Citadel_Region_All"								"全地域"
 
 		"Citadel_DisableDevMessage" "今後このメッセージを表示しない"
 
@@ -301,7 +308,6 @@
 		"Citadel_Hud_CantUnpause" "あと{i:pause_cooldown}秒間、一時停止を解除できません"
 		"Citadel_Hud_NoPausesLeft"									"一時停止できません。この試合で利用できる一時停止はすでに使用しました。"
 		"Citadel_Hud_NoTeamPausesLeft"								"一時停止できません。あなたのチームはこの試合で利用可能な一時停止を使い切りました。"		
-		"Citadel_Hud_PlayerSpeedUnits" "m/s"
 		"Citadel_Hud_ToNext" "次へ"
 		"Citadel_Hud_SoulsGathered" "収集されたソウル"
 		"Citadel_Hud_HealthCritical" "体力が危険です"
@@ -340,7 +346,8 @@
 		"Citadel_Hud_Quickbuy_Instructional_Ready"					"[{s:key_purchase_quickbuy}]を押して購入"
 		"Citadel_Hud_Quickbuy_QueueSize"							"{i:queue_size}"
 		"Citadel_Hud_Quickbuy_ItemsReady"							"{i:items_ready}"
-		"Citadel_Hud_Quickbuy_ToastLabel"							"アイテム購入済み"
+		"Citadel_Hud_Quickbuy_ToastLabel_Purchase"					"アイテム購入済み"
+		"Citadel_Hud_Quickbuy_ToastLabel_Sell"						"アイテム売却済み"
 		"Citadel_Hud_Quickbuy_Tooltip"								"アイテムをクリックして購入するか、ショップの範囲内で [{s:key_purchase_quickbuy}] を押して次のクイック購入アイテムを購入します。"
 		"Citadel_Hud_Quickbuy_Tooltip_Autobuy"						"ショップの範囲内にいて、このアイテムを購入できる場合、自動的に購入されます（サンドボックスモードなどで自由購入が有効な場合、この設定は無視されます）。"
 		"Citadel_Hud_Quickbuy_Tooltip_Empty"						"[M2]を使用してクイックバイキューにアイテムを追加または削除し、[Ctrl] + [M2]で全てのアイテムを削除して新しい選択を開始します。"
@@ -392,6 +399,7 @@
 		"Citadel_Hero_Stats_Unsecured" "保護されていない"
 		"Citadel_Shop_Destroy_Item"									"アイテムを破壊しますか？"
 		"Citadel_Shop_Destroy_Item_Confirm"							"アイテム{s:item_name}を{i:item_sell_amount}ソウル（購入価格の半額）で売却しますか？"
+		"Citadel_Hero_Stats_ItemValue"								"アイテム価格"
 
 		"Citadel_Shop_Purchased" "購入済み"
 		"Citadel_Shop_HoldAlt" "<span class=\"keybind\">[{s:key_extra_info}]</span> を押し続ける"
@@ -424,7 +432,7 @@
 		"Citadel_Shop_SellMaxItems_Desc" "この購入を完了するには、<span class='highlight'>半額で販売して置き換える</span>モッドを選択してください"
 		"Citadel_Shop_SellMaxItems_SellButton" "売却"
 
-		"Citadel_Shop_AbilityisImbued"		"アビリティが付与されています"
+		"Citadel_Shop_AbilityisImbued"								"{s:imbuing_ability_name}に付与されています"
 
 		"Citadel_Spectate_Connecting_Title" "マッチに接続中"
 		"Citadel_Spectate_Connecting_Buffering" "マッチに接続しました。バッファリング中ですのでお待ちください"
@@ -511,10 +519,6 @@
 
 		"Citadel_Play_BotsOfflineTitle" "ボットが一時的にオフラインです"
 		"Citadel_Play_BotsOfflineText" "ボットが一時的に無効になっています。後で再度確認してください。"
-
-		"BotMatchWarning_Title" "ボットAIの初期段階"
-		"BotMatchWarning_EarlyGame" "ボットは戦闘練習には最適ですが、集団行動や目標達成には苦労しています。"
-		"BotMatchWarning_LateGame" "ボットマッチは通常のゲームよりも長く続く傾向があります。パトロンを倒すためには、リーダーシップを発揮する必要があります！"
 
 		"Citadel_MatchmakingSchedule"							"更新情報:"
 		"Citadel_MatchmakingSchedule_Desc"							"マッチメイキングが24時間いつでも利用可能になりました！"
@@ -859,15 +863,15 @@
 		"Citadel_Hud_KillFeedSentry" "セントリータレット"
 		"Citadel_Hud_KillFeedGuardian" "ガーディアン"
 		"Citadel_Hud_KillFeedAllGuardians"							"敵のガーディアン"
-		"Citadel_Hud_KillFeedBarracksBoss" "基地ガーディアン"
+		"Citadel_Hud_KillFeedBarracksBoss" "ベースガーディアン"
 		"Citadel_Hud_KillFeedWalker" "ウォーカー"
 		"Citadel_Hud_KillFeedAllWalkers" "敵のウォーカー"
 		"Citadel_Hud_KillFeedShieldName" "聖堂"
 		"Citadel_Hud_KillFeedTitan" "パトロン"
 		"Citadel_Hud_KillFeedEnemyGuardian" "敵のガーディアン"
 		"Citadel_Hud_KillFeedEnemyWalker" "敵のウォーカー"
-		"Citadel_Hud_KillFeedEnemyBarracksGuardian" "敵の基地ガーディアン"
-		"Citadel_Hud_KillFeedFriendlyBarracksGuardian" "味方の基地ガーディアン"
+		"Citadel_Hud_KillFeedEnemyBarracksGuardian" "敵のベースガーディアン"
+		"Citadel_Hud_KillFeedFriendlyBarracksGuardian" "味方のベースガーディアン"
 		"Citadel_Hud_KillFeedEnemyTitan" "敵のパトロン"
 		"Citadel_Hud_KillFeedFriendlyGuardian" "味方のガーディアン"
 		"Citadel_Hud_KillFeedFriendlyWalker" "味方のウォーカー"
@@ -990,7 +994,11 @@
 		"Citadel_ChatType_Disabled"									"無効"
 		"Citadel_ChatType_AllTeam"									"全チーム"
 		"Citadel_ChatType_PartyOnly"								"パーティーのみ"
-
+		
+		"Citadel_LanePreference_Title"							"レーンの優先設定"
+		"Citadel_LanePreference_BalancedLanes"					"バランス"
+		"Citadel_LanePreference_WithParty"						"パーティーと一緒"
+		
 		"Citadel_HUD_DamageRows_DamageName"							"{s:damage_name}"
 		"Citadel_HUD_DamageRows_DamageValue"						"{i:damage_done}"
 		"Citadel_HUD_DamageRows_Hits:p{hit_count}"					"({i:hit_count} ヒット)#|#({i:hit_count} ヒット)"
@@ -1005,7 +1013,7 @@
 
 		"Citadel_PrivilegedFeatures_LowPriority_Title"				"低優先度マッチメイキング"
 		"Citadel_PrivilegedFeatures_LowPriority_InactiveTitle"		"マッチメイキング"
-		"Citadel_PrivilegedFeatures_LowPriority_Active:p{low_priority_games_remaining}"	"低優先度マッチメイキングであと {i:low_priority_games_remaining} 試合が残っています。#|#低優先度マッチメイキングであと {i:low_priority_games_remaining} 試合が残っています。"
+		"Citadel_PrivilegedFeatures_LowPriority_Active:p{low_priority_games_remaining}"	"低優先マッチメイキングであと{i:low_priority_games_remaining}勝必要です。"
 		"Citadel_PrivilegedFeatures_LowPriority_Inactive"			"頻繁に試合を放棄するプレイヤーは、低優先度マッチメイキングのキューに入れられます。このキューが有効になると、他の低優先度マッチメイキングのプレイヤーとのみマッチします。"
 	
 		"Citadel_PrivilegedFeatures_ReportingDisabled_Title"		"報告機能が無効"
@@ -1363,8 +1371,15 @@
 		"Citadel_Profile_Loss"									"敗北"
 		"Citadel_Profile_Win_Short"								"勝"
 		"Citadel_Profile_Loss_Short"							"敗"
-		"Citadel_Profile_Statistics"							"統計"
-		"Citadel_Profile_RankHistory"							"ランク履歴"
+		"Citadel_Profile_TimePlayedSort"						"プレイ時間"
+		"Citadel_Profile_RankedPerformanceSort"					"スキルレート"
+		"Citadel_Profile_Skill_Rating_Tooltip"					"スキルレートと個々のヒーローでの最近のパフォーマンスは、同じスキルレベルのプレイヤーとマッチメイキングするために使用されます。"
+		"Citadel_Profile_Skill_Arrow_Tooltip_Highest"			"最高スキルレート"
+		"Citadel_Profile_Skill_Arrow_Tooltip_High"				"高いスキルレート"
+		"Citadel_Profile_Skill_Arrow_Tooltip_Neutral"			"中立スキルレート"
+		"Citadel_Profile_Skill_Arrow_Tooltip_Low"				"低いスキルレート"
+		"Citadel_Profile_Skill_Arrow_Tooltip_Lowest"			"最低スキルレート"
+		"Citadel_Profile_Skill_Arrow_Tooltip_Uncalibrated"		"このヒーローでプレイしてスキルレートを調整してください"
 		"Citadel_Profile_Stats_All"								"すべてのヒーロー"
 		"Citadel_Profile_Stats_TitleSection"					"全期間の統計"
 		"Citadel_Profile_Stats_GamesPlayed"						"プレイした試合数"
@@ -1380,6 +1395,11 @@
 		"Citadel_Profile_Stats_Networth"						"集めたソウル"
 		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
 		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth}k"
+		"Citadel_Profile_Stats_SortBy"							"ソート:"
+		"Citadel_Profile_CoreRating"							"スキルレート"
+		"Citadel_Profile_ViewLeaderboard"						"グローバルリーダーボードを表示"
+
+		"Citadel_skill_rating_explainer_title"		"スキルレート"
 
 		"Citadel_MatchPage_Prev"								"Prev"
 		"Citadel_MatchPage_Next"								"Next"
@@ -1492,6 +1512,9 @@
 		"Citadel_Graph_Souls_Treasure"					"壺"
 		"Citadel_Graph_Souls_Denies"					"ディナイ"
 
+		"Citadel_Graph_Souls_Percent"					"{d:pct}%"
+		"Citadel_Graph_Souls_Percent_Paren"				"({d:pct}%)"
+
 		"Citadel_Graph_Damage_Boss"						"オブジェクト"
 		"Citadel_Graph_Damage_Creep"					"トルーパー"
 		"Citadel_Graph_Damage_Player"					"敵プレイヤー"
@@ -1504,7 +1527,7 @@
 		"Citadel_LaneStats_PlayerDamage"				"プレイヤーダメージ"
 		"Citadel_LaneStats_Tier1"						"ティア1"
 		"Citadel_LaneStats_Tier2"						"ティア2"
-		"Citadel_LaneStats_Guardians"					"基地ガーディアン"
+		"Citadel_LaneStats_Guardians"					"ベースガーディアン"
 
 		"Citadel_WatchPage_FilterByHeroDefault"			"ヒーローでフィルタ"
 		"Citadel_WatchPage_SearchMatchID"				"試合IDで検索"
@@ -1643,6 +1666,7 @@
 		"Citadel_HeroBuilds_RemoveItem"					"ビルドから削除"
 
 		"Citadel_HeroBuilds_BrowseBuildTitle"			"ビルドを閲覧"
+		"Citadel_HeroBuilds_ChangeHero"					"ヒーローを変更"
 		"Citadel_HeroBuilds_BrowseBuildSubheader"		"{s:hero_name}"
 
 		"Citadel_HeroBuilds_EditingBuildTitle"			"ビルドを編集:"
@@ -1758,6 +1782,8 @@
 		"modifier_hint_can_cancel"				"{s:in_mantle}を押してキャンセル"
 		"modifier_citadel_dps_tracker"			"DPS"
 		"modifier_citadel_accuracy_tracker"		"命中率"
+
+		"modifier_walker_resist_aura"			"Walker Resist Aura"
 
 		//****************************************************************************************************************************************************************************
 
@@ -1923,6 +1949,9 @@
 		"citadel_settings_volume"						"音量"
 		"citadel_settings_voice"						"ボイス設定"
 		"citadel_settings_game"							"ゲーム"
+		"citadel_settings_skill_rating"					"スキルレート"
+		"citadel_settings_skill_rating_notification"	"スキルレートが変更されたときに通知を表示する"
+		"citadel_settings_skill_rating_post_game"		"試合後にチームの平均レートを表示する"
 		"citadel_settings_network"						"ネットワーク"
 		"citadel_settings_mastervolume"					"マスター音量"
 		"citadel_settings_mastervolume_desc"			"ゲーム全体の音量を調整します"
@@ -1993,6 +2022,8 @@
 		"citadel_settings_streamer_mode_tooltip"		"これをオンにすると、ゲーム内やダッシュボードでプレイヤー名が非表示になります。ただし、プロフィールカードのプレイヤー名は非表示になりません。"
 		"citadel_settings_active_window_unpause"		"ゲームの一時停止解除時にウィンドウを強制的にフォーカス"
 		"citadel_settings_active_window_unpause_tooltip"	"これをオンにすると、ゲームが一時停止を解除する際にゲームウィンドウが自動的にフォーカスされます。"
+		"citadel_settings_always_show_hud_stats"			"HUDのステータスを常に表示する"
+		"citadel_settings_always_show_hud_stats_tooltip"	"これをオンにすると、HUDの左側にあるステータスが常に表示されます。"
 		"citadel_camera_pitch_inverted"					"マウスを反転"
 		"citadel_camera_zoom_is_toggle"					"ズームをトグル"
 		"citadel_enable_ping_indicator"					"HUDピンインジケーターを有効にする"
@@ -2006,6 +2037,7 @@
 		"citadel_settings_alt_cast_double_tap_window"		"代替キャストのダブルタップウィンドウ"
 		"citadel_settings_alt_cast_hold_time"			"代替キャストのホールド時間"
 		"citadel_settings_cancel_ability_mode"				"アビリティキャンセルモードの変更:"
+		"citadel_settings_cancel_ability_mode_desc"		"注意: 可能な場合、アビリティはキャンセルキーでキャンセルされます。"
 		"citadel_settings_cancel_ability_mode_cancel_key"	"キャンセルキー"
 		"citadel_settings_cancel_ability_mode_ability_key"	"アビリティキー"
 		"citadel_settings_cancel_ability_mode_either"	"キャンセルキーまたはアビリティキー"
@@ -2037,8 +2069,8 @@
 		"citadel_settings_actionkeybinds"				"アクションキー割り当て"
 		"citadel_settings_misckeybinds"					"その他のキー割り当て"
 		"citadel_settings_communicationkeybinds"		"コミュニケーションキー割り当て"
-		"citadel_settings_spectatorkeybinds"			"観戦キー割り当て"
-		"citadel_settings_replaykeybinds"				"リプレイキー割り当て"
+		"citadel_settings_spectatorkeybinds"			"観戦/リプレイ用キー割り当て"
+		"citadel_settings_replaykeybinds"				"リプレイ専用キー割り当て"
 		"citadel_settings_ping_wheel_contextual"		"コンテキストホイールスロットを使用"
 		"citadel_settings_ping_wheel_contextual_desc"	"コンテキストスロットは、現在の状況に応じてゲームプレイ中に変更されます"
 		"citadel_settings_ui_language"					"言語:"
@@ -2275,13 +2307,18 @@
 		"citadel_keybind_spec_next_target"				"次のターゲットを観戦"
 		"citadel_keybind_spec_prev_target"				"前のターゲットを観戦"
 		"citadel_keybind_spec_change_Team"				"観戦チームを変更"
-		"citadel_keybind_toggle_spec_camera"			"観戦カメラモードを変更"
+		"citadel_keybind_toggle_spec_camera"			"カメラモードを変更"
 		"citadel_keybind_spectator_fly_up"				"上昇"
 		"citadel_keybind_spectator_fly_down"			"下降"
 		"citadel_keybind_spec_in_eye"					"一人称観戦"
 		"citadel_keybind_spec_chase"					"チェイスカム観戦"
 		"citadel_keybind_cancel_ability"				"アビリティをキャンセル"
-				
+		"citadel_keybind_chatwheel_option1"				"ピンオプション 1"
+		"citadel_keybind_chatwheel_option2"				"ピンオプション 2"
+		"citadel_keybind_chatwheel_option3"				"ピンオプション 3"
+		"citadel_keybind_chatwheel_option4"				"ピンオプション 4"
+		"citadel_keybind_chatwheel_option5"				"ピンオプション 5"
+
 		"citadel_keybind_replay_next_target"				"リプレイ：次のターゲット"
 		"citadel_keybind_replay_prev_target"				"リプレイ：前のターゲット"
 		"citadel_keybind_replay_change_Team"				"観戦チームを変更"
@@ -2503,7 +2540,7 @@
 
 		"Citadel_FlexSlot_Title"						"フレックススロットがアンロックされました"
 		"Citadel_FlexSlotUnlockedAllTier1"				"3体の<span class=\"FlexSlotObjectiveName\">敵のガーディアン</span>を倒してフレックススロットをアンロックしました"
-		"Citadel_FlexSlotUnlockedGenerator"				"両方の<span class=\"FlexSlotObjectiveName\">聖堂</span>を倒してフレックススロットをアンロックしました"
+		"Citadel_FlexSlotUnlockedGenerator"				"1組の<span class=\"FlexSlotObjectiveName\">ベースガーディアン</span>と<span class=\"FlexSlotObjectiveName\">敵の神殿</span>を1体倒して、フレックススロットを解除しました。"
 		"Citadel_FlexSlotUnlockedAllTier2"				"全ての<span class=\"FlexSlotObjectiveName\">敵のウォーカー</span>を倒してフレックススロットをアンロックしました"
 		"Citadel_FlexSlotUnlockedKill2Tier2"			"2体の<span class=\"FlexSlotObjectiveName\">敵のウォーカー</span>を倒してフレックススロットをアンロックしました"
 
@@ -2648,13 +2685,23 @@
 		"Citadel_ranked_explainer_desc"				"ランクモードは、より競技性の高いデッドロック体験を提供し、同じスキルレベルのプレイヤーとマッチメイキングされ、世界中のプレイヤーの中であなたのスキルランクを決定します。<br><br>毎週、プレイヤーは自分の地域の選択した時間帯にランクマッチをプレイすることで、自分のスキルランクを示すことができます。"
 		"Citadel_ranked_howitworks_title"			"仕組みはどうなっているの？"
 		"Citadel_ranked_howitworks_desc"			"全てのプレイヤーは初めに暫定ランクの「Obscurus」から始まり、毎週7試合のランクマッチを完了することで、その週のランク付けに参加する資格を得ます。その週の終わりに、あなたのランクが決定され、プロフィールにバッジとして表示されます。<br><br>もし1週間で7試合のランクマッチをプレイしていない場合、表示されるランクは Obscurus に戻り、次の週以降で資格を得るまでバッジは隠れたままになります。ただし、スキルの評価データは引き継がれ、次回以降のランクマッチで使用されます。<br><br>ランクは全部で11種類あり、それぞれのランク内でさらにIからVIまでのサブランクが割り当てられ、ランク内での位置をさらに区別します。"
-		"Citadel_ranked_rankedmedals"				"ランク："
+		"Citadel_ranked_rankedmedals"				"バッジレベル："
 		"Citadel_ranked_subranks_explainer"			"サブランク: I, II, III, IV, V, <Panel class=\"starIcon\"></Panel>"
+
+		"Citadel_GlobalLeaderboard_Title"			"グローバルリーダーボード"
+		"Citadel_GlobalLeaderboard_Desc"			"スキルレート"
+		"Citadel_GlobalLeaderboard_Note"			"リーダーボードに表示されるには、過去30日間で最低{i:required_games_played}試合をプレイする必要があります。"
+		"Citadel_GlobalLeaderboard_HeroNote"		"リーダーボードに表示されるには、過去30日間で{s:leaderboard_hero_name}を使用して最低{i:required_games_played}試合をプレイする必要があります。"
+		"Citadel_GlobalLeaderboard_Player"			"プレイヤー"
+		"Citadel_GlobalLeaderboard_Overall"			"全体"
+		"Citadel_GlobalLeaderboard_OverallRating"	"総合レート"
+		"Citadel_GlobalLeaderboard_Error"			"リーダーボードの読み込みエラー"
+		"Citadel_GlobalLeaderboard_Empty"			"選択されたリーダーボードは現在空です。"
 
 		"Citadel_ranked_explainer_note"				"バッジのデザインは、最初のランクが10月22日火曜日(GMT)に付与された時に公開されます。"
 
-		"Citadel_ranked_result_title"				"ランクレポート"
-		"Citadel_ranked_result_rankup"				"ランクアップ！"
+		"Citadel_ranked_result_title"				"スキルレーティング"
+		"Citadel_ranked_result_rankup"				"あなたのスキルレートが上がりました"
 		"Citadel_ranked_result_adjustment"			"ランク調整"
 		"Citadel_ranked_numGamesPlayed"				"{s:games_played} 試合プレイ済み"
 		"Citadel_ranked_match_history"				"試合履歴："
@@ -2685,6 +2732,7 @@
 		"item_info_abilities"						"アビリティ"
 		"item_info_flex_slots"						"フレックススロット"
 		"item_info_active"							"アクティブ"
+		"item_info_imbue"							"インビュー"
 		"item_info_new"								"新規"
 		"item_info_sell"							"売却"
 		"item_info_no_shop"							"近くにショップがありません"
@@ -2705,8 +2753,8 @@
 		"SafeToAbandon_Text"						"この試合はペナルティなしで放棄できます。"
 
 		"ModIconTooltip_UnlockTier2"				"チームが敵のウォーカーを2体破壊した後に解除されます"
-		"ModIconTooltip_UnlockGuardians"			"チームが敵の基地ガーディアンを破壊した後に解除されます"	
-		"ModIconTooltip_UnlockGenerators"			"チームが敵の聖堂を両方破壊した後に解除されます"	
+		//"ModIconTooltip_UnlockGuardians"			"チームが敵のベースガーディアンを破壊した後に解除されます"	
+		"ModIconTooltip_UnlockGenerators"			"チームが1組のベースガーディアンと1つの聖堂を破壊すると解除されます。"	
 		//"ModIconTooltip_UnlockTier3"				"Unlocked after your team destroys the enemy Patron's first form"
 		"ModIconTooltip_UnlockAllTier1"				"チームが敵ガーディアンを3体倒した後に解除されます"
 		"ModIconTooltip_UnlockAllTier2"				"チームがすべての敵ウォーカーを破壊した後に解除されます"
@@ -2973,6 +3021,7 @@
 		"AbilityButtonHint_HatTrickFire"			"発射"
 		"AbilityButtonHint_HatTrickCancel"			"戻す"
 		"AbilityButtonHint_MeleeRejuvinator"		"リジュビネーターを獲得するために重近接攻撃"
+		"AbilityButtonHint_MeleePowerUp"				"重近接攻撃でパワーアップを獲得"
 		"AbilityButtonHint_ClimbRope"				"ロープを登るためにホールド"
 
 		"AbilityButtonHint_HealTarget"			"ターゲットを回復"

@@ -476,7 +476,8 @@
 	
 		//Arcane Surge
 		"upgrade_arcane_surge_desc"			"次の<span class=\"highlight\">ダッシュジャンプ</span>は追加のスタミナを消費せず、<span class=\"highlight\">次に使用するアビリティ</span>に<span class=\"highlight\">射程、持続時間</span>、および<span class=\"highlight\">スピリットパワー</span>のボーナスが付与される。さらに、次のリロードまで<span class=\"highlight\">発射レート</span>と<span class=\"highlight\">弾薬</span>のボーナスを得る。この効果は最大{s:AbilityDuration}秒間持続する。"
-		"modifier_arcane_surge_triggered"	"Arcane Surge"
+		"modifier_arcane_surge_triggered"	"アーケインサージ!"
+		"modifier_arcane_surge_ability"		"アビリティサージ!"
 
 		//Active Reload
 		"upgrade_active_reload_desc" "リロード中に、ハイライト部分で[{s:key_reload}]を押すと<span class=\"highlight\">即座にリロードを完了</span>し、<span class=\"highlight\">発射速度</span>と<span class=\"highlight\">弾丸ライフスティール</span>が付与されます。"

@@ -75,7 +75,7 @@
 		//"modifier_invis_fading"					"Fading"
 		//"modifier_camouflage_invis"				"Camouflaged"
 		"modifier_citadel_silenced"				"沈黙"
-		//"emp_immune"							"Silenced Immune"
+		"silencer_immune"						"サイレンサー耐性"
 		//"modifier_citadel_muted"				"Muted"
 		"modifier_citadel_disarmed"				"武装解除"
 		"modifier_citadel_tech_shield"		"スピリットシールド"
@@ -376,12 +376,12 @@
 		"ActiveHealthRegenBoost_label"				"アクティブ体力回復"
 
 		"NonPlayerBonusWeaponPower_label"			"NPCに対する武器ダメージ"
-		"NonPlayerBonusWeaponPower_prefix"			"+"
+		"NonPlayerBonusWeaponPower_prefix"			"{s:sign}"
 		"NonPlayerBonusWeaponPower_postfix"			"%"
 		"NonPlayerBonusWeaponPower_conditional"		"対NPC"
 
 		"NonPlayerBulletResist_label"			"NPCに対する弾丸耐性"
-		"NonPlayerBulletResist_prefix"			"+"
+		"NonPlayerBulletResist_prefix"			"{s:sign}"
 		"NonPlayerBulletResist_postfix"			"%"
 		"NonPlayerBulletResist_conditional"		"対NPC"
 
@@ -585,7 +585,7 @@
 		"BonusChargedAbilityDamage_prefix"				"{s:sign}"
 		"BonusChargedAbilityDamage_postfix"				"%"
 
-		"CooldownBetweenChargeReduction_prefix"			"+"
+		"CooldownBetweenChargeReduction_prefix"			"{s:sign}"
 		"CooldownBetweenChargeReduction_label"			"チャージ間隔短縮"
 		"CooldownBetweenChargeReduction_postfix"		"%"
 
@@ -608,8 +608,9 @@
 
 		"TotalHealthRegen_label"						"総体力回復"
 
-		"StatusResistancePercent_postfix"				"%"
+		"StatusResistancePercent_prefix"				"{s:sign}"
 		"StatusResistancePercent_label"					"デバフ耐性"
+		"StatusResistancePercent_postfix"				"%"
 
 		"ActiveStatusResistancePercent_postfix"			"%"
 		"ActiveStatusResistancePercent_label"			"デバフ軽減"
@@ -865,7 +866,7 @@
 		//"DeployHealthRegen_label"						"Deployable Health"
 
 		"TurretFireRate_label"							"タレット発射速度"
-		"TurretFireRate_prefix"							"+"
+		"TurretFireRate_prefix"							"{s:sign}"
 		"TurretFireRate_postfix"						"%"
 
 		"TurretDPS_label"								"タレットDPS"
@@ -973,7 +974,7 @@
 
 		"AboveHealthThreshold_conditional"				"ヘルス閾値以上"
 		"BelowHealthThreshold_conditional"				"ヘルス閾値以下"
-		"DashJump_conditional"							"ダッシュジャンプ成功後"
+		"DashJump_conditional"							"ダッシュジャンプ後"
 
 		//"EnemyAboveHealthThreshold_conditional"			"Enemy above health threshold"
 		
@@ -1090,7 +1091,7 @@
 		//"ConvertedHealth_label"						"Trooper Health"
 
 		"SilenceDuration_label"							"沈黙の持続時間"
-		"SilenceDuration_postfix"						" 秒"
+		"SilenceDuration_postfix"						"秒"
 
 		"Range_postfix"									"m"
 		"Range_label"									"射程"
@@ -1130,7 +1131,7 @@
 		"AbilityDuration_label"							"持続時間"
 
 		"TetherDuration_postfix"						"秒"
-		//"TetherDuration_label"						"Tether Duration"
+		"TetherDuration_label"						"テザー時間"
 
 		"TetherRadius_postfix"							"m"
 		//"TetherRadius_label"						"Tether Radius"
@@ -1842,6 +1843,17 @@
 
 		"GroundDashReductionPercent_label"	"ダッシュ距離"
 		"GroundDashReductionPercent_postfix"	"%"
+
+		"ActivePlayerStats_Percentage"		"<span class=\"statNumber\">{s:value}</span><span class=\"statPostfix\">%</span>"
+		"ActivePlayerStats_PercentageNum"	"<span class=\"statNumber\">{d:value}</span><span class=\"statPostfix\">%</span>"
+		"ActivePlayerStats_MoveSpeed"		"<span id=\"speedDisplayMS\" class=\"statNumber\">{s:value}</span><span id=\"speedDisplayPostfix\" class=\"statPostfix\">m/s</span>"
+		
+		"TechDamageReduction_label"			"スピリットダメージ軽減"
+		"TechDamageReduction_postfix"		"%"
+
+		"ActiveMoveSpeedPenalty_label"		"移動速度ペナルティ"
+		"ActiveMoveSpeedPenalty_postfix"		"m/s"
+		
 		//-----------------------------------------------------------------------------
 		// END Ability Properties desc
 		//-----------------------------------------------------------------------------

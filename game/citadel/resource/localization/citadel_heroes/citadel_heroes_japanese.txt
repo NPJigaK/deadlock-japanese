@@ -115,8 +115,8 @@
 		//"modifier_cadence_sleeping"				"Sleeping"
 		//"modifier_cadence_sleep_aoe"				"Singing a Lullaby"
 		//"LingerDuration_label"					"Linger Duration"
-		"LingerDuration_postfix"					"秒"
-		"DashDistance_label"						"ダッシュ距離"
+		"LingerDuration_postfix"					"s"
+		"DashDistance_label"						"Dash Distance"
 		"DashDistance_postfix"					"m"
 
 		//"cadence_ability_silencecontraptions"			"Silence Contraptions"
@@ -135,8 +135,8 @@
 		//"cadence_ability_grandfinale_desc"		"Build high ground undernearth Cadence. Allies fighting from the high ground get a fire rate bonus and explosive bullets."
 		//"ExplodeRadius_label"						"Explosion Radius"
 		"ExplodeRadius_postfix"					"m"
-		"StageDuration_label"						"持続時間"
-		"StageDuration_postfix"					"秒"
+		"StageDuration_label"						"Duration"
+		"StageDuration_postfix"					"s"
 		//"modifier_cadence_grandfinale_buff"		"Grand Finale"
 
 		//"cadence_ability_crescendo"				"Crescendo"
@@ -145,6 +145,20 @@
 
 		//"modifier_cadence_crescendo_in_aoe"		"Encased in Glass"
 		//"modifier_cadence_crescendo_post_aoe"		"Shattered"
+
+		"ability_cadence_tempo_bullet" "Tempo"
+		"ability_cadence_tempo_bullet/modifier_tempo_bullet" "Tempo"
+		"ability_cadence_tempo_bullet_desc" "Casting an ability empowers your next  <span class=\"highlight\">{s:MaxProcCount} bullets</span>. Empowered bullets deal bonus <span class=\"highlight_spirit\">Damage</span> <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> and reduce all your <span class=\"highlight\">Cooldowns</span> <Panel class=\"AbilityPropertyIcon prop_cooldown\"> ."
+		"AbilityCooldownPerHit_label" "Cooldown Reduction per Hit"
+		"AbilityCooldownPerHit_postfix" "s"
+		"ability_cadence_charm" "Stolen Glance"
+		"ability_cadence_charm_desc" "Glance in a target direction, dealing <span class=\"highlight_spirit\">Damage</span> <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> to the first enemy hit and <span class=\"highlight\">marking</span> them.<br><br>If the victim was already <span class=\"highlight\">marked</span>, they instead take additional <span class=\"highlight_spirit\">Damage</span> <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> and become <span class=\"highlight\">Charmed</span>.<br><br><span class=\"diminish\">Charmed enemies are forced to run towards you, but at reduced speeds.</span>"
+		"ability_cadence_desc2" ""
+		"ability_cadence_charm/modifier_mark" "Tempted..."
+		"ability_cadence_charm/modifier_charm" "Charmed"
+		"ability_cadence_burstaura" "Upswing"
+		"ability_cadence_burstaura/modifier_burstaura" "Upswing"
+		"CharmDamage_label" "Charm Damage"
 
 		//-----------------------------------------------------------------------------
 		// Hero McGinnis (previous names: // Engineer // Forge )
@@ -180,7 +194,7 @@
 
 		"citadel_ability_shieldedsentry"		"ミニタレット"
 		"citadel_ability_shieldedsentry_quip"	"自動タレットを配置する"
-		"citadel_ability_shieldedsentry_desc"	"ミニタレットを配置し、<span class=\"highlight\">自動で敵を射撃</span>します。タレットは一定時間後に消滅します。<br>タレットは{s:hero_name}の最大ヘルスの{s:TurretHealthScaling}%を得て、{s:TechResist}%のスピリット耐性を持ちます。彼らはトルーパーやオブジェクティブに対して与えるダメージが減少します。<br>Mini Turret."
+		"citadel_ability_shieldedsentry_desc"	"ミニタレットを配置し、<span class=\"highlight\">自動で敵を射撃</span>します。タレットは一定時間後に消滅します。<br>タレットは<span class=\"highlight\">1つのブーンごとに{s:TurretHealthPerBoon}HP</span>を得る。タレットはトルーパーとオブジェクトへのダメージが軽減されます。<br>Mini Turret."
 		"citadel_ability_shieldedsentry_t1_desc"	"タレットは移動速度を<span class=\"highlight\">+{s:MoveSlowPercent}%</span>低下させる"
 		"citadel_ability_shieldedsentry_t2_desc"	"<span class=\"highlight\">+{s:TurretAttackRange}m</span> の攻撃範囲と<span class=\"highlight\">+{s:AttackSpeedMult}%</span>のタレット発射速度"
 
@@ -197,7 +211,7 @@
 		"ShieldedSentry_EffectsPerStack"		"スタック毎:"
 		"TurretHealthScaling_label"					"タレットの体力"
 		"TurretHealthScaling_postfix"					"%"
-
+		"TurretBaseHealth_label"				"タレットの体力"
 
 		"TurretAttackRange_label"					"攻撃範囲"
 		"TurretAttackRange_postfix"				"m"
@@ -253,6 +267,7 @@
 		"citadel_ability_wraith_rapidfire"		"フルオート"
 		"citadel_ability_wraith_rapidfire_quip"	"発射速度を上昇させる"
 		"citadel_ability_wraith_rapidfire_desc"	"一時的に<span class=\"highlight\">発射速度</span>を上昇させます。近くにいる味方にも、発射速度ボーナスの半分を受ける。<br>Full Auto."
+		"citadel_ability_wraith_rapidfire_t3_desc"	"<span class=\"highlight\">+{s:BulletLifestealPercent}%の弾丸ライフスティール</span>を得て、弾丸ごとのスピリットダメージがスピリットパワーに応じてスケールするようになる。"
 		//"citadel_ability_wraith_rapidfire/modifier_rapidfire" "Rapid Fire"
 
 
@@ -365,12 +380,13 @@
 		"MovementSlowPct_postfix"					"%"
 		"DamagePctPerWallHit_label"					"最大体力ダメージ"
 		"DamagePctPerWallHit_postfix"				"%"
+		"DamageWallHit_label"					"接触時のダメージ"
 		"TimeScaleDuration_label"					"時間停止の持続時間"
 		"TimeScaleDuration_postfix"				"秒"
 		"modifier_citadel_chrono_time_wall_effect"  "タイムウォール"
 		//"citadel_ability_chrono_time_wall_t1_desc"		"The wall speeds up <span class=\"highlight\">Paradox's movement.</span>"
 		"citadel_ability_chrono_time_wall_t1_desc"		"<span class=\"highlight\">幅+{s:TimeWallWidth}m、高さ+{s:TimeWallHeight}m</span>"
-		"citadel_ability_chrono_time_wall_t2_desc"	"タイムウォールが相手の最大体力の<span class=\"highlight\">{s:DamagePctPerWallHit}%</span>のダメージを与える"
+		"citadel_ability_chrono_time_wall_t2_desc"	"最大HPの<span class=\"highlight\">+{s:DamagePctPerWallHit}%</span> ダメージを接触時に与える"
 		"citadel_ability_chrono_time_wall_t3_desc"		"タイムウォールに触れた敵は<span class=\"highlight\">{s:DebuffDuration}秒間サイレンス状態</span>になります"
 		//"modifier_timewall_damageamp"				"Damage Vulnerability"
 
@@ -744,19 +760,19 @@
 
 		"ability_smoke_bomb" "スモークボム"
 		"ability_smoke_bomb_quip" "姿を消す"
-		"ability_smoke_bomb_desc" "姿を消し、<span class=\"highlight\">透明</span>になり、<span class=\"highlight\">スプリント速度</span>を得る。攻撃すると透明状態が解除される。近くの敵はあなたの透明状態を見破ることができる。<br>Smoke Bomb."
+		"ability_smoke_bomb_desc" "姿を消し、<span class=\"highlight\">透明</span>になり、<span class=\"highlight\">スプリント速度</span>を得る。攻撃すると透明状態されるが、アイテムの使用では解除されない。近くの敵はあなたの透明状態を見破ることができる。<br>Smoke Bomb."
 		//"ability_smoke_bomb_t1_desc"	"<span class=\"highlight\">{s:AbilityCooldown}s</span> Ability Cooldown"
-		"ability_smoke_bomb_t2_desc"	"<span class=\"highlight\">+{s:InvisMoveSpeedMod}m/s</span> 透明スプリント速度"
-		"ability_smoke_bomb_t3_desc" "透明後に<span class=\"highlight\">+{s:BulletLifesteal}%の弾丸ライフスティール</span>を{s:PostInvisBuffDuration}秒の間得る"
+		"ability_smoke_bomb_t2_desc"	"透明化解除後、<span class=\"highlight\">+{s:BulletLifesteal}%の弾丸ライフスティール</span>を{s:PostInvisBuffDuration}秒間得る。"
+		"ability_smoke_bomb_t3_desc" "アビリティチャージを有効化し、<span class=\"highlight\">+{s:PhaseOutDuration}秒間</span>世界からフェーズアウトする。"
 		//"modifier_citadel_smoke_bomb_in_smoke"	"In Smoke"
 		"modifier_citadel_smoke_bomb_invis" "透明"
 		//"ability_smoke_bomb/modifier_buff"		"Stabilizer"
 
 		"ability_bullet_flurry"			"バレットダンス"
 		"ability_bullet_flurry_quip" "周囲に弾丸の嵐を解き放つ"
-		"ability_bullet_flurry_desc" "周囲に向かって<span class=\"highlight\">乱射し、</span>近くの敵に対して<span class=\"highlight\">完璧な精度</span>で攻撃する。<br>Bullet Dance."
+		"ability_bullet_flurry_desc" "周囲に向かって<span class=\"highlight\">乱射し、</span>近くの敵に対して<span class=\"highlight\">完璧な精度</span>で攻撃し、<span class=\"highlight\">スピリットダメージ</span>を追加で与える。<br>Bullet Dance."
 		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
-		"ability_bullet_flurry_t3_desc"	"弾丸回避率が<span class=\"highlight\">+{s:EvasionPercent}%</span>、バレットダンス中の移動速度が<span class=\"highlight\">+{s:DanceMoveSpeed}m/s</span>増加"
+		"ability_bullet_flurry_t3_desc"	"<span class=\"highlight\">+{s:EvasionPercent}%</span>の弾丸回避率<br>およびダンス中に<span class=\"highlight\">+{s:DanceMoveSpeed}m/s</span>の移動速度を得る"
 		"BonusWeaponDamage_prefix"				"+"
 		"BonusWeaponDamage_label" "弾丸ダメージ"
 		"DanceMoveSpeed_label"					"バレットダンス移動速度"
@@ -817,7 +833,7 @@
 
 		"citadel_ability_nikuman"				"リジュビネーティングオーロラ"
 		"citadel_ability_nikuman_quip"			"自分と周囲の仲間を回復する"
-		"citadel_ability_nikuman_desc"			"チャネリング中、あなたと近くの味方の<span class=\"highlight\">体力を徐々に回復する</span>。ダッシュしてもチャネリングは中断されない。<br>Rejuvenating Aurora."
+		"citadel_ability_nikuman_desc"			"チャネリング中、あなたと近くの味方の<span class=\"highlight\">体力を徐々に回復する</span>。<br><span class=\"diminish\">ダッシュしてもチャネリングは中断されない。</span><br>Rejuvenating Aurora."
 		"citadel_ability_nikuman/modifier_nikuman"	"リジュビネーティングオーロラ"
 		//"TechShieldPerSecond_label"				"Spirit Shield Added"
 		"TechShieldPerSecond_postfix"			"/s"
@@ -972,7 +988,7 @@
 		"hint_throw_wrecking_ball"			"Throw Ball"
 
 		"ability_wrecker_salvage"			"Consume"
-		"ability_wrecker_salvage_desc"		"Latches onto an Enemy, <span class=\"highlight\">damaging</span> them while attached. A successful kill provides a <span class=\"highlight\">fire rate</span> bonus, and restores a <span class=\"highlight\">Bio Blast</span> charge.  This bonus stacks independently."
+		"ability_wrecker_salvage_desc"		"Latches onto an Enemy, <span class=\"highlight\">damaging</span> them and <span class=\"highlight\">healing</span> yourself while attached. Targets must be in line of sight and within max range to stay latched. A successful kill also restores a <span class=\"highlight\">Bio Blast</span> charge."
 		"ability_wrecker_salvage_quip"		"Consume an enemy trooper or neutral"
 		"FireRateBuffDuration_label"			"Bonus Duration"
 		"FireRateBuffDuration_postfix"		"s"
@@ -1010,6 +1026,14 @@
 		"ability_wrecker_teleport_desc"		"Launch a <span class=\"highlight\">flying shadow copy of yourself that you control</span>, <span class=\"highlight\">teleporting</span> your original body to wherever it lands. The teleport explosion <span class=\"highlight\">slows enemies and deals damage</span> based on how long you were flying."
 		"ability_wrecker_teleport_quip"		"Launch a flying illusion of yourself, teleporting your real body where the illusion lands"
 		"DamagePerSecondFlown_label"			"Damage per second flown"
+
+		"citadel_ability_wrecker_garbage_suck"			"Overload"
+		"citadel_ability_wrecker_garbage_suck_quip"		"Slow and Damage nearby enemies"
+		"citadel_ability_wrecker_garbage_suck_desc"		"Create an area that <span class=\"highlight\">slows</span> nearby enemies and <span class=\"highlight\">damages</span> them after a channel. Damage scales with total channel time."
+		"GarbageRadius_label"						"Overload Radius"
+		"GarbageRadius_postfix"						"m"
+		"BaseDamage_label"							"Base Damage"
+		"DamagePerSecondWrecker_label"				"Damage Per Second"
 
 		//-----------------------------------------------------------------------------
 		// Lash
@@ -1453,10 +1477,11 @@
 
 
 		"ability_immobilize_trap"			"イモービライズ・トラップ"
-		"ability_immobilize_trap_quip"		"敵を移動不可能にするトラップを設置"
-		"ability_immobilize_trap_desc"		"<span class=\"highlight\">トラップを投げます</span>。トラップは武装を開始します。武装されると、敵がその半径に入ると発動し、<span class=\"highlight\">移動不可能</span>にします。<br>Immobilizing Trap."
+		"ability_immobilize_trap_quip"		"敵の移動を制限する罠を設置する"
+		"ability_immobilize_trap_desc"		"<span class=\"highlight\">トラップを設置する</span>。設置が完了すると、罠は敵がその範囲に入ったときに作動し、敵がその半径に入ると発動し、<span class=\"highlight\">移動を制限</span>し、<span class=\"highlight\">スロウ効果</span>を与える。<br>Immobilizing Trap."
 		"modifier_citadel_immobilize_trap_immobilize"	"移動不可能トラップ"
 		"modifier_citadel_immobilize_trap_immobilize_debuff" "移動不可能トラップデバフ"
+		"ability_immobilize_trap_t2_desc"	"<span class=\"highlight\">+{s:TetherDuration}秒</span>のテザー持続時間と<span class=\"highlight\">{s:SlowDuration}秒</span>のスロー持続時間"
 		"ability_immobilize_trap_t3_desc"	"{s:hero_name}は移動不可能トラップに当たった敵に対して、<span class=\"highlight\">+{s:BulletVulnerbility}%</span> 追加の弾丸ダメージを与えます。持続時間は<span class=\"highlight\">{s:DebuffDuration}s</span>です。"
 		"ability_immobilize_trap/trap_debuff"	"スピリットアーマー減少"
 
@@ -1571,7 +1596,6 @@
 		"citadel_ability_hornet_chain"				"ステイク"
 		"citadel_ability_hornet_chain_quip"			"敵を地面に縛り付ける"
 		"citadel_ability_hornet_chain_desc"			"ステイクを投げて、<span class=\"highlight\">敵を縛り付ける</span>。ステイクが着地した場所に縛られ、敵の移動はテザーの長さに制限される。<br>Stake."
-		"citadel_ability_hornet_chain_t3_desc"		"縛られた敵はさらに<span class=\"highlight\">武装解除</span>される。"
 		"modifier_citadel_hornet_chain_connection"	"地面に繋がれている"
 		"citadel_ability_hornet_chain/modifier_citadel_hornet_chain_connection"	"地面に繋がれている"
 		"modifier_citadel_rootgrenade"			"移動不能"
@@ -1616,7 +1640,7 @@
 		"citadel_ability_hornet_sting_quip"		"ターゲットを時間をかけて出血させる"
 		"citadel_ability_hornet_sting_desc"		"あなたのカラスの仲間が<span class=\"highlight\">衝撃ダメージ</span>を与え、<span class=\"highlight\">出血</span>を適用し、<span class=\"highlight\">ターゲットの現在の体力に基づく</span>ダメージを与えます。<br>Crow Familiar."
 		"citadel_ability_hornet_sting_t1_desc"	"カラスは<span class=\"highlight\">最大2回まで</span>、{s:TargetBounceRange}m以内の他の敵に跳ね返る。"
-		"citadel_ability_hornet_sting_t3_desc"	"+{s:DotHealthPercent}%出血し、{s:HealAmpReceivePenaltyPercent}%の回復を抑制します。"
+		"citadel_ability_hornet_sting_t3_desc"	"{s:BulletResistReduction}%の弾丸耐性と{s:MagicResistReduction}%のスピリット耐性を減少させる"
 		"citadel_ability_hornet_sting/modifier_citadel_hornet_sting_debuff"		"クロウ・ファミリア"
 		"BulletVulnerbility_prefix"				"{s:sign}"
 		//"BulletVulnerbility_label"				"Weapon Damage Amplification"
@@ -2228,6 +2252,22 @@
 		//"modifier_slork_lastbreath_damage_amp" "Baited"
 
 		//-----------------------------------------------------------------------------
+		// Operative
+		//-----------------------------------------------------------------------------
+		"operative_blindside"		"Blindside"
+		"operative_blindside_passive_desc"	"Passive: Deal bonus damage with your gun and melee attacks when hitting an enemy in the back."
+		"operative_blindside_active_desc"	"Active: Throw a concussion grenade that reduces enemies' turn rate."
+		"BackstabBonusDamagePct_label"		"Blindside Damage"
+		"BackstabBonusDamagePct_postfix"	"%"
+		"TurnRateSlowDuration_label"		"Slowed Turn Rate Duration"
+		"TurnRateSlowDuration_postfix"		"s"
+		//"EnemyTurnRateMax_label"			"Enemy Turn Rate Max"
+		//"EnemyTurnRateMax_postfix"			"%"
+
+		"operative_scattercharge"		"Scattercharge"
+		"operative_scattercharge_desc"	"Spin your umbrella, launching numerous charges in a cone ahead of you. They detonate shortly after landing on the ground."
+
+		//-----------------------------------------------------------------------------
 		// Kali
 		//-----------------------------------------------------------------------------
 		//"citadel_ability_kali_spinning_blade"			"Occilioblade"
@@ -2517,7 +2557,7 @@
 
 		"citadel_ability_infinity_slash"		"シャドウ・トランスフォーメーション"
 		"citadel_ability_infinity_slash_quip"	"無敵かつより強力になる"
-		"citadel_ability_infinity_slash_desc"	"{s:hero_name}の影の魂に取り憑かれる。最初に<span class=\"highlight\">無敵の</span>変身を行い、その後<span class=\"highlight\">アビリティがリフレッシュされ、60%速くなる</span>。さらに、<span class=\"highlight\">ネガティブな状態異常は無効化、ダメージ耐性の付与、体力の回復を</span>得る。<br>{s:hero_name}が敵ヒーローを倒すと持続時間が延長される。<br>Shadow Transformation."
+		"citadel_ability_infinity_slash_desc"	"{s:hero_name}の影の魂に取り憑かれる。最初に<span class=\"highlight\">無敵の</span>変身を行い、その後<span class=\"highlight\">アビリティがリフレッシュされ、60%速くなる</span>。さらに、<span class=\"highlight\">ネガティブな状態異常は無効化し、<span class=\"highlight\">弾丸耐性とスピリット耐性</span>が大幅に向上する。<br>ヒーローをキルすると<span class=\"highlight\">回復</span>し、効果の<span class=\"highlight\">持続時間</span>が延長される。<br>Shadow Transformation."
 		//"citadel_ability_infinity_slash_buff_header" "Per Hero Hit"	
 		"ShadowDuration_label"					"爆発遅延"
 		"ShadowDuration_postfix"				"s"
@@ -2526,9 +2566,11 @@
 		"AbilitySpeedPct_label"					"能力速度"
 		"AbilitySpeedPct_prefix"				"+"
 		"AbilitySpeedPct_postfix"				"%"
-		"ShadowFormDurationOnKill_label"		"Time on Kill"
+		"ShadowFormDurationOnKill_label"		"キル時の持続時間"
 		"ShadowFormDurationOnKill_prefix"		"+"
 		"ShadowFormDurationOnKill_postfix"		"s"
+		"InfinitySlashHealOnKill_label"			"キル時の最大HP回復"
+		"InfinitySlashHealOnKill_postfix"		"%"
 
 		"citadel_ability_infinity_slash/timer"	"シャドーフォーム"
 
@@ -2681,6 +2723,33 @@
 		//"gunslinger_sleep_bomb_desc"		"Throw out a sleep bomb that explodes on impact, creating an expanding cloud that sleeps enemies it touches."
 		
 
+		"ability_empowerbullet" "Sleight of Hand"
+		"ability_empowerbullet_desc" "Performing a <span class=\"highlight\">Dash or Slide</span> loads your weapon with an <span class=\"highlight\">empowered bullet</span> that deals bonus <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span>, equal to a percentage of your <Panel class=\"AbilityPropertyIcon prop_bullet_damage\"> <span class=\"highlight_weapon\">Weapon Damage</span>.<br><br><span class=\"diminish\">If you're out of bullets, you'll find an extra one. How lucky.</span>"
+		"ability_empowerbullet/empowerbullet_watcher" "Empowered Round"
+		"ProcDamagePercentage_label" "Bonus Bullet Damage"
+		"ProcDamagePercentage_prefix" "+"
+		"ProcDamagePercentage_postfix" "%"
+		"ability_empowerbullet_t1_desc" "Gain <span class=\"highlight\">+{s:BonusMoveSpeed} m/s</span> Move Speed while empowered"
+		"ability_empowerbullet_t2_desc" "Deal an additional <span class=\"highlight\">+{s:BulletArmorReduction}%</span> weapon damage for {s:DebuffDuration}s against the victim"
+
+		"ability_gunslinger_spreadingfire" "Flame Imp"
+		"ability_gunslinger_spreadingfire_desc" "Throw a projectile, infused with an imp's spirit. It posseses the enemy, dealing <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span> over time. <br><br>If the target dies while possessed, the imp <span class=\"highlight\">jumps to another nearby enemy</span>, refreshing its duration."
+		"ability_gunslinger_spreadingfire/modifier_spreadingfire_dot" "Spreading Flames"
+		"ability_gunslinger_spreadingfire_t3_desc" "+{s:DPS} DPS. Spreads to +{s:SpreadTargets} targets after death."
+		"SpreadRadius_label" "Jump Radius"
+		"SpreadRadius_postfix" "m"
+		"SpreadTargets_label" "Jump Targets"
+
+		"ability_gunslinger_demon_carbine" "Hellfire Salvo"
+		"ability_gunslinger_demon_carbine_desc" "Load your weapon with demonic rounds. After a delay, you empower your next shots to deal bonus damage and penetrate enemies."
+		"DemonShotCount_label" "Demon Rounds"
+
+		"gunslinger_rapid_fire/modifier_citadel_rapid_fire" "Rapid Fire"
+		
+		"ability_gunslinger_salvo" "Demontrigger Blitz"
+		"ability_gunslinger_salvo_desc" "Load your weapon with <span class=\"highlight\">demonic rounds</span>. After a delay, release a <span class=\"highlight\">blitz of bullets</span> at the target enemy, dealing bonus <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span>. <br><br>Enemies can intercept the bullets."
+		"ability_gunslinger_salvo/gunslinger_salvo_warning_modifier" "Take Cover..!"
+		"TotalShots_label" "Total Shots Fired"
 
 		//-----------------------------------------------------------------------------
 		// Spade
@@ -2840,6 +2909,7 @@
 		"VenomMissingHealthDamagePercentage_label"		"Missing Health Damage"
 		"VenomMissingHealthDamagePercentage_postfix"	"%"
 		"ability_viper_venom_quip" "Inject your enemies with a deadly venom"
+		"ability_viper_venom/viper_venom_modifier_subclass" "Lethal Venom"
 
 		
 		"ability_viper_ult" "Petrify"
@@ -2851,6 +2921,13 @@
 		"ability_viper_ult_quip" "Turn both allies and enemies into stone"
 		"HalfHeight_postfix"	"m"
 
+		"ability_viper_petrifybola" "Petrifying Bola"
+		"ability_viper_petrifybola_desc" "Throw an explosive bola. On exploding, the bola <Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">Slows</span> <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damages</span> all enemies in the area. <br><br>Enemies in the center of the explosion take additional <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span> and are <span class=\"highlight\">Petrified</span>.<br><br><span class=\"diminish\">Petrified units block all damage, but cannot take actions.<br>Petrified units break free after blocking enough damage.</span>"
+		"PetrifyDamage_label" "Petrify Damage"
+		"PetrifyRadius_label" "Petrify Radius"
+		"PetrifyRadius_postfix" "m"
+		"ability_viper_petrifybola/petrifybola_petrify" "Petrified"
+
 		"ability_viper_debuffdagger" "Screwjab Dagger"
 		"ability_viper_debuffdagger_desc" "Throw a dagger, dealing <span class=\"highlight_spirit\">Spirit Damage</span> and applying a <span class=\"highlight\">Fading Slow</span>."
 		"ability_viper_debuffdagger_t3_desc"	"+<span class=\"highlight\">{s:SlowDuration}s</span> Slow Duration and remove <span class=\"highlight\">{s:StaminaReduction} Stamina</span>"
@@ -2861,31 +2938,48 @@
 		//-----------------------------------------------------------------------------
 		
 		"ability_magician_magicbolt" "Vexing Bolt"
-		"ability_magician_magicbolt_desc" "Fire a bolt of magic that deals <span class=\"highlight_spirit\">Spirit Damage</span> and applies a <span class=\"highlight\">Fire Rate Slow</span>. <br><br>Press <span class=\"highlight\">[{s:in_ability1}]</span> to <span class=\"highlight\">redirect</span> the bolt towards your crosshairs."
+		"ability_magician_magicbolt_desc" "Fire a bolt of magic that deals <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span> and applies a <Panel class=\"AbilityPropertyIcon prop_fire_rate\"> <span class=\"highlight\">Fire Rate Slow</span>. If you have an <span class=\"highlight\">Assistant</span>, they also cast Vexing Bolt at reduced damage. <br><br>Press <span class=\"highlight\">[{s:in_ability1}]</span> to <span class=\"highlight\">redirect</span> the bolt towards your crosshairs."
 		"ProjectileRedirectCount_label" "Max Redirects"
-		"ability_magician_magicbolt_t3_desc" "Increased Bolt Velocity and +{s:Damage} Damage"
 		"ability_magician_magicbolt_quip" "Launch a guided bolt of magic"
 		"AbilityButtonHint_MagicBoltRedirect" "Redirect Bolt"
-
+		"CloneDamage_label"	"Assistant Damage"
 		"citadel_ability_magewalk" "Misdirection"
 		"citadel_ability_magewalkk_desc" "Briefly become <span class=\"highlight\">Untargetable</span> before appearing at your destination. Your first <span class=\"highlight\">{s:EmpoweredAttackCount} attacks</span> deal bonus <span class=\"highlight_spirit\">Spirit Damage</span>. <br><br><span class=\"highlight\">[Cast]</span> Appear at the target location.<br><span class=\"highlight\">[Alt-Cast]</span> Appear in place.</span><br><span class=\"diminish\">Enemies will not know which cast you performed.</span>"
 		"MageTime_label" "Untargetable Duration"
 		"MageTime_postfix" "s"
 		"modifier_magewalk_empoweredattacks" "Lucky Card"
+		"ability_magician_magicbolt_t3_desc" "<span class=\"highlight\">+{s:Damage}</spa> Damage. Your Assistant casts <span class=\"highlight\">Vexing Bolt without reductions</span>"
 
 		"ability_magician_cloneturret" "Spectral Assistant"
-		"ability_magician_cloneturret_desc" "Summon an <span class=\"highlight\">Assistant</span> at the targeted location. The <span class=\"highlight\">Assistant</span> attacks whenever you fire your weapon, dealing  <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span>. <br><br>While the <span class=\"highlight\">Assistant</span> is out, you can press <span class=\"highlight\">[{s:in_ability2}]</span> to swap positions with your <span class=\"highlight\">Assistant</span>. This effect can only happen once. <br><br><span class=\"diminish\">Casting Spectral Assistant also reloads your weapon.</span>"
-		"ability_magician_cloneturret_t3_desc" "The Assistant also mimics Vexing Bolt"
+		"ability_magician_cloneturret_trigger" "Spectral Assistant"
+		"ability_magician_cloneturret_desc" "Summon an <span class=\"highlight\">Assistant</span> at the targeted location. The <span class=\"highlight\">Assistant</span> attacks whenever you fire your weapon, dealing <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span>. <br><br>While the <span class=\"highlight\">Assistant</span> is out, you can press <span class=\"highlight\">[{s:in_ability2}]</span> to swap positions with your <span class=\"highlight\">Assistant</span>. <br><br><span class=\"diminish\">Casting Spectral Assistant also reloads your weapon.</span>"
 		"ability_magician_cloneturret_quip" "Summon your faithful assistant"
+		"ability_magician_cloneturret_t2_desc"	"<span class=\"highlight\">+{s:AbilityDuration}s Duration</span> & <span class=\"highlight\">5m Range</span>"
+		"ability_magician_cloneturret_t3_desc" "<span class=\"highlight\">+{s:BonusFireRate}% Fire Rate</span> and +<span class=\"highlight\">{s:Damage} Assistant Damage</span>"
+		"AbilityButtonHint_CloneTurretSwap" "Swap with Assistant"
+		"CloneHealth_label" "Assistant Health"
+		"TotalSwaps_label"	"Max Swaps"
+		"LeashRadius_label" "Max Leash Radius"
+		"LeashRadius_postfix" "m"
+
+
+		"ability_magician_escape" "Escape Artist"
+		"ability_magician_escape_desc" "Blink to the target location. On arrival, briefly gain <Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">movement speed</span> and become <span class=\"highlight\">Invisible</span>. <br><br><span class=\"highlight\">[Cast]</span> Appear at the target location.<br><span class=\"highlight\">[Alt-Cast]</span> Appear in place.</span><br><span class=\"diminish\">Enemies will not know which cast you performed.</span>"
+		"ability_magician_escape/escape_buff_modifier" "Ready to Escape"
+		"ability_magician_escape/escape_escaped_modifier" "Escaped!"
+		"InvisibilityDuration_label" "Invisibility Duration"
+		"StaminaHeal_label" "Stamina Heal"
+
 
 		"ability_magician_animalcurse" "Rabbit Hex"
-		"ability_magician_animalcurse_desc" "Hex a target, transforming them into a <span class=\"highlight\">Rabbit</span>. Rabbits are smaller and move faster, but receive a Damage Amp and cannot perform most actions.<br><span class=\"highlight\">[Cast]</span> Hex target hero.<br><span class=\"highlight\">[Alt-Cast]</span> Hex yourself.<br><span class=\"diminish\">Hex does not interrupt abilities.</span>"
+		"ability_magician_animalcurse_desc" "Hex a target, transforming them into a <span class=\"highlight\">Rabbit</span> for a limited duration.<br><br> Rabbits are small, but suffer from <Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">limited movement speed</span>, increased <Panel class=\"AbilityPropertyIcon prop_damage\"><span class=\"highlight\">Incoming Damage</span>, and are <Panel class=\"AbilityPropertyIcon prop_cast\"><span class=\"highlight\">unable to perform most actions</span>.<br><span class=\"diminish\">Hex does not interrupt abilities.</span>"
 		"ability_magician_animalcurse/animalhex_curse_modifier" "Hexed!"
-		"ability_magician_animalcurse_t3_desc" "<span class=\"highlight\">Hex</span> nearby enemies for <span class=\"highlight\">half duration</span>."
+		"ability_magician_animalcurse_t3_desc" "<span class=\"highlight\">Hex</span> all enemies within <span class=\"highlight\">{s:Radius}m</span>"
 		"DamageAmpPercentage_label" "Damage Amp"
 		"DamageAmpPercentage_postfix" "%"
 		"ability_magician_animalcurse_quip" "Transform your enemy into a rabbit"
-		
+		"HexMoveSpeedLimit_label" "Movement Speed Limit"
+		"HexMoveSpeedLimit_postfix" "m/s"
 
 		"ability_magician_stage" "Captive Audience"
 		"ability_magician_stage_desc" "Target an enemy. You and the target enemy are bound on Stage, unable to leave. All other characters are pushed out of the radius."
@@ -2910,11 +3004,11 @@
 		//-----------------------------------------------------------------------------
 		// Hero Trapper
 		//-----------------------------------------------------------------------------
-		"ability_trapper_spiderjar" "Jar of Terror"
-		"ability_trapper_spiderjar_desc" "Throw a jar that detonates on impact, dealing <span class=\"highlight_spirit\">Spirit Damage</span>. The jar releases Spiders that chase nearby enemies, dealing additional <span class=\"highlight_spirit\">Spirit Damage</span>.<br><br> <span class=\"diminish\">Spiders can be shot and destroyed by enemies.</span>"
-		"JarDamage_label" "Jar Damage"
-		
-		"ability_trapper_spiderjar_t3_desc" "Spiders <span class=\"highlight\">steal +{s:SpiritResStolenPerStack}% Spirit Resist</span> for {s:SpiritStealDuration}s"
+		"ability_trapper_poisonjar" "Bottled Phantasmicide"
+		"ability_trapper_poisonjar_desc" "Throw a jar that leaves a pool of poison, dealing <Panel class=\"AbilityPropertyIcon prop_tech_damage\"></Panel><span class=\"highlight_spirit\">Damage</span> and <Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">Slowing</span>. The pool spreads over time, growing in size."
+		"ability_trapper_poisonjar_t1_desc" "Victims deal <span class=\"highlight\">{s:SpiritDamageReduction}% Spirit Damage</span>"
+		"RadiusPerSecond_label" "Radius Growth"
+		"RadiusPerSecond_postfix" "m/s"
 
 		"ability_trapper_spidershield" "Pest Barrier"
 		"ability_trapper_spidershield_desc" "Apply a barrier to a target ally, granting <Panel class=\"AbilityPropertyIcon prop_tech_armor_up\"> <span class=\"highlight_spirit\">Spirit Shield</span>. As long as the shield holds, it periodically deals <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Spirit Damage</span> and <Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">Slows</span>."
@@ -2929,15 +3023,14 @@
 
 		"ability_trapper_webwall" "Silktrap"
 		"ability_trapper_webwall_desc" "Create a thread of web between two surfaces. Enemies who touch the web take <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span> and are <Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">Slowed</span>."
-		"WallToWallDistance_label" "Max Web Distance"
-		"WallToWallDistance_postfix" "m"
+		"MinWallToWallDistance_label" "Minimum Web Distance"
+		"MinWallToWallDistance_postfix" "m"
+		"MaxWallToWallDistance_label" "Maximum Web Distance"
+		"MaxWallToWallDistance_postfix" "m"
 		"WebDuration_label" "Web Duration"
 		"WebDuration_postfix" "s"
 		"ability_trapper_webwall/modifier_webwall_debuff" "Webbed"
-		"ability_trapper_webwall_t3_desc" "The Web also <span class=\"highlight\">Disarms</span> for <span class=\"highlight\">{s:DisarmDuration}</span>s"
-
-		"ability_trapper_poisonjar" "Bottled Phantasmicide"
-		"ability_trapper_poisonjar_desc" "Throw a jar that leaves a pool of poison, dealing <Panel class=\"AbilityPropertyIcon prop_tech_damage\"></Panel><span class=\"highlight_spirit\">Damage</span> and <span class=\"highlight\">Slowing</span>. The pool spreads over time, growing in size."
+		"ability_trapper_webwall_t3_desc" "The Web also <span class=\"highlight\">Silences</span> for <span class=\"highlight\">{s:SilenceDuration}</span>s"
 
 
 		"ability_trapper_spiderwave" "Crawling Plague"
