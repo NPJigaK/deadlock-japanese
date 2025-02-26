@@ -5,7 +5,7 @@
 # deadlock-japanese
 Localizing Valve's game 'Deadlock' into Japanese
 
-※ 公式で日本語対応されたため、本リポジトリはアーカイブされました。
+*※ 公式で日本語対応されたため、本リポジトリはアーカイブされました。*
 
 Valveの新作ゲーム `Deadlock` を日本語化する設定ファイルです。 +
 この設定ファイルは有志のユーザーによって作られています。 +
